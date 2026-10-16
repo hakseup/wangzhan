@@ -1,0 +1,2020 @@
+[
+  {
+    "id": "writing-2021-10-fr",
+    "title": "Le congé de paternité",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "reading-2021-10-fr",
+    "title": "Enseignants : le droit d’aimer",
+    "paragraphs": 20,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "reading-2021-12-fr",
+    "title": "Changer de poste, de métier… L’injonction à la reconversion professionnelle",
+    "paragraphs": 25,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2021-3-cn",
+    "title": "Les animaux et nous",
+    "paragraphs": 26,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "long-2021-3-cn",
+    "title": "Les makers, une nouvelle révolution industrielle ?",
+    "paragraphs": 10,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "reading-2021-3-cn",
+    "title": "Les fonctions du rêve",
+    "paragraphs": 17,
+    "questions": 13,
+    "answers": 13,
+    "options": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2021-5-cn",
+    "title": "Nouvelles technologies et citoyenneté",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "long-2021-5-cn",
+    "title": "La science au service de la société",
+    "paragraphs": 30,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "reading-2021-5-cn",
+    "title": "Le bonheur est-il plus accessible qu’on ne le pense ?",
+    "paragraphs": 15,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      0,
+      3,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "short-2021-6-cn-1",
+    "title": "Apprendre le français au Petit Palais",
+    "paragraphs": 5,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2021-6-cn-2",
+    "title": "Livementor : les cours particuliers en ligne",
+    "paragraphs": 6,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2022-11-cn",
+    "title": "La démographie et l’avenir de la planète",
+    "paragraphs": 16,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "long-2022-11-cn",
+    "title": "Nos relations avec les robots",
+    "paragraphs": 10,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "reading-2022-11-cn",
+    "title": "La généalogie, une passion française",
+    "paragraphs": 14,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "writing-2022-3-cn",
+    "title": "Jeux vidéo : du virtuel au réel",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "reading-2022-3-cn",
+    "title": "Faut-il avoir peur de la science ?",
+    "paragraphs": 20,
+    "questions": 13,
+    "answers": 13,
+    "options": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "writing-2022-6-cn",
+    "title": "Le bilinguisme sculpte le cerveau",
+    "paragraphs": 23,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2022-6-cn-1",
+    "title": "L’Espresso Book Machine",
+    "paragraphs": 3,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2022-6-cn-2",
+    "title": "La Cité des Arts de La Réunion",
+    "paragraphs": 7,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "long-2022-6-cn",
+    "title": "Les mots et la langue française",
+    "paragraphs": 29,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "reading-2022-6-cn",
+    "title": "Facebook et nos angoisses",
+    "paragraphs": 17,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2023-10-fr",
+    "title": "Les fausses informations et la liberté d’expression",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "long-2023-10-fr",
+    "title": "Le télétravail, une autre façon de travailler",
+    "paragraphs": 10,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      3,
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2023-11-cn",
+    "title": "L’orthographe dans le monde professionnel",
+    "paragraphs": 30,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "long-2023-11-cn",
+    "title": "Comprendre la génération Z",
+    "paragraphs": 25,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2023-3-cn",
+    "title": "Nourrir la planète en 2050",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2023-3-cn-1",
+    "title": "Un permis pour planter en ville",
+    "paragraphs": 5,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2023-3-cn-2",
+    "title": "Une monnaie locale à Paris",
+    "paragraphs": 1,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "reading-2023-3-cn",
+    "title": "Paris, pour qui fait-on la ville sans voiture ?",
+    "paragraphs": 14,
+    "questions": 14,
+    "answers": 14,
+    "options": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "writing-2023-6-cn",
+    "title": "Quand les machines remplaceront les hommes",
+    "paragraphs": 28,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "reading-2023-6-cn",
+    "title": "Le droit à la déconnexion",
+    "paragraphs": 18,
+    "questions": 13,
+    "answers": 13,
+    "options": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "long-2024-11-cn",
+    "title": "Le froid, entre science et sensations",
+    "paragraphs": 23,
+    "questions": 10,
+    "answers": 10,
+    "options": [
+      0,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "writing-2024-11-cn",
+    "title": "Publicité sur les trottoirs : une initiative discutée",
+    "paragraphs": 34,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2024-11-cn-1",
+    "title": "La nomophobie",
+    "paragraphs": 7,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2024-11-cn-2",
+    "title": "La Réserve des Arts",
+    "paragraphs": 11,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "reading-2024-11-cn",
+    "title": "Un chien au bureau : le meilleur des antistress",
+    "paragraphs": 14,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "writing-2024-11-af",
+    "title": "Rendre les zoos plus éthiques, est-ce vraiment possible ?",
+    "paragraphs": 13,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "reading-2024-12-fr",
+    "title": "Les innovations linguistiques des jeunes",
+    "paragraphs": 8,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "reading-2024-3-cn",
+    "title": "Le sens de la marche",
+    "paragraphs": 14,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "long-2024-3-cn",
+    "title": "Quelle place pour les loisirs ?",
+    "paragraphs": 17,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "writing-2024-3-fr",
+    "title": "L’essor de l’économie collaborative",
+    "paragraphs": 26,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2024-3-fr-1",
+    "title": "Les places suspendues à l’Opéra-Comique",
+    "paragraphs": 7,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "short-2024-3-fr-2",
+    "title": "Un vélo gratuit pour dix ans",
+    "paragraphs": 8,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "long-2024-3-fr",
+    "title": "Faut-il encore noter les élèves ?",
+    "paragraphs": 17,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "writing-2024-5-fr",
+    "title": "Nous ne prendrons plus l’avion !",
+    "paragraphs": 18,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "reading-2024-5-fr",
+    "title": "Quand bien s’informer devient aussi vital que bien manger",
+    "paragraphs": 11,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "writing-2024-6-cn",
+    "title": "Et si les devoirs à la maison disparaissaient ?",
+    "paragraphs": 27,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2024-6-cn-1",
+    "title": "La perception du temps sur la route",
+    "paragraphs": 10,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2024-6-cn-2",
+    "title": "Le bonheur, une capacité à construire",
+    "paragraphs": 4,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "long-2024-6-cn",
+    "title": "La mémoire, une construction collective",
+    "paragraphs": 10,
+    "questions": 10,
+    "answers": 10,
+    "options": [
+      3,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "reading-2024-6-cn",
+    "title": "La propriété des œuvres d’art urbain, tout un paradoxe",
+    "paragraphs": 17,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "reading-2024-6-fr",
+    "title": "Parents / grands-parents : assumer la rivalité",
+    "paragraphs": 11,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "writing-2025-11-cn",
+    "title": "Éduquer ? Mission impossible !",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2025-11-cn-1",
+    "title": "HopHopfood : partager plutôt que jeter",
+    "paragraphs": 11,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2025-11-cn-2",
+    "title": "Peas and Love : le potager urbain",
+    "paragraphs": 12,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      0,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "long-2025-11-cn",
+    "title": "Apprendre à coder avec Magic Makers",
+    "paragraphs": 37,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "reading-2025-11-cn",
+    "title": "Touriste ou voyageur, il faut savoir choisir !",
+    "paragraphs": 20,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2025-3-cn",
+    "title": "Nutrition végane et avantages",
+    "paragraphs": 30,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2025-3-cn-1",
+    "title": "Ce que révèle un simple « bonjour »",
+    "paragraphs": 8,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2025-3-cn-2",
+    "title": "Le gaspillage dans l’édition",
+    "paragraphs": 10,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "reading-2025-3-cn",
+    "title": "X, Y, Z : générations mythiques ou mythe des générations ?",
+    "paragraphs": 17,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2025-6-cn",
+    "title": "L’avenir de l’automobile : triomphe ou déclin ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2025-6-cn-1",
+    "title": "Le bien-être au travail",
+    "paragraphs": 3,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2025-6-cn-2",
+    "title": "Les écolo-crèches",
+    "paragraphs": 3,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "long-2025-6-cn",
+    "title": "Le plaisir de lire",
+    "paragraphs": 11,
+    "questions": 10,
+    "answers": 10,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "reading-2025-6-cn",
+    "title": "Tous victimes de l’industrie du bonheur ?",
+    "paragraphs": 24,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "writing-2025-8-fr",
+    "title": "Les formes actuelles de tourisme",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "short-2025-8-fr-1",
+    "title": "Une cantine scolaire entièrement bio",
+    "paragraphs": 4,
+    "questions": 4,
+    "answers": 4,
+    "options": [
+      3,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "short-2025-8-fr-2",
+    "title": "Le courant « low tech » en entreprise",
+    "paragraphs": 3,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "reading-2025-8-fr",
+    "title": "Alimentation : pourquoi le cru croît",
+    "paragraphs": 13,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "writing-2026-3-cn",
+    "title": "Et si on lâchait la bride à nos enfants ?",
+    "paragraphs": 29,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "long-2026-3-cn",
+    "title": "Demain, vivrons-nous tous en ville ?",
+    "paragraphs": 26,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "reading-2026-3-cn",
+    "title": "L’éducation artistique et culturelle : une pédagogie de l’ébranlement",
+    "paragraphs": 16,
+    "questions": 11,
+    "answers": 11,
+    "options": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3,
+      3,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "writing-2026-6-cn",
+    "title": "Manger sainement : est-ce qu’on va trop loin ?",
+    "paragraphs": 32,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "long-2026-6-cn",
+    "title": "Les sciences participatives",
+    "paragraphs": 10,
+    "questions": 12,
+    "answers": 12,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "reading-2026-6-cn",
+    "title": "Vitalité et mort des langues",
+    "paragraphs": 25,
+    "questions": 13,
+    "answers": 13,
+    "options": [
+      3,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "speaking-1-1",
+    "title": "La médecine douce : que faut-il en penser ?",
+    "paragraphs": 27,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-2",
+    "title": "La fin des influenceurs ?",
+    "paragraphs": 18,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-3",
+    "title": "La mort de l’édition traditionnelle ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-4",
+    "title": "Marketing ou véritable révolution du monde de la beauté ?",
+    "paragraphs": 25,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-5",
+    "title": "L’avenir de l’humanité est-il dans l’espace ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-6",
+    "title": "Manger sans gluten : phénomène de mode ou pratique de santé ?",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-7",
+    "title": "Le sport, outil thérapeutique ou activité à risques ?",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-8",
+    "title": "L’éducation bienveillante, la solution ?",
+    "paragraphs": 12,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-9",
+    "title": "Quelle place aujourd’hui pour les grands-parents ?",
+    "paragraphs": 26,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-10",
+    "title": "Les animaux ont-ils une conscience ?",
+    "paragraphs": 35,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-11",
+    "title": "Accro aux séries télé, est-ce grave ?",
+    "paragraphs": 27,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-12",
+    "title": "La vie sans télévision, est-ce possible ?",
+    "paragraphs": 29,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-13",
+    "title": "L’insouciance du droit à l’oubli chez les jeunes",
+    "paragraphs": 30,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-14",
+    "title": "Peut-on condamner les médecines douces au nom de la science ?",
+    "paragraphs": 16,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-15",
+    "title": "Être polyglotte : quels sont les bénéfices ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-16",
+    "title": "L’école doit–elle commencer plus tôt ?",
+    "paragraphs": 15,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-17",
+    "title": "La reconversion professionnelle : la clé pour s’épanouir ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-18",
+    "title": "Quelles solutions pour mieux se nourrir ?",
+    "paragraphs": 25,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-19",
+    "title": "Consommer autrement, consommer mieux ?",
+    "paragraphs": 16,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-20",
+    "title": "Est-il possible de concilier le tourisme de masse et le développement durable ?",
+    "paragraphs": 27,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-21",
+    "title": "Vers la disparition de l’écriture manuscrite à l’école ?",
+    "paragraphs": 18,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-22",
+    "title": "Faut-il fermer les zoos ?",
+    "paragraphs": 17,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-23",
+    "title": "La stigmatisation des transports et produits polluants est-elle vraiment efficace ?",
+    "paragraphs": 16,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-24",
+    "title": "Mixité et orientation professionnelle",
+    "paragraphs": 18,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-25",
+    "title": "Mixité et orientation professionnelle",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-26",
+    "title": "Garçons et filles stéréotypés ?",
+    "paragraphs": 23,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-27",
+    "title": "Pédagogie et jeux vidéo",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-28",
+    "title": "Jusqu’à quel point les écrans modifient-ils nos comportements sociaux ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-29",
+    "title": "Quelle place accorder aux médecines alternatives ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-30",
+    "title": "Quel rôle pour les enseignants à l’heure du numérique ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-31",
+    "title": "Le partage de bureaux : une pratique à encourager ?",
+    "paragraphs": 13,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-32",
+    "title": "Revenu universel : une solution viable contre la pauvreté ?",
+    "paragraphs": 15,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-33",
+    "title": "Les robots humanoïdes : amis ou ennemis ?",
+    "paragraphs": 18,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-34",
+    "title": "Animaux génétiquement modifiés : quels impacts sur les humains ?",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-35",
+    "title": "Jusqu’où faut-il aller dans l’amélioration des capacités humaines ?",
+    "paragraphs": 26,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-36",
+    "title": "Faut-il tout noter ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-37",
+    "title": "Faut-il espionner ses enfants ?",
+    "paragraphs": 15,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-38",
+    "title": "Donner contribue-t-il à nous rendre heureux ?",
+    "paragraphs": 23,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-39",
+    "title": "La sixième extinction des espèces aura-t-elle lieu ?",
+    "paragraphs": 23,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-40",
+    "title": "Devons-nous avoir peur de ce que nous mangeons ?",
+    "paragraphs": 17,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-41",
+    "title": "Le jeûne, un véritable outil thérapeutique ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-42",
+    "title": "Faut-il faire revivre les langues régionales ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-43",
+    "title": "Faut-il savoir s’ennuyer ?",
+    "paragraphs": 17,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-44",
+    "title": "Faut-il interdire les téléphones portables à l’école ?",
+    "paragraphs": 17,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-45",
+    "title": "École à la maison : bonne ou mauvaise idée ?",
+    "paragraphs": 27,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-46",
+    "title": "L’humanité peut-elle encore sauver son environnement ?",
+    "paragraphs": 18,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-47",
+    "title": "Comment assurer la sécurité alimentaire mondiale ?",
+    "paragraphs": 27,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-1-48",
+    "title": "Nouvelles technologies : un danger pour notre cerveau ?",
+    "paragraphs": 23,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-1",
+    "title": "Les robots vont-ils prendre la place de l’homme ?",
+    "paragraphs": 29,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-2",
+    "title": "Quelle éducation aujourd’hui ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-3",
+    "title": "Faut-il chercher le bonheur au travail ?",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-4",
+    "title": "Faut-il avoir peur des jeux vidéo ?",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-5",
+    "title": "Vers un nouvel usage de la voiture ?",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-6",
+    "title": "Quelle vie après la retraite ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-7",
+    "title": "Est-il possible de réduire le gaspillage alimentaire ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-8",
+    "title": "Quelle place accorder au bien-être animal ?",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-9",
+    "title": "Que devrait être l’école du XXIe siècle ?",
+    "paragraphs": 14,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-10",
+    "title": "Quel avenir pour l’industrie musicale ?",
+    "paragraphs": 21,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-11",
+    "title": "Hyperconnexion au travail : quelles conséquences sur notre santé ?",
+    "paragraphs": 25,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-12",
+    "title": "La recherche spatiale est-elle vraiment nécessaire ?",
+    "paragraphs": 29,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-13",
+    "title": "Que va devenir l’école numérique ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-14",
+    "title": "L’accès à l’information doit-il être gratuit ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-15",
+    "title": "Quelles motivations pour la pratique du sport à très haut niveau ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-16",
+    "title": "Quelles solutions aux problèmes de transport dans les grandes villes ?",
+    "paragraphs": 28,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-17",
+    "title": "L’hygiène : quelle importance, quelles limites ?",
+    "paragraphs": 15,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-18",
+    "title": "Quelle place à l’agriculture biologique ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-19",
+    "title": "L’Homme est-il supérieur aux autres espèces ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-20",
+    "title": "Faut-il revoir le statut du droit d’auteur ?",
+    "paragraphs": 23,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-21",
+    "title": "Comment expliquer le succès de l’astrologie ?",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-22",
+    "title": "Peut-on concilier médecine conventionnelle et médecines alternatives ?",
+    "paragraphs": 23,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-23",
+    "title": "La conquête de l’espace : une dépense inutile ?",
+    "paragraphs": 28,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-24",
+    "title": "La nature peut-elle être mise au service de la technologie ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-25",
+    "title": "Le congé de paternité : est-il justifié, est-il suffisant ?",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-26",
+    "title": "Le télétravail",
+    "paragraphs": 24,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-27",
+    "title": "La natalité en question",
+    "paragraphs": 25,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-28",
+    "title": "Les nouvelles technologies sont-elles dangereuses pour la santé ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-29",
+    "title": "L’influence du sport professionnel sur la société est-elle positive ou négative ?",
+    "paragraphs": 28,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-30",
+    "title": "Quelles conséquences de la pollution sur la planète ?",
+    "paragraphs": 18,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-31",
+    "title": "Que peut nous apporter notre sommeil ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-32",
+    "title": "Faut-il redouter l’intelligence artificielle ?",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-33",
+    "title": "La cohabitation tardive entre parents et enfants",
+    "paragraphs": 25,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-34",
+    "title": "Peut-on lutter contre la discrimination au travail ?",
+    "paragraphs": 19,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-35",
+    "title": "L’agriculture biologique est-elle l’avenir de l’homme ?",
+    "paragraphs": 20,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-36",
+    "title": "L’expansion de l’humanité menace-t-elle la planète ?",
+    "paragraphs": 22,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "speaking-2-37",
+    "title": "La campagne, nouvel avenir des sociétés modernes ?",
+    "paragraphs": 16,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "writing-extra-1",
+    "title": "Les droits des animaux",
+    "paragraphs": 94,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "writing-extra-2",
+    "title": "Les béquilles de l’école",
+    "paragraphs": 115,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "writing-extra-3",
+    "title": "« Vegan », le nouveau régime à la mode",
+    "paragraphs": 162,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "writing-extra-4",
+    "title": "La puberté de plus en plus précoce",
+    "paragraphs": 136,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "writing-extra-5",
+    "title": "Pourquoi les femmes gagnent-elles toujours moins que les hommes ?",
+    "paragraphs": 157,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "writing-extra-6",
+    "title": "Les Français et les transports en commun",
+    "paragraphs": 10,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "writing-extra-7",
+    "title": "Cours en présentiel ou à distance : une rentrée hybride",
+    "paragraphs": 21,
+    "questions": 0,
+    "answers": 0,
+    "options": []
+  },
+  {
+    "id": "reading-mock-1",
+    "title": "Rendre l’éducation porteuse d’un projet de société",
+    "paragraphs": 30,
+    "questions": 16,
+    "answers": 16,
+    "options": [
+      3,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "reading-mock-3",
+    "title": "La vidéosurveillance est-elle efficace ?",
+    "paragraphs": 21,
+    "questions": 14,
+    "answers": 14,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "reading-mock-2",
+    "title": "À quoi sert la COP21 ?",
+    "paragraphs": 2,
+    "questions": 14,
+    "answers": 14,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "reading-mock-5",
+    "title": "Entrepreneuriat : une tendance intégrée dans l’enseignement supérieur",
+    "paragraphs": 32,
+    "questions": 14,
+    "answers": 14,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "reading-mock-6",
+    "title": "La voiture électrique n’est pas écologique ! Vraiment ?",
+    "paragraphs": 43,
+    "questions": 14,
+    "answers": 14,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "id": "reading-mock-4",
+    "title": "La musique peut-elle contribuer au développement du langage ?",
+    "paragraphs": 2,
+    "questions": 14,
+    "answers": 14,
+    "options": [
+      3,
+      0,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "id": "short-2024-3-cn-1",
+    "title": "Les colocations à projets solidaires",
+    "paragraphs": 4,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "id": "short-2024-3-cn-2",
+    "title": "Le budget participatif à Paris",
+    "paragraphs": 4,
+    "questions": 3,
+    "answers": 3,
+    "options": [
+      3,
+      3,
+      3
+    ]
+  }
+]

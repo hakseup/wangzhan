@@ -1,0 +1,210 @@
+[
+  {
+    "id": "short-2024-3-cn-1",
+    "category": "short",
+    "title": "Les colocations à projets solidaires",
+    "titleZh": "用合租参与社区互助",
+    "topic": "社会与生活",
+    "source": "2024 年 3 月 · 中国场次 · 附件仅含音频",
+    "audioKey": "2024-3-cn",
+    "audioSegment": 1,
+    "practiceOrigin": "audio-supplement",
+    "transcriptionKind": "reviewed-excerpts",
+    "ocr": false,
+    "sourceFiles": [
+      "2024年3月中国DALF C1短听力（一）.m4a"
+    ],
+    "paragraphs": [
+      {
+        "fr": "De nouvelles formes de colocation émergent, comme la colocation intergénérationnelle. Il existe aussi le dispositif KAPS, pour « colocation à projets solidaires », géré par l’Afev."
+      },
+      {
+        "fr": "Les bénéficiaires s’engagent à participer à la vie de leur quartier en échange d’un loyer modéré."
+      },
+      {
+        "fr": "En pratique, les étudiants s’engagent à consacrer plusieurs heures par semaine à la vie du quartier où ils ont obtenu leur logement. Ils animent des temps de convivialité entre voisins et s’impliquent dans l’accompagnement des enfants."
+      },
+      {
+        "fr": "Un jardin potager permet de sensibiliser les habitants et les parents au jardinage, à la nature et à l’environnement, et de donner envie aux enfants de jardiner avec leurs parents."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "number": 1,
+        "type": "choice",
+        "prompt": "Dans cet extrait, que signifie le dispositif KAPS ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Des colocations à projets solidaires."
+          },
+          {
+            "id": "B",
+            "text": "Des logements réservés aux personnes âgées."
+          },
+          {
+            "id": "C",
+            "text": "Des résidences sans engagement collectif."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "Des colocations à projets solidaires."
+        }
+      },
+      {
+        "id": "q2",
+        "number": 2,
+        "type": "choice",
+        "prompt": "En échange d’un loyer modéré, les étudiants doivent…",
+        "options": [
+          {
+            "id": "A",
+            "text": "devenir propriétaires du logement."
+          },
+          {
+            "id": "B",
+            "text": "participer à la vie de leur quartier."
+          },
+          {
+            "id": "C",
+            "text": "travailler pour une agence immobilière."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "participer à la vie de leur quartier."
+        }
+      },
+      {
+        "id": "q3",
+        "number": 3,
+        "type": "choice",
+        "prompt": "Le jardin potager évoqué vise notamment à…",
+        "options": [
+          {
+            "id": "A",
+            "text": "produire exclusivement pour les commerces."
+          },
+          {
+            "id": "B",
+            "text": "remplacer l’accompagnement des enfants."
+          },
+          {
+            "id": "C",
+            "text": "associer parents et enfants au jardinage et à l’environnement."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "associer parents et enfants au jardinage et à l’environnement."
+        }
+      }
+    ]
+  },
+  {
+    "id": "short-2024-3-cn-2",
+    "category": "short",
+    "title": "Le budget participatif à Paris",
+    "titleZh": "巴黎的参与式预算",
+    "topic": "城市与环境",
+    "source": "2024 年 3 月 · 中国场次 · 附件仅含音频",
+    "audioKey": "2024-3-cn",
+    "audioSegment": 2,
+    "practiceOrigin": "audio-supplement",
+    "transcriptionKind": "reviewed-excerpts",
+    "ocr": false,
+    "sourceFiles": [
+      "2024年3月中国DALF C1短听力（二）.m4a"
+    ],
+    "paragraphs": [
+      {
+        "fr": "Depuis trois ans, dans la capitale, la mairie propose aux Parisiens d’améliorer leur environnement grâce à un budget participatif. Plusieurs centaines de projets ont permis d’améliorer la vie de tous les jours."
+      },
+      {
+        "fr": "Les projets peuvent concerner des espaces végétalisés, des pistes cyclables ou la réhabilitation d’équipements. Ils doivent être d’intérêt général et relever de la compétence de la mairie."
+      },
+      {
+        "fr": "Une fois les projets examinés, les citoyens font leur choix. Les habitants peuvent voter sans distinction de nationalité ni d’âge : même les étrangers et les enfants peuvent participer. La seule condition est d’habiter la ville."
+      },
+      {
+        "fr": "Le vote peut se faire en ligne ou dans la rue, avec des urnes installées sur des triporteurs."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "number": 1,
+        "type": "choice",
+        "prompt": "À quoi sert le budget participatif présenté dans cet extrait ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "À financer des projets améliorant le cadre de vie."
+          },
+          {
+            "id": "B",
+            "text": "À réserver les décisions aux entreprises privées."
+          },
+          {
+            "id": "C",
+            "text": "À remplacer toutes les dépenses municipales."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "À financer des projets améliorant le cadre de vie."
+        }
+      },
+      {
+        "id": "q2",
+        "number": 2,
+        "type": "choice",
+        "prompt": "Pour être retenu, un projet doit notamment…",
+        "options": [
+          {
+            "id": "A",
+            "text": "être proposé par un élu."
+          },
+          {
+            "id": "B",
+            "text": "être d’intérêt général et relever de la compétence municipale."
+          },
+          {
+            "id": "C",
+            "text": "bénéficier uniquement à son auteur."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "être d’intérêt général et relever de la compétence municipale."
+        }
+      },
+      {
+        "id": "q3",
+        "number": 3,
+        "type": "choice",
+        "prompt": "Qui peut participer au vote ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Uniquement les Français majeurs."
+          },
+          {
+            "id": "B",
+            "text": "Uniquement les propriétaires."
+          },
+          {
+            "id": "C",
+            "text": "Les habitants, sans distinction d’âge ou de nationalité."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "Les habitants, sans distinction d’âge ou de nationalité."
+        }
+      }
+    ]
+  }
+]
