@@ -11,7 +11,7 @@ with ZipFile(site,'w')as z:
   if p.is_file():add(z,p,str(p.relative_to(ROOT/'dist')))
  add(z,ROOT/'README.md','部署与使用说明.md');add(z,ROOT/'CONTENT_SOURCES.md','材料与参考译文说明.md')
 with ZipFile(source,'w')as z:
- for name in ['package.json','package-lock.json','index.html','.gitignore','README.md','CONTENT_SOURCES.md']:
+ for name in ['package.json','package-lock.json','index.html','.gitignore','netlify.toml','README.md','CONTENT_SOURCES.md']:
   add(z,ROOT/name,'noix-dalf-c1/'+name)
  for directory in ['src','public','scripts','tests']:
   for p in sorted((ROOT/directory).rglob('*')):

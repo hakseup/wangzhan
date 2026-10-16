@@ -68,7 +68,7 @@ python3 tests/browser_smoke.py
 
 PDF 原件在当前工作区的 `/workspace/attachments`，不会被复制到网站或部署产物。重新导入原始 PDF 需 Python 的 PyMuPDF、Pillow、NumPy、Tesseract 与法语语言数据。日常开发、启动和部署直接使用已生成的题库，不需要重新运行 OCR 或下载语言模型。
 
-本项目没有执行 Git 推送或公网发布。
+完整源码已提交到 GitHub 仓库 `hakseup/wangzhan` 的 `noix-dalf-c1` 分支。网站尚未部署到公网。在 Netlify 导入该仓库并选择 `noix-dalf-c1` 分支；仓库中的 `netlify.toml` 已配置构建命令 `npm run build`、发布目录 `dist` 和 Node.js 22。
 
 ## 双击打开的离线版本
 
