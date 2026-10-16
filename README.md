@@ -1,5 +1,11 @@
 # 胡桃法语 · DALF C1
 
+## 下载后双击使用
+
+下载 [离线网站压缩包](https://github.com/hakseup/wangzhan/raw/refs/heads/noix-dalf-c1/downloads/noix-dalf-c1-offline.zip)（约 88 MB），完整解压后，用电脑 Chrome 或 Edge 打开里面的 **胡桃法语-DALF-C1-双击打开.html**。无需安装 Node.js 或启动服务器，完整题库与 36 段音频均已嵌入。
+
+GitHub 的 **Code → Download ZIP** 下载的是开发源码。源码根目录的 `index.html` 不能通过双击直接运行；若已下载源码压缩包，请进入其中的 `downloads` 文件夹，再解压 `noix-dalf-c1-offline.zip` 并打开里面的 HTML。
+
 一个可独立部署的法语刷题网站。题库由本次上传的 PDF 和音频整理而成，按长听力、短听力、阅读、写作和口语导航，文章使用法语标题、中文释义与主题标签。考试场次仅作为详情页来源。
 
 已收录全部 117 个附件：81 份 PDF、486 页材料、36 段音频，整理成 176 组练习、547 道交互题，另含 28 组写作和 85 组口语练习。两段只有音频、没有对应 PDF 的资料使用转写摘录和明确标记的补充理解题。
