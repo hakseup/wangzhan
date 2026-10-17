@@ -1,0 +1,114 @@
+{
+  "engine": "Argos Translate 1.9 FR→EN→ZH; beam 3; sentence-aware",
+  "uniqueSources": 2752,
+  "paragraphs": 2988,
+  "manualCorrections": 594,
+  "needsReview": [],
+  "sourceLimitations": [
+    {
+      "exercise": "long-2023-11-cn",
+      "paragraph": "p21"
+    },
+    {
+      "exercise": "short-2024-6-cn-1",
+      "paragraph": "p8"
+    },
+    {
+      "exercise": "short-2024-6-cn-1",
+      "paragraph": "p9"
+    },
+    {
+      "exercise": "reading-2024-5-fr",
+      "paragraph": "p7"
+    },
+    {
+      "exercise": "reading-2024-5-fr",
+      "paragraph": "p8"
+    },
+    {
+      "exercise": "reading-mock-1",
+      "paragraph": "p29"
+    },
+    {
+      "exercise": "speaking-1-11",
+      "paragraph": "r-d5da082b5b4924"
+    },
+    {
+      "exercise": "speaking-1-12",
+      "paragraph": "r-c586339b28ce0f"
+    },
+    {
+      "exercise": "speaking-1-13",
+      "paragraph": "r-391dfe11e6220e"
+    },
+    {
+      "exercise": "speaking-1-35",
+      "paragraph": "r-07e661d09c9f8d"
+    },
+    {
+      "exercise": "speaking-2-19",
+      "paragraph": "r-b5e7fa8a18df5d"
+    },
+    {
+      "exercise": "speaking-2-2",
+      "paragraph": "r-b7271ad7aa0635"
+    },
+    {
+      "exercise": "speaking-2-2",
+      "paragraph": "r-b67c8a6e9dd654"
+    },
+    {
+      "exercise": "speaking-2-22",
+      "paragraph": "r-c8c6bb9dd6764e"
+    },
+    {
+      "exercise": "speaking-2-24",
+      "paragraph": "r-99d34e1b5b2a6d"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-17d487a44825b4"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-1541f461e7b6f4"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-131a58aa6933a6"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-303296f8b2d1f8"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-fd2246ff13ae16"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-8d12235b4cc458"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-1d1eab9ad0e1b3"
+    },
+    {
+      "exercise": "speaking-2-29",
+      "paragraph": "r-89ec71d8d92f98"
+    },
+    {
+      "exercise": "speaking-2-30",
+      "paragraph": "r-52215b8462b4ad"
+    },
+    {
+      "exercise": "speaking-2-31",
+      "paragraph": "r-daa7f50597074d"
+    },
+    {
+      "exercise": "speaking-2-33",
+      "paragraph": "r-ffb54f266c50d7"
+    }
+  ],
+  "humanVerified": false
+}

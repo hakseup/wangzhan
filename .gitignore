@@ -15,3 +15,7 @@ data/transcribed/
 test-results/
 
 data/*.log
+
+data/translation-v2-cache.sqlite
+
+node_modules

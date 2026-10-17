@@ -12,12 +12,13 @@ with sync_playwright()as p:
   if r.request.is_navigation_request()and r.request.resource_type=='document':r.continue_()
   else:blocked.append(r.request.url);r.abort()
  page.route('**/*',route);page.on('pageerror',lambda e:errors.append(str(e)))
- page.goto(URL);page.wait_for_selector('.exercise-card')
+ page.goto(URL);page.wait_for_selector('.shortcut-grid');page.evaluate('document.fonts.ready')
  assert page.locator('html').get_attribute('data-noix-offline')is not None
  assert page.evaluate('window.__NOIX_EMBEDDED_BANK__.exercises.length')==176
+ assert page.evaluate('document.fonts.check("700 24px Journal")')
  for sel in ['.brand .walnut-logo','.paris-background']:
   assert page.locator(sel).evaluate('(a)=>a.complete && a.naturalWidth>0 && a.src.startsWith("data:image/")')
- page.locator('.card-main').first.click();expect(page.locator('.reader-content')).to_have_count(0)
+ page.locator('.shortcut').first.click();page.locator('.card-main').first.click();expect(page.locator('.reader-content')).to_have_count(0)
  for q in e['questions']:
   question=page.locator('#question-'+q['id'])
   if q['type']=='choice':question.locator('input[type=radio]').first.check()

@@ -17,6 +17,10 @@ js_match=re.search(r'<script type="module"[^>]*src="([^"]+)"[^>]*></script>',htm
 assert css_match and js_match
 css=(DIST/css_match[1].lstrip('/')).read_text()
 js=(DIST/js_match[1].lstrip('/')).read_text()
+# Embed the actual journal font, so offline pages do not silently fall back.
+for font in (DIST/'fonts').glob('*.ttf'):
+    data='data:font/ttf;base64,'+base64.b64encode(font.read_bytes()).decode('ascii')
+    css=css.replace('/fonts/'+font.name,data)
 payload=json.dumps(bank,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
 html=html.replace(css_match[0],'<style>'+css+'</style>')
 html=html.replace(js_match[0],'')
