@@ -110,3 +110,5 @@ PDF 原件在当前工作区的 `/workspace/attachments`，不会被复制到网
 重新执行内容更新：先运行 `scripts/retranslate.py`（需要其文档指定的本地模型），再运行 `scripts/format_reading.py`。`data/translation-v2-audit.json` 记录本次翻译覆盖与异常筛查结果，`data/reading-layout-audit.json` 记录27组阅读的层级整理。词条释义维护于 `src/word-seeds.js`。
 
 验证：`npm test`、`python3 tests/journal_browser.py`、`NOIX_TEST_URL=http://127.0.0.1:4173 python3 tests/browser_smoke.py`。浏览器测试需要生产构建由本地HTTP服务提供。`scripts/package_offline.py` 同时嵌入字体、巴黎背景、题库及36段音频，并更新GitHub下载包。
+
+本次细节更新：长听力默认7分钟、短听力3分钟、写作60分钟。材料标题取消紫色底纹；问题、选项、草稿和自填答案支持高亮/备注/站内离线查词。四本专项词书各900词，支持搜索原词、变形和中文。左侧底部设置区已移除，备份仍可从右上角头像打开。原有配色和版式保留，手写字体仅略微收正。

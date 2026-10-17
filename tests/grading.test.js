@@ -69,7 +69,7 @@ test('revised writing/oral material preserves readable text and stable, unique p
  const revised=bank.exercises.filter(e=>['writing','speaking'].includes(e.category));
  assert.equal(revised.length,113);
  for(const e of revised){
-  assert.equal(e.materialRevision,'pdf-rechecked-2026-10-17',e.id);
+  assert.equal(e.materialRevision,'trace-columns-rechecked-v3',e.id);
   assert.equal(new Set(e.paragraphs.map(p=>p.id)).size,e.paragraphs.length,e.id+' unique paragraph anchors');
   for(const p of e.paragraphs){
    assert.ok(!/[\u0300-\u05ff\u3400-\u9fff\ufffd]/u.test(p.fr),e.id+' broken glyphs');

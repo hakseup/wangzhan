@@ -3,7 +3,8 @@ export const BOOKS=[{id:'listening',name:'听力词'},{id:'reading',name:'阅读
 export const canonical=s=>String(s).normalize('NFC').toLocaleLowerCase('fr').replace(/[’‘]/g,"'").replace(/\s+/g,' ').trim();
 export const wordId=fr=>'word:'+canonical(fr);
 const lexical=s=>canonical(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'');
-export function makeBooks(exercises,state){
+export function makeBooks(exercises,state,lexicon){
+ if(lexicon?.books){const byId=new Map(exercises.map(e=>[e.id,e]));return {...Object.fromEntries(Object.entries(lexicon.books).map(([category,words])=>[category,words.map(fr=>{const e=lexicon.entries[fr];return {...e,fr,id:wordId(fr),sources:(e.sources||[]).map(id=>byId.get(id)).filter(e=>e&&(category==='listening'?['long','short'].includes(e.category):e.category===category)).map(e=>({id:e.id,title:e.titleZh}))};})])),personal:makePersonalWords(exercises,state)};}
  const core=parseWords(CORE_WORDS),byCategory=categories=>exercises.filter(e=>categories.includes(e.category));
  const fromCorpus=categories=>{
   const corpus=byCategory(categories).map(e=>({e,text:' '+lexical([e.title,...e.paragraphs.map(p=>p.fr),...e.questions.map(q=>q.prompt+' '+(q.options||[]).map(o=>o.text).join(' '))].join(' '))+' '}));

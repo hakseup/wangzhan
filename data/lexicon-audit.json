@@ -1,0 +1,13 @@
+{
+  "entries": 55317,
+  "formAliases": 13037,
+  "phrases": 31251,
+  "books": {
+    "listening": 900,
+    "reading": 900,
+    "writing": 900,
+    "speaking": 900
+  },
+  "fabricants": "fabricant",
+  "method": "One lemma per book entry; corpus occurrence matching plus retained useful writing/speaking expressions."
+}

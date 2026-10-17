@@ -84,7 +84,7 @@ with sync_playwright()as p:
  page.get_by_role('button',name='保存并完成自检',exact=True).click();expect(page.locator('.output-feedback')).to_be_visible()
  page.reload();page.get_by_role('button',name='Essai argumenté 议论文').click();expect(page.get_by_label('议论文草稿')).to_contain_text('participation citoyenne')
  page.get_by_role('button',name='返回题库',exact=True).click();page.get_by_role('button',name='单词与笔记',exact=True).click();expect(page.locator('.note-card')).to_have_count(1)
- page.get_by_role('button',name='学习设置与备份',exact=False).click()
+ page.get_by_role('button',name='打开学习设置',exact=True).click()
  with page.expect_download()as pending:page.get_by_role('button',name='导出全部学习数据',exact=True).click()
  data=json.loads(Path(pending.value.path()).read_text());assert data['annotations']['long-2021-3-cn'][0]['note']=='你好；见面时的问候语。'
  page.locator('input[type=file]').set_input_files({'name':'invalid.json','mimeType':'application/json','buffer':b'{"version":1}'})

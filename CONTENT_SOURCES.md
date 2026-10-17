@@ -30,3 +30,8 @@
 - 中文参考译文：Argos Translate 1.9，法语→英语→中文，逐句分批、beam 3、本地运行。模型从 GitHub 的 `20KRUST/RustTranslator-LanguagePacks` 发行版 `packs-2026-09-09` 获取的 Argos 1.9 镜像包加载；未将题库提交到在线翻译服务。模型不随网站打包。
 - 人工校订：`data/translation-corrections.json`；保留可重复应用的源文 SHA-256 键，避免重建覆盖校订。
 - 背词释义：人工编写的法中核心词与通用表达；听力/阅读的条目通过源题库匹配后收录，附原题跳转。个人高亮释义由使用者维护。
+
+## 小幅细节更新
+- 259页写作、口语材料重新核对字符轨迹和双栏顺序；重水印口语扫描页17—26人工对照PDF录入，补丁在`data/source-corrections-v3.json`，由`scripts/apply_verified_scans.py`应用。其余扫描采用第二次OCR校验，仍不能保证原始低清材料每个字符均无误。
+- 站内离线词典使用CFDICT法中词典，CC BY-SA 3.0；来源、许可证和派生说明见`public/dictionary/NOTICE.txt`。反向索引55,000余词条，并补充学习常用释义和搭配。四本专项词书各900个不同词目，附题库来源，复数等词形通过别名查询。
+- Mansalva手写字体仅微调约1.4度倾斜，改名Journal Clair；详见`public/fonts/MODIFICATIONS.txt`。
