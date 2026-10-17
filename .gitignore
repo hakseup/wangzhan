@@ -10,4 +10,8 @@ data/translation-cache.sqlite
 data/answers/
 data/questions/
 data/materials/
+data/revised-pages/
+data/transcribed/
 test-results/
+
+data/*.log

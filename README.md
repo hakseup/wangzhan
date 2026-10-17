@@ -2,7 +2,7 @@
 
 ## 下载后双击使用
 
-下载 [离线网站压缩包](https://github.com/hakseup/wangzhan/raw/refs/heads/noix-dalf-c1/downloads/noix-dalf-c1-offline.zip)（约 88 MB），完整解压后，用电脑 Chrome 或 Edge 打开里面的 **胡桃法语-DALF-C1-双击打开.html**。无需安装 Node.js 或启动服务器，完整题库与 36 段音频均已嵌入。
+下载 [离线网站压缩包](https://github.com/hakseup/wangzhan/raw/refs/heads/noix-dalf-c1/downloads/noix-dalf-c1-offline.zip)（约 90 MB），完整解压后，用电脑 Chrome 或 Edge 打开里面的 **胡桃法语-DALF-C1-双击打开.html**。无需安装 Node.js 或启动服务器，完整题库与 36 段音频均已嵌入。
 
 GitHub 的 **Code → Download ZIP** 下载的是开发源码。源码根目录的 `index.html` 不能通过双击直接运行；若已下载源码压缩包，请进入其中的 `downloads` 文件夹，再解压 `noix-dalf-c1-offline.zip` 并打开里面的 HTML。
 
@@ -78,4 +78,18 @@ PDF 原件在当前工作区的 `/workspace/attachments`，不会被复制到网
 
 ## 双击打开的离线版本
 
-运行 `npm run build` 后执行 `python3 scripts/package_standalone.py`，会生成 `../wangzhan-release/胡桃法语-DALF-C1-双击打开.html`。它将样式、程序、完整题库和 36 段音频嵌入同一个文件，可用桌面 Chrome 或 Edge 直接打开，无需解压、联网或启动服务器。文件约 121 MB，首次打开需要稍等。浏览器学习记录与线上版本分别存储，换版本前请导出备份。
+运行 `npm run build` 后执行 `python3 scripts/package_offline.py`，会生成 `downloads/noix-dalf-c1-offline.zip`。完整解压后，用电脑 Chrome 或 Edge 打开其中的 **胡桃法语-DALF-C1-双击打开.html**。这个 HTML 已嵌入程序、样式、题库、36 段音频和巴黎背景，首次打开需要稍等，无需联网或启动服务。
+
+源码根目录的 `index.html` 是开发入口；双击时会显示正确的离线文件使用提示。请勿将源文件直接当作离线网站。
+
+## 2026-10-17 界面与材料更新
+
+- 按用户提供的棕金 Logo、透明卡片和朦胧巴黎参考图重新设计首页。
+- 练习页统一白底和 Arial/Helvetica 无衬线正文，材料与作答独立滚动，分隔线可拖动或使用方向键调整。
+- 每类练习均有“全屏刷题”按钮；浏览器不支持全屏 API 时提供铺满窗口的专注模式。
+- 听力初始页面只显示音频、笔记和题目；完成全部题目并提交后进入单独的复盘路由，才显示原文、中文参考译文和核对结果。返回修改时重新隐藏原文。
+- 重新处理 269 页写作和口语源材料，修复数字、重音、连字等字体编码错误，重新识别扫描件，清理水印噪点并恢复标题、正文与脚注层次。严重损坏的四份写作材料另行对照 PDF 录入；源图本身裁切的句子明确标注。
+- `data/material-revisions.json` 保存 113 组材料的可重复构建修订；`data/material-corrections.json` 保存人工核对的正文和题干；扫描低清处仍可能有识别误差。
+- 修改后的正文采用新的稳定段落标识，防止旧标注错位。导入旧备份时，写作/口语旧标注仍可在单词本查看，但可能无法定位到新版正文；草稿、作答和收藏可继续导入。
+
+材料更新流程：可选运行 `scripts/revise_materials.py`（需源 PDF、PyMuPDF、Pillow、NumPy、wordfreq 和官方 Tesseract best 法语模型），然后运行 `scripts/apply_material_revisions.py`、`scripts/build_content.py`。更新参考译文使用已有的本地 Argos 翻译流程。普通构建和使用无需运行这些材料处理脚本。

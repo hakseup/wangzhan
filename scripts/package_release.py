@@ -16,7 +16,7 @@ with ZipFile(source,'w')as z:
  for directory in ['src','public','scripts','tests']:
   for p in sorted((ROOT/directory).rglob('*')):
    if p.is_file()and'__pycache__'not in p.parts:add(z,p,'noix-dalf-c1/'+str(p.relative_to(ROOT)))
- for name in ['overrides.json','translations.json','audio-supplements.json','writing-tasks.json','import-audit.json','validation-report.json']:
+ for name in ['overrides.json','translations.json','audio-supplements.json','writing-tasks.json','import-audit.json','validation-report.json','material-revisions.json','material-corrections.json','material-revision-report.json']:
   add(z,ROOT/'data'/name,'noix-dalf-c1/data/'+name)
 for path in [site,source]:
  with ZipFile(path)as z:
