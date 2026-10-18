@@ -28,3 +28,17 @@ export function reconcileAnnotations(exercises,annotations){
   })];
  }));return changed?result:annotations;
 }
+
+// Remove selected color while retaining notes and colors outside the selection.
+export function removeHighlight(marks,spans){
+ let result=marks;
+ for(const span of spans)result=result.flatMap(a=>{
+  if(a.detached||a.pid!==span.pid||!a.level||a.end<=span.start||a.start>=span.end)return [a];
+  const left=Math.max(a.start,span.start),right=Math.min(a.end,span.end),out=[];
+  if(a.start<left)out.push({...a,end:left,text:a.text.slice(0,left-a.start)});
+  if(a.note)out.push({...a,id:a.id+':note:'+left,start:left,end:right,text:a.text.slice(left-a.start,right-a.start),level:0});
+  if(right<a.end)out.push({...a,id:a.id+':right:'+right,start:right,text:a.text.slice(right-a.start)});
+  return out;
+ });
+ return result;
+}

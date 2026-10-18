@@ -7,7 +7,7 @@ export const CATEGORIES = [
   {id:'speaking',name:'口语',fr:'Production orale',color:'yellow',icon:'mic'},
 ];
 export const TOPICS=['全部主题','教育与成长','科技与社会','语言与文化','社会与生活','健康与科学','工作与经济','城市与环境'];
-export const EMPTY_STATE={version:1,answers:{},attempts:{},drafts:{},annotations:{},bookmarks:[],activity:[],rubrics:{},vocabProgress:{},vocabDaily:{},vocabDefinitions:{},fontSize:18};
+export const EMPTY_STATE={version:1,answers:{},attempts:{},drafts:{},annotations:{},bookmarks:[],activity:[],rubrics:{},vocabProgress:{},vocabDaily:{},vocabDefinitions:{},modelEdits:{},fontSize:18};
 export const STORAGE_KEY='noix-dalf-c1-v1';
 export function normalize(s){return String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');}
 export function wordCount(s){return (s.trim().match(/[\p{L}\p{N}]+(?:[’'\-][\p{L}\p{N}]+)*/gu)||[]).length;}
@@ -48,6 +48,7 @@ export function validImport(x){
   if(!Object.values(x.attempts).every(v=>record(v)&&record(v.results)&&Object.values(v.results).every(r=>record(r)&&['correct','incorrect','review','unanswered'].includes(r.status))))return false;
   if(!Object.values(x.rubrics).every(v=>Array.isArray(v)&&v.every(n=>Number.isInteger(n)&&n>=0&&n<10)))return false;
   if(x.vocabProgress!==undefined&&(!record(x.vocabProgress)||!Object.values(x.vocabProgress).every(p=>record(p)&&Number.isInteger(p.step)&&p.step>=-1&&p.step<=6&&Number.isFinite(p.due)&&p.due>=0&&Number.isFinite(p.lastReviewed)&&Number.isInteger(p.reviews)&&p.reviews>=0&&Number.isInteger(p.lapses)&&p.lapses>=0)))return false;
+  if(x.modelEdits!==undefined&&(!record(x.modelEdits)||!Object.values(x.modelEdits).every(v=>typeof v==='string'&&v.length<2000000)))return false;
   if(x.vocabDefinitions!==undefined&&(!record(x.vocabDefinitions)||!Object.values(x.vocabDefinitions).every(v=>typeof v==='string')))return false;
   if(x.vocabDaily!==undefined&&(!record(x.vocabDaily)||!Object.entries(x.vocabDaily).every(([day,p])=>/^\d{4}-\d{2}-\d{2}$/.test(day)&&record(p)&&Array.isArray(p.newIds)&&p.newIds.every(id=>typeof id==='string')&&Number.isInteger(p.reviewed)&&p.reviewed>=0)))return false;
   if(!x.activity.every(d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d)))return false;

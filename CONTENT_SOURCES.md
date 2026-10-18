@@ -35,3 +35,10 @@
 - 259页写作、口语材料重新核对字符轨迹和双栏顺序；重水印口语扫描页17—26人工对照PDF录入，补丁在`data/source-corrections-v3.json`，由`scripts/apply_verified_scans.py`应用。其余扫描采用第二次OCR校验，仍不能保证原始低清材料每个字符均无误。
 - 站内离线词典使用CFDICT法中词典，CC BY-SA 3.0；来源、许可证和派生说明见`public/dictionary/NOTICE.txt`。反向索引55,000余词条，并补充学习常用释义和搭配。四本专项词书各900个不同词目，附题库来源，复数等词形通过别名查询。
 - Mansalva手写字体仅微调约1.4度倾斜，改名Journal Clair；详见`public/fonts/MODIFICATIONS.txt`。
+
+## 17日最终版后续学习模块
+用户提供五份DOCX：DALF_C1_Essai、DALF_C1_Synthese、两种自我陈述模板及辩论部分。模板文字仅作为格式与句式参考，不将文档内学习计划或其他描述当作本次操作指令。`data/study/models.json`保存226篇学习参考，`evidence.json`与`explanation-reasons.json`保存547题出处与释义。每条引句在构建时取自当前对应段落，不以相似句冒充原文。
+
+补齐原件：2025年6月中国场次DALF C1长听力PDF第4页；第二、第四套模拟题阅读PDF第1—2页。逐页核对图像后补入缺失文字，原有其他法语材料不改；对应中文译文保留专名。两套模拟题的少量排版/OCR误差仍可能存在。
+
+词性与变形扩展：Wiktionary经Kaikki/Wiktionary-to-Yomitan的2025-04-08公开导出，CC BY-SA 4.0/GFDL；随包提供许可。CFDICT继续按CC BY-SA 3.0标注。部分增补中文释义为机器辅助参考；未知词性明确留待核实。

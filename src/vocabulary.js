@@ -15,14 +15,14 @@ export function makeBooks(exercises,state,lexicon){
  return {listening:fromCorpus(['long','short']),reading:fromCorpus(['reading']),writing:output('writing',WRITING_WORDS),speaking:output('speaking',SPEAKING_WORDS),personal};
 }
 export function makePersonalWords(exercises,state){
- return [...new Map(Object.entries(state.annotations).flatMap(([id,marks])=>marks.map(m=>({id:wordId(m.text),fr:m.text,zh:state.vocabDefinitions?.[wordId(m.text)]||m.note||'',sources:[{id,title:exercises.find(e=>e.id===id)?.titleZh||'个人标注'}]}))).map(w=>[w.id,w])).values()];
+ return [...new Map(Object.entries(state.annotations).flatMap(([id,marks])=>marks.filter(m=>m.note?.trim()&&m.text?.trim()&&/^[\p{L}]+(?:[’'\-][\p{L}]+)*$/u.test(m.text.trim())).map(m=>({id:wordId(m.text),fr:m.text,zh:state.vocabDefinitions?.[wordId(m.text)]||m.note||'',sources:[{id,title:exercises.find(e=>e.id===id)?.titleZh||'个人标注'}]}))).map(w=>[w.id,w])).values()];
 }
 export const REVIEW_DAYS=[1,2,4,7,15,30,60];
 export function scheduleReview(previous,correct,now=Date.now()){
  const step=correct?Math.min((previous?.step??-1)+1,REVIEW_DAYS.length-1):-1;
  return {step,due:now+(correct?REVIEW_DAYS[step]*86400000:600000),lastReviewed:now,reviews:(previous?.reviews||0)+1,lapses:(previous?.lapses||0)+(correct?0:1)};
 }
-export function buildQueue(words,progress,mode,now=Date.now(),newLimit=20){
+export function buildQueue(words,progress,mode,now=Date.now(),newLimit=Infinity){
  const eligible=words.filter(w=>mode==='spelling'||w.zh?.trim());
  const due=eligible.filter(w=>progress[w.id]&&progress[w.id].due<=now).sort((a,b)=>progress[a.id].due-progress[b.id].due);
  const fresh=eligible.filter(w=>!progress[w.id]).slice(0,Math.max(0,newLimit));

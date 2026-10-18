@@ -1,12 +1,14 @@
 """Make one offline HTML file containing the app, complete bank and all audio."""
 from pathlib import Path
-import base64,json,re
+import base64,json,re,sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from bank_assets import load_bank
 
 ROOT=Path(__file__).resolve().parents[1]
 DIST=ROOT/'dist'
 OUT=ROOT.parent/'wangzhan-release'/'胡桃法语-DALF-C1-双击打开.html'
 html=(DIST/'index.html').read_text().replace('<html lang="zh-CN">','<html lang="zh-CN" data-noix-offline>')
-bank=json.loads((DIST/'content.json').read_text())
+bank=load_bank(DIST)
 for e in bank['exercises']:
     if e.get('audio'):
         path=DIST/e['audio'].lstrip('/')

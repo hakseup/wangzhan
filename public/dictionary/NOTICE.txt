@@ -13,3 +13,16 @@ added corpus occurrence forms, source links and manually prepared meanings
 and collocations. This derivative lexicon is distributed under CC BY-SA 3.0.
 Dictionary data is embedded in content.json / the offline HTML. Application
 source code and the user's personal annotations are separate from this data.
+
+Extended POS, senses, inflections, derivations and collocations: Wiktionary,
+via Kaikki and Wiktionary-to-Yomitan export 2025-04-08.
+https://github.com/yomidevs/wiktionary-to-yomitan/releases/tag/v2025-04-08-10-54-36-00-00
+https://en.wiktionary.org/ · https://zh.wiktionary.org/ · https://kaikki.org/
+Adapted text is under CC BY-SA 4.0 / GFDL where applicable; license included.
+Changes: plain text extraction, simplified Chinese, merged senses by POS,
+inflection/family index, local reference translations. Supplemental Chinese
+senses are learning references, not all professionally reviewed.
+Unknown sentence translation prefers the browser on-device Translator. With online
+supplementation enabled, only the current selected query is sent to MyMemory,
+without cookies, referrers, notes or learning records. This optional transfer was
+explicitly authorized for this update and can be disabled in the lookup panel.

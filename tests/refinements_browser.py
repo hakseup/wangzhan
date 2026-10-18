@@ -27,14 +27,14 @@ with sync_playwright()as p:
  page.reload();expect(page.get_by_role('timer')).to_have_text('07:00');expect(page.locator(f'[data-annotation="{pid}"] mark.word-note')).to_have_count(1)
  area=page.locator('.question textarea.answer-input').first;expect(area.locator('..').locator('mark.level-1')).to_have_text('fabricants')
  page.evaluate("location.hash='short-2024-6-cn-1'");expect(page.get_by_role('timer')).to_have_text('03:00')
- page.evaluate("location.hash='writing-2024-6-cn'");expect(page.get_by_role('timer')).to_have_text('60:00');page.wait_for_selector('.paragraph-heading')
+ page.evaluate("location.hash='writing-2024-6-cn'");expect(page.get_by_role('timer')).to_have_text('150:00');page.wait_for_selector('.paragraph-heading')
  assert page.locator('.paragraph-heading').first.evaluate('(e)=>getComputedStyle(e).backgroundColor')in['rgba(0, 0, 0, 0)','rgb(255, 255, 255)']
  assert page.locator('.paragraph-heading').first.evaluate('(e)=>parseInt(getComputedStyle(e).fontWeight)')>=700
  page.get_by_role('button',name='返回题库',exact=True).click();page.get_by_role('button',name='单词与笔记',exact=False).first.click();expect(page.locator('.wordbook')).to_have_count(5)
  for i in range(4):expect(page.locator('.wordbook').nth(i)).to_contain_text('900 词')
  page.get_by_label('搜索本词书',exact=True).fill('fabricants');expect(page.locator('.word-row')).to_contain_text('fabricant')
  for h in [600,768,900]:
-  page.goto(BASE);page.wait_for_selector('.shortcut-grid');page.set_viewport_size({'width':1440,'height':h});assert page.locator('.sidebar').evaluate('(e)=>e.scrollHeight<=e.clientHeight'),h
+  page.goto(BASE);page.wait_for_selector('.shortcut-grid');page.set_viewport_size({'width':1440,'height':h});page.wait_for_function('document.querySelector(".sidebar").scrollHeight<=document.querySelector(".sidebar").clientHeight')
  assert not errors,errors
  print('PASS: timer defaults, sidebar fit, plain headings, question/option/editor annotations, rebasing, reload, in-page definitions/collocations, and four 900-word books.')
  b.close()

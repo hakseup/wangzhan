@@ -1,8 +1,8 @@
 {
   "engine": "Argos Translate 1.9 FR→EN→ZH; beam 3; sentence-aware",
   "uniqueSources": 3080,
-  "paragraphs": 3326,
-  "manualCorrections": 849,
+  "paragraphs": 3361,
+  "manualCorrections": 593,
   "needsReview": [],
   "sourceLimitations": [
     {
@@ -30,5 +30,6 @@
       "paragraph": "p29"
     }
   ],
-  "humanVerified": false
+  "humanVerified": false,
+  "followup": "Proper names retained in French; current question and option references revised; missing source text restored from PDFs."
 }
