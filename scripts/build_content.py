@@ -252,7 +252,6 @@ def make():
  (ROOT/'data'/'raw-bank.json').write_text(json.dumps(bank,ensure_ascii=False))
  translations=json.loads((ROOT/'data'/'translations.json').read_text()) if (ROOT/'data'/'translations.json').exists() else {}
  writing_tasks=json.loads((ROOT/'data'/'writing-tasks.json').read_text()) if (ROOT/'data'/'writing-tasks.json').exists() else {}
- revisions=json.loads((ROOT/'data'/'material-revisions.json').read_text()) if (ROOT/'data'/'material-revisions.json').exists() else {}
  for e in bank:
   if e['id'] in overrides:
    patch=overrides[e['id']]
@@ -261,10 +260,9 @@ def make():
      for q in e['questions']:
       if str(q['number']) in v:q['answer']=v[str(q['number'])]
     else:e[k]=v
-  if e['id'] in revisions:e.update(revisions[e['id']])
   if e.get('audio') in AUDIO_SOURCES:e['sourceFiles']=list(dict.fromkeys(e['sourceFiles']+[AUDIO_SOURCES[e['audio']]]))
   for i,p in enumerate(e['paragraphs']):
-   p['id']=p.get('id','p'+str(i))
+   p['id']='p'+str(i)
    zh=translations.get(hashlib.sha256(p['fr'].encode()).hexdigest())
    if zh:p['zh']=zh
   if all(p.get('zh') for p in e['paragraphs']):e['translationKind']='machine-fr-en-zh'
@@ -279,7 +277,6 @@ def make():
     if start:task=task[start.start():]
     if 60<len(task)<2500:e['tasks']=[{'id':'essai','fr':task,'zh':'按上述原题规定的身份、对象与立场完成议论文；注意原题词数要求。'}]
    if e['id'] in writing_tasks:e['tasks']=[writing_tasks[e['id']]]
-   if e['id'] in revisions and 'tasks' in revisions[e['id']]:e['tasks']=revisions[e['id']]['tasks']
   for i,q in enumerate(e['questions']):q['id']='q'+str(i+1)
   audit.append({'id':e['id'],'title':e['title'],'paragraphs':len(e['paragraphs']),'questions':len(e['questions']),'answers':sum('answer'in q for q in e['questions']),'options':[len(q.get('options',[])) for q in e['questions']]})
  bank.sort(key=lambda e:({'long':0,'short':1,'reading':2,'writing':3,'speaking':4}[e['category']],e['id']))

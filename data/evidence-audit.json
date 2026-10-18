@@ -1,0 +1,4541 @@
+[
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 663
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p1",
+      "p2"
+    ],
+    "maxQuoteLength": 100
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 217
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 232
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 328
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 443
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 409
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p6",
+      "p8"
+    ],
+    "maxQuoteLength": 344
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 397
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 645
+  },
+  {
+    "exercise": "long-2021-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 108
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p0",
+      "p5"
+    ],
+    "maxQuoteLength": 723
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2",
+      "p4"
+    ],
+    "maxQuoteLength": 106
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 84
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 723
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 56
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p11",
+      "p12"
+    ],
+    "maxQuoteLength": 118
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 81
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 182
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p17"
+    ],
+    "maxQuoteLength": 304
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p19"
+    ],
+    "maxQuoteLength": 78
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p26"
+    ],
+    "maxQuoteLength": 192
+  },
+  {
+    "exercise": "long-2021-5-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p27",
+      "p28"
+    ],
+    "maxQuoteLength": 254
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 174
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 445
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 306
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 350
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 214
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 156
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 240
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 186
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 326
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 503
+  },
+  {
+    "exercise": "long-2022-11-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 503
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 66
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 158
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 181
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 176
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 325
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 197
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p13",
+      "p15"
+    ],
+    "maxQuoteLength": 117
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p20"
+    ],
+    "maxQuoteLength": 206
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p22"
+    ],
+    "maxQuoteLength": 64
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p24"
+    ],
+    "maxQuoteLength": 62
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p24"
+    ],
+    "maxQuoteLength": 207
+  },
+  {
+    "exercise": "long-2022-6-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p28"
+    ],
+    "maxQuoteLength": 35
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 189
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 466
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p1",
+      "p2"
+    ],
+    "maxQuoteLength": 77
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q4",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 97
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q5",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 97
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q6",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 591
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q7",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 475
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q8",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 535
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q9",
+    "paragraphs": [
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 57
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q10",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 207
+  },
+  {
+    "exercise": "long-2023-10-fr",
+    "question": "q11",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 196
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 204
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2",
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 82
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 422
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 422
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 119
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p13",
+      "p14"
+    ],
+    "maxQuoteLength": 248
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 372
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 166
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p16",
+      "p17"
+    ],
+    "maxQuoteLength": 166
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p21"
+    ],
+    "maxQuoteLength": 195
+  },
+  {
+    "exercise": "long-2023-11-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p23"
+    ],
+    "maxQuoteLength": 61
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 142
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p4",
+      "p7"
+    ],
+    "maxQuoteLength": 303
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p5",
+      "p7"
+    ],
+    "maxQuoteLength": 87
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 174
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 290
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p14",
+      "p15"
+    ],
+    "maxQuoteLength": 133
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p19"
+    ],
+    "maxQuoteLength": 157
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p20"
+    ],
+    "maxQuoteLength": 159
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p21",
+      "p22"
+    ],
+    "maxQuoteLength": 184
+  },
+  {
+    "exercise": "long-2024-11-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p21"
+    ],
+    "maxQuoteLength": 220
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 178
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 165
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 178
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p4",
+      "p7"
+    ],
+    "maxQuoteLength": 116
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 188
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 116
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 640
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 144
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 87
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 275
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p13",
+      "p14"
+    ],
+    "maxQuoteLength": 248
+  },
+  {
+    "exercise": "long-2024-3-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 772
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 675
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 186
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 91
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q4",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 192
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 93
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q6",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 80
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q7",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 234
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q8",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 135
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q9",
+    "paragraphs": [
+      "p12",
+      "p16"
+    ],
+    "maxQuoteLength": 196
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q10",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 196
+  },
+  {
+    "exercise": "long-2024-3-fr",
+    "question": "q11",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 250
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 26
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 26
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 336
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 227
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 134
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 179
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p5",
+      "p6"
+    ],
+    "maxQuoteLength": 375
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 203
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 94
+  },
+  {
+    "exercise": "long-2024-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 189
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1",
+      "p3"
+    ],
+    "maxQuoteLength": 182
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 287
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 182
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 230
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p12",
+      "p13"
+    ],
+    "maxQuoteLength": 70
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 338
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 245
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p16",
+      "p17"
+    ],
+    "maxQuoteLength": 92
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p19"
+    ],
+    "maxQuoteLength": 95
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p24"
+    ],
+    "maxQuoteLength": 55
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p28"
+    ],
+    "maxQuoteLength": 177
+  },
+  {
+    "exercise": "long-2025-11-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p36"
+    ],
+    "maxQuoteLength": 534
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 138
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 85
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 206
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 234
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 56
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 117
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 153
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 260
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 124
+  },
+  {
+    "exercise": "long-2025-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 200
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p20",
+      "p22"
+    ],
+    "maxQuoteLength": 97
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 270
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 149
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 172
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 149
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 23
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p11",
+      "p12"
+    ],
+    "maxQuoteLength": 406
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p18"
+    ],
+    "maxQuoteLength": 39
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p20"
+    ],
+    "maxQuoteLength": 69
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p20"
+    ],
+    "maxQuoteLength": 69
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p21",
+      "p22"
+    ],
+    "maxQuoteLength": 111
+  },
+  {
+    "exercise": "long-2026-3-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p23",
+      "p24"
+    ],
+    "maxQuoteLength": 253
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 153
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 153
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 291
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 60
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 344
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 235
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 296
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 221
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 558
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 400
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 259
+  },
+  {
+    "exercise": "long-2026-6-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 503
+  },
+  {
+    "exercise": "short-2021-6-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 177
+  },
+  {
+    "exercise": "short-2021-6-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 387
+  },
+  {
+    "exercise": "short-2021-6-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 30
+  },
+  {
+    "exercise": "short-2021-6-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 154
+  },
+  {
+    "exercise": "short-2021-6-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p0",
+      "p3"
+    ],
+    "maxQuoteLength": 173
+  },
+  {
+    "exercise": "short-2021-6-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 281
+  },
+  {
+    "exercise": "short-2021-6-cn-2",
+    "question": "q4",
+    "paragraphs": [
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 261
+  },
+  {
+    "exercise": "short-2022-6-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 70
+  },
+  {
+    "exercise": "short-2022-6-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 114
+  },
+  {
+    "exercise": "short-2022-6-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p1",
+      "p2"
+    ],
+    "maxQuoteLength": 216
+  },
+  {
+    "exercise": "short-2022-6-cn-1",
+    "question": "q4",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 102
+  },
+  {
+    "exercise": "short-2022-6-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 138
+  },
+  {
+    "exercise": "short-2022-6-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 280
+  },
+  {
+    "exercise": "short-2022-6-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 139
+  },
+  {
+    "exercise": "short-2023-3-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 180
+  },
+  {
+    "exercise": "short-2023-3-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 62
+  },
+  {
+    "exercise": "short-2023-3-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 382
+  },
+  {
+    "exercise": "short-2023-3-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 81
+  },
+  {
+    "exercise": "short-2023-3-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 198
+  },
+  {
+    "exercise": "short-2023-3-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 68
+  },
+  {
+    "exercise": "short-2023-3-cn-2",
+    "question": "q4",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 198
+  },
+  {
+    "exercise": "short-2024-11-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 270
+  },
+  {
+    "exercise": "short-2024-11-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 249
+  },
+  {
+    "exercise": "short-2024-11-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 180
+  },
+  {
+    "exercise": "short-2024-11-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 156
+  },
+  {
+    "exercise": "short-2024-11-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 199
+  },
+  {
+    "exercise": "short-2024-11-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 85
+  },
+  {
+    "exercise": "short-2024-11-cn-2",
+    "question": "q4",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 256
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 94
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p1",
+      "p2"
+    ],
+    "maxQuoteLength": 132
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 180
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 79
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 76
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 124
+  },
+  {
+    "exercise": "short-2024-3-fr-1",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 146
+  },
+  {
+    "exercise": "short-2024-3-fr-1",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 146
+  },
+  {
+    "exercise": "short-2024-3-fr-1",
+    "question": "q3",
+    "paragraphs": [
+      "p2",
+      "p3",
+      "p6"
+    ],
+    "maxQuoteLength": 232
+  },
+  {
+    "exercise": "short-2024-3-fr-1",
+    "question": "q4",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 209
+  },
+  {
+    "exercise": "short-2024-3-fr-2",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 237
+  },
+  {
+    "exercise": "short-2024-3-fr-2",
+    "question": "q2",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 303
+  },
+  {
+    "exercise": "short-2024-3-fr-2",
+    "question": "q3",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 88
+  },
+  {
+    "exercise": "short-2024-6-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p5",
+      "p6"
+    ],
+    "maxQuoteLength": 186
+  },
+  {
+    "exercise": "short-2024-6-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 575
+  },
+  {
+    "exercise": "short-2024-6-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 98
+  },
+  {
+    "exercise": "short-2024-6-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 242
+  },
+  {
+    "exercise": "short-2024-6-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p1",
+      "p2"
+    ],
+    "maxQuoteLength": 184
+  },
+  {
+    "exercise": "short-2024-6-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 206
+  },
+  {
+    "exercise": "short-2024-6-cn-2",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 186
+  },
+  {
+    "exercise": "short-2025-11-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 130
+  },
+  {
+    "exercise": "short-2025-11-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 133
+  },
+  {
+    "exercise": "short-2025-11-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p7",
+      "p8",
+      "p10"
+    ],
+    "maxQuoteLength": 154
+  },
+  {
+    "exercise": "short-2025-11-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 223
+  },
+  {
+    "exercise": "short-2025-11-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 28
+  },
+  {
+    "exercise": "short-2025-11-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 127
+  },
+  {
+    "exercise": "short-2025-11-cn-2",
+    "question": "q4",
+    "paragraphs": [
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 179
+  },
+  {
+    "exercise": "short-2025-3-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 103
+  },
+  {
+    "exercise": "short-2025-3-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 202
+  },
+  {
+    "exercise": "short-2025-3-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 154
+  },
+  {
+    "exercise": "short-2025-3-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 199
+  },
+  {
+    "exercise": "short-2025-3-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 65
+  },
+  {
+    "exercise": "short-2025-3-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 100
+  },
+  {
+    "exercise": "short-2025-3-cn-2",
+    "question": "q4",
+    "paragraphs": [
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 153
+  },
+  {
+    "exercise": "short-2025-6-cn-1",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 138
+  },
+  {
+    "exercise": "short-2025-6-cn-1",
+    "question": "q2",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 161
+  },
+  {
+    "exercise": "short-2025-6-cn-1",
+    "question": "q3",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 315
+  },
+  {
+    "exercise": "short-2025-6-cn-1",
+    "question": "q4",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 315
+  },
+  {
+    "exercise": "short-2025-6-cn-2",
+    "question": "q1",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 561
+  },
+  {
+    "exercise": "short-2025-6-cn-2",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 319
+  },
+  {
+    "exercise": "short-2025-6-cn-2",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 168
+  },
+  {
+    "exercise": "short-2025-8-fr-1",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 356
+  },
+  {
+    "exercise": "short-2025-8-fr-1",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 130
+  },
+  {
+    "exercise": "short-2025-8-fr-1",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 175
+  },
+  {
+    "exercise": "short-2025-8-fr-1",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 116
+  },
+  {
+    "exercise": "short-2025-8-fr-2",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 137
+  },
+  {
+    "exercise": "short-2025-8-fr-2",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 318
+  },
+  {
+    "exercise": "short-2025-8-fr-2",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 270
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 99
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 186
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 165
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q4",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 142
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q5",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 106
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q6",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 389
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q7",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 187
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q8",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 115
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q9",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 98
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q10",
+    "paragraphs": [
+      "p17"
+    ],
+    "maxQuoteLength": 289
+  },
+  {
+    "exercise": "reading-2021-10-fr",
+    "question": "q11",
+    "paragraphs": [
+      "p19"
+    ],
+    "maxQuoteLength": 227
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p1",
+      "p2",
+      "p7"
+    ],
+    "maxQuoteLength": 73
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p3",
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 160
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 112
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q4",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 110
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q5",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 105
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q6",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 222
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q7",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 188
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q8",
+    "paragraphs": [
+      "p12",
+      "p13"
+    ],
+    "maxQuoteLength": 158
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q9",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 183
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q10",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 44
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q11",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 320
+  },
+  {
+    "exercise": "reading-2021-12-fr",
+    "question": "q12",
+    "paragraphs": [
+      "p18"
+    ],
+    "maxQuoteLength": 181
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 206
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 226
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 397
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p4",
+      "p5",
+      "p6"
+    ],
+    "maxQuoteLength": 397
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 182
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 101
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 180
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 211
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 141
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p10",
+      "p11"
+    ],
+    "maxQuoteLength": 211
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p5",
+      "p12"
+    ],
+    "maxQuoteLength": 223
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 141
+  },
+  {
+    "exercise": "reading-2021-3-cn",
+    "question": "q13",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 296
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1",
+      "p3"
+    ],
+    "maxQuoteLength": 143
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 127
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 52
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 65
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 68
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 195
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 46
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 133
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p7",
+      "p9"
+    ],
+    "maxQuoteLength": 91
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p9",
+      "p10"
+    ],
+    "maxQuoteLength": 175
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 74
+  },
+  {
+    "exercise": "reading-2021-5-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 51
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 176
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 75
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 213
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 100
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 84
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 166
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 143
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 319
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 207
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 93
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 185
+  },
+  {
+    "exercise": "reading-2022-11-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 114
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 267
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 173
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p5",
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 347
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 276
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 276
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 85
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 89
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 382
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 312
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 227
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 560
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 223
+  },
+  {
+    "exercise": "reading-2022-3-cn",
+    "question": "q13",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 198
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p2",
+      "p16"
+    ],
+    "maxQuoteLength": 353
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 161
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 205
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 100
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 101
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 158
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 465
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p7",
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 108
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p12",
+      "p13"
+    ],
+    "maxQuoteLength": 153
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 129
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 207
+  },
+  {
+    "exercise": "reading-2022-6-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 297
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p3",
+      "p11"
+    ],
+    "maxQuoteLength": 168
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 398
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 183
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 183
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 108
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 177
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 323
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 293
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 136
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 196
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 196
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 211
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q13",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 168
+  },
+  {
+    "exercise": "reading-2023-3-cn",
+    "question": "q14",
+    "paragraphs": [
+      "p10",
+      "p11"
+    ],
+    "maxQuoteLength": 253
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 314
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 152
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 239
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 144
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 334
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 231
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p6",
+      "p9",
+      "p10"
+    ],
+    "maxQuoteLength": 195
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 139
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 195
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 272
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 242
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p12",
+      "p13"
+    ],
+    "maxQuoteLength": 308
+  },
+  {
+    "exercise": "reading-2023-6-cn",
+    "question": "q13",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 308
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 239
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 86
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 162
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 242
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 76
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 165
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 109
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 95
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 310
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 205
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p9",
+      "p10",
+      "p11"
+    ],
+    "maxQuoteLength": 140
+  },
+  {
+    "exercise": "reading-2024-11-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 121
+  },
+  {
+    "exercise": "reading-2024-12-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p0"
+    ],
+    "maxQuoteLength": 133
+  },
+  {
+    "exercise": "reading-2024-12-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 367
+  },
+  {
+    "exercise": "reading-2024-12-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 318
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1",
+      "p2"
+    ],
+    "maxQuoteLength": 74
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 67
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 118
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 63
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 130
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 152
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 159
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 32
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 130
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 162
+  },
+  {
+    "exercise": "reading-2024-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 90
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 412
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 146
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 65
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "q4",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 387
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 87
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 86
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 208
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 211
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 298
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 307
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p7",
+      "p8",
+      "p10"
+    ],
+    "maxQuoteLength": 190
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 115
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 175
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p13",
+      "p14"
+    ],
+    "maxQuoteLength": 153
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 332
+  },
+  {
+    "exercise": "reading-2024-6-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 58
+  },
+  {
+    "exercise": "reading-2024-6-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p0",
+      "p1"
+    ],
+    "maxQuoteLength": 125
+  },
+  {
+    "exercise": "reading-2024-6-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 264
+  },
+  {
+    "exercise": "reading-2024-6-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 53
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 250
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p1",
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 128
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 236
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 59
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 98
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 85
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 45
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 58
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p17"
+    ],
+    "maxQuoteLength": 107
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p17"
+    ],
+    "maxQuoteLength": 74
+  },
+  {
+    "exercise": "reading-2025-11-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p19"
+    ],
+    "maxQuoteLength": 125
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 315
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 315
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 206
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 247
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 176
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 176
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 272
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 231
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 118
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 339
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 160
+  },
+  {
+    "exercise": "reading-2025-3-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 81
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p1",
+      "p17"
+    ],
+    "maxQuoteLength": 208
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 138
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 178
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 256
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p10",
+      "p11",
+      "p12"
+    ],
+    "maxQuoteLength": 156
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p5",
+      "p6"
+    ],
+    "maxQuoteLength": 256
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 142
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 45
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p10",
+      "p11",
+      "p12"
+    ],
+    "maxQuoteLength": 161
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p12",
+      "p13"
+    ],
+    "maxQuoteLength": 158
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p14",
+      "p15"
+    ],
+    "maxQuoteLength": 130
+  },
+  {
+    "exercise": "reading-2025-6-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p16",
+      "p17"
+    ],
+    "maxQuoteLength": 298
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 41
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q2",
+    "paragraphs": [
+      "p1"
+    ],
+    "maxQuoteLength": 145
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q3",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 102
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 95
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q5",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 58
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q6",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 230
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q7",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 164
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q8",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 164
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q9",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 205
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q10",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 224
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q11",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 126
+  },
+  {
+    "exercise": "reading-2025-8-fr",
+    "question": "q12",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 237
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 212
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 212
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 307
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 166
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p11",
+      "p12"
+    ],
+    "maxQuoteLength": 203
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 178
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p8",
+      "p9"
+    ],
+    "maxQuoteLength": 220
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 178
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 366
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 253
+  },
+  {
+    "exercise": "reading-2026-3-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p4",
+      "p10",
+      "p13"
+    ],
+    "maxQuoteLength": 326
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q1",
+    "paragraphs": [
+      "p9",
+      "p10"
+    ],
+    "maxQuoteLength": 184
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q2",
+    "paragraphs": [
+      "p3",
+      "p4",
+      "p5"
+    ],
+    "maxQuoteLength": 144
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q3",
+    "paragraphs": [
+      "p5",
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 144
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q4",
+    "paragraphs": [
+      "p9",
+      "p10"
+    ],
+    "maxQuoteLength": 184
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q5",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 372
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q6",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 105
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q7",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 270
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q8",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 256
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q9",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 236
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q10",
+    "paragraphs": [
+      "p19"
+    ],
+    "maxQuoteLength": 140
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q11",
+    "paragraphs": [
+      "p20",
+      "p21"
+    ],
+    "maxQuoteLength": 263
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q12",
+    "paragraphs": [
+      "p22"
+    ],
+    "maxQuoteLength": 121
+  },
+  {
+    "exercise": "reading-2026-6-cn",
+    "question": "q13",
+    "paragraphs": [
+      "p22"
+    ],
+    "maxQuoteLength": 91
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q1",
+    "paragraphs": [
+      "p3",
+      "p23"
+    ],
+    "maxQuoteLength": 96
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q2",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 64
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q3",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 522
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q4",
+    "paragraphs": [
+      "p3",
+      "p6",
+      "p7"
+    ],
+    "maxQuoteLength": 344
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q5",
+    "paragraphs": [
+      "p9",
+      "p10"
+    ],
+    "maxQuoteLength": 116
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q6",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 66
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q7",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 44
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q8",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 177
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q9",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 207
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q10",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 133
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q11",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 126
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q12",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 68
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q13",
+    "paragraphs": [
+      "p18"
+    ],
+    "maxQuoteLength": 96
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q14",
+    "paragraphs": [
+      "p19"
+    ],
+    "maxQuoteLength": 80
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q15",
+    "paragraphs": [
+      "p22"
+    ],
+    "maxQuoteLength": 65
+  },
+  {
+    "exercise": "reading-mock-1",
+    "question": "q16",
+    "paragraphs": [
+      "p23"
+    ],
+    "maxQuoteLength": 563
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q1",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 280
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 95
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q3",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 280
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q4",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 301
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q5",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 154
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q6",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 95
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q7",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 154
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q8",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 458
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q9",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 111
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q10",
+    "paragraphs": [
+      "p7",
+      "p8"
+    ],
+    "maxQuoteLength": 290
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q11",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 202
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q12",
+    "paragraphs": [
+      "p9",
+      "p10"
+    ],
+    "maxQuoteLength": 229
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q13",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 206
+  },
+  {
+    "exercise": "reading-mock-2",
+    "question": "q14",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 254
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q1",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 400
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q2",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 400
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q3",
+    "paragraphs": [
+      "p3"
+    ],
+    "maxQuoteLength": 135
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q4",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 596
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 61
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q6",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 334
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q7",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 334
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q8",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 151
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q9",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 131
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q10",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 66
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q11",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 112
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q12",
+    "paragraphs": [
+      "p15"
+    ],
+    "maxQuoteLength": 232
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q13",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 72
+  },
+  {
+    "exercise": "reading-mock-3",
+    "question": "q14",
+    "paragraphs": [
+      "p18",
+      "p19"
+    ],
+    "maxQuoteLength": 277
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 61
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q2",
+    "paragraphs": [
+      "p2",
+      "p3"
+    ],
+    "maxQuoteLength": 393
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q3",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 448
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q4",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 368
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q5",
+    "paragraphs": [
+      "p6"
+    ],
+    "maxQuoteLength": 126
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q6",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 179
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q7",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 288
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q8",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 292
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q9",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 153
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q10",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 185
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q11",
+    "paragraphs": [
+      "p9",
+      "p11"
+    ],
+    "maxQuoteLength": 331
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q12",
+    "paragraphs": [
+      "p11"
+    ],
+    "maxQuoteLength": 169
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q13",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 384
+  },
+  {
+    "exercise": "reading-mock-4",
+    "question": "q14",
+    "paragraphs": [
+      "p13"
+    ],
+    "maxQuoteLength": 88
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q1",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 181
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q2",
+    "paragraphs": [
+      "p2"
+    ],
+    "maxQuoteLength": 116
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q3",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 171
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q4",
+    "paragraphs": [
+      "p4",
+      "p7"
+    ],
+    "maxQuoteLength": 167
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q5",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 132
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q6",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 221
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q7",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 159
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q8",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 118
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q9",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 211
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q10",
+    "paragraphs": [
+      "p16"
+    ],
+    "maxQuoteLength": 73
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q11",
+    "paragraphs": [
+      "p18"
+    ],
+    "maxQuoteLength": 137
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q12",
+    "paragraphs": [
+      "p20"
+    ],
+    "maxQuoteLength": 101
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q13",
+    "paragraphs": [
+      "p14"
+    ],
+    "maxQuoteLength": 130
+  },
+  {
+    "exercise": "reading-mock-5",
+    "question": "q14",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 286
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q1",
+    "paragraphs": [
+      "p3",
+      "p4"
+    ],
+    "maxQuoteLength": 159
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q2",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 91
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q3",
+    "paragraphs": [
+      "p4"
+    ],
+    "maxQuoteLength": 90
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q4",
+    "paragraphs": [
+      "p5"
+    ],
+    "maxQuoteLength": 92
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q5",
+    "paragraphs": [
+      "p10",
+      "p11"
+    ],
+    "maxQuoteLength": 185
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q6",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 316
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q7",
+    "paragraphs": [
+      "p7"
+    ],
+    "maxQuoteLength": 146
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q8",
+    "paragraphs": [
+      "p8"
+    ],
+    "maxQuoteLength": 284
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q9",
+    "paragraphs": [
+      "p9"
+    ],
+    "maxQuoteLength": 129
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q10",
+    "paragraphs": [
+      "p10"
+    ],
+    "maxQuoteLength": 185
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q11",
+    "paragraphs": [
+      "p6",
+      "p9"
+    ],
+    "maxQuoteLength": 402
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q12",
+    "paragraphs": [
+      "p12"
+    ],
+    "maxQuoteLength": 425
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q13",
+    "paragraphs": [
+      "p13",
+      "p14",
+      "p15",
+      "p16",
+      "p17",
+      "p18"
+    ],
+    "maxQuoteLength": 112
+  },
+  {
+    "exercise": "reading-mock-6",
+    "question": "q14",
+    "paragraphs": [
+      "p27",
+      "p36",
+      "p37"
+    ],
+    "maxQuoteLength": 133
+  }
+]

@@ -4,7 +4,7 @@
 
 网站不包含 PDF 阅读器，也没有复制带水印的 PDF 页面图像；正文是提取并清理的文字。人工整理的题干、选项和参考要点见 `data/overrides.json`。开放题参考要点包含整理或改写，不能视作唯一合法表述。
 
-中文文章译文在本机生成，附件内容没有发送给第三方翻译接口。采用 Argos Translate 的 French→English 与 English→Chinese 模型 1.0，来源于公开包索引的固定版本：
+中文文章译文在本机生成，附件内容没有发送给第三方翻译接口。当前译文使用本地French→English模型1.0与English→Chinese模型1.9，并结合拼写修复、专名词表和人工润色。原版使用的1.0模型来源保留如下：
 
 - 包索引：`https://github.com/argosopentech/argospm-index/tree/9504015`
 - 法英模型：`https://github.com/uav4geo/LibreTranslate-Models/raw/3d5ca0a2c3c302287339b2944329f767ac1673f4/fr_en.argosmodel`
@@ -16,22 +16,18 @@
 
 两段未附 PDF 的短听力使用本地 Vosk 法语模型识别后整理的摘录，题卡明确标注不是原卷题目。模型来自 Vosk Browser 演示仓库的固定版本：`https://github.com/ccoreilly/vosk-browser/tree/a4b0d0fe60359e5ea9800f810f6b6f6c1d2b03c6`，文件 `models/vosk-model-small-fr-pguyot-0.3.tar.gz`。该模型原附 CC BY-NC-SA 4.0 许可，模型二进制不随本网站分发；网页不执行语音识别，也不调用外部语音服务。
 
-## 2026-10-17 修订
 
-重处理了 269 页写作和口语资料：结合 PDF 原始字符坐标与字体字形编号恢复重音、数字、标点和连字，扫描页采用官方 `tesseract-ocr/tessdata_best` 法语模型（固定提交 `e12c65a915945e4c28e237a9b52bc4a8f39a0cec`）识别，并通过本地法语词频比较识别候选。模型和 wordfreq 仅用于本地处理，不随网页分发。
+新增的英中1.9模型来自未修改的公开Argos语言包镜像：
+`https://github.com/NicoriciN89/RimWorldModTranslator/releases/download/language-packs/translate-en_zh-1_9.zip`。
 
-写作补充 7、2024 年 6 月中国写作、2024 年 11 月非洲写作和 2022 年 11 月中国写作的严重损坏段落，已对照源 PDF 另行录入和分段。非洲场次源照片自身裁切了某句话的开头，正文保留省略标记和说明，没有编造缺失内容。其余低清扫描仍可能存在拼写或细节误差，页面保留识别说明。
+逐题释义为基于原材料编写的中文解释，证据句必须逐字存在于指定的法语段落中。`data/evidence-locations.json`记录核对的段落，`data/explanation-reasons.json`保存547条释义。补回了旧提取流程漏掉的阅读模拟题2、4正文、2025年6月长听力末页及一篇阅读的结尾。个别明确与正文不符的选项、参考答案同时修正；修订题目打开旧记录时会重新核对，原始作答保留。
 
-首页图片基于用户的巴黎参考图重新构图；透明 Logo 按用户参考图清理重制。两张素材由图像生成工具处理，已嵌入离线版，无需外部图片服务。
+范文依据用户上传的五份模板编写，属于练习示范，不是官方答案或官方评分。范文中的自拟情境用作论证例子，不伪装为材料中的统计研究。Synthèse仅综合相应材料，缺少独立Essai原题的素材组，题目和范文明确标记为补充练习。
 
+547道题干与705个选择题选项已逐条重写中文译文，分别保存在`data/question-translations.tsv`和`data/option-translations.tsv`。文章译文已重新处理并重点润色，但不宣称所有机器译文均已逐段人工审校；扫描识别及机器翻译仍可能遗漏细节。人名、地名、书名、网站名称保留原文形式，专名变体另存于`data/name-variants.tsv`。文章的人工修订保存在`data/translation-edits.json`和`data/paragraph-translations.tsv`，便于继续校订。
 
-## 手写字体与重译模型（2026-10-17）
-- 首页字体：Mansalva，Google Fonts，SIL Open Font License 1.1；字体子集与许可证位于 `public/fonts/`。仅首页、题库目录与词汇笔记的法语装饰标题使用。
-- 中文参考译文：Argos Translate 1.9，法语→英语→中文，逐句分批、beam 3、本地运行。模型从 GitHub 的 `20KRUST/RustTranslator-LanguagePacks` 发行版 `packs-2026-09-09` 获取的 Argos 1.9 镜像包加载；未将题库提交到在线翻译服务。模型不随网站打包。
-- 人工校订：`data/translation-corrections.json`；保留可重复应用的源文 SHA-256 键，避免重建覆盖校订。
-- 背词释义：人工编写的法中核心词与通用表达；听力/阅读的条目通过源题库匹配后收录，附原题跳转。个人高亮释义由使用者维护。
+## 站内词句查询数据
 
-## 小幅细节更新
-- 259页写作、口语材料重新核对字符轨迹和双栏顺序；重水印口语扫描页17—26人工对照PDF录入，补丁在`data/source-corrections-v3.json`，由`scripts/apply_verified_scans.py`应用。其余扫描采用第二次OCR校验，仍不能保证原始低清材料每个字符均无误。
-- 站内离线词典使用CFDICT法中词典，CC BY-SA 3.0；来源、许可证和派生说明见`public/dictionary/NOTICE.txt`。反向索引55,000余词条，并补充学习常用释义和搭配。四本专项词书各900个不同词目，附题库来源，复数等词形通过别名查询。
-- Mansalva手写字体仅微调约1.4度倾斜，改名Journal Clair；详见`public/fonts/MODIFICATIONS.txt`。
+离线词库由Wiktionary中英文版经Kaikki与Wiktionary-to-Yomitan整理的数据生成，原始公开版本日期为2025-04-08。词条按词性保存，另索引变位、复数、阴阳性等词形及明确的派生关系。缺失的英文版释义和课文句子使用本机模型补译。人工整理的C1短语、词族和句子参考分别位于`data/dictionary/phrases.tsv`、`families.tsv`、`sentences-reviewed.tsv`。
+
+数据以CC BY-SA 4.0提供；来源、变更及许可全文随发行版和单文件保留。详见`data/dictionary/NOTICE.md`与`CC-BY-SA-4.0.txt`。词性与词形资料不意味着机器补译达到专业辞书审校质量；未收录内容可按使用者开关在本页联网补充。

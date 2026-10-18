@@ -1,0 +1,2880 @@
+{
+  "long-2022-11-cn": {
+    "questions": [
+      {
+        "sourceNumber": 1,
+        "options": [
+          {
+            "id": "A",
+            "text": "Le risque que l’homme se trouve un jour dominé par les machines."
+          },
+          {
+            "id": "B",
+            "text": "L’ambiguïté des liens que l’homme peut entretenir avec la machine."
+          },
+          {
+            "id": "C",
+            "text": "La multiplicité des services que les machines peuvent nous rendre."
+          }
+        ],
+        "prompt": "Sous quel angle ce document aborde-t-il la question des robots ?",
+        "type": "choice",
+        "number": 1,
+        "id": "q1",
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        }
+      },
+      {
+        "sourceNumber": 2,
+        "prompt": "Pourquoi, dans sa réflexion sur l’homme et les robots, Serge Tisseron s’est-il d’abord appuyé sur les témoignages de l’armée américaine ?",
+        "type": "text",
+        "number": 2,
+        "id": "q2",
+        "answer": {
+          "reference": "L’utilisation de robots par l’armée est ancienne et documentée, contrairement aux robots domestiques. 军用机器人使用历史更长，有资料可查。"
+        }
+      },
+      {
+        "sourceNumber": 3,
+        "prompt": "Citez deux comportements des soldats américains qui témoignent d’une relation affective avec leurs robots.",
+        "type": "text",
+        "number": 3,
+        "id": "q3",
+        "answer": {
+          "reference": "Ils risquent leur vie pour protéger leur robot et demandent de faire réparer leur propre machine plutôt que de la remplacer. 士兵会冒险保护机器人，并宁愿花钱修好自己的那一台，也不愿换一台新的。"
+        }
+      },
+      {
+        "sourceNumber": 4,
+        "options": [
+          {
+            "id": "A",
+            "text": "L’utilisation d’un langage articulé."
+          },
+          {
+            "id": "B",
+            "text": "Une gestion plus naturelle des mouvements."
+          },
+          {
+            "id": "C",
+            "text": "La capacité à se déplacer de manière autonome."
+          }
+        ],
+        "prompt": "Qu’est ce qui manque actuellement aux robots humanoïdes pour qu’on puisse les confondre avec des humains véritables ?",
+        "type": "choice",
+        "number": 4,
+        "id": "q4",
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        }
+      },
+      {
+        "sourceNumber": 5,
+        "prompt": "Quels sont les différents moyens par lesquels un échange peut s’établir entre une personne et un robot domestique ?",
+        "type": "text",
+        "number": 5,
+        "id": "q5",
+        "answer": {
+          "reference": "La parole, les gestes, les expressions du visage et les mouvements du corps. 语言、动作、面部表情和身体姿态。"
+        }
+      },
+      {
+        "sourceNumber": 6,
+        "options": [
+          {
+            "id": "A",
+            "text": "rend sa présence plus acceptable et plus rassurante."
+          },
+          {
+            "id": "B",
+            "text": "peut être mal ressenti si la ressemblance n’est pas parfaite."
+          },
+          {
+            "id": "C",
+            "text": "suscitera toujours le rejet, même si la ressemblance est parfaite."
+          }
+        ],
+        "prompt": "Selon Serge Tisseron, le fait qu’un robot ait une apparence humaine«",
+        "type": "choice",
+        "number": 6,
+        "id": "q6",
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        }
+      },
+      {
+        "sourceNumber": 7,
+        "prompt": "En quoi les impératifs commerciaux influencent-ils la conception des nouveaux robots ?",
+        "type": "text",
+        "number": 7,
+        "id": "q7",
+        "answer": {
+          "reference": "Les fabricants cherchent des robots agréables, toujours patients et adaptés aux attentes de l’acheteur pour mieux les vendre. 商业利益促使机器人迎合消费者。"
+        }
+      },
+      {
+        "sourceNumber": 8,
+        "options": [
+          {
+            "id": "A",
+            "text": "Il est imprévisible."
+          },
+          {
+            "id": "B",
+            "text": "Il est moins patient."
+          },
+          {
+            "id": "C",
+            "text": "Il est plus adaptable."
+          }
+        ],
+        "prompt": "Qu’est ce qui fait qu’un être humain, dans son comportement, est fondamentalement différent d’un robot ?",
+        "type": "choice",
+        "number": 8,
+        "id": "q8",
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        }
+      },
+      {
+        "sourceNumber": 9,
+        "prompt": "Serge Tisseron évoque le risque d’une © robot-dépendance ª. Qu’entend-il par là ?",
+        "type": "text",
+        "number": 9,
+        "id": "q9",
+        "answer": {
+          "reference": "Le risque de préférer la compagnie prévisible et agréable des robots à celle des humains. 人可能依赖机器人，并疏远真实的人际关系。"
+        }
+      },
+      {
+        "sourceNumber": 10,
+        "options": [
+          {
+            "id": "A",
+            "text": "Les robots seront un jour techniquement capables de simuler des sentiments."
+          },
+          {
+            "id": "B",
+            "text": "Les robots seront un jour assez proches de l’homme pour éprouver des sentiments."
+          },
+          {
+            "id": "C",
+            "text": "Nous pouvons devenir assez fous pour croire que les robots éprouvent des sentiments."
+          }
+        ],
+        "prompt": "Quelle idée exprime le titre du livre de Serge Tisseron, Le jour où mon robot m’aimera ?",
+        "type": "choice",
+        "number": 10,
+        "id": "q10",
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        }
+      },
+      {
+        "sourceNumber": 11,
+        "prompt": "Quelle dérive Serge Tisseron dénonce-t-il dans le nouveau marché que représentent les robots ?",
+        "type": "text",
+        "number": 11,
+        "id": "q11",
+        "answer": {
+          "reference": "Le risque d’exploiter la solitude et la fragilité affective des personnes. 利用人的孤独和情感脆弱牟利。"
+        }
+      }
+    ],
+    "answerRevision": 2
+  },
+  "long-2022-6-cn": {
+    "questions": [
+      {
+        "type": "text",
+        "prompt": "Quel sujet Bruno Denaez a-t-il choisi de traiter pour inaugurer la semaine de la langue française ?",
+        "answer": {
+          "reference": "L’usage de la langue française par les journalistes de radio. 广播记者如何使用法语。"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "text",
+        "prompt": "Pourquoi Bernard Cerquiglini a-t-il été invité dans cette émission ?",
+        "answer": {
+          "reference": "Il est linguiste, professeur d’université et ancien directeur de l’Institut national de la langue française. 他是语言学家、大学教授，曾任Institut national de la langue française负责人。"
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "text",
+        "prompt": "Bernard Cerquiglini évoque deux types d’oral. Lesquels ?",
+        "answer": {
+          "reference": "L’oral familier et l’oral soutenu. 通俗口语与雅语／正式口语。"
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "text",
+        "prompt": "Pour Bernard Cerquiglini, quel doit être le rôle de la radio dans le domaine de la langue et à quoi peut-on le comparer ?",
+        "answer": {
+          "reference": "La radio doit fournir un modèle de langue, comme les instituteurs autrefois. 广播应像过去的小学教师一样，提供语言使用的范例。"
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "choice",
+        "prompt": "Pour Bernard Cerquiglini, la langue familière est acceptable à la radio…",
+        "options": [
+          {
+            "id": "A",
+            "text": "quand c’est une personne interrogée qui l’utilise."
+          },
+          {
+            "id": "B",
+            "text": "quand un journaliste couvre un événement sportif."
+          },
+          {
+            "id": "C",
+            "text": "quand certains mots n’ont pas d’équivalent moins familier."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "choice",
+        "prompt": "Pourquoi Simon reproche-t-il aux journalistes de trop utiliser le mot « ubérisation » ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Parce que ce n’est pas un mot d’origine française."
+          },
+          {
+            "id": "B",
+            "text": "Parce qu’il est incompréhensible pour beaucoup de gens."
+          },
+          {
+            "id": "C",
+            "text": "Parce qu’on l’emploie sans raison à propos de n’importe quel sujet."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "text",
+        "prompt": "Comment Bernard Cerquiglini justifie-t-il l’emploi d’un néologisme tel qu’« ubérisation » ?",
+        "answer": {
+          "reference": "La création de mots permet au français de décrire le monde contemporain. 新词的创造使法语可以描述当代世界。"
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "choice",
+        "prompt": "Concernant les expressions à la mode, Bernard Cerquiglini pense que le rôle de la radio est…",
+        "options": [
+          {
+            "id": "A",
+            "text": "de les adopter afin de rester proche des auditeurs."
+          },
+          {
+            "id": "B",
+            "text": "d’éviter systématiquement les expressions toutes faites."
+          },
+          {
+            "id": "C",
+            "text": "d’utiliser seulement les expressions devenues très populaires."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "text",
+        "prompt": "Qu’est-ce qui montre que certaines expressions ne sont qu’un phénomène de mode ?",
+        "answer": {
+          "reference": "Elles disparaissent rapidement avant même qu’on s’en aperçoive. 某些表达很快就消失了。"
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Bernard Cerquiglini, les journalistes devraient…",
+        "options": [
+          {
+            "id": "A",
+            "text": "éviter totalement de recourir à des anglicismes."
+          },
+          {
+            "id": "B",
+            "text": "employer uniquement les anglicismes les plus courants."
+          },
+          {
+            "id": "C",
+            "text": "s’efforcer de n’employer que les équivalents français des anglicismes."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "text",
+        "prompt": "Dans quel domaine la francisation des mots anglais a-t-elle été un succès ?",
+        "answer": {
+          "reference": "Dans le domaine de l’informatique. 信息技术／计算机领域。",
+          "accepted": [
+            "l’informatique",
+            "informatique",
+            "计算机领域",
+            "信息技术领域"
+          ]
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Bernard Cerquiglini, préférer les mots français, pour un journaliste, c’est…",
+        "options": [
+          {
+            "id": "A",
+            "text": "respecter son public."
+          },
+          {
+            "id": "B",
+            "text": "affirmer son individualité."
+          },
+          {
+            "id": "C",
+            "text": "montrer une forme de snobisme."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q12",
+        "number": 12,
+        "sourceNumber": 12
+      }
+    ],
+    "answerRevision": 2
+  },
+  "long-2023-10-fr": {
+    "questions": [
+      {
+        "sourceNumber": 1,
+        "options": [
+          {
+            "id": "A",
+            "text": "du volume insuffisant de données."
+          },
+          {
+            "id": "B",
+            "text": "des différentes méthodes de calcul."
+          },
+          {
+            "id": "C",
+            "text": "des règles de confidentialité à respecter."
+          }
+        ],
+        "prompt": "Selon Emmanuelle Léon, les statistiques sur le télétravail ne sont pas fiables en raison…",
+        "type": "choice",
+        "number": 1,
+        "id": "q1",
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        }
+      },
+      {
+        "sourceNumber": 2,
+        "options": [
+          {
+            "id": "A",
+            "text": "minimes pour l’entreprise."
+          },
+          {
+            "id": "B",
+            "text": "plus importantes pour le salarié."
+          },
+          {
+            "id": "C",
+            "text": "importantes pour le salarié comme pour ses collègues et ses managers."
+          }
+        ],
+        "prompt": "D’après Élodie Dallongeville, les répercussions du télétravail sont…",
+        "type": "choice",
+        "number": 2,
+        "id": "q2",
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        }
+      },
+      {
+        "sourceNumber": 3,
+        "prompt": "Selon Élodie Dalongeville, quel est le principal avantage du télétravail pour le salarié ?",
+        "type": "text",
+        "number": 3,
+        "id": "q3",
+        "answer": {
+          "reference": "Être moins dérangé et pouvoir se concentrer sur des tâches de fond. 在家受到的打扰更少，能够专注处理需要深入思考的工作。"
+        }
+      },
+      {
+        "sourceNumber": 4,
+        "prompt": "Selon Élodie Dalongeville, quelle est la principale attente des salariés dans l’organisation de leur activité ?",
+        "type": "text",
+        "number": 4,
+        "id": "q4",
+        "answer": {
+          "reference": "Davantage de souplesse et d’autonomie dans l’organisation du travail. 在工作安排上获得更多灵活性与自主性。"
+        }
+      },
+      {
+        "sourceNumber": 5,
+        "options": [
+          {
+            "id": "A",
+            "text": "repose sur des jours et heures imposés."
+          },
+          {
+            "id": "B",
+            "text": "doit être inscrit dans le contrat de travail."
+          },
+          {
+            "id": "C",
+            "text": "est négocié entre les salariés et l’employeur."
+          }
+        ],
+        "prompt": "En France, le télétravail…",
+        "type": "choice",
+        "number": 5,
+        "id": "q5",
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        }
+      },
+      {
+        "sourceNumber": 6,
+        "prompt": "Selon Élodie Dalongeville, pourquoi le présentéisme est-il si important pour certaines entreprises ?",
+        "type": "text",
+        "number": 6,
+        "id": "q6",
+        "answer": {
+          "reference": "Elles associent la présence au bureau à la productivité et à la créativité collective. 企业将到岗与生产力、集体创新联系在一起。"
+        }
+      },
+      {
+        "sourceNumber": 7,
+        "prompt": "Pour Élodie Dalongeville, quel type de gestion est davantage compatible avec le télétravail ?",
+        "type": "text",
+        "number": 7,
+        "id": "q7",
+        "answer": {
+          "reference": "Un management fondé sur la confiance et les objectifs plutôt que sur le contrôle de la présence. 以信任和目标为基础的管理。"
+        }
+      },
+      {
+        "sourceNumber": 8,
+        "prompt": "D’après Élodie Dalongeville, pourquoi le télétravail est-il moins adapté aux jeunes salariés ?",
+        "type": "text",
+        "number": 8,
+        "id": "q8",
+        "answer": {
+          "reference": "Ils doivent acquérir l’expérience et les pratiques de l’entreprise au contact des collègues. 年轻员工需要在公司中学习经验和工作方式。"
+        }
+      },
+      {
+        "sourceNumber": 9,
+        "options": [
+          {
+            "id": "A",
+            "text": "critique."
+          },
+          {
+            "id": "B",
+            "text": "indignée."
+          },
+          {
+            "id": "C",
+            "text": "perplexe."
+          }
+        ],
+        "prompt": "Face aux deux témoignages qu’elle cite sur le télétravail, la journaliste se montre…",
+        "type": "choice",
+        "number": 9,
+        "id": "q9",
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        }
+      },
+      {
+        "sourceNumber": 10,
+        "options": [
+          {
+            "id": "A",
+            "text": "habitués à travailler seuls."
+          },
+          {
+            "id": "B",
+            "text": "éloignés de leur lieu de travail."
+          },
+          {
+            "id": "C",
+            "text": "bien installés dans l’entreprise."
+          }
+        ],
+        "prompt": "Pour Emmanuelle Léon, le télétravail devrait être réservé aux salariés…",
+        "type": "choice",
+        "number": 10,
+        "id": "q10",
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        }
+      },
+      {
+        "sourceNumber": 11,
+        "prompt": "Pour Emmanuelle Léon, quel préjugé persiste aujourd’hui sur le télétravail ?",
+        "type": "text",
+        "number": 11,
+        "id": "q11",
+        "answer": {
+          "reference": "Le préjugé selon lequel un salarié à domicile ne travaille pas réellement. 认为员工在家就没有认真工作的偏见。"
+        }
+      }
+    ],
+    "answerRevision": 2
+  },
+  "long-2024-3-cn": {
+    "questions": [
+      {
+        "type": "choice",
+        "prompt": "Ce document traite…",
+        "options": [
+          {
+            "id": "A",
+            "text": "des loisirs préférés des Français."
+          },
+          {
+            "id": "B",
+            "text": "de l’inégalité des Français devant les loisirs."
+          },
+          {
+            "id": "C",
+            "text": "de la place des loisirs dans la vie des Français."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "text",
+        "prompt": "Comment la journaliste résume-t-elle l’expression « société de consolation » ?",
+        "answer": {
+          "reference": "Consommer des loisirs pour oublier la réalité. 消费休闲活动以获得慰藉、忘记现实。"
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Gérard Mermet, la société française s’interroge de plus en plus sur…",
+        "options": [
+          {
+            "id": "A",
+            "text": "le financement des loisirs."
+          },
+          {
+            "id": "B",
+            "text": "la grande diversité des loisirs aujourd’hui."
+          },
+          {
+            "id": "C",
+            "text": "l’impact des loisirs sur notre épanouissement."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Jean Viard, le temps travaillé va…",
+        "options": [
+          {
+            "id": "A",
+            "text": "diminuer."
+          },
+          {
+            "id": "B",
+            "text": "augmenter."
+          },
+          {
+            "id": "C",
+            "text": "se stabiliser."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Jean Viard, le travail devient de plus en plus…",
+        "options": [
+          {
+            "id": "A",
+            "text": "soutenu."
+          },
+          {
+            "id": "B",
+            "text": "fatiguant."
+          },
+          {
+            "id": "C",
+            "text": "compliqué."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "choice",
+        "prompt": "Jean Viard estime que le contenu du temps libre dépend surtout…",
+        "options": [
+          {
+            "id": "A",
+            "text": "de la volonté de chacun."
+          },
+          {
+            "id": "B",
+            "text": "du revenu de chacun."
+          },
+          {
+            "id": "C",
+            "text": "de l’origine sociale de chacun."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "text",
+        "prompt": "Pourquoi les statistiques de l’Insee ne sont-elles pas révélatrices des dépenses des Français concernant les loisirs ?",
+        "answer": {
+          "reference": "La catégorie « culture-loisirs » exclut des dépenses de loisirs classées dans l’alimentation, les transports ou la communication. 统计中，一些实际用于休闲的餐饮、交通和通信开支，被归入了别的类别。"
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "choice",
+        "prompt": "D’après Jean Viard, les Français profitent davantage du temps libre en raison de…",
+        "options": [
+          {
+            "id": "A",
+            "text": "l’augmentation de leurs revenus."
+          },
+          {
+            "id": "B",
+            "text": "l’allongement de l’espérance de vie."
+          },
+          {
+            "id": "C",
+            "text": "la réduction des inégalités sociales."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "text",
+        "prompt": "Selon Jean Viard, quel rôle joue le temps libre dans la vie des individus ?",
+        "answer": {
+          "reference": "Il est devenu structurant. 休闲时间发挥着结构性的作用。"
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "text",
+        "prompt": "Comment la ville d’aujourd’hui montre-t-elle que nous sommes dans une société de loisirs ?",
+        "answer": {
+          "reference": "La culture du temps libre façonne le rapport au corps, au soleil et à la nature dans la ville. 城市体现了身体、阳光和自然等休闲需求。"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "text",
+        "prompt": "Comment les deux invités expliquent-ils que nous soyons de plus en plus mobiles ?",
+        "answer": {
+          "reference": "Nous exerçons plusieurs fonctions et rôles sociaux. 我们有多重职能与社会角色。"
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      },
+      {
+        "type": "text",
+        "prompt": "Selon Gérard Mermet, quelle sera la caractéristique principale des loisirs dans le futur ?",
+        "answer": {
+          "reference": "Les loisirs seront liés au virtuel. 休闲将与虚拟世界相联系。"
+        },
+        "id": "q12",
+        "number": 12,
+        "sourceNumber": 12
+      }
+    ],
+    "answerRevision": 2
+  },
+  "long-2025-6-cn": {
+    "paragraphs": [
+      {
+        "fr": "— Charlie DUPIOT : Bonjour, bienvenue, 7 milliards de voisins. Aujourd'hui nous parlons du plaisir que nous procure la térature quand lire change notre regard sur le monde. Des pages qui ouvrent des horizons, amènent des questions, des réponses parfois. Lire, c'est apprendre à mettre des mots sur le monde, à découvrir des réalités parallèles qui quand elles croisent notre chemin nous aident à avancer. Quels bienfaits nous apporte la lecture ? Nous en partons à l'occasion de l'ouverture du Salon du livre à Paris. Et puis, comment, surtout, transmettre cette passion aux plus jeunes ? Bonjour Christine Henniqueau.",
+        "id": "p0",
+        "zh": "- Charlie DUPIOT: Hello, welcome, 7 billion neighbours.今天,我们谈论的是,我们给我们以在阅读我们世界大 ⁇ 时的热 ⁇ 。开启视野的页面,有时会带来问题,回答。可悲的是,它学会在世界上发表言论,以发现在跨越我们的道路上帮助我们向前迈进的平行现实。我们读到什么好处?我们正在巴黎的书展开幕式上这样做。然后,首先如何向年轻人转达这一 ⁇ 情?Hello Christine Henniqueau."
+      },
+      {
+        "fr": "- Christine HENNIQUEAU : Bonjour à tous.",
+        "id": "p1",
+        "zh": "- Christine HENNIQUEAU: Hello to everyone."
+      },
+      {
+        "fr": "- CD : Vous êtes psychopédagogue auprès d'enfants, d'adolescents et de jeunes adultes. Vous êtes également professeure de lettres et vous avez co-écrit le livre J'aime pas. bre, pubhé chez Flammarion. Sarah Sauquet, Donjon",
+        "id": "p2",
+        "zh": "- CD: You are a psychopedagogue with children, teenagers and young adults.你也是信标的教授,你们共同撰写了我喜欢的书。Bre, adverted to Flammarion.Sarah Sauquet, Donjon"
+      },
+      {
+        "fr": "= Sn SAUQUE T: Bonjour.",
+        "id": "p3",
+        "zh": "= Sn SAUQUE T: Hello."
+      },
+      {
+        "fr": "- CD : Vous enseignez, quant à vous, le français dans un lycée et vous avez conçu. plusieurs applis sur smartphone dans l'idée de faire découvrir la littérature. l'une d'entre elies s'appelle Un texte un jouet Fidée c'est, on le comprend, d' envoyer un extrait de roman par jour, c'est ça ?",
+        "id": "p4",
+        "zh": "- CD: You teach French in a high school and you have designed it.Several apps on smartphone in the idea of having the literature discovered.其中一个案文被称为一个文件,我们理解,它会发送一天的 ⁇ 流,正确吗?"
+      },
+      {
+        "fr": "— SS : De roman, de biographie, de poésie, tous les genres littéraires sont abordés dans la littérature classique française.",
+        "id": "p5",
+        "zh": "SS:从新、书目、 ⁇ 、所有文学基因都用法文古典文献处理。"
+      },
+      {
+        "fr": "- CD : Et vous les voisins, les voisines, est-ce que vous aimez lire ? Si oui, qui vous a transmis ce goût pour la littérature ? Et puis à quel âge ? Qu'est-ce que vous lisez ? Quels livres vous ont marqués ? Racontez-nous dès maintenant vos histoires",
+        "id": "p6",
+        "zh": "- CD: And you neighbors, neighbors, do you like reading?如果是,谁给你这条文学的教义?老旧有多久?你读了什么?你写了什么书籍?现在讲你们的故事"
+      },
+      {
+        "fr": "… S'amour avec les livres. Et on peut déjà lire de jolis mots sur notre page Facebook. Ces mots, ce sont les vôtres, les voisins. J'en lis quelques-uns, Birane nous écrit depuis Dakar « La fiftérature occupe une place très importante dans ma vie, je l'ai découverte au collège. Elle m'é guvert l'esprit et m'a fait comprendre qui j'étais. » « Elle me soulage quand tout va mal elle est mon médicament. » Parier de ta Mttérature comme d'une personne, c'est assez joli. Et puis Tané nous écrit depuis Yaoundé au Cameroun « Monpapa nfa initiée à la lecture lorsque j'étais en shiéme. Depuis, j'ai fait besucoup de voyages embarquée dans les livres, je me demande comment ceux qui n'aiment p5s {a lecture font pour vivre. »",
+        "id": "p7",
+        "zh": ".Love with the books.我们已经可以读到我们 ⁇ 书网页上的 ⁇ 语。你们的邻居是你们的。我读了几篇比拉内写给我们的信,因为达喀尔 ⁇ 特派在我的生活中占据着非常重要的位置,我发现了这个大学。She ⁇ s been guiding my mind and making me understand who I was.当一切错误时,我就要 ⁇ 我。 ⁇  把你的议会作为人是极右翼的。然后,Tané写信给我们,从雅温得到喀麦隆 ⁇ Monpa nfa, 开始宣读我当时 ⁇ 。此后,我在书中进行了多次访问,我想知道那些像五小节那样做的人如何生活。 ⁇ "
+      },
+      {
+        "fr": "- Une voisine : Où je lis le plus, à Paris, c'est dans le métro. Personne ne se regarde de toute façon:",
+        "id": "p8",
+        "zh": "- 邻居:在巴黎,我读到最多的地方,该地的 ⁇ 。任何人都看不到彼此的路径:"
+      },
+      {
+        "fr": "— Une autre voisine : Autrefois, ça m'aidait à vivre ou à évoluer. Peut-être un peu moins maintenant pare que j'évolue moins vite et moins, peut-être. Mais sinon, c'est très important parce que ça permet de s'évader, de viwe plusieurs vies dans la même.",
+        "id": "p9",
+        "zh": "另一邻居:一 ⁇ ,它就帮助我生活或发展。也许现在稍微小一点,看来I ⁇ m的移动速度较快,更小,也许会更小。但否则,它非常重要,因为它允许从好几人的生活中逃脱。"
+      },
+      {
+        "fr": "- Une troisième voisine : Je prête mes livres, je les fais circuler. Je trouve qu'un livre ça doit bouger, ça ne doit pas rester figé dans une bibliothèque. .",
+        "id": "p10",
+        "zh": "- 第三邻:I ⁇ m包 ⁇ 我的书籍,I ⁇ m 散发。我认为,一本书必须搬进,它绝不能被 ⁇ 在图书馆里。."
+      },
+      {
+        "id": "p11",
+        "fr": "Christine Henniqueau : On est relié, par la littérature, aux autres, au monde, à soi.",
+        "zh": "Christine Henniqueau：文学把我们与他人、世界和自己联系在一起。"
+      },
+      {
+        "id": "p12",
+        "fr": "Christine Henniqueau : En réalité, dès qu'on s'adresse à un individu particulier dans son rapport aux mots, ça va en effet de la crainte, de la terreur même, peur des mots, donc le livre n'est pas pour moi. C'est un autre univers : l'impression que l'auteur ne parle pas pour eux, pour celui qui, dans le fond, entre dans un livre comme dans un monde étranger parce qu'il ne comprend pas le sens, les mots lui échappent, l'outil lui échappe.",
+        "zh": "Christine Henniqueau：具体了解一个人与文字的关系时，会发现他可能对文字感到害怕，甚至恐惧，觉得书不是为自己写的。他把书看成另一个世界，仿佛作者并没有对他说话；走进一本书，就像进入陌生国度，因为他不理解含义，掌握不了词语，也用不好阅读这个工具。"
+      },
+      {
+        "id": "p13",
+        "fr": "Sarah Sauquet : Je ne dirais pas effectivement qu'il y a une désaffection de la lecture. J'ai des élèves de quinze, seize, dix-sept ans qui lisent beaucoup. Ils ne lisent plus forcément ce qu'on lisait il y a encore vingt ou trente ans. L'accès aux textes classiques est devenu plus difficile. Il ne s'agit pas de dénaturer les livres mais de faire peut-être un autre travail en amont pour pousser à la lecture. Une fois que le processus est en marche et fonctionne, c'est fascinant et ça opère toujours.",
+        "zh": "Sarah Sauquet：我不会说年轻人不爱阅读。我有一些十五至十七岁的学生读得很多，只是不一定还读二三十年前人们读的那些作品。接近经典作品变得更困难了。我们不是要改变书本身，而是要在阅读前做好引导。一旦阅读真正开始，文字的魅力依然能够发挥作用。"
+      },
+      {
+        "id": "p14",
+        "fr": "Sarah Sauquet : J'ai une première difficulté qui est toute concrète et matérielle : le pavé, le format papier du livre effraie. J'ai une deuxième difficulté linguistique : c'est difficile de rentrer dans un livre quand les mots butent et qu'on n'arrive pas à comprendre leur sens. La dernière difficulté est culturelle : les élèves ont de plus en plus de mal à recontextualiser une œuvre, un auteur dans un siècle, une période donnée.",
+        "zh": "Sarah Sauquet：第一种困难非常具体：厚厚的纸质书本身就让学生畏惧。第二种困难在语言上：读不懂词语，就很难走进一本书。第三种是文化背景方面的困难：学生越来越难把作品和作者放回他们所处的时代去理解。"
+      },
+      {
+        "id": "p15",
+        "fr": "Sarah Sauquet : Ma mère est ingénieure en informatique. À force de lui parler de ces élèves qui étaient rebutés par le format papier du livre, elle a eu l'idée de créer un outil qui permettrait chaque jour d'avoir accès sur son smartphone ou sa tablette à un texte de littérature classique française de format court.",
+        "zh": "Sarah Sauquet：我母亲是计算机工程师。我经常跟她说，学生会被纸质书的形式吓退。于是她想到开发一个工具，让大家每天用手机或平板读一小段经典France文学作品。"
+      },
+      {
+        "id": "p16",
+        "fr": "Sarah Sauquet : L'idée, c'était qu'on propose chaque jour dix ou quinze lignes d'un texte, avec une présentation du texte, de l'auteur mais aussi des quiz de littérature, une biographie, des sondages. On peut la télécharger n'importe où dans le monde.",
+        "zh": "Sarah Sauquet：我们的想法是每天提供十至十五行文字，并配上作品和作者介绍、文学小测验、人物生平、问卷等内容。无论身处哪里，都可以下载这个应用。"
+      }
+    ],
+    "questions": [
+      {
+        "type": "choice",
+        "prompt": "Les commentaires des auditeurs font ressortir que, pour eux, la littérature est…",
+        "options": [
+          {
+            "id": "A",
+            "text": "un remède contre l’ennui."
+          },
+          {
+            "id": "B",
+            "text": "un soutien psychologique."
+          },
+          {
+            "id": "C",
+            "text": "un passe-temps reposant."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "text",
+        "prompt": "Selon Christine Henniqueau, quelle est la fonction de la littérature dans la société ?",
+        "answer": {
+          "reference": "Elle nous relie aux autres, au monde et à nous-mêmes. 文学把我们与他人、世界及自身联系起来。"
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "choice",
+        "prompt": "D’après Christine Henniqueau, la lecture…",
+        "options": [
+          {
+            "id": "A",
+            "text": "déçoit les jeunes d’aujourd’hui."
+          },
+          {
+            "id": "B",
+            "text": "effraie les jeunes d’aujourd’hui."
+          },
+          {
+            "id": "C",
+            "text": "ennuie les jeunes d’aujourd’hui."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "text",
+        "prompt": "Pourquoi certains adolescents voient-ils les livres comme un autre monde ?",
+        "answer": {
+          "reference": "Ils ont l’impression que les auteurs ne s’adressent pas à eux ; le sens et les mots leur échappent. 他们觉得作者并非为自己而写，也难以理解词语和意义。"
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "text",
+        "prompt": "Que pense Sarah Sauquet de l’évolution des pratiques de lecture des jeunes ? Donnez deux réponses.",
+        "answer": {
+          "reference": "Les jeunes lisent encore beaucoup, mais pas forcément les mêmes textes qu’autrefois ; l’accès aux classiques est plus difficile et nécessite davantage d’accompagnement. 年轻人仍在大量阅读，只是所读内容不同；接近经典作品更困难，需要更多引导。"
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "choice",
+        "prompt": "D’après Sarah Sauquet, quelle activité permet d’inciter les jeunes à lire ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Des séances de lecture collective."
+          },
+          {
+            "id": "B",
+            "text": "Des travaux préalables à la lecture."
+          },
+          {
+            "id": "C",
+            "text": "Des exposés à l’issue de la lecture."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "text",
+        "prompt": "Pourquoi Sarah Sauquet parle-t-elle de « difficulté culturelle » ?",
+        "answer": {
+          "reference": "Il manque parfois aux élèves les références et les codes nécessaires pour entrer dans une œuvre. 学生有时缺少理解文学作品所需的文化背景。"
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "text",
+        "prompt": "Quel constat a motivé Sarah Sauquet à créer des applications pour smartphone ?",
+        "answer": {
+          "reference": "Certains élèves sont rebutés par le format papier ; proposer de courts textes sur smartphone ou tablette peut faciliter leur entrée dans la littérature. 一些学生被纸质书的形式吓退，手机或平板上的短篇节选可以降低他们接触文学的门槛。"
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "choice",
+        "prompt": "Les textes proposés sur l’application Un texte, un jour sont des extraits…",
+        "options": [
+          {
+            "id": "A",
+            "text": "de livres francophones récents."
+          },
+          {
+            "id": "B",
+            "text": "d’œuvres d’auteurs français du passé."
+          },
+          {
+            "id": "C",
+            "text": "de romans internationaux du XXe siècle."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "choice",
+        "prompt": "L’application Un texte, un jour permet…",
+        "options": [
+          {
+            "id": "A",
+            "text": "de lire les extraits avec un lexique simplifié."
+          },
+          {
+            "id": "B",
+            "text": "d’écouter une version audio des extraits choisis."
+          },
+          {
+            "id": "C",
+            "text": "d’accéder à diverses ressources complémentaires."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      }
+    ],
+    "answerRevision": 2
+  },
+  "long-2026-6-cn": {
+    "questions": [
+      {
+        "sourceNumber": 1,
+        "options": [
+          {
+            "id": "A",
+            "text": "d’évaluer"
+          },
+          {
+            "id": "B",
+            "text": "d’expliquer  … les sciences participatives."
+          },
+          {
+            "id": "C",
+            "text": "de critiquer"
+          }
+        ],
+        "prompt": "Cet entretien a pour fonction…",
+        "type": "choice",
+        "number": 1,
+        "id": "q1",
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        }
+      },
+      {
+        "sourceNumber": 2,
+        "prompt": "Quelle a été la mission de François Houllier concernant les sciences participatives ?",
+        "type": "text",
+        "number": 2,
+        "id": "q2",
+        "answer": {
+          "reference": "Rédiger un rapport sur les sciences participatives. 撰写一份关于参与式科学的报告。"
+        }
+      },
+      {
+        "sourceNumber": 3,
+        "options": [
+          {
+            "id": "A",
+            "text": "de faire découvrir la science aux amateurs."
+          },
+          {
+            "id": "B",
+            "text": "de contribuer en commun à un projet scientifique."
+          },
+          {
+            "id": "C",
+            "text": "d’expérimenter les nouvelles découvertes scientifiques."
+          }
+        ],
+        "prompt": "Les sciences participatives ont pour but…",
+        "type": "choice",
+        "number": 3,
+        "id": "q3",
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        }
+      },
+      {
+        "sourceNumber": 4,
+        "prompt": "De quelle manière les personnes intéressées peuvent-elles participer à la recherche scientifique ? Donnez deux réponses. – ........................................................................................................... – ...........................................................................................................",
+        "type": "text",
+        "number": 4,
+        "id": "q4",
+        "answer": {
+          "reference": "Collecter des données, observer, contribuer à un projet commun ou participer à certaines étapes de la recherche. 收集数据、观察或参与集体研究。"
+        }
+      },
+      {
+        "sourceNumber": 5,
+        "prompt": "Citez deux facteurs sociologiques qui expliquent l’augmentation du nombre de personnes intéressées par les sciences participatives.",
+        "type": "text",
+        "number": 5,
+        "id": "q5",
+        "answer": {
+          "reference": "Une aspiration croissante à participer et l’élévation du niveau de formation. 公众参与意愿增强，整体受教育水平也有所提高。"
+        }
+      },
+      {
+        "sourceNumber": 6,
+        "prompt": "Pour François Houllier, quelle motivation personnelle peut pousser certains citoyens à participer à ce mouvement ?",
+        "type": "text",
+        "number": 6,
+        "id": "q6",
+        "answer": {
+          "reference": "L’envie de partager une passion et de contribuer à un domaine qui intéresse personnellement le participant. 分享个人兴趣并为感兴趣的领域作出贡献。"
+        }
+      },
+      {
+        "sourceNumber": 7,
+        "options": [
+          {
+            "id": "A",
+            "text": "Une possibilité d’échange et de dialogue."
+          },
+          {
+            "id": "B",
+            "text": "Des réductions de coût pour la recherche."
+          },
+          {
+            "id": "C",
+            "text": "Une reconnaissance de leur travail personnel."
+          }
+        ],
+        "prompt": "Selon François Houllier, quel avantage essentiel trouveraient les chercheurs dans la collaboration avec des amateurs ?",
+        "type": "choice",
+        "number": 7,
+        "id": "q7",
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        }
+      },
+      {
+        "sourceNumber": 8,
+        "prompt": "Pour François Houllier, quel phénomène récent a donné une forte impulsion aux sciences participatives ?",
+        "type": "text",
+        "number": 8,
+        "id": "q8",
+        "answer": {
+          "reference": "Les outils numériques permettent de partager et de traiter les données à grande échelle. 数字工具支持大规模共享和处理数据。"
+        }
+      },
+      {
+        "sourceNumber": 9,
+        "prompt": "De quel moyen dispose-t-on pour quantifier la progression des sciences participatives ?",
+        "type": "text",
+        "number": 9,
+        "id": "q9",
+        "answer": {
+          "reference": "Le nombre de publications scientifiques issues de collaborations participatives. 通过参与式合作产生的科学论文数量。"
+        }
+      },
+      {
+        "sourceNumber": 10,
+        "prompt": "Pourquoi le nombre de projets en cours ne peut-il pas être exactement connu ?",
+        "type": "text",
+        "number": 10,
+        "id": "q10",
+        "answer": {
+          "reference": "Ces projets se généralisent et certaines publications ne précisent plus leur origine collaborative. 合作研究日益普及，有些论文不再标明这一性质。"
+        }
+      },
+      {
+        "sourceNumber": 11,
+        "prompt": "Quel risque peut présenter la pratique des sciences participatives dans un cadre scolaire ?",
+        "type": "text",
+        "number": 11,
+        "id": "q11",
+        "answer": {
+          "reference": "Réduire les élèves à de simples exécutants sans leur faire comprendre la démarche scientifique. 避免学生只执行任务，而不理解科学方法。"
+        }
+      },
+      {
+        "sourceNumber": 12,
+        "options": [
+          {
+            "id": "A",
+            "text": "rétribuant financièrement les amateurs."
+          },
+          {
+            "id": "B",
+            "text": "mentionnant clairement l’apport de chacun."
+          },
+          {
+            "id": "C",
+            "text": "assurant une rédaction en commun des publications."
+          }
+        ],
+        "prompt": "Pour François Houllier, la valeur communautaire des sciences participatives doit être protégée en…",
+        "type": "choice",
+        "number": 12,
+        "id": "q12",
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        }
+      }
+    ],
+    "answerRevision": 2
+  },
+  "short-2023-3-cn-2": {
+    "paragraphs": [
+      {
+        "fr": "Emmanuel Moreau : C’est à grands pas que l’idée d’une monnaie locale dans la capitale fait son chemin. Alors, pour en savoir plus, j’ai donné rendez-vous dans un café à Mathilde Golla, journaliste au Figaro, qui a mené toute une enquête sur le sujet. Mathilde, quelle est en fait… quelle est l’utilité de recréer une autre monnaie ? Mathilde Golla : Oui, c’est une question cruciale parce qu’effectivement une monnaie locale qui est aussi appelée une monnaie complémentaire est vraiment distincte de la monnaie nationale. Elle n’a pas du tout vocation à la remplacer. L’idée c’est vraiment de favoriser les relations entre les acteurs économiques locaux, de favoriser la consommation à l’échelle locale, et après ça dépend de l’ambition qu’on assène à cette monnaie. EM : Et alors Mathilde, cette monnaie, elle serait concentrée à un quartier ? MG : Non alors justement, c’est là tout le projet très ambitieux de la mairie de Paris ! C’est que cette monnaie serait valable dans toute la ville de Paris. EM : Et on pourrait avec cette monnaie acheter toutes sortes d’objets ou ce serait réservé qu’à certains produits ?",
+        "id": "p0",
+        "zh": "Emmanuel Moreau: It is a big step that the idea of a local currency in the capital is making its way.因此,为了进一步学习,我在Figaro的一名记者Mathilde Golla的咖啡厅中任命了一名记者,他对这一问题进行了全面调查。Mathilde, what is actually..重新创造另一种货币有什么好处?Mathilde Golla: Yes, it’s a crucial question because indeed a local currency that is also called a complementary currency is really distinct from the national currency.她根本没有职业来取代她。其想法实际上是促进地方经济行为者之间的关系,促进地方一级的消费,然后取决于我们正在以这种货币来追求的雄心。EM: So Mathilde, that change, would it be concentrated in a neighborhood?MG: No, it’s the whole very ambitious project of the Paris City Hall!这一货币在整个巴黎市有效。EM: 我们可以用这种货币购买各种物品,或者只保留某些产品?"
+      },
+      {
+        "fr": "MG : Alors là encore, tout n’est pas encore précisé. La mairie de Paris envisagerait par exemple de pouvoir payer certains services publics comme l’accès à des piscines avec cette monnaie locale. Evidemment l’objectif est avant tout de faire circuler cette monnaie dans un territoire bien précis. Donc l’idée ce serait de favoriser l’achat de biens alimentaires la plupart du temps parce que c’est vraiment ce qu’il y a de plus local. Et aussi de favoriser les liens commerciaux entre les entreprises locales.",
+        "id": "p1",
+        "zh": "MG: So again, everything is not yet specified.例如,巴黎市将考虑支付某些公共服务,例如用这种当地货币获得游 ⁇ 池。显然,目标是在特定领土内分发这种货币。因此,设想鼓励购买粮食物品,因为现在确实是更多的地方。并促进地方企业之间的贸易联系。"
+      }
+    ]
+  },
+  "short-2025-8-fr-1": {
+    "questions": [
+      {
+        "sourceNumber": 1,
+        "options": [
+          {
+            "id": "A",
+            "text": "intensifié"
+          },
+          {
+            "id": "B",
+            "text": "compliqué … le travail du personnel de cuisine."
+          },
+          {
+            "id": "C",
+            "text": "transformé"
+          }
+        ],
+        "prompt": "L’arrivée de repas bio dans le collège de Belvès a...",
+        "type": "choice",
+        "number": 1,
+        "id": "q1",
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        }
+      },
+      {
+        "sourceNumber": 2,
+        "options": [
+          {
+            "id": "A",
+            "text": "la qualité"
+          },
+          {
+            "id": "B",
+            "text": "la traçabilité açabilité               . oduits."
+          },
+          {
+            "id": "C",
+            "text": "la saisonnalité"
+          }
+        ],
+        "prompt": "Le label Ecocert « En Cuisine » garantit, entre autres...",
+        "type": "choice",
+        "number": 2,
+        "id": "q2",
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        }
+      },
+      {
+        "sourceNumber": 3,
+        "options": [
+          {
+            "id": "A",
+            "text": "diminuer le coût des repas."
+          },
+          {
+            "id": "B",
+            "text": "soutenir la production locale."
+          },
+          {
+            "id": "C",
+            "text": "permettre à tous de manger bio."
+          }
+        ],
+        "prompt": "Un des objectifs du département de la Dordogne est de...",
+        "type": "choice",
+        "number": 3,
+        "id": "q3",
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        }
+      },
+      {
+        "sourceNumber": 4,
+        "prompt": "Quelle autre initiative accompagne notamment la mise en place de cette cantine scolaire bio ?",
+        "type": "text",
+        "number": 4,
+        "id": "q4",
+        "answer": {
+          "reference": "La lutte contre le gaspillage alimentaire, par exemple en transformant les fruits abîmés en jus. 同时减少食物浪费，例如把外观不佳的水果做成果汁。"
+        }
+      }
+    ],
+    "answerRevision": 2
+  },
+  "reading-2021-10-fr": {
+    "questions": [
+      {
+        "type": "text",
+        "prompt": "À quel paradoxe font face les enseignants dans l’article ?",
+        "answer": {
+          "reference": "Le lien affectif favorise la réussite, mais l’expression de l’attachement aux élèves demeure un tabou professionnel. 情感联系有利于学习，但师生关爱仍是职业禁忌。"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "choice",
+        "prompt": "Pour Maël Virat, les futurs enseignants se montrent… à l’idée de développer un rapport affectif avec leurs élèves.",
+        "options": [
+          {
+            "id": "A",
+            "text": "prudents"
+          },
+          {
+            "id": "B",
+            "text": "indifférents"
+          },
+          {
+            "id": "C",
+            "text": "enthousiastes"
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "text",
+        "prompt": "Que craignent les opposants à l’implication affective des enseignants ? Donnez deux réponses.",
+        "answer": {
+          "reference": "Le favoritisme, la perte de distance professionnelle ou les dérives d’une relation ambiguë. 担心偏爱、失去专业距离，或关系变得暧昧。"
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Selon Maël Virat, ce qui nuit à l’efficacité des enseignants, c’est le refoulement de leurs émotions.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "L’article critique les enseignants qui persistent à réprimer leurs émotions."
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Maël Virat préconise l’empathie en classe.",
+        "answer": {
+          "value": "Faux",
+          "reference": "Il distingue l’amour compassionnel de l’empathie, laquelle peut être utilisée à des fins peu scrupuleuses."
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "choice",
+        "prompt": "L’enseignant est dans une relation asymétrique avec ses élèves quand il…",
+        "options": [
+          {
+            "id": "A",
+            "text": "affiche ses préférences."
+          },
+          {
+            "id": "B",
+            "text": "est à l’initiative de la relation."
+          },
+          {
+            "id": "C",
+            "text": "agit sans espérer de contrepartie."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Maël Virat, les élèves proches de leur enseignant…",
+        "options": [
+          {
+            "id": "A",
+            "text": "ont un besoin de reconnaissance."
+          },
+          {
+            "id": "B",
+            "text": "considèrent positivement le travail scolaire."
+          },
+          {
+            "id": "C",
+            "text": "perdent de l’autonomie dans leur apprentissage."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? L’approche pédagogique des enseignants a un impact sur la vie personnelle de leurs élèves.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "L’enthousiasme et la confiance peuvent se manifester chez les élèves en dehors de l’école."
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Selon Maël Virat, l’amour compassionnel privilégie les élèves en difficulté.",
+        "answer": {
+          "value": "Faux",
+          "reference": "Les enseignants qui le pratiquent n’ont pas de préférence entre leurs élèves."
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "text",
+        "prompt": "Selon Maël Virat, qu’apporterait l’amour compassionnel aux enseignants ?",
+        "answer": {
+          "reference": "Du bien-être, une plus grande confiance des élèves et un sentiment d’efficacité. 带来幸福感、学生的信任和职业效能感。"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "text",
+        "prompt": "En quoi l’attachement des enseignants à leurs élèves constitue-t-il un cercle vertueux ?",
+        "answer": {
+          "reference": "Le soutien augmente la confiance et la motivation des élèves ; leurs progrès renforcent à leur tour le bien-être de l’enseignant. 支持促进学生信心与进步，也提升教师的幸福感。"
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      }
+    ],
+    "answerRevision": 2
+  },
+  "reading-2021-12-fr": {
+    "questions": [
+      {
+        "type": "choice",
+        "prompt": "L’article… le développement de la reconversion professionnelle.",
+        "options": [
+          {
+            "id": "A",
+            "text": "constate"
+          },
+          {
+            "id": "B",
+            "text": "condamne"
+          },
+          {
+            "id": "C",
+            "text": "encourage"
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "choice",
+        "prompt": "Que révèle le témoignage de Florence Laneurie sur sa personnalité ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sa rigueur."
+          },
+          {
+            "id": "B",
+            "text": "Son adaptabilité."
+          },
+          {
+            "id": "C",
+            "text": "Son enthousiasme."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Les proches des candidats à une reconversion professionnelle font preuve de bienveillance à leur égard.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "« Les amis crient désormais au génie. »"
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "choice",
+        "prompt": "Être resté au même poste dans son entreprise pendant des années est… pour trouver un nouvel emploi.",
+        "options": [
+          {
+            "id": "A",
+            "text": "un atout"
+          },
+          {
+            "id": "B",
+            "text": "un obstacle"
+          },
+          {
+            "id": "C",
+            "text": "une condition"
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Les changements de carrière des juniors influencent de plus en plus les seniors.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "« L’impatience est contagieuse » ; les aînés finissent par se demander ce qu’ils font là."
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Alexandre Dana, dans un avenir proche, les salariés se différencieront par…",
+        "options": [
+          {
+            "id": "A",
+            "text": "l’existence d’un projet personnel."
+          },
+          {
+            "id": "B",
+            "text": "les formations suivies."
+          },
+          {
+            "id": "C",
+            "text": "le type de contrat signé."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "text",
+        "prompt": "Selon Christine Charlotin, pourquoi est-on si pressé de changer de vie professionnelle ?",
+        "answer": {
+          "reference": "La société impose l’urgence et l’impatience dans tous les domaines. 社会让人们做任何事都追求迫切与快速。"
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "text",
+        "prompt": "Comment peut-on aussi interpréter la volonté de changer d’orientation professionnelle ? Donnez deux réponses.",
+        "answer": {
+          "reference": "Se libérer de la société de consommation et chercher à s’accomplir pleinement. 逃离消费社会，寻求自我实现。"
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Selon Chantal Feldman, faire part de son échec après une reconversion professionnelle est plutôt rare.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Dans une ambiance où l’on doit réussir son changement de vie, peu de gens disent « je regrette »."
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "text",
+        "prompt": "Quel message commun les trois travailleurs interviewés transmettent-ils sur leur reconversion ?",
+        "answer": {
+          "reference": "La réalité du nouveau métier peut être plus difficile et différente de ce qu’on imaginait. 新职业的现实可能比想象中更困难。"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "choice",
+        "prompt": "D’après Philippe Burger, pour paraître attractive, l’entreprise doit offrir aux salariés…",
+        "options": [
+          {
+            "id": "A",
+            "text": "la possibilité de s’épanouir."
+          },
+          {
+            "id": "B",
+            "text": "un contrat de longue durée."
+          },
+          {
+            "id": "C",
+            "text": "une meilleure rémunération."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      },
+      {
+        "type": "text",
+        "prompt": "Quel paradoxe Paul Darrault souligne-t-il dans l’attitude de son collègue ?",
+        "answer": {
+          "reference": "Interrompre une carrière n’est pas nécessairement contraire à l’ambition. 中断职业生涯与拥有雄心并不矛盾。"
+        },
+        "id": "q12",
+        "number": 12,
+        "sourceNumber": 12
+      }
+    ]
+  },
+  "reading-2022-6-cn": {
+    "questions": [
+      {
+        "type": "choice",
+        "prompt": "Quel message la journaliste cherche-t-elle à faire passer ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Elle dénonce la dépendance provoquée par Facebook."
+          },
+          {
+            "id": "B",
+            "text": "Elle met en garde contre l’exposition de la vie privée sur Facebook."
+          },
+          {
+            "id": "C",
+            "text": "Elle critique le manque d’intérêt de Facebook envers la culture générale."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "text",
+        "prompt": "Quelle discrimination existe envers les personnes non inscrites sur ce réseau social ?",
+        "answer": {
+          "reference": "Elles sont considérées comme si elles n’existaient pas dans la vie sociale numérique."
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "choice",
+        "prompt": "La journaliste regrette que Facebook mesure l’importance des gens…",
+        "options": [
+          {
+            "id": "A",
+            "text": "exclusivement sur le nombre d’amis qu’ils possèdent."
+          },
+          {
+            "id": "B",
+            "text": "surtout sur l’intensité de leur activité sur le réseau."
+          },
+          {
+            "id": "C",
+            "text": "uniquement sur la curiosité qu’ils éveillent chez les autres."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La journaliste reconnaît qu’elle apprécie certains aspects de Facebook.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Elle admet que l’on s’amuse et que l’on y lit parfois de bons articles."
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La journaliste affirme que le degré d’implication de chacun sur Facebook repose uniquement sur sa propre volonté.",
+        "answer": {
+          "value": "Faux",
+          "reference": "La participation paraît libre (« rien ne m’y oblige »), mais le réseau exerce une pression : « la demi-mesure est interdite ». 形式上可以自由选择，平台却通过持续催促让低频参与变得困难。"
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "text",
+        "prompt": "Que signifie ici « Difficile de visiter sur la pointe des pieds » ?",
+        "answer": {
+          "reference": "Il est difficile d’être un utilisateur discret et occasionnel, car le réseau incite à participer fréquemment."
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La journaliste pense que le succès de Facebook repose essentiellement sur les adolescents.",
+        "answer": {
+          "value": "Faux",
+          "reference": "Elle connaît des sexagénaires accros à Facebook et des jeunes qui le supportent mal."
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La journaliste ne comprend pas le besoin d’être connecté à un réseau.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Elle demande depuis quand il faut se donner l’illusion d’appartenir à un réseau."
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "choice",
+        "prompt": "Pour la journaliste, sur Facebook, nous…",
+        "options": [
+          {
+            "id": "A",
+            "text": "renforçons malgré tout des amitiés existantes."
+          },
+          {
+            "id": "B",
+            "text": "faisons avant tout de nouvelles connaissances."
+          },
+          {
+            "id": "C",
+            "text": "avons par-dessus tout des relations superficielles."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "text",
+        "prompt": "Pourquoi la vision du monde offerte par le web et les réseaux sociaux est-elle incorrecte ?",
+        "answer": {
+          "reference": "Elle est parcellaire et virtuelle, et une partie de la société y est présentée comme le tout."
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "choice",
+        "prompt": "Quelle est la position de la journaliste face à l’apparente mission des réseaux sociaux ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hostile."
+          },
+          {
+            "id": "B",
+            "text": "Perplexe."
+          },
+          {
+            "id": "C",
+            "text": "Indifférente."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      },
+      {
+        "type": "text",
+        "prompt": "En quoi les nouvelles technologies seraient-elles un espoir pour l’homme ?",
+        "answer": {
+          "reference": "En modifiant notre rapport au temps, elles semblent promettre de dépasser les limites humaines et d’approcher l’immortalité."
+        },
+        "id": "q12",
+        "number": 12,
+        "sourceNumber": 12
+      }
+    ],
+    "answerRevision": 2
+  },
+  "reading-2024-11-cn": {
+    "questions": [
+      {
+        "type": "choice",
+        "prompt": "Aller au travail avec son chien est décrit comme…",
+        "options": [
+          {
+            "id": "A",
+            "text": "une pratique originale."
+          },
+          {
+            "id": "B",
+            "text": "une mesure bénéfique."
+          },
+          {
+            "id": "C",
+            "text": "une idée révolutionnaire."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Amener son chien au travail est moins courant en France que dans certains pays.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "L’article cite des pays où cette pratique est déjà entrée dans les mœurs."
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La loi française interdit les chiens dans les services publics.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Le texte mentionne une exception pour l’administration publique et le secteur alimentaire."
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "text",
+        "prompt": "Pourquoi Jo Hamit a-t-il créé le Bring your dog to work day ?",
+        "answer": {
+          "reference": "Son propre chien n’était pas autorisé dans le bâtiment où il travaillait."
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "text",
+        "prompt": "Quels effets l’étude américaine constate-t-elle sur les salariés ? Donnez deux réponses.",
+        "answer": {
+          "reference": "Une réduction du stress et une amélioration de l’humeur ou de l’ambiance de travail."
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "text",
+        "prompt": "Pour Lison, en quoi sortir son chien pendant la journée est-il bénéfique ? Donnez deux réponses.",
+        "answer": {
+          "reference": "Cela lui fait prendre une pause et marcher, ce qui permet de se détendre et de revenir plus disponible."
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La majorité des chiens qui accompagnent leur maître au travail sont plus détendus.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Ils évitent de rester seuls toute la journée ; la présence du maître réduit leur anxiété."
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La présence des chiens facilite les échanges entre salariés.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Les pauses pour jouer avec l’animal allègent l’atmosphère et invitent à la conversation."
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "text",
+        "prompt": "Quelles initiatives vont dans le même sens ? Donnez deux réponses.",
+        "answer": {
+          "reference": "La semaine d’intégration des animaux au travail et la campagne de Purina encourageant les entreprises à les accueillir."
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Purina, accueillir les animaux au bureau réduit indirectement…",
+        "options": [
+          {
+            "id": "A",
+            "text": "le taux de chômage."
+          },
+          {
+            "id": "B",
+            "text": "les tensions sociales."
+          },
+          {
+            "id": "C",
+            "text": "le coût social du stress."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "text",
+        "prompt": "Quels conseils facilitent l’intégration des chiens ? Donnez deux réponses.",
+        "answer": {
+          "reference": "Obtenir l’accord des collègues et de la direction, prévoir des règles et des espaces adaptés, respecter les personnes qui ont peur des chiens."
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Géraldine, un chien peut nuire… des salariés qui en ont peur.",
+        "options": [
+          {
+            "id": "A",
+            "text": "à la créativité"
+          },
+          {
+            "id": "B",
+            "text": "à la sociabilité"
+          },
+          {
+            "id": "C",
+            "text": "au professionnalisme"
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q12",
+        "number": 12,
+        "sourceNumber": 12
+      }
+    ]
+  },
+  "reading-2024-3-cn": {
+    "questions": [
+      {
+        "type": "choice",
+        "prompt": "Quelle est l’intention de la journaliste dans cet article ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Inciter à une pratique assidue de la marche."
+          },
+          {
+            "id": "B",
+            "text": "Présenter et expliquer le succès actuel de la marche."
+          },
+          {
+            "id": "C",
+            "text": "Critiquer les opinions de spécialistes sur la marche."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Au début de l’industrialisation européenne, la pratique de la marche a été consolidée.",
+        "answer": {
+          "value": "Faux",
+          "reference": "Quand l’Europe a commencé à se motoriser, la marche est devenue marginale."
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La ferveur de la marche n’a rien à voir avec l’origine géographique des marcheurs.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "L’engouement touche aussi bien les campagnes que les villes."
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "text",
+        "prompt": "Quelles propriétés David Le Breton attribue-t-il à la marche ? Donnez trois réponses.",
+        "answer": {
+          "reference": "Des propriétés économiques, écologiques et sanitaires. 经济、环保与健康层面的益处。"
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "text",
+        "prompt": "Comment l’effort physique influe-t-il sur la perception de la nature ?",
+        "answer": {
+          "reference": "Après un effort, le paysage semble plus beau et invite davantage à la méditation."
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "text",
+        "prompt": "Pourquoi la marche peut-elle être associée à un retour aux sources ?",
+        "answer": {
+          "reference": "Elle rappelle la condition itinérante de l’humain, qui quitte son habitat pour aller plus loin à son propre rythme."
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "choice",
+        "prompt": "Selon Frédéric Gros, la marche nous offre l’opportunité…",
+        "options": [
+          {
+            "id": "A",
+            "text": "d’appréhender différemment le rythme de la vie."
+          },
+          {
+            "id": "B",
+            "text": "d’accroître considérablement notre capital santé."
+          },
+          {
+            "id": "C",
+            "text": "d’améliorer notablement les relations avec autrui."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "text",
+        "prompt": "Dans quelle mesure la marche constitue-t-elle une évasion ? Donnez deux réponses.",
+        "answer": {
+          "reference": "Une déconnexion matérielle des outils technologiques et une déconnexion mentale des soucis quotidiens."
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "text",
+        "prompt": "En quoi les anthropologues voient-ils dans la marche une forme de révolte ?",
+        "answer": {
+          "reference": "Elle permet de voyager sans planifier et de résister au culte de la vitesse."
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "choice",
+        "prompt": "Les raisons évoquées par les marcheurs eux-mêmes semblent plutôt…",
+        "options": [
+          {
+            "id": "A",
+            "text": "dérisoires."
+          },
+          {
+            "id": "B",
+            "text": "spirituelles."
+          },
+          {
+            "id": "C",
+            "text": "inattendues."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "choice",
+        "prompt": "Dans sa conclusion, la journaliste attribue à la marche un caractère…",
+        "options": [
+          {
+            "id": "A",
+            "text": "culturel."
+          },
+          {
+            "id": "B",
+            "text": "ponctuel."
+          },
+          {
+            "id": "C",
+            "text": "énigmatique."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      }
+    ]
+  },
+  "reading-mock-2": {
+    "paragraphs": [
+      {
+        "fr": "2 PARTIE 2 : COMPRÉHENSION DES",
+        "id": "p0",
+        "zh": "第2部分:"
+      },
+      {
+        "fr": "Lisez le texte, puis répondez aux",
+        "id": "p1",
+        "zh": "阅读案文,然后回答"
+      },
+      {
+        "fr": "À quoi sert la COP21 ? Le nom COP21 désigne la 21e conférence des parties (“conference of the parties\" en anglais, d'où \"COP\"). On appelle \"parties\" les États qui ont signé la Convention-cadre des Nations unies sur les changements climatiques, soit 195 pays. Rédigé en 1992, ce texte bénéficie lui aussi d'un acronyme charmant: CCNUCC. Trois ans après sa rédaction, la première \"COP\" s'est déroulée à Berlin, en Allemagne, en 1995. Et ainsi de suite, sur les cinq continents, jusqu'à l'édition parisienne de cette année. Mais cette fois, l'enjeu est de taille. Le programme ambitieux de cette \"super-réunion\" a été décidé dès 2011, à Durban, en Afrique du Sud. Les négociateurs rassemblés pour la COP17 s'y sont mis d'accord. pour se mettre d'accord plus tard, en 2015.",
+        "id": "p2"
+      },
+      {
+        "fr": "Ils ont convenu qu'à cette échéance, les États devraient signer un nouvel accord international sur le climat qui soit applicable à tous les pays, avec un objectif commun : maintenir le réchauffement mondial sous la barre des 2°C par rapport à la fin du XIXe siècle, et d'ici 2100. Le Groupe d'experts intergouvernemental sur l'évolution du climat (Giec) a étudié différents scénarios correspondant à des hausses plus ou moins importantes des températures. Ils ont conclu qu'avec une augmentation de 2°C par rapport à l'ère préindustrielle, l'humanité sera capable de s'adapter à temps aux phénomènes météorologiques qui en découleront (fonte des glaces, montée des eaux, sécheresses, etc.) À 4°C, en revanche, les dégâts seraient colossaux et irréversibles. Enfin, parler de degrés plutôt que de “parts par million”, l'unité de mesure des gaz à effet de serre, permet de se faire comprendre de tous.",
+        "id": "p3"
+      },
+      {
+        "fr": "Ce plafond a été discuté à Bali (Indonésie, COP13), mentionné en 2009 à Copenhague (Danemark, COP15) et validé l'année suivante à Cancun (Mexique, COP16). Vous voyez, avec les COP, tout avance lentement, mais sûrement. Ce nouvel accord viserait donc à concrétiser cet objectif de 2°C. S'il est ratifié, il sera le premier du genre, puisqu'il n'existe aucun texte exigeant que tous les pays du monde réduisent leurs émissions de gaz à effet de serre, principale cause de ce réchauffement. Le protocole de Kyoto signé en 1997 au Japon (à l'occasion de la COP3) exige des pays signataires qu'ils réduisent leurs émissions de gaz à effet de serre. Censés s'appliquer de 2008 à 2012, ces engagements ont été prolongés jusqu'à 2020. Mais pas au-delà, c'est pourquoi l'accord tant attendu à Paris doit être appliqué à cette date. Pour prendre le relais, en quelque sorte.",
+        "id": "p4"
+      },
+      {
+        "fr": "En 2020, en vertu du protocole de Kyoto, les pays de l'Union Européenne devront avoir réduit leurs émissions d'au moins 20% par rapport au niveau de 1990. Mais les objectifs diffèrent d'un pays à l'autre et certains n'ont pas joué le jeu. Citons au hasard les deux plus gros pollueurs de la planète : les États-Unis, qui ne l'ont jamais ratifié, et la Chine qui, considérée comme un pays en développement, n'a pas eu à se fixer d'objectif contraignant. Or, à eux deux, ils émettaient 40% des gaz à effet de serre en 2010. D'où l'urgence d'un accord mondial qui contraigne les gros émetteurs. Les 195 pays signataires seront tous présents à Paris par le biais de représentants : la plupart des chefs d'État feront une apparition à la COP, mais ils ne participeront pas à la totalité des débats. Ça, c'est l'affaire des négociateurs. Dans chaque pays, des groupes d'experts ont été désignés par les gouvernements pour accomplir cette tâche.",
+        "id": "p5"
+      },
+      {
+        "fr": "En France, ils sont issus de différents ministères (Affaires étrangères, Finances et Agriculture). Au total, la délégation tricolore compte une quarantaine de personnes, réparties en quatre pôles thématiques détaillés ici. Elles travaillent sous la houlette de Laurence Tubiana, ambassadrice chargée des négociations sur les changements climatiques et représentante spéciale pour la conférence Paris 2015. Si les chefs d'État interviendront en début de sommet, \"pour donner une impulsion\" selon les mots du ministre des Affaires étrangères, Laurent Fabius, ce sont les ministres qui négocieront l'accord final. \"Nous voulons éviter ce qui s'est passé à Copenhague, où, au dernier moment, sont arrivés un certain nombre de chefs d'État qui ont pensé pouvoir résoudre les problèmes et qui n'ont rien résolu du tout”, a fait valoir le chef de la diplomatie française.",
+        "id": "p6"
+      },
+      {
+        "fr": "Outre ces délégués gouvernementaux, des \"observateurs\" issus de la société civile participent aux négociations. Syndicats, ONG, industriels. ils sont répartis en neuf pôles. Les négociateurs doivent soumettre un texte qui ait une valeur juridique dans tous les pays, avec des engagements précis, comme le taux de réduction des gaz à effet de serre qu'on trouve dans l'accord de Kyoto. La difficulté : ces restrictions doivent être en phase avec les moyens et les différents niveaux de responsabilités des États vis-à-vis de ces émissions. Et ce afin d'éviter de braquer les nouvelles puissances, légitime-",
+        "id": "p7"
+      },
+      {
+        "fr": "| ment réticentes à payer pour les émissions des pays riches. À Copenhague, l'Inde avait fait valoir son “droit au développement”, entraînant dans son sillage d'autres pays émergents. Enfin, il faudra parler gros sous : à partir de 2020, les pays du Nord devront verser 100 milliards de dollars par an à leurs homologues du Sud, afin qu'ils investissent dans des énergies propres tout en assurant leur développement, Mettre d'accord 195 pays n'est pas une partie de plaisir. Depuis le début de l'année 2015, les négociateurs se réunissent donc régulièrement pour élaborer un texte qui servira de base aux discussions finales. Ils travaillent à partir des “contributions nationales”, ou INDC (acronyme de l'anglais \"intended nationally determined contributions\"), rendues par chaque pays.",
+        "id": "p8"
+      },
+      {
+        "fr": "Dans ces textes, les 195 États font le point sur les efforts qu'ils sont disposés à faire, Ces derniers mois, les négociateurs les ont épluchés tout en planchant sur un texte commun à présenter à Paris. À son tour, ce texte fera l'objet de négociations. Parfois, les négociateurs peuvent passer des heures à débattre d'une virgule, relatait Libération en juin. Résultat : pendant la deuxième (et avant-dernière) session de négociations, à Bonn (Allemagne), commencée fin août, l'ébauche de leur texte comptait encore plus de 80 pages. Autre problème : début septembre, certains pays n'ont pas encore rendu leur contribution (c'est le cas de l'Inde, notamment), ce qui complique encore la tâche des négociateurs. Pendant les négociations qui ont précédé la COP21, de nombreux participants ont déploré la lenteur des échanges, réclamant davantage de \"discussions sur le fond\" et moins de débats “conceptuels”.",
+        "id": "p9"
+      },
+      {
+        "fr": "Les négociateurs peinant à rédiger un texte court, concis et négociable en l'état, ont eu droit à une journée supplémentaire pour le travailler : la conférence débute avec un jour d'avance sur le programme, le samedi 28 novembre. Si beaucoup d'entre eux sont convaincus qu'il y aura un accord, ils craignent que ce dernier ne soit mauvais ou insuffisant pour limiter le réchauffement mondial à 2°C. Début septembre, une étude de chercheurs européens a assuré que les différents projets nationaux de réduction des émissions de gaz à effet de serre ne suffiraient pas en l'état à contenir le réchauffement climatique sous ce seuil. Après avoir épluché les INDC de quinze pays, ils ont estimé que sept pays faisaient même des propositions à côté de la plaque (Australie, Canada, Corée du Sud, Japon, Nouvelle-Zélande, Singapour et Russie).",
+        "id": "p10"
+      },
+      {
+        "fr": "Les textes de la Chine, des États-Unis, du Mexique, de la Norvège, de la Suisse et de l'Union européenne ont été qualifiés de moyens. Seules les contributions présentées par l'Éthiopie et le Maroc ont été jugées “suffisantes”. Un constat inquiétant alors qu'une centaine de pays en développement, en particulier les plus exposés à une montée du niveau des océans, réclament pour leur part un objectif plus ambitieux : plafonner le réchauffement à 1,5°C. | http /www.francetvinfo.fr",
+        "id": "p11"
+      }
+    ]
+  },
+  "reading-mock-3": {
+    "questions": [
+      {
+        "type": "choice",
+        "prompt": "Quel est l’objectif principal de ce texte ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Présenter les abus de la vidéosurveillance."
+          },
+          {
+            "id": "B",
+            "text": "Affiner les avantages de la vidéosurveillance."
+          },
+          {
+            "id": "C",
+            "text": "Faire un état des lieux du développement de la vidéosurveillance."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q1",
+        "number": 1,
+        "sourceNumber": 1
+      },
+      {
+        "type": "text",
+        "prompt": "Qu’est-ce qui explique son développement dans les villes ?",
+        "answer": {
+          "reference": "L’idée que les caméras dissuadent les comportements déviants."
+        },
+        "id": "q2",
+        "number": 2,
+        "sourceNumber": 2
+      },
+      {
+        "type": "choice",
+        "prompt": "Les enquêtes sur la vidéosurveillance…",
+        "options": [
+          {
+            "id": "A",
+            "text": "ne montrent aucun lien avec la délinquance."
+          },
+          {
+            "id": "B",
+            "text": "montrent un lien étroit avec la délinquance."
+          },
+          {
+            "id": "C",
+            "text": "témoignent d’un rapport particulier avec la délinquance et la criminalité."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q3",
+        "number": 3,
+        "sourceNumber": 3
+      },
+      {
+        "type": "text",
+        "prompt": "Comment choisit-on les études d’impact ?",
+        "answer": {
+          "reference": "On retient des études comparant les mêmes variables avant et après l’intervention, tenant compte du contexte et comparant des groupes traités et non traités."
+        },
+        "id": "q4",
+        "number": 4,
+        "sourceNumber": 4
+      },
+      {
+        "type": "choice",
+        "prompt": "Les études sont organisées selon…",
+        "options": [
+          {
+            "id": "A",
+            "text": "la population choisie."
+          },
+          {
+            "id": "B",
+            "text": "la portée de l’impact."
+          },
+          {
+            "id": "C",
+            "text": "le temps de l’élaboration."
+          }
+        ],
+        "answer": {
+          "value": "B",
+          "reference": "B"
+        },
+        "id": "q5",
+        "number": 5,
+        "sourceNumber": 5
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Les premières études d’impact retenues sont britanniques.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Les deux méta-analyses citées, réalisées en 2002 et en 2005, sont britanniques."
+        },
+        "id": "q6",
+        "number": 6,
+        "sourceNumber": 6
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? Les études poursuivent depuis le début le même objectif.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Depuis vingt ans, les décideurs prônent une approche de la criminalité fondée sur des preuves."
+        },
+        "id": "q7",
+        "number": 7,
+        "sourceNumber": 7
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? En France, l’État assume la responsabilité de ce type d’études.",
+        "answer": {
+          "value": "Vrai",
+          "reference": "Le ministère de l’Intérieur tient ce rôle en France."
+        },
+        "id": "q8",
+        "number": 8,
+        "sourceNumber": 8
+      },
+      {
+        "type": "text",
+        "prompt": "La vidéosurveillance a-t-elle partout la même efficacité ?",
+        "answer": {
+          "reference": "Non. Son efficacité varie selon les lieux et les délits."
+        },
+        "id": "q9",
+        "number": 9,
+        "sourceNumber": 9
+      },
+      {
+        "type": "choice",
+        "prompt": "Que signifie « la caméra n’est pas un médicament universel » ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "La caméra ne convient pas à tous les cas de figure."
+          },
+          {
+            "id": "B",
+            "text": "La caméra n’agit qu’à court terme."
+          },
+          {
+            "id": "C",
+            "text": "La caméra pèse lourd dans les études d’impact."
+          }
+        ],
+        "answer": {
+          "value": "A",
+          "reference": "A"
+        },
+        "id": "q10",
+        "number": 10,
+        "sourceNumber": 10
+      },
+      {
+        "type": "tf",
+        "prompt": "Vrai ou faux ? La vidéosurveillance est la solution préférée des personnes interrogées.",
+        "answer": {
+          "value": "Faux",
+          "reference": "Si on leur donne le choix, elles préfèrent la présence de policiers dans les rues."
+        },
+        "id": "q11",
+        "number": 11,
+        "sourceNumber": 11
+      },
+      {
+        "type": "text",
+        "prompt": "Quels endroits ont été étudiés en Australie ?",
+        "answer": {
+          "reference": "Des zones de bord de mer et quatre gares ferroviaires sur la même ligne."
+        },
+        "id": "q12",
+        "number": 12,
+        "sourceNumber": 12
+      },
+      {
+        "type": "choice",
+        "prompt": "Que dénoncent les opposants à la vidéosurveillance ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Une action superficielle contre la délinquance."
+          },
+          {
+            "id": "B",
+            "text": "La violation des libertés individuelles."
+          },
+          {
+            "id": "C",
+            "text": "Le déplacement de la délinquance vers d’autres zones."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q13",
+        "number": 13,
+        "sourceNumber": 13
+      },
+      {
+        "type": "choice",
+        "prompt": "Quelle est la conclusion du texte ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Les caméras suppriment le sentiment d’insécurité."
+          },
+          {
+            "id": "B",
+            "text": "Les échecs de la vidéosurveillance sont à craindre."
+          },
+          {
+            "id": "C",
+            "text": "Les bénéfices politiques de l’installation des caméras restent mal connus."
+          }
+        ],
+        "answer": {
+          "value": "C",
+          "reference": "C"
+        },
+        "id": "q14",
+        "number": 14,
+        "sourceNumber": 14
+      }
+    ]
+  },
+  "reading-mock-4": {
+    "paragraphs": [
+      {
+        "fr": ":+ PARTIE 2 : COMPRÉHENSION DES ÉCRITS",
+        "id": "p0",
+        "zh": ":+ 第2部分:"
+      },
+      {
+        "fr": "Lisez le texte, purs répondez aux",
+        "id": "p1",
+        "zh": "重读案文,纯粹回答"
+      },
+      {
+        "fr": "La musique peut-elle contribuer au développement du langage ? Nous penserons bientôt à l'entrée ou au retour à l'école de nos petits : savez-vous que la musique peut les aider, entre autres, dans le développement du langage ? On le sait maintenant depuis un moment, les bébés sont dotés de compétences précoces étonnantes en ce qui a trait à l'audition, à la différenciation des sons qu'ils entendent et à la capacité de reconnaitre la totalité des contrastes sonores utiles à la parole, En effet, durant ses premiers mois de vie, le poupon est capable de distinguer les sons phonétiques de toutes les langues du monde. Cette habileté disparaîtra graduellement lorsque l'enfant, au contact de sa langue maternelle, conservera uniquement les phonèmes nécessaires à sa compréhension et à sa pratique.",
+        "id": "p2"
+      },
+      {
+        "fr": "Le bébé explorera sa voix en émettant des sons, des gémissements, des soupirs et découvrira les différences d'intensités et de hauteurs (murmures, cris, sons graves, ou aigus). Ce faisant, il entraîne ses lèvres, sa glotte, sa langue et toute la mécanique sollicitée par la parole, et se familiarise avec son appareil phonatoire. Plus tard, le tout-petit doit apprendre ses premiers mots. Vers la fin de sa première année, il dispose de toutes les informations nécessaires pour l'aider à assimiler les bases d'un vocabulaire. Il distinguera entre autres les syllabes qui débutent et terminent un mot, la fréquence d'utilisation des suites de sons et le contour des mots (prosodie : intonation et rythme de la parole). La table est alors mise pour le développement du langage de l'enfant, qui sera essentiel dans tous les domaines d'apprentissage.",
+        "id": "p3"
+      },
+      {
+        "fr": "Ses propres explorations mèneront l'enfant à faire de nombreuses découvertes de façon autonome, mais le rôle de l'adulte n'est évidemment pas à négliger. Au contraire, il est déterminant. Celui-ci encadrera le petit et lui permettra d'élargir ses connaissances progressivement, Par la parole et les échanges, un jeu d'imitation se crée: l'enfant observe, décode et tente de reproduire, ce qui lui donne la chance de s'approprier un langage qui passera de quelques syllabes seulement au départ, à un enchaînement de mots ensuite pour finalement réussir à formuler des phrases complètes et ayant un sens, en général vers l'âge de 3-4 ans.",
+        "id": "p4"
+      },
+      {
+        "fr": "En répétant ce qu'il dit, en jouant avec les mots et en reformulant ses propos, l'adulte permet à l'enfant d'assimiler la structure de sa langue maternelle et d'en comprendre peu à peu le fonctionnement, L'enfant enrichit son langage à l'écoute des explications de l'adulte qui lui, adapte son vocabulaire selon la situation, afin de faciliter l'assimilation du petit. Pendant la période de 0 à 6 ans, les progrès sont prévisibles, quoique pas nécessairement réguliers. L'important est donc d'offrir à l'enfant plusieurs occasions de s'exprimer et d'échanger, et ce, dans un contexte où il sentira qu'il est écouté, sans jugement. Accompagner l'enfant à son rythme lui donnera une meilleure confiance dans sa capacité à s'exprimer et l'aidera du même coup à entrer en contact avec les autres. VIENT ENSUITE LA GRANDE ÉCOLE... Pour certains, la transition entre la garderie et l'école est plutôt difficile, pour d'autres, elle se fait sans problème.",
+        "id": "p5"
+      },
+      {
+        "fr": "Pour tenter de simplifier ou d'améliorer les chances de réussite de ce passage obligé, il n'est nullement nécessaire que l'enfant sache déjà compter jusqu'à cent, qu'il connaisse son alphabet ou encore qu'il puisse écrire telle quantité de mots. Le petit doit plutôt avoir vécu des succès pour, comme nous le disions, développer sa confiance en lui ; il doit aussi avoir appris à persévérer pour être en mesure d'affronter des défis et savoir comment entrer en contact avec les autres afin de vivre une adaptation sociale sans trop de difficultés. Si l'enfant a été mis en contact avec les livres, la lecture et l'écriture durant toute son enfance, il risque de s'y intéresser et d'y prendre plaisir. Ce que nous voulons, c'est de permettre à l'enfant de développer une curiosité et une motivation à apprendre qui soit durable. ET LA MUSIQUE DANS TOUT ÇA ?",
+        "id": "p6"
+      },
+      {
+        "fr": "Qu'un enfant ait un développement du langage tout à fait normal ou qu'on y détecte un retard, certaines activités peuvent participer à améliorer son épanouissement. Parmi celles-ci, la musique a un côté rassembleur et peut aider les enfants qui éprouvent des difficultés ou qui voient l'apprentissage du langage comme un obstacle insurmontable. La musique rend la chose plus accessible, les petits participent plus facilement et sans s'en rendre compte, ils développent une foule de compétences connexes : la mémoire, la concentration, l'attention et l'écoute, la perception qu'ils ont de leur environnement et de ce qui les entoure. En chantant des chansons et des comptines à gestes, ils améliorent leur sens du rythme, la diversité de leur vocabulaire et leur coordination.",
+        "id": "p7"
+      },
+      {
+        "fr": "Ils en retirent une fierté et cela contribue à faire grandir leur estime d'eux-mêmes, Jonathan Bolduc, titulaire d'un baccalauréat en musique et d'une maîtrise en didactique du français et en psychologie du langage, est reconnu pour ses nombreuses études menées depuis une quinzaine d'années,",
+        "id": "p8"
+      },
+      {
+        "fr": "principalement axées sur les relations entre l'apprentissage musical et le développement du langage chez les enfants. Ses conclusions démontrent que «les activités musicales favorisent le développement de la conscience phonologique, soit les habiletés à percevoir, segmenter et manipuler les unités sonores du langage.» De même, l'une de ses études a permis d'établir le lien entre la formation musicale et le traitement de l'information langagière. Il a été démontré que les enfants qui pouvaient distinguer la hauteur des sons parvenaient aussi à mieux repérer les rimes, les syllabes et les phonèmes. Nous pourrions parler encore longtemps de tous les bénéfices qu'apporte la musique dans l'éveil aux habiletés scolaires pour les enfants. Nous avons mentionné que les chansons permettaient d'améliorer le rythme, le vocabulaire et la coordination.",
+        "id": "p9"
+      },
+      {
+        "fr": "Mais n'oublions pas la rapidité d'esprit et la capacité d'anticipation nécessaires pour écouter et chanter une chanson dans laquelle la mélodie et la rythmique varient continuellement. Les enfants exercent aussi leur compréhension de la langue et du sens des mots et des phrases. Ils répètent, tout en s'amusant, et participent ainsi à l'amélioration de leur prononciation tout en créant des bases solides qui constitueront la structure d'une langue bien maîtrisée. Plus qu'un simple outil pour l'apprentissage de la langue parlée, la musique représente aussi une alliée importante dans l'acquisition des habiletés en lecture et en écriture. Nous parlions un peu plus haut de la prosodie, la musique de la langue. Les variations d'intonation, de tonalité et de rythme modifient le sens de nos paroles et l'assimilation de ces variations est nécessaire à la compréhension de la lecture. Toujours selon M.",
+        "id": "p10"
+      },
+      {
+        "fr": "Bolduc, «Les enfants qui distinguent un plus grand nombre de séquences rythmiques segmentent mieux les mots en syllabes, ce qui facilite l'élaboration de stratégies en lecture et en écriture.» Cette année, au Studio Tre Punti, nous avons reçu le petit Thomas dans les cours d'éveil musical. À son arrivée, en septembre, il venait tout juste d'avoir deux ans et ne parlait presque pas. Un peu avant Noël, nous avons constaté un progrès dans son élocution et sa facilité à s'exprimer. En juin, après neuf mois de cours de musique, il arrivait à faire des combinaisons de mots significatives et réussissait à se faire comprendre dans plusieurs situations. Ses parents sont ravis et racontent que leur fils chante tout le temps ! Pour le petit Thomas, bien que plusieurs facteurs sont susceptibles d'entrer en ligne de compte, la musique etles chansons ont eu de belles retombées.",
+        "id": "p11"
+      },
+      {
+        "fr": "Nous ne parlerons jamais assez de l'importance du rôle que la musique peut jouer dans le développement global de l'enfant. Ses effets sont tout aussi bénéfiques pour l'amélioration du langage que pour l'apprentissage des mathématiques ou l'expression de soi, pour ne nommer que ceux-là, La musique stimule la curiosité des petits (et des grands !) et possède un réel potentiel pour solidifier et poursuivre l'enrichissement des compétences scolaires chez l'enfant, favorisant ainsi le succès et la réussite. IDÉES D'ACTIVITÉS < Avec votre enfant, écoutez de la musique et chantez: ces activités procurent un moment de plaisir et d'intimité qui favorise l'échange et la communication. + La chanson arrêtée : quand l'enfant connaît très bien une chanson, il commence à chanter puis, au signal de l'adulte, il continue à chanter dans sa tête. Quand l'adulte donne le deuxième signal, il reprend la chanson à voix haute là où il était rendu.",
+        "id": "p12"
+      },
+      {
+        "fr": "C'est le jeu du tunnel ! Quand on entre dans le tunnel, on chante dans notre tête et quand on en ressort, on poursuit là où on est rendu. + Utilisez des petites percussions pour accentuer les syllabes des mots. Faites des suites de mots d'un même nombre de syllabes, par exemple, ou accentuez la première ou la dernière syllabe de chaque mot de la suite. + Demandez à l'enfant de dessiner la chanson qu'il entend. Choisissez une mélodie simple et jouez-la par section. L'enfant doit créer des images qui représentent les morceaux de la chanson qu'il entend. Cette activité permet de travailler la créativité et d'approcher l'écriture de façon ludique. Amusez-vous bien ! http A www. mamanpourlavie com",
+        "id": "p13"
+      }
+    ]
+  },
+  "writing-2021-10-fr": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous écrivez une lettre ouverte à votre employeur pour présenter votre point de vue argumenté sur l’allongement du congé de paternité. 250 mots minimum.",
+        "zh": "给雇主写一封公开信，论证你对延长陪产假的看法。至少250词。"
+      }
+    ]
+  },
+  "writing-2021-3-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Une revue critique les associations de défense des animaux, accusées de se préoccuper davantage des animaux que des êtres humains. Vous défendez leur rôle indispensable dans un texte argumenté. 250 mots minimum.",
+        "zh": "某杂志批评动物保护协会，认为它们关心动物胜过关心人。请撰文反驳这种批评，论证这些协会不可或缺的作用。至少250词。"
+      }
+    ]
+  },
+  "writing-2021-5-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous participez à un forum sur le thème « Nouvelles technologies et exercice de la citoyenneté ». Vous contestez l’idée que les nouvelles technologies favorisent nécessairement le progrès collectif et vous en présentez les limites.",
+        "zh": "在讨论“新技术与公民参与”的网络论坛上发言。你不赞同新技术能促进集体进步的看法，请着重论证这些工具的局限。"
+      }
+    ]
+  },
+  "writing-2022-11-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Pour que notre planète reste habitable malgré l’accroissement de sa population, la solution est-elle dans une meilleure gestion de nos ressources naturelles ? Vous rédigez pour un site consacré au développement durable un article argumenté.",
+        "zh": "人口持续增长，要让地球仍适合居住，更好地管理自然资源是否是解决之道？请为可持续发展网站撰文，论证你的看法。"
+      }
+    ]
+  },
+  "writing-2022-3-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Tout en reconnaissant les dérives possibles de la réalité virtuelle, vous estimez que ses dangers sont trop souvent mis en avant et qu’elle peut jouer un rôle éducatif et d’enrichissement personnel. Vous rédigez un article argumenté et nuancé pour le site de l’association Game-addict.",
+        "zh": "为Game-addict协会网站撰文。承认虚拟现实可能带来的问题，同时指出公众往往过度强调其危险，论证它在教育和个人成长方面的价值。"
+      }
+    ]
+  },
+  "writing-2022-6-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Une revue présente les avantages du bilinguisme. Vous écrivez au courrier des lecteurs pour nuancer ces effets positifs et discuter les limites des études consacrées à cette réalité complexe.",
+        "zh": "某杂志介绍了双语能力的益处。请向读者来信栏目投稿，指出这些益处需要具体分析，并讨论相关研究是否充分考虑了双语现象的复杂性。"
+      }
+    ]
+  },
+  "writing-2023-10-fr": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Un journal francophone ouvre un débat : comment lutter contre les fausses informations sans toucher à la liberté d’expression ? Vous insistez sur leurs dangers, tout en défendant l’idée qu’il faut parfois les tolérer pour éviter la censure. 250 mots minimum.",
+        "zh": "为法语报纸撰文，讨论如何打击虚假信息而不损害言论自由。强调其危害，同时论证为避免审查，有时必须容忍错误信息的存在。至少250词。"
+      }
+    ]
+  },
+  "writing-2023-11-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Un site consacré aux questions pédagogiques ouvre un débat : « Faut-il simplifier l’orthographe française ? » Vous exprimez votre opinion dans un texte suivi et argumenté.",
+        "zh": "教育类网站发起“是否应该简化法语拼写”的讨论。请写一篇结构连贯、有论据支持的文章，表达你的观点。"
+      }
+    ]
+  },
+  "writing-2023-3-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "La mairie propose des potagers dans les jardins publics. Vous contribuez au magazine municipal en présentant l’intérêt et les limites de cette production locale. Vous estimez que ces initiatives doivent s’accompagner d’une modification profonde de nos habitudes alimentaires. 250 mots minimum.",
+        "zh": "市政府提议在公共花园开辟菜园。请向市政杂志投稿，分析本地生产的价值和局限，并论证这类举措必须伴随饮食习惯的深入改变。至少250词。"
+      }
+    ]
+  },
+  "writing-2023-6-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Un journal francophone lance le débat « L’homme et la machine : vers quelle société allons-nous ? ». Vous rédigez un article argumenté qui distingue les inquiétudes légitimes des bénéfices possibles des évolutions technologiques. 250 mots minimum.",
+        "zh": "为法语报纸的“人与机器：我们将走向怎样的社会”专题撰文。区分对技术发展的合理担忧与其可能给社会带来的诸多益处。至少250词。"
+      }
+    ]
+  },
+  "writing-2024-11-af": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "La mairie souhaite rénover son zoo et consulte les citoyens. Vous présentez votre vision du projet, en développant une réflexion argumentée sur la condition animale et en donnant des exemples.",
+        "zh": "市政府计划改造动物园，征求市民意见。请提出你对该项目的设想，结合当今动物处境展开有条理的论证，并举例说明。"
+      }
+    ]
+  },
+  "writing-2024-11-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Votre mairie envisage de tester pendant dix mois le marquage publicitaire sur les trottoirs. Vous lui écrivez pour protester en expliquant les conséquences pour la ville, les habitants et les commerçants.",
+        "zh": "市政府打算试行十个月的人行道地面广告。请写信表示反对，说明你认为这会给城市、居民和商户带来哪些影响。"
+      }
+    ]
+  },
+  "writing-2024-3-fr": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous écrivez un article pour le journal de votre ville afin de demander au maire la création d’un site municipal d’échange de biens et de services. Vous défendez une consommation responsable en reconnaissant les obstacles et en présentant les bénéfices environnementaux, économiques et sociaux. 250 mots minimum.",
+        "zh": "为本市报纸撰文，呼吁市长建立市民物品与服务交换网站。说明人与日常物品的关系可以如何改变；承认障碍，同时论证其环境、经济及邻里关系方面的益处。至少250词。"
+      }
+    ]
+  },
+  "writing-2024-5-fr": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous écrivez au courrier des lecteurs du Figaro sur les formes actuelles du tourisme. Vous exprimez vos inquiétudes concernant leurs conséquences culturelles, économiques et environnementales et vous examinez la possibilité d’un tourisme durable.",
+        "zh": "向Le Figaro读者来信栏目投稿，表达对当代旅游方式及其文化、经济、环境影响的担忧，并探讨可持续旅游是否可行。"
+      }
+    ]
+  },
+  "writing-2024-6-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous êtes plutôt favorable aux devoirs après l’école, mais vous estimez qu’ils doivent être organisés autrement pour ne pas engendrer d’inégalités sociales. Vous présentez votre point de vue et faites des propositions.",
+        "zh": "你总体支持课后作业，但认为必须改变组织方式，以免加剧社会不平等。请论证你的立场并提出具体建议。"
+      }
+    ]
+  },
+  "writing-2025-11-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous rédigez pour une revue francophone de pédagogie un article sur l’éducation moderne, ses vertus et ses défauts. Vous analysez ses points forts, ses limites et les améliorations possibles. 250 mots minimum.",
+        "zh": "作为法语教育杂志撰稿人，写一篇关于现代教育的文章，分析其优点、不足以及可以改进的地方。至少250词。"
+      }
+    ]
+  },
+  "writing-2025-3-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Un magazine interroge ses lecteurs : « Demain, tous végans ? ». Vous êtes favorable à une consommation éthique et responsable, mais vous expliquez pourquoi ce mode de vie ne devrait pas être adopté par tous. 250 mots minimum.",
+        "zh": "杂志征集对“未来人人都成为vegan吗”的看法。你赞同合乎伦理、负责任的消费，但认为不宜要求所有人采用这一生活方式。请撰文论证。至少250词。"
+      }
+    ]
+  },
+  "writing-2025-6-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Le maire interdit l’accès du centre-ville aux véhicules motorisés pendant la journée. Vous lui écrivez : bien que des mesures soient nécessaires pour limiter le trafic, cette décision pénalisera une grande partie de la population. 250 mots minimum.",
+        "zh": "市长决定白天禁止机动车进入市中心。请致信市长：承认限制交通确有必要，同时论证这项决定会给许多居民造成不便。至少250词。"
+      }
+    ]
+  },
+  "writing-2025-8-fr": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous écrivez au courrier des lecteurs du Figaro sur les formes actuelles du tourisme, leurs dérives et leurs conséquences culturelles, environnementales et économiques. Vous vous interrogez sur un tourisme vraiment éthique et durable. 250 mots minimum.",
+        "zh": "向Le Figaro读者来信栏目投稿，讨论当代旅游的种种偏差及文化、环境、经济影响，并探讨真正合乎伦理、可持续的旅游能否实现。至少250词。"
+      }
+    ]
+  },
+  "writing-2026-3-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous contribuez à un forum sur le thème « Quelle liberté pour nos enfants ? ». Vous défendez leur autonomie sans négliger leur protection et distinguez les craintes justifiées des peurs imaginaires. Vous argumentez avec des exemples. 250 mots minimum.",
+        "zh": "在“应该给孩子多少自由”的教育论坛上发言。你认为保护孩子不应剥夺他们的自主性，父母需要区分合理担忧与想象中的危险。请结合例子论证。至少250词。"
+      }
+    ]
+  },
+  "writing-2026-6-cn": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Vous contribuez à un forum sur la nourriture saine et le bien-être. Vous examinez les avantages et les limites d’une alimentation contrôlée pour la santé et la vie sociale dans un article argumenté et nuancé.",
+        "zh": "为健康饮食与幸福感论坛撰文，从健康和社交生活两方面分析控制饮食的益处与局限，提出有充分论据、兼顾不同情况的观点。"
+      }
+    ]
+  },
+  "writing-extra-1": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Exercice complémentaire : pour une revue francophone, rédigez un article argumenté sur le thème « Les droits des animaux ». Présentez une position claire, des limites et des propositions illustrées. 250 mots minimum.",
+        "zh": "补充练习：围绕“动物的权利”为法语杂志撰文，明确表态，分析局限，并结合例子提出建议。至少250词。",
+        "supplementary": true
+      }
+    ]
+  },
+  "writing-extra-2": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Exercice complémentaire : pour une revue francophone, rédigez un article argumenté sur le thème « Les béquilles de l’école ». Présentez une position claire, des limites et des propositions illustrées. 250 mots minimum.",
+        "zh": "补充练习：围绕“学校教育与课外补习”为法语杂志撰文，明确表态，分析局限，并结合例子提出建议。至少250词。",
+        "supplementary": true
+      }
+    ]
+  },
+  "writing-extra-3": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Exercice complémentaire : pour une revue francophone, rédigez un article argumenté sur le thème « « Vegan », le nouveau régime à la mode ». Présentez une position claire, des limites et des propositions illustrées. 250 mots minimum.",
+        "zh": "补充练习：围绕“纯素，一种饮食与生活方式”为法语杂志撰文，明确表态，分析局限，并结合例子提出建议。至少250词。",
+        "supplementary": true
+      }
+    ]
+  },
+  "writing-extra-4": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Exercice complémentaire : pour une revue francophone, rédigez un article argumenté sur le thème « La puberté de plus en plus précoce ». Présentez une position claire, des limites et des propositions illustrées. 250 mots minimum.",
+        "zh": "补充练习：围绕“越来越早的青春期”为法语杂志撰文，明确表态，分析局限，并结合例子提出建议。至少250词。",
+        "supplementary": true
+      }
+    ]
+  },
+  "writing-extra-5": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Exercice complémentaire : pour une revue francophone, rédigez un article argumenté sur le thème « Pourquoi les femmes gagnent-elles toujours moins que les hommes ? ». Présentez une position claire, des limites et des propositions illustrées. 250 mots minimum.",
+        "zh": "补充练习：围绕“女性为什么仍然收入较低？”为法语杂志撰文，明确表态，分析局限，并结合例子提出建议。至少250词。",
+        "supplementary": true
+      }
+    ]
+  },
+  "writing-extra-6": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Exercice complémentaire : pour une revue francophone, rédigez un article argumenté sur le thème « Les Français et les transports en commun ». Présentez une position claire, des limites et des propositions illustrées. 250 mots minimum.",
+        "zh": "补充练习：围绕“法国人与公共交通”为法语杂志撰文，明确表态，分析局限，并结合例子提出建议。至少250词。",
+        "supplementary": true
+      }
+    ]
+  },
+  "writing-extra-7": {
+    "tasks": [
+      {
+        "id": "essai",
+        "fr": "Exercice complémentaire : pour une revue francophone, rédigez un article argumenté sur le thème « Cours en présentiel ou à distance : une rentrée hybride ». Présentez une position claire, des limites et des propositions illustrées. 250 mots minimum.",
+        "zh": "补充练习：围绕“线上还是线下？混合式教学”为法语杂志撰文，明确表态，分析局限，并结合例子提出建议。至少250词。",
+        "supplementary": true
+      }
+    ]
+  },
+  "speaking-1-24": {
+    "title": "Faut-il réduire notre temps de travail ?",
+    "titleZh": "应该缩短工作时间吗？"
+  }
+}

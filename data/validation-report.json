@@ -5,19 +5,14 @@
   "source_files": 117,
   "pdf_pages": 486,
   "audio_files": 36,
-  "translated_paragraphs": 2988,
+  "translated_paragraphs": 3917,
   "validation": {
-    "unit_tests": "8 passed",
+    "unit_tests": "7 passed",
     "production_build": "passed",
-    "production_browser_workflow": "passed, including all 36 transcript gates, fullscreen and independent scrolling",
-    "media_readability": "36 passed",
-    "offline_bundle": "passed, all external assets/API requests blocked",
-    "archive_integrity": "passed"
+    "production_browser_workflow": "passed",
+    "media_readability": "36 passed"
   },
   "public_deployment": false,
   "machine_reference_translation": true,
-  "open_response_grading": "exact accepted variants or self-review; no automatic semantic scoring",
-  "revision": "paris-2026-10-17",
-  "revised_material_pages": 269,
-  "revised_material_sets": 113
+  "open_response_grading": "exact accepted variants or self-review; no automatic semantic scoring"
 }

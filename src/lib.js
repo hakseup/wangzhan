@@ -7,7 +7,7 @@ export const CATEGORIES = [
   {id:'speaking',name:'口语',fr:'Production orale',color:'yellow',icon:'mic'},
 ];
 export const TOPICS=['全部主题','教育与成长','科技与社会','语言与文化','社会与生活','健康与科学','工作与经济','城市与环境'];
-export const EMPTY_STATE={version:1,answers:{},attempts:{},drafts:{},annotations:{},bookmarks:[],activity:[],rubrics:{},vocabProgress:{},vocabDaily:{},vocabDefinitions:{},fontSize:18};
+export const EMPTY_STATE={version:1,answers:{},attempts:{},drafts:{},annotations:{},bookmarks:[],activity:[],rubrics:{},modelEdits:{},lookupOnline:true,fontSize:18};
 export const STORAGE_KEY='noix-dalf-c1-v1';
 export function normalize(s){return String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');}
 export function wordCount(s){return (s.trim().match(/[\p{L}\p{N}]+(?:[’'\-][\p{L}\p{N}]+)*/gu)||[]).length;}
@@ -28,12 +28,26 @@ export function gradeExercise(exercise,answers){
   return Object.fromEntries(exercise.questions.map(q=>[q.id,gradeQuestion(q,answers?.[q.id]?.value,answers?.[q.id]?.justification)]));
 }
 export function annotationParts(text,annotations=[]){
-  const valid=annotations.filter(a=>a.start>=0&&a.end<=text.length&&a.end>a.start);
+  const valid=annotations.filter(a=>a.start>=0&&a.end<=text.length&&a.end>a.start&&(a.level>0||a.note?.trim()));
   const bounds=[...new Set([0,text.length,...valid.flatMap(a=>[a.start,a.end])])].sort((a,b)=>a-b);
   return bounds.slice(0,-1).map((start,i)=>{
     const end=bounds[i+1],cover=valid.filter(a=>a.start<=start&&a.end>=end);
     return {start,end,text:text.slice(start,end),level:Math.max(0,...cover.map(a=>a.level||0)),notes:cover.filter(a=>a.note),annotation:cover.at(-1)};
   });
+}
+export function removeHighlights(annotations,spans){
+ return annotations.flatMap(a=>{
+  if(!a.level)return [a];
+  let pieces=[[a.start,a.end]];
+  for(const s of spans.filter(s=>s.pid===a.pid))pieces=pieces.flatMap(([start,end])=>s.end<=start||s.start>=end?[[start,end]]:[[start,Math.min(end,s.start)],[Math.max(start,s.end),end]].filter(([l,r])=>r>l));
+  if(pieces.length===1&&pieces[0][0]===a.start&&pieces[0][1]===a.end)return [a];
+  return [...(a.note?.trim()?[{...a,level:0}]:[]),...pieces.map(([start,end])=>({...a,id:a.id+'~h'+start+'-'+end,start,end,text:a.text.slice(start-a.start,end-a.start),note:''}))];
+ });
+}
+export function removeAnnotationNote(annotations,id){return annotations.flatMap(a=>a.id!==id?[a]:a.level>0?[{...a,note:''}]:[]);}
+export function savedVocabulary(exercises,annotations){
+ const byId=new Map(exercises.map(e=>[e.id,e]));
+ return Object.entries(annotations).flatMap(([id,marks])=>marks.filter(m=>m.note?.trim()).map(m=>({...m,exercise:byId.get(id)}))).filter(m=>m.exercise);
 }
 export function readStored(){
   try{const x=JSON.parse(localStorage.getItem(STORAGE_KEY)||'null');return x&&validImport({...EMPTY_STATE,...x})?{...EMPTY_STATE,...x,fontSize:Math.max(14,Math.min(26,Number(x.fontSize)||18))}:structuredClone(EMPTY_STATE);}catch{return structuredClone(EMPTY_STATE);}
@@ -42,14 +56,13 @@ export function validImport(x){
   if(!x||x.version!==1)return false;
   for(const k of ['answers','attempts','drafts','annotations','rubrics'])if(!x[k]||typeof x[k]!=='object'||Array.isArray(x[k]))return false;
   if(!Array.isArray(x.bookmarks)||!x.bookmarks.every(v=>typeof v==='string')||!Array.isArray(x.activity))return false;
+  if(x.modelEdits!==undefined&&(!x.modelEdits||typeof x.modelEdits!=='object'||Array.isArray(x.modelEdits)||!Object.values(x.modelEdits).every(v=>typeof v==='string')))return false;
+  if(x.lookupOnline!==undefined&&typeof x.lookupOnline!=='boolean')return false;
   const record=v=>v&&typeof v==='object'&&!Array.isArray(v);
   if(!Object.values(x.answers).every(v=>record(v)&&Object.values(v).every(a=>record(a)&&[a.value,a.justification].every(t=>t===undefined||typeof t==='string'))))return false;
   if(!Object.values(x.drafts).every(v=>record(v)&&Object.values(v).every(t=>typeof t==='string')))return false;
   if(!Object.values(x.attempts).every(v=>record(v)&&record(v.results)&&Object.values(v.results).every(r=>record(r)&&['correct','incorrect','review','unanswered'].includes(r.status))))return false;
   if(!Object.values(x.rubrics).every(v=>Array.isArray(v)&&v.every(n=>Number.isInteger(n)&&n>=0&&n<10)))return false;
-  if(x.vocabProgress!==undefined&&(!record(x.vocabProgress)||!Object.values(x.vocabProgress).every(p=>record(p)&&Number.isInteger(p.step)&&p.step>=-1&&p.step<=6&&Number.isFinite(p.due)&&p.due>=0&&Number.isFinite(p.lastReviewed)&&Number.isInteger(p.reviews)&&p.reviews>=0&&Number.isInteger(p.lapses)&&p.lapses>=0)))return false;
-  if(x.vocabDefinitions!==undefined&&(!record(x.vocabDefinitions)||!Object.values(x.vocabDefinitions).every(v=>typeof v==='string')))return false;
-  if(x.vocabDaily!==undefined&&(!record(x.vocabDaily)||!Object.entries(x.vocabDaily).every(([day,p])=>/^\d{4}-\d{2}-\d{2}$/.test(day)&&record(p)&&Array.isArray(p.newIds)&&p.newIds.every(id=>typeof id==='string')&&Number.isInteger(p.reviewed)&&p.reviewed>=0)))return false;
   if(!x.activity.every(d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d)))return false;
   return Object.values(x.annotations).every(v=>Array.isArray(v)&&v.every(a=>record(a)&&typeof a.id==='string'&&typeof a.pid==='string'&&typeof a.text==='string'&&Number.isInteger(a.start)&&Number.isInteger(a.end)&&a.end>a.start&&a.start>=0&&[0,1,2,3].includes(a.level)&&(!a.note||typeof a.note==='string')));
 }

@@ -64,23 +64,3 @@ test('French contractions and hyphenated words count as one word',()=>{
  assert.equal(wordCount('L’éducation fait-elle grandir nos idées ?'),5);
  assert.equal(wordCount(''),0);
 });
-
-test('revised writing/oral material preserves readable text and stable, unique paragraph anchors',()=>{
- const revised=bank.exercises.filter(e=>['writing','speaking'].includes(e.category));
- assert.equal(revised.length,113);
- for(const e of revised){
-  assert.equal(e.materialRevision,'trace-columns-rechecked-v3',e.id);
-  assert.equal(new Set(e.paragraphs.map(p=>p.id)).size,e.paragraphs.length,e.id+' unique paragraph anchors');
-  for(const p of e.paragraphs){
-   assert.ok(!/[\u0300-\u05ff\u3400-\u9fff\ufffd]/u.test(p.fr),e.id+' broken glyphs');
-   assert.ok(['heading','body','document','label','note','source'].includes(p.role),e.id+' paragraph role');
-   assert.ok(p.sourcePage>0,e.id+' page provenance');
-  }
- }
- const oral=bank.exercises.find(e=>e.id==='speaking-1-17').paragraphs.map(p=>p.fr).join(' ');
- for(const word of ['diplômé','goût','Mes amis','même','qualification'])assert.ok(oral.includes(word),'repaired font glyph: '+word);
- const writing=bank.exercises.find(e=>e.id==='writing-2024-6-cn');
- assert.ok(writing.paragraphs.some(p=>p.fr==='Les devoirs du soir sont source d’inégalités'));
- assert.ok(!writing.paragraphs.some(p=>p.fr.startsWith('Vous écrivez à la rédaction')));
- assert.ok(writing.tasks.some(t=>t.fr.startsWith('Vous écrivez à la rédaction')));
-});
