@@ -1,0 +1,34 @@
+{
+  "engine": "Argos Translate 1.9 FR→EN→ZH; beam 3; sentence-aware",
+  "uniqueSources": 3080,
+  "paragraphs": 3326,
+  "manualCorrections": 849,
+  "needsReview": [],
+  "sourceLimitations": [
+    {
+      "exercise": "long-2023-11-cn",
+      "paragraph": "p21"
+    },
+    {
+      "exercise": "short-2024-6-cn-1",
+      "paragraph": "p8"
+    },
+    {
+      "exercise": "short-2024-6-cn-1",
+      "paragraph": "p9"
+    },
+    {
+      "exercise": "reading-2024-5-fr",
+      "paragraph": "p7"
+    },
+    {
+      "exercise": "reading-2024-5-fr",
+      "paragraph": "p8"
+    },
+    {
+      "exercise": "reading-mock-1",
+      "paragraph": "p29"
+    }
+  ],
+  "humanVerified": false
+}

@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .DS_Store
+__pycache__/
+*.py[cod]
 data/extracted/
 data/raw/
 data/raw-bank.json
@@ -8,12 +10,12 @@ data/translation-cache.sqlite
 data/answers/
 data/questions/
 data/materials/
+data/revised-pages/
+data/transcribed/
 test-results/
 
-data/revised-translations*.sqlite
-胡桃法语-DALF-C1-双击打开.html
-data/dictionary/*.sqlite
-data/dictionary/base.json
-data/dictionary/pending-meanings.json
-data/dictionary/sentences.json
-data/dictionary/translated.json
+data/*.log
+
+data/translation-v2-cache.sqlite
+
+node_modules
