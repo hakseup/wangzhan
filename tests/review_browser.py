@@ -32,25 +32,38 @@ with sync_playwright() as p:
  select(page,'.reader-content [data-paragraph="p1"]','affectif');page.get_by_role('button',name='高亮',exact=True).click()
  fill(page,e);page.get_by_role('button',name='提交并核对答案',exact=True).click();page.wait_for_url('**/review')
  expect(page.locator('.review-question')).to_have_count(len(e['questions']))
- expect(page.locator('.evidence-pair')).to_have_count(len(e['reviewPassages']))
+ expect(page.locator('.review-paragraph')).to_have_count(len(e['paragraphs']))
+ for paragraph in e['paragraphs']:
+  block=page.locator('.review-paragraph[data-paragraph="'+paragraph['id']+'"]')
+  assert block.locator('.evidence-fr [data-annotation]').evaluate_all('(nodes)=>nodes.map(n=>n.dataset.annotationText).join("")')==paragraph['fr']
+  assert block.locator('.evidence-zh').inner_text()==paragraph['zh']
+ for q in e['questions']:
+  if q['type']!='choice':continue
+  options=page.locator('#question-'+q['id']+' .review-option')
+  expect(options).to_have_count(len(q['options']))
+  for i,o in enumerate(q['options']):
+   expect(options.nth(i)).to_contain_text(o['text']);expect(options.nth(i)).to_contain_text(o['zh'])
  expect(page.locator('.evidence-reader mark.level-1')).to_have_text('affectif')
  expect(page.locator('.review-question input,.review-question textarea')).to_have_count(0)
- pairs=page.locator('.evidence-pair');pair=pairs.first
- pair.locator('.evidence-fr').hover();expect(pair).to_have_class('evidence-pair is-linked')
- for selector in ['.evidence-fr>[data-annotation]','.evidence-zh>[data-annotation]']:
-  assert pair.locator(selector).evaluate('(e)=>getComputedStyle(e).textDecorationLine')=='underline'
-  assert pair.locator(selector).evaluate('(e)=>getComputedStyle(e).textDecorationColor')=='rgb(95, 157, 113)'
- pair.locator('.evidence-zh').focus();expect(pair).to_have_class('evidence-pair is-linked')
+ targetPair=next(p for p in e['reviewPassages']if 'premier levier' in p['fr'])
+ source=page.locator('[data-evidence-id="'+targetPair['id']+'"]')
+ source.hover();expect(source).to_have_class('review-source-unit is-linked')
+ assert source.evaluate('(e)=>getComputedStyle(e).textDecorationLine')=='underline'
+ chinese=source.locator('xpath=ancestor::article').locator('.review-translation-unit.is-linked')
+ expect(chinese).to_have_count(1)
+ assert chinese.evaluate('(e)=>getComputedStyle(e).textDecorationColor')=='rgb(95, 157, 113)'
+ chinese.focus();expect(source).to_have_class('review-source-unit is-linked')
+ assert source.locator('.answer-source').first.evaluate('(e)=>getComputedStyle(e).backgroundColor')=='rgb(255, 240, 187)'
+ assert source.locator('.answer-source').first.inner_text().strip() in targetPair['fr']
  page.locator('.detail-heading h1').hover()
  # Locate from the final question, which is well below the first answer sentence.
  finalq=e['questions'][-1];target=finalq['explanation']['evidence'][0]['pairIds'][0]
  page.locator('#question-'+finalq['id']).get_by_role('button',name='定位',exact=True).first.click()
  page.wait_for_function('(id)=>document.querySelector(`[data-evidence-id="${id}"]`).classList.contains("is-linked")',arg=target)
- page.wait_for_timeout(400)
- el=page.locator('[data-evidence-id="'+target+'"]');assert el.bounding_box()['y']<page.locator('.material-scroll').bounding_box()['y']+page.locator('.material-scroll').bounding_box()['height']
+ page.wait_for_function('''id=>{const e=document.querySelector(`[data-evidence-id="${id}"]`).getBoundingClientRect(),p=document.querySelector('.material-scroll').getBoundingClientRect();return e.top<p.bottom&&e.bottom>p.top;}''',arg=target)
  page.screenshot(path='/workspace/work/reading-review.png')
  # Excerpt selection uses source offsets rather than positions local to the excerpt.
- select(page,'.evidence-reader .evidence-fr [data-annotation]','levier');page.get_by_role('button',name='高亮',exact=True).click()
+ select(page,'.evidence-reader .evidence-fr [data-annotation-text*="levier"]','levier');page.get_by_role('button',name='高亮',exact=True).click()
  data=page.evaluate('JSON.parse(localStorage.getItem("noix-dalf-c1-v1"))');mark=next(m for m in data['annotations'][e['id']]if m['text']=='levier');source=next(p for p in e['paragraphs']if p['id']==mark['pid']);assert source['fr'][mark['start']:mark['end']]=='levier'
  page.reload();expect(page.locator('.evidence-reader')).to_be_visible();expect(page.locator('.evidence-reader mark')).to_have_count(2)
  page.get_by_role('button',name='返回修改答案',exact=True).click();expect(page.locator('.evidence-reader,.translation-content')).to_have_count(0);expect(page.get_by_role('button',name='中文参考译文',exact=False)).to_have_count(0)
@@ -61,9 +74,12 @@ with sync_playwright() as p:
   e=next(e for e in BANK['exercises']if e['category']==category)
   page.goto(BASE+'#'+e['id']);page.wait_for_selector('.listening-cover');expect(page.locator('.evidence-reader,.translation-content')).to_have_count(0)
   fill(page,e);page.get_by_role('button',name='提交并进入复盘',exact=True).click();expect(page.locator('.evidence-reader')).to_be_visible();expect(page.locator('.review-question')).to_have_count(len(e['questions']))
+  expect(page.locator('.review-paragraph')).to_have_count(len(e['paragraphs']))
+  for q in e['questions']:
+   if q['type']=='choice':expect(page.locator('#question-'+q['id']+' .review-option')).to_have_count(len(q['options']))
   page.reload();expect(page.locator('.evidence-reader')).to_be_visible()
   page.get_by_role('button',name='返回修改答案',exact=True).click();expect(page.locator('.listening-cover')).to_be_visible()
  # Mobile must retain scrollable panes without horizontal document overflow.
  page.set_viewport_size({'width':390,'height':844});page.wait_for_timeout(100);assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
  assert not errors,errors
- b.close();print('PASS: compact fullscreen >73% pane height, relocated timer, submit gates for reading/long/short, exact bilingual pairing/green focus, locate, source-offset highlights, reload, stale-review invalidation and mobile.')
+ b.close();print('PASS: compact fullscreen >73% pane height, relocated timer, submit gates for reading/long/short, complete paragraph pairs/inline evidence/all translated options/green focus, locate, source-offset highlights, reload, stale-review invalidation and mobile.')
