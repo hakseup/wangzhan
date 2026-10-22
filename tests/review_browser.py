@@ -55,6 +55,22 @@ with sync_playwright() as p:
  chinese.focus();expect(source).to_have_class('review-source-unit is-linked')
  assert source.locator('.answer-source').first.evaluate('(e)=>getComputedStyle(e).backgroundColor')=='rgb(255, 240, 187)'
  assert source.locator('.answer-source').first.inner_text().strip() in targetPair['fr']
+ # Reproduce the reported bug on each sentence of a mixed answer/context paragraph.
+ paragraph=page.locator('.review-paragraph[data-paragraph="p1"]')
+ expected=['这是一个禁忌话题。','与学生建立亲密联系','然而，研究表明','在新近出版的']
+ sentences=paragraph.locator('.review-source-unit');expect(sentences).to_have_count(4)
+ for i,prefix in enumerate(expected):
+  sentences.nth(i).hover()
+  expect(paragraph.locator('.review-source-unit.is-linked')).to_have_count(1)
+  translated=paragraph.locator('.review-translation-unit.is-linked');expect(translated).to_have_count(1)
+  assert translated.inner_text().startswith(prefix)
+  assert paragraph.locator('.evidence-zh').evaluate('(e)=>getComputedStyle(e).textDecorationLine')=='none'
+  assert paragraph.locator('.evidence-fr').evaluate('(e)=>getComputedStyle(e).textDecorationLine')=='none'
+  # Enter from Chinese as well, verifying only its counterpart is underlined.
+  translated.hover();expect(sentences.nth(i)).to_have_class('review-source-unit is-linked')
+  expect(paragraph.locator('.review-source-unit.is-linked')).to_have_count(1)
+  expect(paragraph.locator('.review-translation-unit.is-linked')).to_have_count(1)
+  translated.focus();expect(sentences.nth(i)).to_have_class('review-source-unit is-linked')
  page.locator('.detail-heading h1').hover()
  # Locate from the final question, which is well below the first answer sentence.
  finalq=e['questions'][-1];target=finalq['explanation']['evidence'][0]['pairIds'][0]

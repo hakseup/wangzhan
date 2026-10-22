@@ -1,14 +1,14 @@
 import React,{useMemo} from 'react';
-import {buildReviewParagraphs} from './review-paragraphs.js';
+import {buildReviewParagraphs,activeSentenceLinks} from './review-paragraphs.js';
 import {AnnotatedText} from './annotations.jsx';
 import {CheckCircle2,XCircle,Clock3,LocateFixed,Minus,Plus} from 'lucide-react';
-export function EvidenceReader({exercise,active,activate,fontSize,resizeFont}){
- const paragraphs=useMemo(()=>buildReviewParagraphs(exercise),[exercise]);
+export function EvidenceReader({exercise,active,activate,fontSize,resizeFont,lexicon}){
+ const paragraphs=useMemo(()=>buildReviewParagraphs(exercise,lexicon),[exercise,lexicon]);
  return <div className="evidence-reader reader-content full-review-reader" style={{fontSize}}><div className="review-caption"><strong>完整原文 · 逐段译文</strong><span>浅黄色标出答案句 · 悬停或聚焦可对应双语</span><div className="reader-size"><button aria-label="缩小正文" disabled={fontSize<=14} onClick={()=>resizeFont(Math.max(14,fontSize-1))}><Minus size={14}/></button><span>Aa</span><button aria-label="放大正文" disabled={fontSize>=26} onClick={()=>resizeFont(Math.min(26,fontSize+1))}><Plus size={14}/></button></div></div>{paragraphs.map(p=>{
- const activeUnit=p.units.find(u=>u.id===active),linked=active===p.contextId||!!activeUnit,translated=p.translation.some(t=>t.pairId===active),paragraphLink=active===p.contextId||!!activeUnit&&!translated;
- return <article key={p.id} className={'evidence-pair review-paragraph '+(linked?'is-linked ':'')+(paragraphLink?'link-paragraph':'')} data-paragraph={p.id}>
- <p className={'evidence-fr paragraph-'+(p.role||'body')+(p.continuation?' paragraph-continuation':'')} lang="fr">{p.units.map(unit=><span key={unit.id} className={'review-source-unit '+(active===unit.id?'is-linked':'')} data-evidence-id={unit.pairId} tabIndex={0} onMouseEnter={()=>activate(unit.id)} onMouseLeave={()=>activate(null)} onFocus={()=>activate(unit.id)} onBlur={()=>activate(null)}>{unit.runs.map(run=><React.Fragment key={run.start}>{run.labels.length>0&&<span className="review-answer-label" aria-label={'第'+run.labels.join('、')+'题答案句'}>{run.labels.map(n=>'Q'+n).join(' · ')}</span>}<span className={run.answer?'answer-source':''}><AnnotatedText pid={p.id} offset={run.start} sourceText={p.fr} text={run.text}/></span></React.Fragment>)}</span>)}</p>
- <p className="evidence-zh" lang="zh-CN">{p.translation.map(t=><span key={t.start} className={'review-translation-unit '+(active===t.pairId?'is-linked':'')} tabIndex={0} onMouseEnter={()=>activate(t.pairId||p.contextId)} onMouseLeave={()=>activate(null)} onFocus={()=>activate(t.pairId||p.contextId)} onBlur={()=>activate(null)}><AnnotatedText pid={'reference:paragraph-translation:'+p.id} offset={t.start} sourceText={p.zh||''} text={t.text}/></span>)}</p>
+ const link=activeSentenceLinks(p,active),linked=!!link.sourceId;
+ return <article key={p.id} className={'evidence-pair review-paragraph '+(linked?'is-linked':'')} data-paragraph={p.id}>
+ <p className={'evidence-fr paragraph-'+(p.role||'body')+(p.continuation?' paragraph-continuation':'')} lang="fr">{p.units.map(unit=><span key={unit.id} className={'review-source-unit '+(link.sourceId===unit.id?'is-linked':'')} data-evidence-id={unit.pairId} tabIndex={0} onMouseEnter={()=>activate(unit.id)} onMouseLeave={()=>activate(null)} onFocus={()=>activate(unit.id)} onBlur={()=>activate(null)}>{unit.evidenceIds.slice(1).map(id=><span key={id} data-evidence-id={id} className={'review-evidence-anchor '+(link.sourceId===unit.id?'is-linked':'')} aria-hidden="true"/>)}{unit.runs.map(run=><React.Fragment key={run.start}>{run.labels.length>0&&<span className="review-answer-label" aria-label={'第'+run.labels.join('、')+'题答案句'}>{run.labels.map(n=>'Q'+n).join(' · ')}</span>}<span className={run.answer?'answer-source':''}><AnnotatedText pid={p.id} offset={run.start} sourceText={p.fr} text={run.text}/></span></React.Fragment>)}</span>)}</p>
+ <p className="evidence-zh" lang="zh-CN">{p.translation.map(t=><span key={t.start} className={'review-translation-unit '+(link.translationId===t.id?'is-linked':'')} tabIndex={0} onMouseEnter={()=>activate(t.id)} onMouseLeave={()=>activate(null)} onFocus={()=>activate(t.id)} onBlur={()=>activate(null)}><AnnotatedText pid={'reference:paragraph-translation:'+p.id} offset={t.start} sourceText={p.zh||''} text={t.text}/></span>)}</p>
  </article>;
  })}</div>;
 }
