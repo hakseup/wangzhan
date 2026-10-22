@@ -33,7 +33,7 @@
 
 ## 小幅细节更新
 - 259页写作、口语材料重新核对字符轨迹和双栏顺序；重水印口语扫描页17—26人工对照PDF录入，补丁在`data/source-corrections-v3.json`，由`scripts/apply_verified_scans.py`应用。其余扫描采用第二次OCR校验，仍不能保证原始低清材料每个字符均无误。
-- 站内离线词典使用CFDICT法中词典，CC BY-SA 3.0；来源、许可证和派生说明见`public/dictionary/NOTICE.txt`。反向索引55,000余词条，并补充学习常用释义和搭配。四本专项词书各900个不同词目，附题库来源，复数等词形通过别名查询。
+- 站内离线词典使用CFDICT法中词典，CC BY-SA 3.0；来源、许可证和派生说明见`public/dictionary/NOTICE.txt`。反向索引55,000余词条，并补充学习常用释义和搭配。四本专项词书按各自题库与任务要求独立筛选，不固定词数，附题库来源或本站补充标识，复数等词形通过别名查询。
 - Mansalva手写字体仅微调约1.4度倾斜，改名Journal Clair；详见`public/fonts/MODIFICATIONS.txt`。
 
 ## 17日最终版后续学习模块

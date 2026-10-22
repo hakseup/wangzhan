@@ -35,15 +35,15 @@ with sync_playwright()as p:
  page.get_by_role('button',name='提交并进入复盘',exact=True).click()
  page.wait_for_url('**/review')
  expect(page.locator('.reader-content')).to_be_visible()
- expect(page.locator('.question').first).to_have_class('question incorrect')
- expect(page.locator('.question input').first).to_be_disabled()
+ expect(page.locator('.question').first).to_have_class('question review-question incorrect')
+ expect(page.locator('.review-question input,.review-question textarea')).to_have_count(0)
  page.go_back();expect(page.locator('.listening-cover')).to_be_visible()
  page.go_forward();expect(page.locator('.reader-content')).to_be_visible()
  page.get_by_role('button',name='返回修改答案',exact=True).click();expect(page.locator('.reader-content')).to_have_count(0)
  expect(page.get_by_label('听力笔记',exact=True)).to_have_value('Idées : fabrication et coopération.')
  page.locator('.question').first.locator('input[type=radio]').nth(1).check()
  page.get_by_role('button',name='提交并进入复盘',exact=True).click()
- expect(page.locator('.question').first).to_have_class('question correct')
+ expect(page.locator('.question').first).to_have_class('question review-question correct')
  page.get_by_role('button',name='收藏练习',exact=True).click()
  audio=page.locator('audio');page.wait_for_function('document.querySelector("audio").duration > 0')
  page.get_by_label('播放速度').select_option('1.5');assert audio.evaluate('(a)=>a.playbackRate')==1.5
@@ -67,13 +67,15 @@ with sync_playwright()as p:
  assert page.evaluate('!!document.fullscreenElement || !!document.querySelector(".detail-page.is-focused")')
  page.get_by_role('button',name='退出全屏',exact=True).click()
  page.locator('.material-scroll').evaluate('(a)=>a.scrollTop=0')
- def select_word():
-  page.evaluate('''()=>{const p=document.querySelector('[data-paragraph="p0"]');const walk=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);let n;while(n=walk.nextNode()){const i=n.textContent.indexOf('Bonjour');if(i>=0){const r=document.createRange();r.setStart(n,i);r.setEnd(n,i+7);const s=getSelection();s.removeAllRanges();s.addRange(r);p.dispatchEvent(new MouseEvent('mouseup',{bubbles:true}));return;}}throw Error('word not found');}''')
- select_word();page.get_by_role('button',name='高亮',exact=True).click();expect(page.locator('mark.level-1')).to_have_count(1)
- for level in[2,3]:page.locator('mark').click();page.get_by_role('button',name='切换颜色',exact=True).click();expect(page.locator('mark.level-'+str(level))).to_have_count(1)
- page.locator('mark').click();page.get_by_role('button',name='备注',exact=True).click();page.locator('.modal textarea').fill('你好；见面时的问候语。');page.get_by_role('button',name='保存备注',exact=True).click();expect(page.locator('mark.word-note')).to_have_count(1)
- page.reload();expect(page.locator('mark.word-note')).to_have_count(1)
- page.get_by_role('button',name='中文参考译文',exact=False).click();expect(page.locator('.machine-translation-note')).to_be_visible()
+ # The evidence-only review no longer exposes the original introductory greeting.
+ selector='.evidence-reader .evidence-fr [data-annotation]';word=page.locator(selector).first.inner_text().split()[0]
+ page.locator(selector).first.scroll_into_view_if_needed()
+ page.evaluate("""({selector,word})=>{const el=document.querySelector(selector),n=el.firstChild,r=document.createRange();r.setStart(n,0);r.setEnd(n,word.length);getSelection().removeAllRanges();getSelection().addRange(r);el.dispatchEvent(new MouseEvent('mouseup',{bubbles:true}));}""",{'selector':selector,'word':word})
+ page.get_by_role('button',name='高亮',exact=True).click();expect(page.locator('.evidence-reader mark.level-1')).to_have_count(1)
+ for level in[2,3]:page.locator('.evidence-reader mark').click();page.get_by_role('button',name='切换颜色',exact=True).click();expect(page.locator('.evidence-reader mark.level-'+str(level))).to_have_count(1)
+ page.locator('.evidence-reader mark').click();page.get_by_role('button',name='备注',exact=True).click();page.locator('.modal textarea').fill('你好；见面时的问候语。');page.get_by_role('button',name='保存备注',exact=True).click();expect(page.locator('.evidence-reader mark.word-note')).to_have_count(1)
+ page.reload();expect(page.locator('.evidence-reader mark.word-note')).to_have_count(1)
+ expect(page.locator('.evidence-zh').first).to_be_visible()
  # Every recording starts in an answer view, even after another set was reviewed.
  for e in[e for e in bank['exercises']if e.get('audio')]:
   page.evaluate('(id)=>location.hash=id',e['id']);page.wait_for_selector('.listening-cover');expect(page.locator('.detail-heading h1')).to_have_text(e['title']);expect(page.locator('.reader-content')).to_have_count(0)

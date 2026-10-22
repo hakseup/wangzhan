@@ -31,10 +31,10 @@ with sync_playwright()as p:
  assert page.locator('.paragraph-heading').first.evaluate('(e)=>getComputedStyle(e).backgroundColor')in['rgba(0, 0, 0, 0)','rgb(255, 255, 255)']
  assert page.locator('.paragraph-heading').first.evaluate('(e)=>parseInt(getComputedStyle(e).fontWeight)')>=700
  page.get_by_role('button',name='返回题库',exact=True).click();page.get_by_role('button',name='单词与笔记',exact=False).first.click();expect(page.locator('.wordbook')).to_have_count(5)
- for i in range(4):expect(page.locator('.wordbook').nth(i)).to_contain_text('900 词')
+ counts=[int(page.locator('.wordbook').nth(i).locator('span').inner_text().split()[0])for i in range(4)];assert len(set(counts))==4 and min(counts)>300
  page.get_by_label('搜索本词书',exact=True).fill('fabricants');expect(page.locator('.word-row')).to_contain_text('fabricant')
  for h in [600,768,900]:
   page.goto(BASE);page.wait_for_selector('.shortcut-grid');page.set_viewport_size({'width':1440,'height':h});page.wait_for_function('document.querySelector(".sidebar").scrollHeight<=document.querySelector(".sidebar").clientHeight')
  assert not errors,errors
- print('PASS: timer defaults, sidebar fit, plain headings, question/option/editor annotations, rebasing, reload, in-page definitions/collocations, and four 900-word books.')
+ print('PASS: timer defaults, sidebar fit, plain headings, question/option/editor annotations, rebasing, reload, in-page definitions/collocations, and four independent corpus-based books.')
  b.close()

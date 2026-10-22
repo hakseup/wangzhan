@@ -16,7 +16,7 @@ export function AnnotationProvider({annotations,onChange,lexicon,exercise,Modal,
    const text=el.dataset.annotationText||'';let start=0,end=text.length;
    if(el.contains(range.startContainer)){const r=document.createRange();r.selectNodeContents(el);r.setEnd(range.startContainer,range.startOffset);start=r.toString().length;}
    if(el.contains(range.endContainer)){const r=document.createRange();r.selectNodeContents(el);r.setEnd(range.endContainer,range.endOffset);end=r.toString().length;}
-   if(end>start&&text.slice(start,end).trim())spans.push({pid:el.dataset.annotation,start,end,text:text.slice(start,end)});
+   if(end>start&&text.slice(start,end).trim())spans.push({pid:el.dataset.annotation,start:start+Number(el.dataset.annotationOffset||0),end:end+Number(el.dataset.annotationOffset||0),text:text.slice(start,end)});
   }
   if(spans.length)place(range.getBoundingClientRect(),spans);
  };
@@ -42,10 +42,10 @@ export function AnnotationProvider({annotations,onChange,lexicon,exercise,Modal,
  {dialog==='dictionary'&&selection&&<Modal title="词义与搭配" close={()=>setDialog('')}><DictionaryPanel lexicon={lexicon} exercise={exercise} initial={selection.spans.map(s=>s.text).join(' ')} save={value=>{setNote(value);setDialog('note');}}/></Modal>}
  </Context.Provider>;
 }
-export function AnnotatedText({pid,text='',as:Tag='span',className='',...props}){
+export function AnnotatedText({pid,text='',as:Tag='span',className='',sourceText=text,offset=0,...props}){
  const ctx=useContext(Context);if(!ctx)return <Tag className={className} {...props}>{text}</Tag>;
- const marks=visibleMarks(ctx.annotations,pid,text);
- return <Tag data-annotation={pid} data-annotation-text={text} className={className} {...props}>{annotationParts(text,marks).map(part=>part.annotation?<mark key={part.start} role="button" tabIndex={0} className={'text-mark level-'+part.level+(part.notes.length?' word-note':'')} title={part.notes.map(n=>n.note).join('\n')||'高亮、备注或查词'} aria-label={part.notes.length?'词汇备注：'+part.notes.map(n=>n.note).join('；'):'切换高亮颜色'} onClick={e=>ctx.clickMark(e,part.annotation)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();ctx.clickMark(e,part.annotation);}}}>{part.text}</mark>:<React.Fragment key={part.start}>{part.text}</React.Fragment>)}</Tag>;
+ const marks=visibleMarks(ctx.annotations,pid,sourceText).filter(a=>a.start<offset+text.length&&a.end>offset).map(a=>({...a,original:a,start:Math.max(0,a.start-offset),end:Math.min(text.length,a.end-offset)}));
+ return <Tag data-annotation={pid} data-annotation-text={text} data-annotation-offset={offset} className={className} {...props}>{annotationParts(text,marks).map(part=>part.annotation?<mark key={part.start} role="button" tabIndex={0} className={'text-mark level-'+part.level+(part.notes.length?' word-note':'')} title={part.notes.map(n=>n.note).join('\n')||'高亮、备注或查词'} aria-label={part.notes.length?'词汇备注：'+part.notes.map(n=>n.note).join('；'):'切换高亮颜色'} onClick={e=>ctx.clickMark(e,part.annotation.original||part.annotation)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();ctx.clickMark(e,part.annotation.original||part.annotation);}}}>{part.text}</mark>:<React.Fragment key={part.start}>{part.text}</React.Fragment>)}</Tag>;
 }
 export function AnnotatedInput({pid,value='',onChange,className='',...props}){
  const ctx=useContext(Context),mirror=useRef(null),input=useRef(null);

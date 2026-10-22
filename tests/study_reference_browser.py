@@ -13,10 +13,10 @@ with sync_playwright()as p:
   page.set_viewport_size({'width':1440,'height':h});page.wait_for_timeout(80);assert page.locator('.sidebar').evaluate('(e)=>e.scrollHeight<=e.clientHeight'),h
  page.set_viewport_size({'width':1440,'height':900});page.screenshot(path='/workspace/work/oct19-home-final.png')
  page.evaluate("location.hash='reading-2021-10-fr'");page.wait_for_selector('.question');expect(page.get_by_role('timer')).to_have_text('50:00');expect(page.get_by_role('button',name='参考答案释义',exact=True)).to_have_count(0)
- page.locator('.question input[type=radio]').first.check();page.get_by_role('button',name='提交并核对答案').click();page.get_by_role('button',name='参考答案释义',exact=True).click();expect(page.locator('.answer-explanation')).to_have_count(11)
- page.locator('.answer-explanation .text-btn').first.click();expect(page.locator('.reader-content')).to_be_visible()
+ page.locator('.question input[type=radio]').first.check();page.get_by_role('button',name='提交并核对答案').click();expect(page.locator('.review-question')).to_have_count(11)
+ page.locator('.review-evidence-tools .text-btn').first.click();expect(page.locator('.reader-content')).to_be_visible()
  # A highlight can be removed without deleting its note.
- selector='.reader-content [data-annotation]';word=page.locator(selector).first.inner_text().split()[0];select(page,selector,word);page.get_by_role('button',name='高亮',exact=True).click();expect(page.locator('.reader-content mark')).to_have_count(1)
+ selector='.reader-content .evidence-fr [data-annotation]';word=page.locator(selector).first.inner_text().split()[0];select(page,selector,word);page.get_by_role('button',name='高亮',exact=True).click();expect(page.locator('.reader-content mark')).to_have_count(1)
  page.locator('.reader-content mark').click();page.get_by_role('button',name='备注',exact=True).click();page.locator('.modal textarea').fill('词汇备注');page.get_by_role('button',name='保存备注',exact=False).click();page.locator('.reader-content mark').click();page.get_by_role('button',name='删除高亮',exact=True).click();expect(page.locator('.reader-content mark.word-note')).to_have_count(1);assert 'level-0'in page.locator('.reader-content mark').get_attribute('class')
  # Both written and oral models render in the existing material tab.
  page.evaluate("location.hash='writing-2024-6-cn'");page.wait_for_selector('.writing-editor');expect(page.get_by_role('timer')).to_have_text('150:00');page.get_by_role('button',name='范文',exact=True).click();expect(page.locator('.model-article')).to_have_count(2)

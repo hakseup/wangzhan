@@ -1,0 +1,62 @@
+{
+  "method": "Independent corpora; lemma frequency and document recurrence; common function words excluded; task-specific supplements; no quotas. Not an official exam-frequency list.",
+  "books": {
+    "listening": {
+      "exerciseCount": 36,
+      "selected": 2253,
+      "corpusEntries": 2223,
+      "supplements": 30,
+      "locations": {
+        "material": 1946,
+        "question": 436,
+        "option": 615,
+        "answer": 414,
+        "title": 69
+      }
+    },
+    "reading": {
+      "exerciseCount": 27,
+      "selected": 3189,
+      "corpusEntries": 3159,
+      "supplements": 30,
+      "locations": {
+        "answer": 805,
+        "title": 73,
+        "question": 676,
+        "material": 2961,
+        "option": 547
+      }
+    },
+    "writing": {
+      "exerciseCount": 28,
+      "selected": 1211,
+      "corpusEntries": 1181,
+      "supplements": 30,
+      "locations": {
+        "title": 65,
+        "model:essai": 672,
+        "model:synthese": 777,
+        "task": 253
+      }
+    },
+    "speaking": {
+      "exerciseCount": 85,
+      "selected": 1438,
+      "corpusEntries": 1408,
+      "supplements": 30,
+      "locations": {
+        "model:debat": 1127,
+        "model:monologue": 1342,
+        "title": 191
+      }
+    }
+  },
+  "overlap": {
+    "listening-reading": 1579,
+    "listening-writing": 770,
+    "listening-speaking": 912,
+    "reading-writing": 943,
+    "reading-speaking": 1110,
+    "writing-speaking": 819
+  }
+}
