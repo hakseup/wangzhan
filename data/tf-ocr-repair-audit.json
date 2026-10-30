@@ -1,0 +1,470 @@
+[
+  {
+    "exercise": "儿童智力多样性",
+    "number": 12,
+    "repair": "OCR debris removed",
+    "before": "Pour arole enucci, peut on réussir sa vie professionnelle sans réussir à l’école uel exemple utilise t elle pour justifier sa position",
+    "after": "Pour Carole Renucci, peut-on réussir sa vie professionnelle sans réussir à l’école Quel exemple utilise-t-elle pour justifier sa position"
+  },
+  {
+    "exercise": "办公室的终结",
+    "number": 3,
+    "repair": "OCR debris removed",
+    "before": "En quoi le télétravail est-il rentable pour les entreprises ? (Citez deux raisons) E) PRE",
+    "after": "En quoi le télétravail est-il rentable pour les entreprises ? (Citez deux raisons)"
+  },
+  {
+    "exercise": "办公室的终结",
+    "number": 6,
+    "repair": "OCR debris removed",
+    "before": "Quelles sont les deux modalités d'horaires de travail possibles pour le télétravailleur selon les entreprises ? 日] PRES",
+    "after": "Quelles sont les deux modalités d'horaires de travail possibles pour le télétravailleur selon les entreprises ?"
+  },
+  {
+    "exercise": "办公室的终结",
+    "number": 7,
+    "repair": "split TF group",
+    "parts": 2
+  },
+  {
+    "exercise": "如何管理职场年轻人",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "如何管理职场年轻人",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "如何管理职场年轻人",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "早期语言学习的益处",
+    "number": 4,
+    "repair": "split TF group",
+    "parts": 2
+  },
+  {
+    "exercise": "早期语言学习的益处",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "选择远程学习的学生",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "选择远程学习的学生",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "共享经济的新时代",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "共享经济的新时代",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "共享经济的新时代",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "假期也无法断开工作的员工",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "假期也无法断开工作的员工",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "假期也无法断开工作的员工",
+    "number": 4,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "因工作而做噩梦",
+    "number": 4,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "因工作而做噩梦",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "因工作而做噩梦",
+    "number": 10,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "塑料能否迎来第二次生命",
+    "number": 1,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "塑料能否迎来第二次生命",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "塑料能否迎来第二次生命",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "年轻人拯救法国文化遗产",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "年轻人拯救法国文化遗产",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "城市适应过劳职场人",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "城市适应过劳职场人",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "城市适应过劳职场人",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "法国企业仍不接受午睡",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "法国企业仍不接受午睡",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "法国企业仍不接受午睡",
+    "number": 4,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "共享一名员工",
+    "number": 2,
+    "repair": "split TF group",
+    "parts": 3
+  },
+  {
+    "exercise": "巴黎的小园丁",
+    "number": 1,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "巴黎的小园丁",
+    "number": 8,
+    "repair": "split TF group",
+    "parts": 2
+  },
+  {
+    "exercise": "桌游酒吧的成功",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "桌游酒吧的成功",
+    "number": 4,
+    "repair": "OCR debris removed",
+    "before": "D’après l’article, actuellement, quelles sont les raisons qui poussent les clients à fréquenter les bars à jeux de société ? (deux réponses attendues) • \b • \b",
+    "after": "D’après l’article, actuellement, quelles sont les raisons qui poussent les clients à fréquenter les bars à jeux de société ? (deux réponses attendues) • •"
+  },
+  {
+    "exercise": "桌游酒吧的成功",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "桌游酒吧的成功",
+    "number": 10,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "动物与工作",
+    "number": 6,
+    "repair": "split TF group",
+    "parts": 2
+  },
+  {
+    "exercise": "动物与工作",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "自然对幼儿的影响",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "自然对幼儿的影响",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "自然对幼儿的影响",
+    "number": 10,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "职场邻居节",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "职场邻居节",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "职场邻居节",
+    "number": 8,
+    "repair": "OCR debris removed",
+    "before": "uel avantage peut représenter la te des voisins au travail pour les chefs d’entreprise",
+    "after": "Quel avantage peut représenter la Fête des voisins au travail pour les chefs d’entreprise"
+  },
+  {
+    "exercise": "职场邻居节",
+    "number": 9,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "做新闻需要好看吗",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "做新闻需要好看吗",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "做新闻需要好看吗",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "全人教育",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "全人教育",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "全人教育",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "匿名简历并非万能",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "匿名简历并非万能",
+    "number": 8,
+    "repair": "split TF group",
+    "parts": 2
+  },
+  {
+    "exercise": "运动处方",
+    "number": 4,
+    "repair": "split TF group",
+    "parts": 2
+  },
+  {
+    "exercise": "运动处方",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "健康与运动",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "健康与运动",
+    "number": 4,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "艺术教育需要走出课堂",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "艺术教育需要走出课堂",
+    "number": 3,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "艺术教育需要走出课堂",
+    "number": 7,
+    "repair": "OCR debris removed",
+    "before": "« Déscolariser » l’art, selon Philippe Fen ic , signifie",
+    "after": "« Déscolariser » l’art, selon Philippe Fenwick , signifie"
+  },
+  {
+    "exercise": "不要攻击古典音乐教育",
+    "number": 4,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "不要攻击古典音乐教育",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "陪产假改革",
+    "number": 1,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "陪产假改革",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "陪产假改革",
+    "number": 10,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "个人汽车时代的终结",
+    "number": 3,
+    "repair": "split TF group",
+    "parts": 3
+  },
+  {
+    "exercise": "巴黎地铁与3G",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "巴黎地铁与3G",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "巴黎地铁与3G",
+    "number": 9,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "用法语教学",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "用法语教学",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "翻转课堂",
+    "number": 2,
+    "repair": "split TF group",
+    "parts": 2
+  },
+  {
+    "exercise": "翻转课堂",
+    "number": 6,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "青少年使用屏幕的风险与益处",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "青少年使用屏幕的风险与益处",
+    "number": 10,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "乡村还是城市",
+    "number": 4,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "乡村还是城市",
+    "number": 7,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "乡村还是城市",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "吃得更好以减少浪费",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "吃得更好以减少浪费",
+    "number": 4,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "吃得更好以减少浪费",
+    "number": 10,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "公共交通免费是否有效",
+    "number": 1,
+    "repair": "OCR debris removed",
+    "before": "Le maire de iort justifie la mise en place de la gratuité des transports dans sa ville par",
+    "after": "Le maire de Niort justifie la mise en place de la gratuité des transports dans sa ville par"
+  },
+  {
+    "exercise": "公共交通免费是否有效",
+    "number": 2,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "公共交通免费是否有效",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "公共交通免费是否有效",
+    "number": 9,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "生态旅游的绿色表象",
+    "number": 5,
+    "repair": "TF controls and clean statement"
+  },
+  {
+    "exercise": "生态旅游的绿色表象",
+    "number": 8,
+    "repair": "TF controls and clean statement"
+  }
+]
