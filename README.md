@@ -1,8 +1,14 @@
 # 胡桃法语 · DALF C1
 
+## 邮箱登录与云端备份
+
+在线版：https://hutao-dalf-c1-hakseup.softmole6.chatgpt.site
+
+点击右上角“登录”，可用邮箱和密码注册账户；登录后自动备份个人练习记录、草稿、收藏与笔记，其他设备登录同一账户即可恢复。每位用户的记录独立保存。离线文件继续使用本机存储和手动导出备份，不会向登录服务发送数据。
+
 ## 下载后双击使用
 
-下载 [离线网站压缩包](https://github.com/hakseup/wangzhan/raw/refs/heads/noix-dalf-c1/downloads/noix-dalf-c1-offline.zip)（约 90 MB），完整解压后，用电脑 Chrome 或 Edge 打开里面的 **胡桃法语-DALF-C1-双击打开.html**。无需安装 Node.js 或启动服务器，完整题库与 36 段音频均已嵌入。
+下载 [离线网站压缩包](https://github.com/hakseup/wangzhan/raw/refs/heads/noix-dalf-c1/downloads/noix-dalf-c1-offline.zip)（约 96 MB），完整解压后，用电脑 Chrome 或 Edge 打开里面的 **胡桃法语-DALF-C1-双击打开.html**。无需安装 Node.js 或启动服务器，完整题库与 36 段音频均已嵌入。
 
 GitHub 的 **Code → Download ZIP** 下载的是开发源码。源码根目录的 `index.html` 不能通过双击直接运行；若已下载源码压缩包，请进入其中的 `downloads` 文件夹，再解压 `noix-dalf-c1-offline.zip` 并打开里面的 HTML。
 

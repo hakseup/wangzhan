@@ -20,7 +20,7 @@ with sync_playwright()as p:
  page.get_by_role('button',name='开始练习 创客：一场新的工业革命？',exact=True).click()
  expect(page.locator('.question')).to_have_count(11)
  expect(page.locator('.reader-content')).to_have_count(0)
- expect(page.get_by_role('button',name='提交并进入复盘')).to_be_disabled()
+ expect(page.get_by_role('button',name='提交并进入复盘')).to_be_enabled()
  page.evaluate("location.hash='long-2021-3-cn/review'")
  expect(page.locator('.reader-content')).to_have_count(0)
  page.evaluate("location.hash='long-2021-3-cn'")
