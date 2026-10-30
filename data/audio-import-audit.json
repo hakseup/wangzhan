@@ -1,0 +1,74 @@
+[
+  {
+    "exercise": "女性建筑就业培训",
+    "file": "2024年3月中国场次DELF B2长听力.m4a",
+    "path": "/audio/long-2024-3.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "音乐学习与大脑功能",
+    "file": "2024年6月中国场次DELF B2长听力.m4a",
+    "path": "/audio/long-2024-6.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "餐厅反浪费与环保行动",
+    "file": "2025年6月中国场次DELF B2长听力.m4a",
+    "path": "/audio/long-2025-6.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "早期双语的优势",
+    "file": "2023年11月中国场次DELF B2长听力.m4a",
+    "path": "/audio/long-2023-11.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "郊区民宿与形象重塑",
+    "file": "2021年11月中国场次DELF B2长听力.m4a",
+    "path": "/audio/long-2021-11.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "社交网络依赖与影响",
+    "file": "2022年3月中国场次DELF B2长听力.mp3",
+    "path": "/audio/long-2022-3.mp3",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "濒危物种贸易公约CITES",
+    "file": "2021年5月中国场次DELF B2长听力.m4a",
+    "path": "/audio/long-2021-5.m4a",
+    "dateMismatch": true
+  },
+  {
+    "exercise": "法国南印度洋自然保护区",
+    "file": "2025年6月中国场次DELF B2短听力.m4a",
+    "path": "/audio/short-2025-6.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "仿生学:源于自然的创新",
+    "file": "2023年11月中国场次DELF B2短听力.m4a",
+    "path": "/audio/short-2023-11.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "亲子阅读推广计划",
+    "file": "2024年6月中国场次DELF B2短听力.m4a",
+    "path": "/audio/short-2024-6.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "志愿者速配活动",
+    "file": "2022年3月中国场次DELF B2短听力.m4a",
+    "path": "/audio/short-2022-3.m4a",
+    "dateMismatch": false
+  },
+  {
+    "exercise": "日内瓦创业周",
+    "file": "2021年11月中国场次DELF B2短听力.m4a",
+    "path": "/audio/short-2021-11.m4a",
+    "dateMismatch": false
+  }
+]

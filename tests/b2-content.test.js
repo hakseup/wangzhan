@@ -13,7 +13,7 @@ test('B2 corpus has independent identity, valid answer options, all sources and 
  assert.deepEqual(Object.fromEntries(['long','short','reading1','reading2','writing','speaking'].map(c=>[c,bank.exercises.filter(e=>e.category===c).length])),{long:17,short:17,reading1:17,reading2:17,writing:17,speaking:212});
  for(const e of bank.exercises){
   assert.ok(e.title&&e.titleZh&&e.source&&e.paragraphs.length,e.id);
-  assert.equal(e.audio,null);assert.ok(!/DALF C1/.test(JSON.stringify(e)),e.id);
+  if(e.audio)assert.ok(fs.existsSync(new URL('../public'+e.audio,import.meta.url)));assert.ok(!/DALF C1/.test(JSON.stringify(e)),e.id);
   for(const q of e.questions){
    assert.ok(q.prompt.length>6,e.id+q.id);
    if(q.type==='choice'){assert.deepEqual(q.options.map(o=>o.id),['A','B','C'],e.id+q.id);if(q.answer?.value)assert.ok(q.options.some(o=>o.id===q.answer.value),e.id+q.id);}

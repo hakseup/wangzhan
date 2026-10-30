@@ -5,6 +5,11 @@ ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist'
 OUT=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'downloads/胡桃法语-DELF-B2-双击打开.html'
 html=(DIST/'index.html').read_text().replace('<html lang="zh-CN">','<html lang="zh-CN" data-noix-offline>')
 bank=json.loads((DIST/'content.json').read_text())
+for e in bank['exercises']:
+ if e.get('audio'):
+  audio=DIST/e['audio'].lstrip('/')
+  mime='audio/mpeg' if audio.suffix=='.mp3' else 'audio/mp4'
+  e['audio']='data:'+mime+';base64,'+base64.b64encode(audio.read_bytes()).decode()
 css_match=re.search(r'<link rel="stylesheet"[^>]*href="([^"]+)"[^>]*>',html)
 js_match=re.search(r'<script type="module"[^>]*src="([^"]+)"[^>]*></script>',html)
 assert css_match and js_match
@@ -19,7 +24,7 @@ app='<script type="module">'+js.replace('</script','<\\/script')+'</script>'
 html=html.replace('</body>',embedded+app+'</body>')
 OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(html)
 assert len(bank['exercises'])==297
-assert not any(e.get('audio') for e in bank['exercises'])
+assert sum(bool(e.get('audio')) for e in bank['exercises'])==12
 assert '/fonts/Journal.ttf' not in css
 assert 'imageAsset' not in js
 print(f'{OUT.name}: {OUT.stat().st_size/1024/1024:.1f} MiB, {len(bank["exercises"])} exercises')

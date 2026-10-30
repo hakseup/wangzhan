@@ -1,0 +1,30 @@
+[
+  {
+    "id": "b2-long-317ac714cd",
+    "paragraph": "p17",
+    "kind": "cleanup"
+  },
+  {
+    "id": "b2-long-7e28d318ef",
+    "paragraph": "p1",
+    "kind": "cleanup"
+  },
+  {
+    "id": "b2-short-f0936d4c20",
+    "paragraph": "p1",
+    "kind": "cleanup"
+  },
+  {
+    "id": "b2-reading-be176b1572",
+    "paragraph": "p9",
+    "kind": "cleanup"
+  },
+  {
+    "id": "b2-reading-bbb0f346ac",
+    "kind": "re-OCR from PDF"
+  },
+  {
+    "id": "b2-reading-51b5fe652d",
+    "kind": "source page checked; missing source text marked explicitly"
+  }
+]
