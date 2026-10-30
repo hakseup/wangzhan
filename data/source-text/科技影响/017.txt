@@ -1,0 +1,52 @@
+收银员 VS ⾃助收银机
+
+两⼤阵营针锋相对：⼀⽅认为⾃助收银机将提升顾客满意度（因其快捷⾼效）
+                                 ；另⼀⽅则认为这种⾃动化系统
+会让⼤量劳动者失业。
+
+让我们思考这个问题，它象征着我们这个时代的⼀个主要⽭盾：在所有困难且重复性的⼯作中，盈利能⼒总会
+让企业更倾向于选择机器⽽⾮⼈⼒。但这些机器正逐渐夺⾛劳动者的⼯作，威胁着他们的就业。然⽽，这些⼯
+作往往既困难⼜枯燥，⽆论在⾝体上还是精神上都令⼈疲惫。
+
+理论上，我们都应该为这些繁重⼯作的消失⽽感到⾼兴。理论上，这些⼯作的消失要么能让⼈们拥有更多闲暇
+时间，要么能创造更具吸引⼒的就业机会。但在现实中，这却导致了失业、不稳定、社会疏离以及⼀系列连锁
+反应……
+
+                                            四、科技与隐私数据安全
+
+FAUT-IL AVOIR PEUR DE LA FUITE DE NOS DONNÉES ?
+
+Lorsque vous allez au supermarché, que vous rentrez chez vous ou que vous vous rendez au travail, la plupart
+des nouveaux modèles de voitures collectent des données sur vos déplacements et vos préférences. Et pour les
+constructeurs automobiles, ces informations sont précieuses. Ils prétendent qu’elles servent à augmenter la
+performance et la sécurité des véhicules. Mais ces données accumulées sur vous, les firmes automobiles peuvent
+aussi… les récupérer, les trier et les revendre à des annonceurs. Car dans la majorité des cas, vous avez donné
+votre accord. Cet accord est souvent donné sans que l’utilisateur soit vraiment conscient des conséquences. La
+législation sur les données personnelles va bientôt se renforcer en Europe, avec l’entrée en application en mai
+d’un nouveau règlement européen. « Les constructeurs automobiles seront obligés de demander clairement aux
+consommateurs la permission de vendre leurs données », explique Joanna Masson de la Commission nationale
+de l’informatique et des libertés (Cnil). Pour qu’enfin nous soyons tous au courant et responsables.
+
+该担⼼个⼈数据泄露吗？
+
+当你去超市、回家或上班时，⼤多数新款汽⻋都会收集你的出⾏轨迹和偏好数据。对汽⻋制造商来说，这些信
+息极具价值。他们声称这些数据⽤于提升⻋辆性能和安全性，但汽⻋公司也可能会收集、整理这些关于你的数
+据，然后出售给⼴告商 —— ⽽在⼤多数情况下，你已经授权了。这种授权往往是在⽤户并未真正意识到后果
+的情况下给出的。欧洲即将加强个⼈数据相关⽴法，⼀项新的欧盟法规将于 5 ⽉⽣效。“汽⻋制造商必须明确
+
+征求消费者同意，才能出售他们的数据，” 法国国家信息与⾃由委员会的乔安娜・⻢松解释道，“这样我们才能
+
+最终知晓真相，并承担起相应的责任。”
+
+La future carte d’identité biométrique controversée
+
+Le texte de loi concernant les nouvelles cartes d’identité biométriques a été adopté. Le futur document sera relié
+à un fichier centralisé grâce à deux puces électroniques.
+
+La première contiendra toutes les données biométriques d’un individu (état civil, adresse, taille, couleur des yeux,
+empreintes digitales, etc.). La seconde, facultative, servira de signature électronique sur l’internet pour des
+échanges commerciaux et administratifs. Grâce à ce nouveau dispositif, le gouvernement espère « lutter plus
+efficacement contre l’usurpation* d’identité ».
+
+Cette décision a fait l’objet d’une très vive polémique.
+
