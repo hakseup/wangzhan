@@ -24,7 +24,7 @@ app='<script type="module">'+js.replace('</script','<\\/script')+'</script>'
 html=html.replace('</body>',embedded+app+'</body>')
 OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(html)
 assert len(bank['exercises'])==297
-assert sum(bool(e.get('audio')) for e in bank['exercises'])==12
+assert sum(bool(e.get('audio')) for e in bank['exercises'])==bank['audioCount']
 assert '/fonts/Journal.ttf' not in css
 assert 'imageAsset' not in js
 print(f'{OUT.name}: {OUT.stat().st_size/1024/1024:.1f} MiB, {len(bank["exercises"])} exercises')
