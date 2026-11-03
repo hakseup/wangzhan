@@ -31,7 +31,7 @@ test('writing uses the B2 250-word task and complete models; oral has all seven 
 test('frequency dates preserve repeat sittings and distinguish unmarked overseas material',()=>{
  const social=bank.exercises.find(e=>e.titleZh==='社交网络依赖与影响');assert.equal(social.source,'中国场次 2022年3月；中国场次 2026年6月');
  assert.equal(bank.exercises.find(e=>e.titleZh==='招聘测试的类型与应对').source,'国外考过，国内暂未考过');
- const oral=bank.exercises.filter(e=>e.category==='speaking');assert.equal(oral.filter(e=>e.source==='2026年6月场').length,15);assert.equal(oral.filter(e=>e.source==='国外考过，国内暂未考过').length,188);const audit=JSON.parse(fs.readFileSync(new URL('../data/2026-06-speaking-session-audit.json',import.meta.url)));assert.deepEqual(oral.filter(e=>e.examSessionLabel==='2026年6月场').map(e=>e.id).sort(),audit.matched.map(e=>e.id).sort());assert.equal(audit.unmatched.length,0);
+ const oral=bank.exercises.filter(e=>e.category==='speaking');assert.equal(oral.filter(e=>e.source==='2026年6月场').length,15);assert.equal(oral.filter(e=>e.source==='国外考过，国内暂未考过').length,173);const audit=JSON.parse(fs.readFileSync(new URL('../data/2026-06-speaking-session-audit.json',import.meta.url)));assert.deepEqual(oral.filter(e=>e.examSessionLabel==='2026年6月场').map(e=>e.id).sort(),audit.matched.map(e=>e.id).sort());assert.equal(audit.unmatched.length,0);
  const march=JSON.parse(fs.readFileSync(new URL('../data/2026-03-speaking-session-audit.json',import.meta.url)));assert.equal(march.matched.length,15);assert.equal(march.unmatched.length,0);assert.deepEqual(march.matched.map(m=>[m.set,m.number]),[[7,1],[7,2],[7,5],[10,3],[10,4],[7,6],[7,7],[7,10],[10,8],[10,9],[7,11],[7,12],[7,15],[10,13],[10,14]]);assert.deepEqual(oral.filter(e=>e.examSessionLabel==='2026年3月场').map(e=>e.id).sort(),march.matched.map(m=>m.id).sort());for(const m of march.matched){const e=oral.find(e=>e.id===m.id);assert.equal(e.source,'2026年3月场');assert.equal(e.examSessionEvidence.subjectNumber,m.number);assert.ok(m.bodyScore>=0.99);if(m.action==='added-from-new-pdf'){assert.ok(e.paragraphs.every(p=>p.zh&&p.translationReviewed));assert.ok(wordCount(e.studyModels[0].paragraphs.join(' '))>=300);}}
 });
 test('review keeps complete source characters and dictionary books point to B2 exercises',()=>{
@@ -46,4 +46,12 @@ test('review keeps complete source characters and dictionary books point to B2 e
 test('missing source answers remain self-evaluation rather than incorrect automatic marks',()=>{
  const e=bank.exercises.find(e=>e.titleZh==='家庭作业争议');assert.ok(e.questions.every(q=>!q.answer));
  assert.equal(gradeQuestion(e.questions[0],'A').status,'review');
+});
+
+test('November 2025 oral PDF matches all fifteen existing topics without changing previous sessions',()=>{
+ const audit=JSON.parse(fs.readFileSync(new URL('../data/2025-11-speaking-session-audit.json',import.meta.url)));
+ assert.equal(audit.matched.length,15);assert.equal(audit.unmatched.length,0);
+ assert.deepEqual(audit.matched.map(m=>m.sujet),Array.from({length:15},(_,i)=>i+1));
+ assert.deepEqual(bank.exercises.filter(e=>e.examSessionLabel==='2025年11月场').map(e=>e.id).sort(),audit.matched.map(m=>m.id).sort());
+ for(const m of audit.matched){const e=bank.exercises.find(e=>e.id===m.id);assert.equal(e.category,'speaking');assert.equal(e.source,'2025年11月场');assert.equal(e.examSessionEvidence.subjectNumber,m.sujet);assert.equal(e.examSessionEvidence.file,audit.sourceFile);assert.equal(m.bodyScore,1);assert.equal(m.titleScore,1);}
 });
