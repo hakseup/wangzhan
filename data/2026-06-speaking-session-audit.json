@@ -4,6 +4,15 @@
   "sessionProvidedByUser": true,
   "matched": [
     {
+      "sujet": 1,
+      "id": "b2-speaking-2026-06-01",
+      "title": "Partir vivre à l’étranger : faut-il se lancer dans l’aventure ?",
+      "titleZh": "移居国外：要不要勇敢尝试？",
+      "topic": "社会生活",
+      "action": "added-from-new-pdf",
+      "source": "2026年6月场"
+    },
+    {
       "sujet": 2,
       "pdfTitle": "SCOLARISATION DES MOINS DE 3 ANS : POUR OU CONTRE ?",
       "id": "b2-speaking-947ea2221a",
@@ -64,6 +73,15 @@
       "oldSource": "国外考过，国内暂未考过"
     },
     {
+      "sujet": 8,
+      "id": "b2-speaking-2026-06-08",
+      "title": "Garez-vous bien, vous êtes filmés !",
+      "titleZh": "规范停车：摄像头正看着你！",
+      "topic": "科技影响",
+      "action": "added-from-new-pdf",
+      "source": "2026年6月场"
+    },
+    {
       "sujet": 9,
       "pdfTitle": "SUCCÈS CONTROVERSÉ DU SOUTIEN SCOLAIRE EN LIGNE",
       "id": "b2-speaking-f649f4098c",
@@ -72,6 +90,15 @@
       "titleScore": 1.0,
       "bodyScore": 0.9,
       "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 10,
+      "id": "b2-speaking-2026-06-10",
+      "title": "Si le tourisme profite du patrimoine, il doit payer pour son entretien",
+      "titleZh": "旅游受益于文化遗产，应为其维护付费",
+      "topic": "社会生活",
+      "action": "added-from-new-pdf",
+      "source": "2026年6月场"
     },
     {
       "sujet": 11,
@@ -124,7 +151,8 @@
       "oldSource": "国外考过，国内暂未考过"
     }
   ],
-  "unmatched": [
+  "unmatched": [],
+  "previouslyUnmatched": [
     {
       "sujet": 1,
       "title": "PARTIR VIVRE À L’ÉTRANGER : FAUT-IL SE LANCER DANS L’AVENTURE ?",
