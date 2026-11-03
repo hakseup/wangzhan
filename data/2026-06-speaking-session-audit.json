@@ -1,0 +1,144 @@
+{
+  "sourceFile": "B2第六套练习题（口语）.pdf",
+  "session": "2026年6月场",
+  "sessionProvidedByUser": true,
+  "matched": [
+    {
+      "sujet": 2,
+      "pdfTitle": "SCOLARISATION DES MOINS DE 3 ANS : POUR OU CONTRE ?",
+      "id": "b2-speaking-947ea2221a",
+      "title": "Scolarisation des moins de 3 ans : pour ou contre ?",
+      "titleZh": "3 岁以下儿童入学:支持还是反对?",
+      "titleScore": 1.0,
+      "bodyScore": 0.995,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 3,
+      "pdfTitle": "POUR OU CONTRE LA TÉLÉMÉDECINE ?",
+      "id": "b2-speaking-011397c9ff",
+      "title": "Pour ou contre la télémédecine ?",
+      "titleZh": "支持还是反对远程医疗?",
+      "titleScore": 1.0,
+      "bodyScore": 0.996,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 4,
+      "pdfTitle": "INÉGALITÉS DE SALAIRE : LES FRANÇAISES APPELÉES À CESSER LE TRAVAIL !",
+      "id": "b2-speaking-d7b7a9528f",
+      "title": "Inégalités de salaire : les françaises appelées à cesser le travail !",
+      "titleZh": "薪资不平等:呼吁法国女性停止工作!",
+      "titleScore": 1.0,
+      "bodyScore": 0.997,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 5,
+      "pdfTitle": "LE CV NUMÉRIQUE GAGNE DU TERRAIN",
+      "id": "b2-speaking-1fd3912725",
+      "title": "Le CV numérique gagne du terrain",
+      "titleZh": "电子简历逐渐成为主流",
+      "titleScore": 1.0,
+      "bodyScore": 0.982,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 6,
+      "pdfTitle": "VERS UN DÉVELOPPEMENT DU TÉLÉTRAVAIL",
+      "id": "b2-speaking-37fad0f08c",
+      "title": "Vers un développement du télétravail",
+      "titleZh": "远程办公的发展趋势",
+      "titleScore": 1.0,
+      "bodyScore": 0.996,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 7,
+      "pdfTitle": "CRÈCHES D’ENTREPRISE : DES INITIATIVES ENCORE ISOLÉES",
+      "id": "b2-speaking-15af97f60b",
+      "title": "Crèches d’entreprise : des initiatives encore isolées",
+      "titleZh": "企业托儿所:仍属个别举措",
+      "titleScore": 1.0,
+      "bodyScore": 0.995,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 9,
+      "pdfTitle": "SUCCÈS CONTROVERSÉ DU SOUTIEN SCOLAIRE EN LIGNE",
+      "id": "b2-speaking-f649f4098c",
+      "title": "Succès controversé du soutien scolaire en ligne",
+      "titleZh": "颇具争议的在线辅导热潮",
+      "titleScore": 1.0,
+      "bodyScore": 0.9,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 11,
+      "pdfTitle": "VIDÉOSURVEILLANCE DANS L’ENTREPRISE : JUSQU’OÙ PEUT-ON ÉPIER LES SALARIÉS ?",
+      "id": "b2-speaking-c03ca96300",
+      "title": "Vidéosurveillance dans l’entreprise : jusqu’où peut-on épier les salariés ?",
+      "titleZh": "企业视频监控:员工监控的边界在哪里?",
+      "titleScore": 1.0,
+      "bodyScore": 0.995,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 12,
+      "pdfTitle": "LE CONGÉ DE PATERNITÉ BIENTÔT OBLIGATOIRE ?",
+      "id": "b2-speaking-a6be0cc2b6",
+      "title": "Le congé de paternité bientôt obligatoire ?",
+      "titleZh": "陪产假即将成为强制规定?",
+      "titleScore": 1.0,
+      "bodyScore": 0.996,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 13,
+      "pdfTitle": "ET SI L’ON PRENAIT DU TEMPS POUR SOI ?",
+      "id": "b2-speaking-1754ed4270",
+      "title": "Et si l’on prenait du temps pour soi ?",
+      "titleZh": "给自己留点专属时间如何?",
+      "titleScore": 1.0,
+      "bodyScore": 0.996,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 14,
+      "pdfTitle": "LOUER UN AMI LOCAL",
+      "id": "b2-speaking-f7699fe1e6",
+      "title": "Louer un ami local",
+      "titleZh": "租借本地朋友",
+      "titleScore": 1.0,
+      "bodyScore": 0.995,
+      "oldSource": "国外考过，国内暂未考过"
+    },
+    {
+      "sujet": 15,
+      "pdfTitle": "ET SI VOUS LOUIEZ VOS VÊTEMENTS ?",
+      "id": "b2-speaking-7a52d5a1d1",
+      "title": "Et si vous louiez vos vêtements ?",
+      "titleZh": "若你选择租借衣物呢?",
+      "titleScore": 1.0,
+      "bodyScore": 0.974,
+      "oldSource": "国外考过，国内暂未考过"
+    }
+  ],
+  "unmatched": [
+    {
+      "sujet": 1,
+      "title": "PARTIR VIVRE À L’ÉTRANGER : FAUT-IL SE LANCER DANS L’AVENTURE ?",
+      "reason": "未在现有口语题库找到对应正文，未标注其他近似主题题目"
+    },
+    {
+      "sujet": 8,
+      "title": "GAREZ-VOUS BIEN, VOUS ÊTES FILMÉS !",
+      "reason": "未在现有口语题库找到对应正文，未标注其他近似主题题目"
+    },
+    {
+      "sujet": 10,
+      "title": "SI LE TOURISME PROFITE DU PATRIMOINE, IL DOIT PAYER POUR SON ENTRETIEN",
+      "reason": "未在现有口语题库找到对应正文，未标注其他近似主题题目"
+    }
+  ]
+}

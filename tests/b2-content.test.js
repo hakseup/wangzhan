@@ -31,7 +31,7 @@ test('writing uses the B2 250-word task and complete models; oral has all seven 
 test('frequency dates preserve repeat sittings and distinguish unmarked overseas material',()=>{
  const social=bank.exercises.find(e=>e.titleZh==='社交网络依赖与影响');assert.equal(social.source,'中国场次 2022年3月；中国场次 2026年6月');
  assert.equal(bank.exercises.find(e=>e.titleZh==='招聘测试的类型与应对').source,'国外考过，国内暂未考过');
- assert.ok(bank.exercises.filter(e=>e.category==='speaking').every(e=>e.source==='国外考过，国内暂未考过'));
+ const oral=bank.exercises.filter(e=>e.category==='speaking');assert.equal(oral.filter(e=>e.source==='2026年6月场').length,12);assert.equal(oral.filter(e=>e.source==='国外考过，国内暂未考过').length,200);const audit=JSON.parse(fs.readFileSync(new URL('../data/2026-06-speaking-session-audit.json',import.meta.url)));assert.deepEqual(oral.filter(e=>e.examSessionLabel).map(e=>e.id).sort(),audit.matched.map(e=>e.id).sort());assert.equal(audit.unmatched.length,3);
 });
 test('review keeps complete source characters and dictionary books point to B2 exercises',()=>{
  for(const e of bank.exercises.filter(e=>e.questions.length)){

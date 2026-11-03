@@ -28,3 +28,5 @@ body{background:#fffaf1;color:#574a39}.sidebar{background:#fffbf3e8;border-right
 .review-evidence-candidate{font-size:11px;color:#8b714f}.review-explanation-limit{font-size:12px;color:#8b714f}
 
 .candidate-source{background:#fff7db!important;text-decoration:underline dashed #c39c61;text-underline-offset:4px}.evidence-quote-zh{font:13px/1.9 Arial,sans-serif;color:#806b50;margin-top:9px}.review-caption>span{line-height:1.7}
+
+.exam-session-badge{display:inline-block;margin:0 0 8px 8px;padding:3px 8px;border:1px solid #dfbe8177;border-radius:12px;background:#fff0d4;color:#936c32;font:11px/1.5 Arial,"Microsoft YaHei",sans-serif;white-space:nowrap;vertical-align:middle}
