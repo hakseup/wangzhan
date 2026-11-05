@@ -1,0 +1,37 @@
+name: Build signed Mac app
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Validate deployment and signing configuration
+        env:
+          APP_URL: ${{ vars.NOIX_APP_URL }}
+          CSC_LINK: ${{ secrets.MAC_CERTIFICATE_P12_BASE64 }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+        run: |
+          test -n "$CSC_LINK" && test -n "$APPLE_ID" && test -n "$APPLE_TEAM_ID" && test -n "$APPLE_APP_SPECIFIC_PASSWORD"
+          node -e 'const u=new URL(process.env.APP_URL);if(u.protocol!=="https:")throw Error("HTTPS URL required");require("fs").writeFileSync("desktop/app-config.json",JSON.stringify({url:u.href}))'
+      - run: npm install --prefix desktop
+      - name: Build and notarize Intel and Apple Silicon installers
+        env:
+          CSC_LINK: ${{ secrets.MAC_CERTIFICATE_P12_BASE64 }}
+          CSC_KEY_PASSWORD: ${{ secrets.MAC_CERTIFICATE_PASSWORD }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+        run: npm run dist --prefix desktop
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Noix-B2-Mac-installers
+          path: desktop/dist/*
+          if-no-files-found: error

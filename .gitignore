@@ -12,3 +12,7 @@ data/runtime/
 secrets/
 *.pem
 *.key
+desktop/app-config.json
+desktop/dist/
+*.p12
+*.pfx
