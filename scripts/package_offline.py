@@ -1,6 +1,6 @@
 """Build the self-contained B2 HTML from the current dist assets."""
 from pathlib import Path
-import base64,json,re,sys
+import base64,json,re,sys,shutil
 ROOT=Path(__file__).resolve().parents[1];DIST=ROOT/'dist'
 OUT=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'downloads/胡桃法语-DELF-B2-双击打开.html'
 html=(DIST/'index.html').read_text().replace('<html lang="zh-CN">','<html lang="zh-CN" data-noix-offline>')
@@ -28,3 +28,10 @@ assert sum(bool(e.get('audio')) for e in bank['exercises'])==bank['audioCount']
 assert '/fonts/Journal.ttf' not in css
 assert 'imageAsset' not in js
 print(f'{OUT.name}: {OUT.stat().st_size/1024/1024:.1f} MiB, {len(bank["exercises"])} exercises')
+
+# Keep the original PDFs beside the standalone HTML for offline downloads.
+shutil.copytree(DIST/'pdfs',OUT.parent/'pdfs',dirs_exist_ok=True)
+catalogue=json.loads((ROOT/'src/pdf-downloads.json').read_text())
+files=[f for section in catalogue['sections'] for f in section['files']]+catalogue['resources']
+assert all((OUT.parent/'pdfs'/f['asset']).stat().st_size==f['bytes'] for f in files)
+print(f'Offline PDF files: {len(files)}')
