@@ -4,3 +4,11 @@ downloads/
 data/*.sqlite
 *.log
 __pycache__/
+
+.env
+.env.*
+!.env.example
+data/runtime/
+secrets/
+*.pem
+*.key

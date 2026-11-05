@@ -1,10 +1,13 @@
 # 胡桃法语 · DELF B2
 
+当前分支 `noix-delf-b2-pwa` 为账号、购买授权与PWA版本。**尚未部署公网，也未连接真实商户或邮件服务。** 请先阅读 [部署说明](DEPLOYMENT.md)，使用Node.js 24服务端运行，不能通过GitHub Pages或静态托管上线。
+
+
 根据 `hakseup/wangzhan` 的 `noix-dalf-c1` 分支（8ddce8333ef648984fe2f48305bc8c6a08139ca3）制作的独立 B2 版本。首页采用黄橙色、晨雾凯旋门、咖啡与笔记本背景；保留原版导航、手写字体、品牌标志、双栏练习、手动高亮、笔记、收藏、复盘、草稿、范文编辑、单词复习和备份功能。
 
 ## 使用
 
-完整离线版：[点击下载](https://github.com/hakseup/wangzhan/archive/refs/heads/noix-delf-b2-offline.zip)。解压整个压缩包后，用 Chrome 或 Edge 打开其中的 **胡桃法语-DELF-B2-双击打开.html**，无需安装依赖或启动服务器。请保留旁边的 `pdfs` 文件夹，供离线下载题目使用；不要在压缩包或聊天附件预览器中打开网页。
+本分支使用服务器校验账号和题库权限，默认商品为36.90元永久权限。运营后台邮箱为meilinheyhey@outlook.com，须完成邮箱验证。原单文件离线版仅保留于历史分支，不在付费网站提供下载。
 
 学习进度保存在当前浏览器，使用独立的 B2 存储键。请通过「学习设置与备份」定期导出 JSON，换浏览器或电脑时再导入。部分浏览器限制 `file://` 下的存储；若页面提示存储失败，请导出备份，或使用下面的本地服务器方式。
 
@@ -35,17 +38,17 @@
 
 ## 源码运行
 
-需要 Node.js 20.19+ 或 22.12+：
+本分支需要 Node.js 24：
 
 ```bash
 npm ci
-npm run dev
 npm test
-npm run build
-python scripts/package_offline.py
+npm run build:pwa
+# 配置.env后运行
+npm start
 ```
 
-`dist/` 是可部署到静态托管服务的目录，采用哈希路由。`index.html` 是开发入口，不能直接双击；离线交付文件由打包脚本嵌入全部题库、字体、图片和应用代码。
+`dist/` 必须通过本分支服务端提供，切勿直接公开到静态托管，否则会绕过访问控制。`index.html` 是开发入口，不能直接双击；离线交付文件由打包脚本嵌入全部题库、字体、图片和应用代码。
 
 词典沿用参考仓库的词典来源与许可，按 B2 语料筛选，并重新建立 B2 词书来源。许可与署名见 `data/NOTICE.txt`、`data/CC-BY-SA-4.0.txt` 及题库中的 `lexicon.attribution`。DOMPurify 源文件及其许可声明保留于 `src/vendor/`。
 

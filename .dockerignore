@@ -1,0 +1,11 @@
+.git
+node_modules
+dist
+downloads
+.env
+.env.*
+data/runtime
+*.log
+secrets
+*.pem
+*.key
