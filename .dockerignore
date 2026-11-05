@@ -1,11 +1,5 @@
 .git
-node_modules
-dist
-downloads
 .env
 .env.*
+node_modules
 data/runtime
-*.log
-secrets
-*.pem
-*.key

@@ -1,11 +1,0 @@
-1 错误 <L’industrie du plastique se porte pourtant … de la production>
-2C
-3C
-4 以更低的价格提供可回收塑料
-5 提供不同颜色的垃圾桶，和使用新的 logo
-6 错误 <Les meilleurs en Europe sont la Norvège et l'Allemagne>
-7B
-8 正确 <Cette technique « prometteuse », selon Plastics Europe…>
-9 这给了他们一个好的意识，或 他们不会减少消耗塑料
-10 B
-

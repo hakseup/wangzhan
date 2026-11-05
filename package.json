@@ -1,22 +1,12 @@
 {
-  "name": "noix-delf-b2",
+  "name": "noix-delf-b2-pwa-codes-runtime",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0",
-    "test": "node --test tests/*.test.js",
-    "start": "node --env-file-if-exists=.env server/start.mjs",
-    "build:pwa": "vite build && node scripts/build-pwa.mjs"
-  },
-  "dependencies": {
-    "lucide-react": "^0.468.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
-  },
-  "devDependencies": {
-    "vite": "^6.3.0"
+    "start": "node --env-file-if-exists=.env server/start.mjs"
   }
 }
