@@ -1,0 +1,142 @@
+{
+  "sourceFile": "已粘贴的文本.txt",
+  "uploadId": "file_00000000fc64821084524e0c34ff99f8",
+  "sha256": "bc605b7a6ab2fce99d089a7cbe9d8fdff66969a41bd7c4998f52a022b31f3607",
+  "totalProvided": 12,
+  "added": 10,
+  "matchedExisting": 2,
+  "items": [
+    {
+      "item": 1,
+      "id": "b2-speaking-3d696390f7",
+      "title": "Pourquoi entreprendre entre amis ?",
+      "titleZh": "为什么要和朋友一起创业？",
+      "topic": "职业职场",
+      "subtopic": "职场人际关系与社交",
+      "reference": "第一套 Sujet 2（第十八套 Sujet 2 重复）",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 2,
+      "id": "b2-speaking-517c4ab596",
+      "title": "Les salariés européens passent trop de temps sur Internet",
+      "titleZh": "欧洲员工在互联网上花费了太多时间",
+      "topic": "职业职场",
+      "subtopic": "职场模式与办公形式",
+      "reference": "第一套 Sujet 5（第十八套 Sujet 5 重复）",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 3,
+      "id": "b2-speaking-00d5fe1102",
+      "title": "Un congé paternité obligatoire et plus long",
+      "titleZh": "强制实行并延长陪产假",
+      "topic": "男女问题",
+      "subtopic": "家庭与社会中的性别角色",
+      "reference": "第八套 Sujet 5",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 4,
+      "id": "b2-speaking-2026-03-07",
+      "title": "Faut-il favoriser le sport féminin à la télévision ?",
+      "titleZh": "是否应该增加女子体育赛事的电视转播？",
+      "topic": "男女问题",
+      "subtopic": "性别歧视与刻板印象破除",
+      "reference": "第七套 Sujet 7",
+      "action": "matched-existing",
+      "sessionPreserved": "2026年3月场"
+    },
+    {
+      "item": 5,
+      "id": "b2-speaking-bf1efe4af1",
+      "title": "Les quotas de parité doivent-ils s’appliquer dans les entreprises ?",
+      "titleZh": "企业是否应该实行男女比例配额制度？",
+      "topic": "男女问题",
+      "subtopic": "职场性别平等与权益",
+      "reference": "第十二套 Sujet 15",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 6,
+      "id": "b2-speaking-541dc574d3",
+      "title": "Ville ou campagne ?",
+      "titleZh": "城市还是乡村？",
+      "topic": "社会生活",
+      "subtopic": "城市公共生活",
+      "reference": "第三套 Sujet 6",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 7,
+      "id": "b2-speaking-f399d309d1",
+      "title": "Centres esthétiques pour enfants",
+      "titleZh": "儿童美容中心",
+      "topic": "社会生活",
+      "subtopic": "健康、权利与社会争议",
+      "reference": "第二套 Sujet 7",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 8,
+      "id": "b2-speaking-2026-06-10",
+      "title": "Si le tourisme profite du patrimoine, il doit payer pour son entretien",
+      "titleZh": "旅游受益于文化遗产，应为其维护付费",
+      "topic": "社会生活",
+      "subtopic": "社交、文化与旅游",
+      "reference": "第六套 Sujet 10",
+      "action": "matched-existing",
+      "sessionPreserved": "2026年6月场"
+    },
+    {
+      "item": 9,
+      "id": "b2-speaking-aa8427c23c",
+      "title": "Décentraliser la culture : un plus pour l’égalité sociale ?",
+      "titleZh": "文化去中心化：是否有助于促进社会平等？",
+      "topic": "社会生活",
+      "subtopic": "社交、文化与旅游",
+      "reference": "第十套 Sujet 1",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 10,
+      "id": "b2-speaking-a01de5dd1a",
+      "title": "Espèces en voie de disparition",
+      "titleZh": "正在消失的现金",
+      "topic": "科技影响",
+      "subtopic": "科技与日常生活 / 文化教育",
+      "reference": "第三套 Sujet 4",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 11,
+      "id": "b2-speaking-2653d44dba",
+      "title": "La folie des textos",
+      "titleZh": "短信狂热",
+      "topic": "科技影响",
+      "subtopic": "科技与社交生活",
+      "reference": "第三套 Sujet 11",
+      "action": "added",
+      "sessionPreserved": null
+    },
+    {
+      "item": 12,
+      "id": "b2-speaking-76835095df",
+      "title": "Le cinéma profite de tous les écrans",
+      "titleZh": "电影受益于各种屏幕播放方式",
+      "topic": "科技影响",
+      "subtopic": "科技与日常生活 / 文化教育",
+      "reference": "第十套 Sujet 6",
+      "action": "added",
+      "sessionPreserved": null
+    }
+  ]
+}

@@ -23,7 +23,7 @@ embedded='<script>window.__NOIX_EMBEDDED_IMAGES__='+json.dumps(images,separators
 app='<script type="module">'+js.replace('</script','<\\/script')+'</script>'
 html=html.replace('</body>',embedded+app+'</body>')
 OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(html)
-assert len(bank['exercises'])==303
+assert len(bank['exercises'])==313
 assert sum(bool(e.get('audio')) for e in bank['exercises'])==bank['audioCount']
 assert '/fonts/Journal.ttf' not in css
 assert 'imageAsset' not in js

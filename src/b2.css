@@ -35,3 +35,5 @@ body{background:#fffaf1;color:#574a39}.sidebar{background:#fffbf3e8;border-right
 .card-labels{display:flex;align-items:center;gap:8px;min-width:0}
 .card-audio-label{font-size:9px;color:#a5907a;white-space:nowrap}
 .card-bottom.listening{justify-content:flex-end}
+
+.subject-reference{display:block;font:11px/1.8 Arial,sans-serif;color:#a18a6d;margin-top:7px}.source-context-note{font-size:12px;line-height:1.9;color:#947753;border-left:2px solid #dbc4a3;padding-left:12px;margin-top:22px}
