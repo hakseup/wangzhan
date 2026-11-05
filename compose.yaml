@@ -5,7 +5,6 @@ services:
     env_file: .env
     volumes:
       - learning:/app/data/runtime
-      - ./secrets:/run/secrets:ro
   proxy:
     image: caddy:2
     restart: unless-stopped
