@@ -1,11 +1,0 @@
-1B
-2 错误 <Tous les clients du bar peuvent participer gratuitement aux jeux>
-3C
-4 很热情也很便宜
-5 正确 <Le marché est devenu hyper concurrentiel>
-6C
-7 他们提倡个人主义
-8 现今，女性在游戏界的代表性更高
-9A
-10 错误 <Le temps finira par le dire>
-

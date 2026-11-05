@@ -1,1 +1,0 @@
-Journal Clair is a minimally straightened derivative of Mansalva (SIL OFL 1.1). Glyphs were sheared horizontally by -0.025*y, preserving stroke shapes, spacing, and character coverage. Original attribution and license are in OFL.txt.
