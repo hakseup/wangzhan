@@ -25,7 +25,7 @@
 1. Supabase → Authentication → URL Configuration：Site URL 设置为 `https://noix-delf-b2-mac.vercel.app`；Redirect URLs 增加 `https://noix-delf-b2-mac.vercel.app/`。
 2. Authentication → Email → SMTP Settings 配置正式发信服务。默认发信仅可供组织成员测试，不能用于公开注册。保持邮箱确认开启。
 3. 管理员使用 `meilinheyhey@outlook.com` 注册，验证真实邮件，并自行设置密码。没有预设管理员密码。
-4. 登录后进入“管理后台”，点击“初始化／更新题库资源”，保持页面打开，等待全部私有文件导入。
+4. 管理员首次登录后会自动检查并导入缺失的私有文件。正文先就绪，其余音频与PDF继续导入；保持页面打开，失败时点击“继续初始化”。后台仍保留手动更新入口。
 5. 生成兑换码，使用另一真实邮箱验证注册、兑换和两设备同步，然后再分发安装包。
 
 ## 运行与保护

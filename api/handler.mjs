@@ -42,7 +42,7 @@ export default async function handler(req,res){
   if(path==='admin/codes'&&method==='POST')return send({codes:await rpc('noix_generate_codes',{quantity:body.count,valid_days:body.days},token)});
   if(path==='admin/import'&&method==='POST'){
    if(!(await rpc('noix_session',{},token)).admin)fail('需要管理员权限。',403);
-   return send(await sb('/functions/v1/import-assets',{method:'POST',token,body:body.index===undefined?{}:{index:body.index}}));
+   return send(await sb('/functions/v1/import-assets',{method:'POST',token,body:body.index===undefined?{}:{index:body.index},timeoutMs:55000}));
   }
   if(path==='admin/notices'&&method==='POST'){await sb('/rest/v1/noix_notices',{method:'POST',token,body:{title:body.title,body:body.body}});return send({ok:true});}
   if(path==='admin/settings'&&method==='PUT'){const r=body.release;if(!r||typeof r.version!=='string'||r.version.length>40||typeof r.notes!=='string'||r.notes.length>10000)fail('版本说明格式无效。');await sb('/rest/v1/noix_settings?on_conflict=key',{method:'POST',token,headers:{Prefer:'resolution=merge-duplicates'},body:{key:'release',value:{version:r.version,notes:r.notes}}});return send({ok:true});}

@@ -3,8 +3,8 @@ export const fail=(message,status=400)=>{throw Object.assign(Error(message),{sta
 export function gateway(env=process.env,fetcher=fetch){
  const root=env.SUPABASE_URL,key=env.SUPABASE_PUBLISHABLE_KEY;
  if(!root||!key)fail('账号服务尚未配置。',503);
- return async(path,{method='GET',body,token,headers={}}={})=>{
-  const response=await fetcher(root+path,{method,headers:{apikey:key,...(token?{Authorization:'Bearer '+token}:{}),...(body!==undefined?{'Content-Type':'application/json'}:{}),...headers},body:body!==undefined?JSON.stringify(body):undefined,signal:AbortSignal.timeout(20000)});
+ return async(path,{method='GET',body,token,headers={},timeoutMs=20000}={})=>{
+  const response=await fetcher(root+path,{method,headers:{apikey:key,...(token?{Authorization:'Bearer '+token}:{}),...(body!==undefined?{'Content-Type':'application/json'}:{}),...headers},body:body!==undefined?JSON.stringify(body):undefined,signal:AbortSignal.timeout(timeoutMs)});
   const data=await response.json().catch(()=>null);
   if(!response.ok){const status=data?.code==='40001'?409:response.status;const messages={invalid_credentials:'邮箱或密码不正确。',email_not_confirmed:'请先验证邮箱。',email_address_not_authorized:'发信服务尚未开放，请联系管理员配置正式邮件服务。',over_email_send_rate_limit:'邮件发送频率已达上限，请稍后再试。'};fail(messages[data?.error_code||data?.code]||(status===409?'其他设备已更新学习记录。':status===401?'请重新登录。':'操作失败，请检查输入或稍后重试。'),status);}
   return data;
