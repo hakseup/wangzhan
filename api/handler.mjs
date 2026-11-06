@@ -46,9 +46,9 @@ export default async function handler(req,res){
   }
   if(path==='admin/notices'&&method==='POST'){await sb('/rest/v1/noix_notices',{method:'POST',token,body:{title:body.title,body:body.body}});return send({ok:true});}
   if(path==='admin/settings'&&method==='PUT'){const r=body.release;if(!r||typeof r.version!=='string'||r.version.length>40||typeof r.notes!=='string'||r.notes.length>10000)fail('版本说明格式无效。');await sb('/rest/v1/noix_settings?on_conflict=key',{method:'POST',token,headers:{Prefer:'resolution=merge-duplicates'},body:{key:'release',value:{version:r.version,notes:r.notes}}});return send({ok:true});}
-  const access=await rpc('noix_session',{},token);if(!access.entitled)fail('请输入有效兑换码开通题库。',403);
   if(path==='progress'&&method==='GET'){const rows=await sb('/rest/v1/noix_progress?select=revision,state&user_id=eq.'+encodeURIComponent(auth.user.id),{token});return send(rows[0]||{revision:0,state:null});}
   if(path==='progress'&&method==='PUT'){if(!Number.isSafeInteger(body.revision)||body.revision<0)fail('进度版本无效。');return send({revision:await rpc('noix_save_progress',{expected_revision:body.revision,new_state:body.state},token)});}
+  const access=await rpc('noix_session',{},token);if(!access.entitled)fail('请输入有效兑换码开通题库。',403);
   const asset=privatePath('/'+path);
   if(asset&&['GET','HEAD'].includes(method)){
    const signed=await sb('/storage/v1/object/sign/noix-private/'+asset.split('/').map(encodeURIComponent).join('/'),{method:'POST',token,body:{expiresIn:120}});

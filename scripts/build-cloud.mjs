@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {build} from 'vite';
 const bank=JSON.parse(readFileSync('public/content.json'));
 mkdirSync('cloud',{recursive:true});
-writeFileSync('cloud/catalog.json',JSON.stringify({level:bank.level,exercises:bank.exercises.map(e=>({id:e.id,category:e.category,title:e.title,titleZh:e.titleZh,topic:e.topic,subtopic:e.subtopic,examSessionLabel:e.examSessionLabel,paragraphs:[],questions:[],studyModels:[],audio:null})),lexicon:{}}));
+writeFileSync('cloud/catalog.json',JSON.stringify({level:bank.level,exercises:bank.exercises.map(e=>({id:e.id,category:e.category,title:e.title,titleZh:e.titleZh,topic:e.topic,subtopic:e.subtopic,examSessionLabel:e.examSessionLabel,source:e.source,paragraphs:[],questions:[],studyModels:[],audio:null})),lexicon:{bookCounts:Object.fromEntries(Object.entries(bank.lexicon.books||{}).map(([id,words])=>[id,words.length]))}}));
 rmSync('cloud-public',{recursive:true,force:true});mkdirSync('cloud-public');
 for(const file of ['fonts','images','icon-192.png','icon-512.png','manifest.webmanifest'])cpSync('public/'+file,'cloud-public/'+file,{recursive:true});
 await build({publicDir:'cloud-public',build:{outDir:'web-dist'}});

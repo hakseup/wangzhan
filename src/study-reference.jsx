@@ -14,6 +14,7 @@ function ModelEditor({model,exercise,state,update}){
  const tools=useAnnotationTools(),key=exercise.id+':'+model.id,ref=useRef(null),[editing,setEditing]=useState(false),[reset,setReset]=useState(false),[count,setCount]=useState(0);
  const saved=state.modelEdits?.[key],source=originalHTML(model);
  useEffect(()=>{if(ref.current){ref.current.innerHTML=cleanModelHTML(saved??source);setCount(wordCount(ref.current.innerText));}},[key,editing]);
+ useEffect(()=>{if(!editing&&ref.current){ref.current.innerHTML=cleanModelHTML(saved??source);setCount(wordCount(ref.current.innerText));}},[saved,key,editing]);
  const persist=()=>{if(!ref.current)return;const html=cleanModelHTML(ref.current.innerHTML);setCount(wordCount(ref.current.innerText));update(s=>({...s,modelEdits:{...s.modelEdits,[key]:html}}));};
  const format=(cmd,value)=>{ref.current?.focus();document.execCommand(cmd,false,value);persist();};
  return <article className="model-article"><div className="model-article-heading"><h3>{model.title}</h3><span>{count} mots</span></div>{model.structure&&<p className="model-structure">{model.structure}</p>}{model.context&&<p className="model-context">{model.context}</p>}

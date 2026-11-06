@@ -27,7 +27,7 @@ create function noix_private.has_access() returns boolean language sql stable se
  select noix_private.verified() and (noix_private.is_admin() or exists(select 1 from public.noix_access where user_id=auth.uid() and (expires_at is null or expires_at>now())));
 $$;
 create policy access_read on public.noix_access for select to authenticated using(user_id=(select auth.uid()));
-create policy progress_read on public.noix_progress for select to authenticated using(user_id=(select auth.uid()) and (select noix_private.has_access()));
+create policy progress_read on public.noix_progress for select to authenticated using(user_id=(select auth.uid()) and (select noix_private.verified()));
 create policy notices_read on public.noix_notices for select to anon,authenticated using(true);
 create policy settings_read on public.noix_settings for select to anon,authenticated using(key='release');
 create policy notices_admin on public.noix_notices for all to authenticated using((select noix_private.is_admin())) with check((select noix_private.is_admin()));
@@ -47,7 +47,7 @@ end; $$;
 create function noix_private.save_progress(expected_revision bigint,new_state jsonb) returns bigint language plpgsql security definer set search_path='' as $$
 declare rev bigint;
 begin
- if not noix_private.has_access() then raise exception 'Access required'; end if;
+ if not noix_private.verified() then raise exception 'Verified login required'; end if;
  if jsonb_typeof(new_state) is distinct from 'object' or (new_state->>'version') is distinct from '1' or pg_column_size(new_state)>4000000 then raise exception 'Invalid state'; end if;
  perform pg_catalog.pg_advisory_xact_lock(pg_catalog.hashtextextended('progress:'||auth.uid()::text,0));
  select revision into rev from public.noix_progress where user_id=auth.uid(); rev:=coalesce(rev,0);

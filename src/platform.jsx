@@ -2,6 +2,7 @@ import React,{createContext,useContext,useState,useEffect,useRef} from 'react';
 import {EMPTY_STATE,downloadText} from './lib.js';
 import './platform.css';
 import {initializeResources} from './resources.js';
+import {createProgressSync} from './cloud-progress.js';
 const stored=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}};
 const Context=createContext(null);export const usePlatform=()=>useContext(Context);
 export async function api(path,body,method=body?'POST':'GET'){const r=await fetch('/api/'+path,{method,credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,cache:'no-store'});const data=await r.json();if(!r.ok)throw Object.assign(Error(data.error||'请求失败'),{status:r.status});return data;}
@@ -32,31 +33,19 @@ export function PlatformProvider({children}){
  {update&&<section className="update-prompt" role="dialog" aria-label="发现新版本"><h3>发现新版本 <small>{update.version}</small></h3><p>{update.notes}</p><button onClick={()=>{const token=update.build+':'+update.version;deferred.current=token;sessionStorage.setItem('noix-release-later',token);setUpdate(null);}}>稍后</button><button className="primary-btn" disabled={busy} onClick={()=>run(async()=>{await window.__noixFlush?.();localStorage.setItem('noix-release-token',update.build+':'+update.version);if(registration?.waiting){navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload(),{once:true});registration.waiting.postMessage({type:'ACTIVATE'});}else location.reload();})}>立即更新</button>{message&&<p>{message}</p>}</section>}
  </Context.Provider>;
 }
-export function Paywall({children}){const p=usePlatform();return <div className="paywall"><div className="paywall-preview" inert="">{children}</div><div className="paywall-cover"><b>开通后查看完整内容</b><p>输入有效兑换码后，开始你的法语练习。</p><button className="primary-btn" onClick={p.gate}>输入兑换码开通</button></div></div>;}
+export function Paywall({children,compact=false}){const p=usePlatform();return <div className={"paywall"+(compact?" compact":"")}><div className="paywall-preview" inert="">{children}</div><div className="paywall-cover"><b>开通后查看完整内容</b><p>输入有效兑换码后，开始你的法语练习。</p><button className="primary-btn" onClick={p.gate}>输入兑换码开通</button></div></div>;}
 export function useCloudProgress(state,setState){
- const p=usePlatform(),[status,setStatus]=useState(''),[conflict,setConflict]=useState(null),refs=useRef({ready:false,revision:0,saved:'',state,initial:JSON.stringify(state),paused:false});refs.current.state=state;
- const key='noix-pending:'+p.user?.id;
- const persist=()=>localStorage.setItem(key,JSON.stringify(refs.current.state));
- const save=async()=>{
-  const x=refs.current;if(!x.ready||x.paused)throw Error('云端尚未同步，请联网并处理进度冲突后再试。修改已保存在此设备。');
-  if(x.saving){await x.saving;return save();}const snapshot=JSON.stringify(x.state);if(snapshot===x.saved)return;
-  x.saving=(async()=>{try{const result=await api('progress',{state:JSON.parse(snapshot),revision:x.revision},'PUT');x.revision=result.revision;x.saved=snapshot;if(JSON.stringify(x.state)===snapshot)localStorage.removeItem(key);else persist();setStatus('云端已同步');}
-   catch(e){persist();setStatus(e.status===409?'发现其他设备的新进度':'暂未同步，已保存在此设备');if(e.status===409){x.paused=true;setConflict(await api('progress'));}throw e;}finally{x.saving=null;}})();await x.saving;if(JSON.stringify(x.state)!==x.saved)return save();
- };
+ const p=usePlatform(),[status,setStatus]=useState(''),[conflict,setConflict]=useState(null),[retrying,setRetrying]=useState(false),engine=useRef(null),latest=useRef(state);latest.current=state;
  useEffect(()=>{
-  if(!p.user||!p.entitled)return;let alive=true;
-  const poll=async()=>{const x=refs.current;if(x.saving||x.paused)return;
-   try{if(x.ready&&JSON.stringify(x.state)!==x.saved){await save();return;}const remote=await api('progress');if(!alive||x.paused||x.saving)return;
-    if(!x.ready){const pending=stored(key,null),changed=JSON.stringify(x.state)!==x.initial;const next=pending||x.state;
-     if(remote.state&&(pending||changed)&&JSON.stringify(next)!==JSON.stringify(remote.state)){persist();x.paused=true;setConflict(remote);return;}
-     x.state={...structuredClone(EMPTY_STATE),...(remote.state&&!pending&&!changed?remote.state:next)};x.revision=remote.revision;x.saved=JSON.stringify(remote.state?{...structuredClone(EMPTY_STATE),...remote.state}:structuredClone(EMPTY_STATE));x.ready=true;setState(x.state);setStatus('云端已同步');if(JSON.stringify(x.state)!==x.saved)await save();
-    }else if(remote.revision>x.revision&&JSON.stringify(x.state)===x.saved){x.revision=remote.revision;x.state={...structuredClone(EMPTY_STATE),...remote.state};x.saved=JSON.stringify(x.state);setState(x.state);setStatus('已读取其他设备进度');}
-   }catch{if(alive)setStatus('暂未连接云端，进度保存在此设备');}
-  };
-  poll();window.__noixFlush=save;const timer=setInterval(poll,15000);window.addEventListener('online',poll);window.addEventListener('focus',poll);
-  return()=>{alive=false;clearInterval(timer);window.removeEventListener('online',poll);window.removeEventListener('focus',poll);delete window.__noixFlush;};
- },[p.user?.id,p.entitled]);
- useEffect(()=>{const x=refs.current;if(!p.user||!p.entitled)return;if(!x.ready){if(JSON.stringify(state)!==x.initial)persist();return;}if(JSON.stringify(state)===x.saved)return;persist();setStatus('正在同步…');const timer=setTimeout(()=>save().catch(()=>{}),1000);return()=>clearTimeout(timer);},[state,p.entitled]);
- const resolveConflict=async useRemote=>{const x=refs.current;try{x.revision=conflict.revision;x.paused=false;x.ready=true;if(useRemote){x.state={...structuredClone(EMPTY_STATE),...conflict.state};x.saved=JSON.stringify(x.state);localStorage.removeItem(key);setState(x.state);setStatus('云端已同步');}else{x.saved='';await save();}setConflict(null);}catch{setStatus('同步失败，请稍后重试');}};
- return <>{p.user&&<div className="cloud-status" role="status">{status||'连接云端进度…'}</div>}{conflict&&<div className="account-shade"><section className="account-modal" role="dialog" aria-modal="true" aria-label="学习进度冲突"><h2>其他设备有新的学习记录</h2><p>此设备的内容已保存在本机。请选择要继续使用的版本。</p><button className="primary-btn" onClick={()=>resolveConflict(true)}>读取云端版本</button><button className="secondary-btn" onClick={()=>resolveConflict(false)}>保留此设备并上传</button></section></div>}</>;
+  if(!p.user?.verified)return;
+  const key='noix-pending:'+p.user.id;
+  const sync=createProgressSync({call:api,initial:latest.current,readPending:()=>stored(key,null),writePending:value=>localStorage.setItem(key,JSON.stringify(value)),removePending:()=>localStorage.removeItem(key),onState:setState,onStatus:setStatus,onConflict:setConflict});
+  engine.current=sync;const poll=()=>sync.sync().catch(()=>{}),flush=()=>sync.flush();window.__noixFlush=flush;
+  poll();const timer=setInterval(poll,15000);window.addEventListener('online',poll);window.addEventListener('focus',poll);
+  const hide=()=>{if(document.visibilityState==='hidden')poll();};document.addEventListener('visibilitychange',hide);
+  return()=>{sync.stop();clearInterval(timer);window.removeEventListener('online',poll);window.removeEventListener('focus',poll);document.removeEventListener('visibilitychange',hide);if(window.__noixFlush===flush)delete window.__noixFlush;if(engine.current===sync)engine.current=null;};
+ },[p.user?.id,p.user?.verified]);
+ useEffect(()=>{if(!engine.current?.setLocal(state))return;const timer=setTimeout(()=>engine.current?.sync().catch(()=>{}),700);return()=>clearTimeout(timer);},[state]);
+ const retry=async()=>{if(retrying)return;setRetrying(true);try{await engine.current?.flush();}catch{}finally{setRetrying(false);}};
+ return <>{p.user&&<div className="cloud-status" role="status">{status||'正在读取账号的云端存档…'}<button disabled={retrying} onClick={retry}>{retrying?'同步中…':'立即同步'}</button></div>}{conflict&&<div className="account-shade"><section className="account-modal" role="dialog" aria-modal="true" aria-label="学习进度冲突"><h2>其他设备有新的学习记录</h2><p>此设备的待同步内容已保留。请选择要继续使用的版本。</p><button className="primary-btn" onClick={()=>engine.current.resolve(true).catch(()=>{})}>读取云端版本</button><button className="secondary-btn" onClick={()=>engine.current.resolve(false).catch(()=>{})}>保留此设备并上传</button></section></div>}</>;
 }
