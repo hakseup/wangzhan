@@ -1,6 +1,9 @@
-name: Build signed Mac app
+name: Build unsigned Mac app
 on:
   workflow_dispatch:
+  push:
+    branches: [noix-delf-b2-mac]
+    paths: ['desktop/**', '.github/workflows/build-mac.yml']
 permissions:
   contents: read
 jobs:
@@ -11,27 +14,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Validate deployment and signing configuration
+          cache: npm
+          cache-dependency-path: desktop/package-lock.json
+      - name: Configure deployed application
+        run: node -e 'const fs=require("fs");const c=JSON.parse(fs.readFileSync("desktop/service.json"));const u=new URL(c.url);if(u.protocol!=="https:")throw Error("HTTPS required");fs.writeFileSync("desktop/app-config.json",JSON.stringify(c))'
+      - run: npm ci --prefix desktop
+      - name: Build unsigned Intel and Apple Silicon installers
         env:
-          APP_URL: ${{ vars.NOIX_APP_URL }}
-          CSC_LINK: ${{ secrets.MAC_CERTIFICATE_P12_BASE64 }}
-          APPLE_ID: ${{ secrets.APPLE_ID }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
-          APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
-        run: |
-          test -n "$CSC_LINK" && test -n "$APPLE_ID" && test -n "$APPLE_TEAM_ID" && test -n "$APPLE_APP_SPECIFIC_PASSWORD"
-          node -e 'const u=new URL(process.env.APP_URL);if(u.protocol!=="https:")throw Error("HTTPS URL required");require("fs").writeFileSync("desktop/app-config.json",JSON.stringify({url:u.href}))'
-      - run: npm install --prefix desktop
-      - name: Build and notarize Intel and Apple Silicon installers
-        env:
-          CSC_LINK: ${{ secrets.MAC_CERTIFICATE_P12_BASE64 }}
-          CSC_KEY_PASSWORD: ${{ secrets.MAC_CERTIFICATE_PASSWORD }}
-          APPLE_ID: ${{ secrets.APPLE_ID }}
-          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
-          APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
         run: npm run dist --prefix desktop
       - uses: actions/upload-artifact@v4
         with:
-          name: Noix-B2-Mac-installers
-          path: desktop/dist/*
+          name: Noix-B2-Mac-installers-unsigned
+          path: |
+            desktop/dist/*.dmg
+            desktop/dist/*.zip
           if-no-files-found: error

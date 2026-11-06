@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build:cloud",
+  "outputDirectory": "web-dist",
+  "regions": ["sin1"],
+  "functions": {"api/handler.mjs": {"includeFiles": "cloud/**", "maxDuration": 60}},
+  "rewrites": [
+    {"source": "/api/:path*", "destination": "/api/handler?route=:path*"},
+    {"source": "/content.json", "destination": "/api/handler?route=content.json"},
+    {"source": "/audio/:path*", "destination": "/api/handler?route=audio/:path*"},
+    {"source": "/pdfs/:path*", "destination": "/api/handler?route=pdfs/:path*"},
+    {"source": "/dictionary/:path*", "destination": "/api/handler?route=dictionary/:path*"}
+  ],
+  "headers": [
+    {"source": "/(.*)", "headers": [{"key":"Referrer-Policy","value":"no-referrer"},{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"X-Frame-Options","value":"DENY"}]},
+    {"source": "/sw.js", "headers": [{"key":"Cache-Control","value":"no-cache"}]}
+  ]
+}

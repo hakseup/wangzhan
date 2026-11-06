@@ -16,3 +16,11 @@ desktop/app-config.json
 desktop/dist/
 *.p12
 *.pfx
+
+.vercel/
+web-dist/
+cloud-public/
+
+node_modules
+cloud/build.json
+cloud/catalog.json

@@ -1,1 +1,47 @@
-{"name":"noix-delf-b2-mac","version":"1.0.0","private":true,"description":"胡桃法语 DELF B2 Mac学习应用","author":"胡桃法语","main":"main.cjs","scripts":{"dist":"electron-builder --mac --publish never"},"dependencies":{"electron-updater":"^6.6.2"},"devDependencies":{"electron":"^39.0.0","electron-builder":"^26.0.12"},"build":{"appId":"fr.noix.delfb2","productName":"胡桃法语 B2","files":["main.cjs","app-config.json"],"mac":{"category":"public.app-category.education","target":[{"target":"dmg","arch":["arm64","x64"]},{"target":"zip","arch":["arm64","x64"]}],"hardenedRuntime":true,"notarize":true},"publish":{"provider":"github","owner":"hakseup","repo":"wangzhan"},"artifactName":"Noix-B2-${version}-${arch}.${ext}"}}
+{
+  "name": "noix-delf-b2-mac",
+  "version": "1.0.0",
+  "private": true,
+  "description": "胡桃法语 DELF B2 Mac学习应用",
+  "author": "胡桃法语",
+  "main": "main.cjs",
+  "scripts": {
+    "dist": "electron-builder --mac --publish never"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "45.2.3",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "fr.noix.delfb2",
+    "productName": "胡桃法语 B2",
+    "files": [
+      "main.cjs",
+      "app-config.json"
+    ],
+    "mac": {
+      "category": "public.app-category.education",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ],
+      "hardenedRuntime": false,
+      "notarize": false,
+      "identity": null
+    },
+    "artifactName": "Noix-B2-${version}-${arch}.${ext}"
+  }
+}
