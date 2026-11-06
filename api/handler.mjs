@@ -2,6 +2,7 @@ import {readFileSync} from 'node:fs';
 import {gateway,fail,identity,setSession,sameOrigin,privatePath} from '../cloud/supabase.mjs';
 const catalog=JSON.parse(readFileSync(new URL('../cloud/catalog.json',import.meta.url)));
 const build=JSON.parse(readFileSync(new URL('../cloud/build.json',import.meta.url)));
+const contentRevisions=JSON.parse(readFileSync(new URL('../cloud/content-revisions.json',import.meta.url)));
 const defaultRelease={version:'1.0.0',notes:'邮箱账号、兑换码与云端学习记录。',build:build.id};
 export default async function handler(req,res){
  res.setHeader('Cache-Control','private, no-store');res.setHeader('X-Content-Type-Options','nosniff');
@@ -49,6 +50,11 @@ export default async function handler(req,res){
   if(path==='progress'&&method==='GET'){const rows=await sb('/rest/v1/noix_progress?select=revision,state&user_id=eq.'+encodeURIComponent(auth.user.id),{token});return send(rows[0]||{revision:0,state:null});}
   if(path==='progress'&&method==='PUT'){if(!Number.isSafeInteger(body.revision)||body.revision<0)fail('进度版本无效。');return send({revision:await rpc('noix_save_progress',{expected_revision:body.revision,new_state:body.state},token)});}
   const access=await rpc('noix_session',{},token);if(!access.entitled)fail('请输入有效兑换码开通题库。',403);
+  if(path==='content-revisions'&&method==='GET'){
+   const part=url.searchParams.get('category');if(!part)return send(contentRevisions);
+   if(!contentRevisions.categories.includes(part))fail('未找到此内容。',404);
+   return send(JSON.parse(readFileSync(new URL('../cloud/revisions-'+part+'.json',import.meta.url))));
+  }
   const asset=privatePath('/'+path);
   if(asset&&['GET','HEAD'].includes(method)){
    const signed=await sb('/storage/v1/object/sign/noix-private/'+asset.split('/').map(encodeURIComponent).join('/'),{method:'POST',token,body:{expiresIn:120}});

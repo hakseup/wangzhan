@@ -1,6 +1,8 @@
 import {readFileSync,writeFileSync,rmSync,mkdirSync,cpSync,readdirSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {build} from 'vite';
+import {compileContentRevisions} from './compile-content-revisions.mjs';
+compileContentRevisions();
 const bank=JSON.parse(readFileSync('public/content.json'));
 mkdirSync('cloud',{recursive:true});
 writeFileSync('cloud/catalog.json',JSON.stringify({level:bank.level,exercises:bank.exercises.map(e=>({id:e.id,category:e.category,title:e.title,titleZh:e.titleZh,topic:e.topic,subtopic:e.subtopic,examSessionLabel:e.examSessionLabel,source:e.source,paragraphs:[],questions:[],studyModels:[],audio:null})),lexicon:{bookCounts:Object.fromEntries(Object.entries(bank.lexicon.books||{}).map(([id,words])=>[id,words.length]))}}));

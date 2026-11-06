@@ -1,0 +1,56 @@
+{
+  "id": "b2-reading-1da7666bc1",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "1691eecec897544d680d309a1e081b37bd89bceadcf5fc2092f7b20af4f0c308",
+      "sourceCorrection": {
+        "units": [
+          "Pour une éducation globale",
+          "Avant la révolution industrielle, la plupart des gens n’accordaient que peu d’importance à l’éducation et à la technologie.",
+          "Mais lorsque la technologie a pris le dessus sur l’éducation, nombreux ont été les laissés-pour-compte*, causant l’apparition d’une profonde fracture sociale.",
+          "Il a fallu un siècle aux pouvoirs publics pour réagir et se fixer pour objectif de permettre à chaque enfant d’accéder à l’éducation.",
+          "Or, cet objectif reste loin d’être atteint dans de nombreuses parties du monde.",
+          "Toutefois, l’enjeu dépasse largement l’offre universelle d’un enseignement traditionnel.",
+          "À l’heure de la révolution numérique, la technologie prend une nouvelle fois le dessus sur l’éducation, et ceux qui ne possèdent pas les compétences adéquates sont exclus.",
+          "Le fait que des milliers de diplômés de l’université ne trouvent pas d’emploi, alors que nombre d’employeurs ne parviennent pas à recruter des collaborateurs ayant les compétences dont ils ont besoin, prouve que l’élévation du niveau de formation ne conduit pas nécessairement à l’accès à de meilleures compétences, à un meilleur emploi et à une vie meilleure.",
+          "Par le passé, l’éducation était axée sur la transmission des connaissances ; aujourd’hui, elle doit donner à chaque individu des outils et compétences nécessaires pour s’orienter et trouver sa voie dans un monde toujours plus instable, fragile et complexe.",
+          "En résumé, les types de compétences les plus faciles à enseigner et à évaluer sont aussi les plus faciles à numériser, à automatiser et à externaliser.",
+          "C’est pourquoi l’éducation doit s’attacher davantage à notre façon de réfléchir, en développant notamment la créativité, l’esprit critique, la résolution de problèmes et la prise de décisions ; mais aussi à notre façon de travailler, en développant les compétences de communication et de collaboration ; et enfin, à nos traits de personnalité, en encourageant ceux qui nous aident à mieux vivre et travailler ensemble.",
+          "Aujourd’hui, l’apprentissage à l’école est un processus individuel, valorisé chaque fin d’année scolaire par la reconnaissance de la réussite personnelle de chaque élève.",
+          "Or, dans le contexte de plus en plus interdépendant dans lequel nous évoluons, nos écoles doivent préparer les élèves à vivre dans un monde où ils devront collaborer avec d’autres d’origines culturelles diverses, et se confronter à des idées, perspectives et valeurs différentes des leurs ; un monde dans lequel nous devrons apprendre à accorder notre confiance en dépit de ces différences ; un monde où nos vies seront affectées par des problèmes dépassant nos frontières nationales ; un monde dans lequel les enfants de demain devront apprendre à concilier durabilité et résilience*.",
+          "Dans ce contexte, il sera essentiel de pouvoir mesurer et évaluer les multiples aspects de ce type de « compétence globale », ce qui nécessitera, là encore, une réflexion approfondie sur ces nouveaux enjeux.",
+          "C’est précisément à cette tâche que compte s’atteler l’OCDE* à partir de 2018, avec son enquête triennale PISA, qui tentera d’évaluer pour la première fois les « compétences globales » des élèves de 15 ans.",
+          "Dans le monde hyperconnecté où nous vivons aujourd’hui, cette initiative prend tout son sens : notre « communauté » est devenue véritablement globale, et nous devons tous nous adapter à cette nouvelle réalité et apprendre de nouvelles façons de travailler ensemble, afin de devenir des citoyens du monde plus éclairés, tolérants et engagés.",
+          "D’après Andreas SCHLEICHER, directeur du département Éducation de l’OCDE www.liberation.fr",
+          "* laissé-pour-compte : personne rejetée dans un groupe.",
+          "* résilience : aptitude des individus et des systèmes (les familles, les groupes et les collectivités) à vaincre le malheur ou une situation de risque.",
+          "* OCDE : Organisation de Coopération et de Développement Économiques."
+        ],
+        "reason": "对照原PDF第1页修复双栏串行，恢复先左栏后右栏的正确阅读顺序"
+      },
+      "translations": [
+        "为了全面的教育",
+        "工业革命之前，大多数人都不太重视教育和技术。",
+        "但当技术的发展超越教育时，许多人成了被遗忘者*，由此出现了深刻的社会鸿沟。",
+        "公共部门花了一个世纪才作出反应，确立了让每个孩子都有机会接受教育的目标。",
+        "然而，在世界许多地区，这个目标仍远未实现。",
+        "不过，我们所面临的挑战远远不只是普及传统教育。",
+        "在数字革命的时代，技术再一次超越教育，不具备相应能力的人被排除在外。",
+        "成千上万的大学毕业生找不到工作，而许多雇主却招不到具备所需技能的员工。这说明，受教育水平的提高，并不必然带来更好的技能、更好的工作和更好的生活。",
+        "过去，教育侧重于传授知识；如今，教育必须为每个人提供必要的工具和能力，让他们在日益动荡、脆弱而复杂的世界中辨明方向，找到自己的道路。",
+        "总而言之，最容易教授和评估的技能，也是最容易被数字化、自动化和外包的技能。",
+        "因此，教育必须更加关注我们的思维方式，尤其要培养创造力、批判性思维、解决问题和作出决策的能力；也要关注我们的工作方式，培养沟通与协作能力；最后还要关注我们的个性特征，鼓励那些有助于我们更好地共同生活和工作的品质。",
+        "如今，学校里的学习是一个个体化的过程，每个学年结束时，都会通过认可每位学生的个人成绩来给予肯定。",
+        "然而，在我们所处的相互依存程度越来越高的环境中，学校必须让学生做好准备，去生活在这样的世界里：他们必须与来自不同文化背景的人合作，面对与自身不同的思想、视角和价值观；我们必须学会超越这些差异，彼此信任；我们的生活会受到超越国界的问题的影响；而未来的孩子们必须学会兼顾可持续性与韧性*。",
+        "在这种情况下，能够衡量和评估这类“全球胜任力”的多个方面，将至关重要，而这也再次要求我们深入思考这些新的挑战。",
+        "经合组织*正计划从2018年开始着手开展这项工作，通过其每三年进行一次的国际学生评估项目（PISA）调查，首次尝试评估15岁学生的“全球胜任力”。",
+        "在我们如今生活的高度互联的世界里，这项举措十分有意义：我们的“共同体”已经真正走向全球，我们每个人都必须适应这一新现实，学习共同工作的新方式，成为更明智、更宽容、更积极参与公共事务的世界公民。",
+        "据经合组织教育部门主管安德烈亚斯·施莱歇尔的文章改编，www.liberation.fr。",
+        "*被遗忘者：在群体中受到排斥的人。",
+        "*韧性：个人以及家庭、群体、社区等系统克服不幸或风险处境的能力。",
+        "*OCDE：经济合作与发展组织。"
+      ]
+    }
+  ]
+}

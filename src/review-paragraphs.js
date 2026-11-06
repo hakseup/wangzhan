@@ -4,7 +4,9 @@ export function buildReviewParagraphs(exercise,lexicon){
  return exercise.paragraphs.map((paragraph,index)=>{
   const pairs=(exercise.reviewPassages||[]).filter(p=>p.pid===paragraph.id);
   const quotes=exercise.questions.flatMap(q=>(q.explanation?.evidence||[]).filter(x=>x.pid===paragraph.id).map(x=>({start:paragraph.fr.indexOf(x.quote),end:paragraph.fr.indexOf(x.quote)+x.quote.length,number:q.number,candidate:x.confirmed===false}))).filter(x=>x.start>=0);
-  const sentences=sentenceRanges(paragraph.fr,'fr'),seen=new Set();
+  const supplied=paragraph.sentenceTranslations;
+  const explicit=supplied?.length>1&&supplied.map(s=>s.fr).join('')===paragraph.fr&&supplied[0].start===0&&supplied.at(-1).end===paragraph.fr.length&&supplied.every((s,i)=>paragraph.fr.slice(s.start,s.end)===s.fr&&(!i||s.start===supplied[i-1].end));
+  const sentences=explicit?paragraph.sentenceTranslations.map(s=>({start:s.start,end:s.end,text:s.fr})):sentenceRanges(paragraph.fr,'fr'),seen=new Set();
   const units=sentences.map(sentence=>{
    const evidenceIds=pairs.filter(p=>p.start>=sentence.start&&p.start<sentence.end).map(p=>p.id);
    const bounds=[...new Set([sentence.start,sentence.end,...quotes.flatMap(q=>[q.start,q.end]).filter(x=>x>sentence.start&&x<sentence.end)])].sort((a,b)=>a-b);
@@ -14,7 +16,7 @@ export function buildReviewParagraphs(exercise,lexicon){
   let translation=sentenceRanges(paragraph.zh||'','zh').map(t=>({...t,id:`${exercise.id}:${paragraph.id}:zh:${t.start}`}));
   const hints=units.map(u=>pairs.find(p=>p.fr.trim()===u.text.trim())?.zh||'');
   let alignment;
-  if(!paragraph.translationReviewed&&paragraph.sentenceTranslations?.length===units.length){let offset=0;translation=paragraph.sentenceTranslations.map((s,i)=>{const start=offset;offset+=s.zh.length;return {start,end:offset,text:s.zh,id:`${exercise.id}:${paragraph.id}:zh:${i}`};});alignment={forward:units.map((_,i)=>i),backward:units.map((_,i)=>i)};}else alignment=alignSentences(units,translation,hints,lexicon);
+  if((explicit||!paragraph.translationReviewed)&&paragraph.sentenceTranslations?.length===units.length){let offset=0;translation=paragraph.sentenceTranslations.map((s,i)=>{const start=offset;offset+=s.zh.length;return {start,end:offset,text:s.zh,id:`${exercise.id}:${paragraph.id}:zh:${i}`};});alignment={forward:units.map((_,i)=>i),backward:units.map((_,i)=>i)};}else alignment=alignSentences(units,translation,hints,lexicon);
   units.forEach((u,i)=>{u.translationId=translation[alignment.forward[i]]?.id;});
   translation.forEach((t,i)=>{t.sourceId=units[alignment.backward[i]]?.id;t.pairId=t.sourceId;});
   return {...paragraph,index,pairs,units,translation};

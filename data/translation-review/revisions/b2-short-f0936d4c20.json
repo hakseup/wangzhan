@@ -1,0 +1,85 @@
+{
+  "id": "b2-short-f0936d4c20",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "a3d91272ee6c60a504929d7225bc7fd3cfa4f0f907497e5eef6acb9f9d3faae8",
+      "translations": [
+        "——女主持人：全球创业周拉开帷幕。",
+        "在日内瓦，日内瓦大学、联合国、日内瓦州经济促进部门及Genilem联合举办了大量免费开放的讲座，伊夫-阿兰。"
+      ]
+    },
+    {
+      "id": "p2",
+      "sourceHash": "77d7161baa1bc6a50ba5b9632a2a6c14c3b1f3c5e18425242ed578e9d6146bc8",
+      "translations": [
+        "——伊夫-阿兰：是的，围绕创办企业，讲座数量众多、内容丰富，并不仅仅从实际操作的角度介绍如何自主创业。",
+        "活动还旨在激发人们的动力，表明如果有个好点子，又希望将它付诸实践，有时只要敢于迈出第一步就行。"
+      ]
+    },
+    {
+      "id": "p3",
+      "sourceHash": "38ef6a6e866f6ace0e74eb3142d9cf4314462e6c6236b85eca03e7e3ff905e24",
+      "translations": [
+        "——女主持人：有时只要这样就行。",
+        "我们很期待就这句话展开讨论。",
+        "敢于起步，肯定没有说的那么简单。",
+        "欢迎洛朗·米耶维尔，您好。"
+      ]
+    },
+    {
+      "id": "p4",
+      "sourceHash": "8ad46b9389e739fff22a4baca389a8d6aeac37511bf7eecad868188fe20e3eae",
+      "translations": [
+        "——洛朗·米耶维尔：您好。"
+      ]
+    },
+    {
+      "id": "p5",
+      "sourceHash": "b6b6cc8762b302fd62e2733ba61c5335aa9eb118e47d72fb6d71ec3bc1d8b10f",
+      "translations": [
+        "——女主持人：您负责Unitec，也就是日内瓦大学的技术与专长转移办公室。",
+        "正如本届全球创业周的口号所说，您将向我们进一步介绍，如何让我们的创意释放出来。",
+        "那么，我们的创意，只要这样释放出来就可以了吗？",
+        "具体应该怎么做呢？"
+      ]
+    },
+    {
+      "id": "p6",
+      "sourceHash": "7f61b9f35b6b46dbd7afa74f4036b316ced290f3d4389caf0faa07a696f13800",
+      "translations": [
+        "——洛朗·米耶维尔：是的，完全可以。",
+        "根据我们与年轻人合作的经验——今年已经是第三届，之前已经办过两届——他们满脑子都是创意，需要给他们释放创意的机会，给他们信心，让他们用自己的创意做点事情。我想，这也正是创业周的目的：真正激起人们的愿望，让他们释放那些已经拥有、却未必总有勇气付诸实践的创意。"
+      ]
+    },
+    {
+      "id": "p7",
+      "sourceHash": "12d3aed7b4f284944667c09ca7d6ce42b0b68093dc055b6d4b4de50bb808c956",
+      "translations": [
+        "——伊夫-阿兰：那么，如果我理解得没错，大致可以分为两类创业者：一类较为传统，自己出来单干，从事常见的职业，比如建筑业；另一类认为自己有个革命性的点子，并试图将它商业化。",
+        "所以，你们本周的活动主要面向后一类人吗？"
+      ]
+    },
+    {
+      "id": "p8",
+      "sourceHash": "053f45b54d8eba754f9a1d5a46f232b77d7c8eb642758beda0559bd66d936805",
+      "translations": [
+        "——洛朗·米耶维尔：是的，不过我不会用“革命性”这个词，因为我觉得许多创意未必具有革命性。",
+        "它们只是值得开发的有趣、独特的点子。很多年轻人可能也在寻找一些不同寻常的职业道路。",
+        "今天早上我们谈到了跨国公司。大约十年或十五年前，很多年轻人都想去跨国公司工作。",
+        "如今，年轻人有时更希望实现一个梦想，完成一个属于自己的项目。",
+        "我们也正是希望向他们表明：这是有可能做到的，而且已有工具可以帮助他们实现。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "LM : Oui alors moi, je n'utiliserais pas le terme révolutionnaire parce que je pense que beaucoup d'idées ne sont pas nécessairement révolutionnaires. ",
+          "Elles sont justes intéressantes et originales à développer. Il y a beaucoup de jeunes qui recherchent peut-être aussi des voies de carrière un peu alternatives. ",
+          "On parlait des multinationales ce matin, il y a peut-être une dizaine ou une quinzaine d'années, beaucoup de jeunes pensaient à travailler dans une multinationale. ",
+          "Maintenant, les jeunes ont plutôt envie des fois de réaliser un rêve, un projet personnel. ",
+          "Et c'est aussi ça, on veut leur montrer que c'est ça qui est possible et que les outils existent pour les aider à le faire."
+        ],
+        "reason": "对照PDF第1页图像，将OCR误识别的“1 y a”修复为“Il y a”。"
+      }
+    }
+  ]
+}

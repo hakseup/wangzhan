@@ -1,0 +1,93 @@
+/* Keep the warm journal design while allowing real content to determine height. */
+html{overflow-x:clip;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.main-area,.library-page,.notebook-page,.pdf-download-page,.hero-copy,.hero-shortcuts{min-width:0}
+.sidebar{overflow-y:auto;overscroll-behavior:contain}
+.is-home,.is-home .main-area{height:auto;min-height:100svh;overflow:visible}
+.is-home .paris-hero{height:auto;min-height:100svh;overflow:visible}
+.is-home .daily-phrase{max-height:none;overflow:visible}
+.is-home .daily-phrase .phrase-zh{display:block;-webkit-line-clamp:unset;overflow:visible}
+.is-home .shortcut{height:auto;min-height:145px}
+.is-home .shortcut>span{overflow-wrap:normal;word-break:normal}
+.card-main h3,.detail-heading h1,.source-label,.card-session{overflow-wrap:anywhere}
+.library-page,.notebook-page,.pdf-download-page{width:100%}
+.filters .sort-select{display:flex}
+.filters .select-wrap select{max-width:none;min-width:0;flex:1}
+@media(min-width:1600px){
+ .sidebar{width:clamp(222px,13vw,310px);padding-inline:24px}.main-area{margin-left:clamp(222px,13vw,310px)}
+ .sidebar .side-nav{font-size:15px;min-height:46px}.sidebar .side-nav small,.sidebar .side-nav b{font-size:24px}.sidebar .side-section-label b{font-size:26px}
+ .library-page,.notebook-page,.pdf-download-page{max-width:none;padding-inline:clamp(38px,3vw,90px)}
+ .exercise-grid{grid-template-columns:repeat(auto-fill,minmax(clamp(300px,20vw,440px),1fr))}
+ .card-main h3{font-size:clamp(25px,1.7vw,33px)}
+ .card-main>p{font-size:15px}
+ .section-heading h2,.notebook-page>h1{font-size:34px}
+ .library-toolbar .search-box{max-width:620px;width:min(42%,620px)}
+ .search-box input,.select-wrap select{font-size:14px}
+ .library-page>.empty-state{min-height:50vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;background:linear-gradient(130deg,#fffaf0,#fcf9f4)}
+ .empty-state h3{font-size:25px}.empty-state p{font-size:16px;line-height:1.8}
+ .is-home .hero-shortcuts{max-width:760px}
+ .is-home .shortcut{min-height:clamp(150px,15vh,230px);padding:22px 26px}
+ .is-home .shortcut strong{font-size:18px}.is-home .shortcut>span{font-size:clamp(26px,1.8vw,38px)}
+ .is-home .shortcut>small{font-size:14px}.is-home .shortcut small b{font-size:32px}
+}
+@media(min-width:701px) and (max-width:1100px){
+ .is-home .paris-hero{justify-content:flex-start;min-height:100svh;padding-top:95px}
+ .is-home .hero-copy{flex-shrink:0}
+ .is-home .shortcut{min-height:155px;height:auto}
+}
+@media(max-width:700px){
+ .main-area{margin-left:0!important;width:100%}
+ .topbar,.is-home .topbar{position:sticky;inset:auto;top:0;z-index:50;min-height:70px;height:70px;margin:0;padding:12px 16px;background:#fffaf1f5;border-bottom:1px solid #eadbc7;backdrop-filter:blur(12px)}
+ .topbar .mobile-menu{display:inline-flex!important;min-width:40px;min-height:40px;align-items:center;justify-content:center;margin:0}
+ .topbar .breadcrumb{display:flex}.topbar .breadcrumb>span,.topbar .breadcrumb>svg,.topbar .topbar-greeting,.topbar .top-divider,.topbar .practice-brand{display:none}
+ .topbar .avatar{display:inline-flex;position:absolute;left:58px;top:17px;width:34px;height:34px;align-items:center;justify-content:center}
+ .platform-tools{right:10px;top:12px;z-index:65;max-width:calc(100vw - 112px);padding:3px;flex-wrap:wrap;justify-content:flex-end;gap:5px;background:transparent}
+ .platform-tools button{font-size:12px;min-height:36px;padding:7px 9px;white-space:nowrap}
+ body:has(.platform-tools>button:nth-child(3)) .topbar{height:104px;min-height:104px}
+ .sidebar{height:100dvh;overflow-y:auto;padding-bottom:max(20px,env(safe-area-inset-bottom));z-index:100}
+ .sidebar-shade{z-index:90}.sidebar .side-nav{min-height:42px;font-size:14px}
+ .is-home .paris-hero{display:flex;flex-direction:column;justify-content:flex-start;min-height:calc(100svh - 70px);height:auto;padding:28px 16px max(28px,env(safe-area-inset-bottom));gap:28px}
+ .is-home .hero-copy{width:100%;display:block;flex-shrink:0}
+ .is-home .journal-kicker{font-size:clamp(29px,8vw,39px);margin-bottom:20px}
+ .is-home .daily-phrase{padding:20px;border-radius:22px;max-height:none;overflow:visible}
+ .is-home .daily-phrase>p[lang=fr]{font-size:clamp(23px,6vw,29px);line-height:1.35}
+ .is-home .daily-phrase .phrase-zh{font-size:14px;line-height:1.8;display:block;-webkit-line-clamp:unset;overflow:visible}
+ .is-home .phrase-source{font-size:12px;margin-top:12px}
+ .is-home .hero-shortcuts{width:100%;max-width:none}
+ .is-home .shortcut-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .is-home .shortcut{height:auto;min-height:170px;padding:15px 12px;transform:none}
+ .is-home .shortcut strong{font-size:14px;line-height:1.6}
+ .is-home .shortcut>span{font-size:clamp(18px,4.8vw,23px);line-height:1.25;margin-top:7px}
+ .is-home .shortcut>small{font-size:11px;margin-top:12px;line-height:1.6}
+ .is-home .shortcut small b{font-size:25px}
+ .is-home .shortcut-heading{font-size:14px;gap:12px}.is-home .shortcut-heading>span:last-child{font-size:25px}
+ .library-page,.notebook-page,.pdf-download-page{padding:24px 16px 36px;max-width:none}
+ .exercise-grid{grid-template-columns:1fr;gap:16px}.exercise-card{min-height:245px;padding:20px}
+ .card-main h3{font-size:27px}.card-main>p{font-size:14px;line-height:1.8}
+ .card-topic,.card-type,.card-bottom .card-session{font-size:12px}
+ .library-toolbar{flex-direction:column;align-items:stretch;gap:12px}.library-toolbar .search-box{width:100%;max-width:none}
+ .filters{width:100%;gap:8px}.filters>.select-wrap,.sort-select{display:flex;flex:1;min-width:0}.select-wrap select{width:100%;font-size:14px;padding-right:24px}
+ input,textarea,select,.search-box input{font-size:16px}
+ .category-tabs{overflow-x:auto;flex-wrap:nowrap;max-width:100%;padding-bottom:8px}.category-tab{flex-shrink:0;font-size:13px;padding:10px 12px}
+ .detail-page,.detail-page.is-focused{height:auto;min-height:calc(100svh - 70px);padding:18px 14px 0;overflow:visible}
+ .detail-page.is-focused{height:100dvh;min-height:0;overflow-y:auto}
+ .detail-heading{display:block}.detail-heading h1{font-size:24px;line-height:1.5}.detail-heading p{font-size:14px;line-height:1.7}
+ .practice-meta{flex-wrap:wrap;gap:10px}.practice-topic,.source-label,.back-link{font-size:12px;white-space:normal}
+ .practice-tools{flex-wrap:wrap;margin-top:14px;gap:8px}.practice-timer>select{font-size:12px;max-width:none}.practice-timer b{font-size:14px}
+ .detail-workbar{flex-wrap:wrap;gap:10px}.detail-workbar>span,.listening-steps{font-size:12px}
+ .split-workbench{display:block;height:auto;overflow:visible}
+ .split-workbench .material-panel,.split-workbench .answer-panel{height:auto;min-height:0;max-height:none;overflow:visible}
+ .material-scroll,.answer-scroll{height:auto;max-height:none;overflow:visible}
+ .reader-content,.translation-content{padding:22px 16px;overflow-wrap:anywhere}.translation-content>p{font-size:16px;line-height:1.9}
+ .reader-tabs{gap:14px;flex-wrap:wrap}.reader-tabs button{font-size:14px}.panel-heading strong{font-size:14px}
+ .question{padding:24px 16px}.question h3{font-size:18px;line-height:1.75}.option{font-size:16px;line-height:1.75;padding:12px 8px}
+ .question-meta>small,.question-status{font-size:12px}.answer-input,.justification-label textarea,.writing-editor{font-size:16px}
+ .exercise-footer{position:relative;bottom:auto;flex-wrap:wrap;gap:12px;padding:16px 0;box-shadow:none}.exercise-footer>.primary-btn{font-size:14px;white-space:normal}
+ .footer-help{font-size:11px;line-height:1.6}.output-practice{padding:22px 16px}.writing-prompt p[lang=fr]{font-size:16px;line-height:1.8}
+ .pdf-file-list{grid-template-columns:1fr}.pdf-section{padding:18px 12px}.pdf-section-heading h2{font-size:18px}
+ .wordbooks{grid-template-columns:repeat(2,minmax(0,1fr))}.wordbook:last-child{grid-column:1/-1}.wordbook strong{font-size:14px}.wordbook>span{font-size:12px}
+ .vocabulary-section{padding:18px 12px}.vocab-heading{flex-wrap:wrap;gap:12px}.vocab-heading h2{font-size:20px}.vocab-heading>span{font-size:12px}
+ .study-toolbar{flex-wrap:wrap;gap:12px}.study-info{font-size:13px;line-height:1.85}
+ .word-row{grid-template-columns:minmax(80px,1fr) minmax(0,1.6fr) 28px;gap:8px}.word-row strong,.word-row span{font-size:14px;overflow-wrap:anywhere}
+ .cloud-status{padding:10px 16px;font-size:12px;line-height:1.6}.resource-status{bottom:12px}
+ .empty-state{padding:38px 16px}.empty-state h3{font-size:21px}.empty-state p{font-size:14px;line-height:1.8}
+}

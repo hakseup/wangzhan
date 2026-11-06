@@ -1,0 +1,76 @@
+{
+  "id": "b2-reading-7cbc5d8f74",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "f84205d3d5b6cab7261e5b8acdb8b49ce23922e3a5569774627b77e9bc8b5080",
+      "translations": [
+        "“匿名简历并不是神奇的工具。”关于匿名简历，专访伊内丝·多韦涅，她在一个致力于反歧视的大型企业网络中担任项目负责人。",
+        "需要说明的是，这项做法会删除求职者的姓、名、地址、出生日期、性别和婚姻状况。"
+      ]
+    },
+    {
+      "id": "p2",
+      "sourceHash": "f21b7b4d3097ae840fd320f62b4a834200bcace45a9eff35e8fe4983581e5c9f",
+      "translations": [
+        "您认为，匿名简历真的能帮助打击招聘歧视吗？",
+        "是的，至少与我们合作、并且多年来一直在网上招聘平台使用匿名简历的企业是这样认为的。",
+        "它之所以有效，是因为它促使招聘人员改变做法，摆脱导致歧视的无意识心理机制。",
+        "例如，雇主可能已经接受了针对来自敏感街区求职者的刻板印象，对住得离办公室远的人抱有负面成见，或者认为年轻女性能投入工作的时间可能较少。",
+        "匿名简历可以消除雇主的所有这些负面预设。",
+        "它也能影响求职者，减少他们的自我设限。",
+        "多家大型企业发现，借助匿名简历，它们收到了更多有外来背景者的求职申请，这些人此前一直不敢应聘。",
+        "这是雇主发出的积极信号，向求职者表明人人都有机会，也是宣传其招聘理念的一种方式。",
+        "最近的一项研究却得出相反结论：匿名无法缩小移民背景或居住在敏感街区的求职者与其他求职者之间的机会差距。",
+        "如何解释这种差异？",
+        "我们并不质疑这项调查的严谨性，但认为所选取的1000名招聘人员这一样本，并不能代表法国企业。",
+        "参加调查的企业全都是自愿的。",
+        "所以可以认为，它们原本就比较开放，也已经在采取反歧视措施。",
+        "而且，在这项调查中，女性、年长者、有外来背景或来自敏感城区的求职者，提交实名简历*后获得面试的机会同样多，甚至更多；这与所有实地调查和试验结果都相矛盾。",
+        "但您并不因此鼓励全面推广匿名简历。",
+        "为什么呢？",
+        "匿名简历很有效，但一定要记住，它并不是神奇工具，单靠它无法解决所有歧视问题。",
+        "尤其是把它纳入更广泛的措施，配合提高招聘人员的认识、培训人力资源部门时，它才更能发挥效用。",
+        "对于大量通过官网招聘的大企业，推广匿名简历相对简单，因为这样很容易对求职申请作匿名处理。",
+        "但如果这会使招聘周期延长一倍，而且被视为一种束缚，企业就可能设法绕过它。",
+        "争取平等的面试机会，也不应妨碍积极扶助措施的实施。",
+        "例如，我们会建议企业与来自困难街区的求职者见面。",
+        "许多协会也通过这种方式促进残障人士就业。",
+        "而匿名简历可能会阻碍这些其他促进多样性的行动。",
+        "因此，我们建议不要全面推广，但也认为，否认它的价值并不公正。",
+        "* nominatifs：实名的，即非匿名的。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Selon vous, le CV anonyme permet-il vraiment de lutter contre les discriminations à l’embauche ?",
+          "Oui, à en croire les entreprises avec qui nous travaillons et qui l’utilisent depuis plusieurs années sur leurs sites de recrutement en ligne.",
+          "Il est efficace parce qu’il amène les recruteurs à changer leurs pratiques en se libérant de mécanismes inconscients à l’origine de discriminations.",
+          "C’est le cas, par exemple, lorsqu’un employeur a intégré des stéréotypes sur les candidats issus des quartiers sensibles, quand il porte un a priori négatif sur ceux qui habitent loin du bureau ou s’il pense qu’une jeune femme risque d’être moins disponible.",
+          "Le CV anonyme permet de lever toutes ses anticipations négatives.",
+          "Il agit aussi sur les candidats en limitant l’autocensure.",
+          "Plusieurs grandes entreprises ont remarqué que, grâce au CV anonyme, elles recevaient beaucoup plus de candidatures de personnes d’origines étrangères qui jusque-là n’osaient pas.",
+          "C’est un signal positif de la part des employeurs qui montrent aux candidats que tous peuvent avoir une chance, une façon de communiquer sur leur recrutement.",
+          "Une récente étude conclut au contraire que l’anonymat ne permet pas de réduire l’écart de chance entre les candidats issus de l’immigration ou résidant dans des quartiers sensibles et les autres.",
+          "Comment expliquer ce décalage ?",
+          "Nous ne remettons pas en cause le sérieux de l’enquête mais nous pensons que l’échantillon des 1000 recruteurs choisis n’est pas représentatif des entreprises françaises.",
+          "Toutes se sont portées volontaires.",
+          "On peut donc penser qu’elles sont, à l’origine, plus ouvertes et déjà engagées dans une démarche de lutte contre les discriminations.",
+          "D’ailleurs, les candidats femmes, seniors, d’origines étrangères ou issus des zones urbaines sensibles qui ont adressé des CV nominatifs* ont eu autant de chances, voire plus, d’accéder aux entretiens, ce qui contredit toutes les enquêtes de terrain et les résultats des expérimentations.",
+          "Vous n’encouragez pas pour autant la généralisation du CV anonyme.",
+          "Pourquoi ?",
+          "Le CV anonyme est très efficace mais il faut bien garder à l’esprit qu’il n’est pas un outil miracle et qu’il ne peut, à lui seul, régler tous les problèmes de discrimination.",
+          "Il est surtout performant quand il s’inscrit dans des dispositifs plus larges de sensibilisation des recruteurs et de formation des services de ressources humaines.",
+          "Généraliser le CV anonyme serait relativement simple pour les grandes entreprises qui recrutent beaucoup sur leur portail Internet, ce qui permet de rendre facilement anonymes les candidatures.",
+          "Mais si cela doit doubler les délais de recrutement et être vécu comme une contrainte, les entreprises risquent de le contourner.",
+          "Travailler sur l’égalité des chances à l’entretien ne doit pas non plus empêcher des mesures d’actions positives.",
+          "Nous proposons, par exemple, aux entreprises de rencontrer des candidats issus de quartiers difficiles.",
+          "Beaucoup d’associations le font aussi pour favoriser l’emploi des personnes handicapées.",
+          "Or, le CV anonyme freinerait ces autres actions en faveur de la diversité.",
+          "Nous recommandons donc de ne pas le généraliser mais trouvons injuste de nier son intérêt.",
+          "* nominatifs : non anonymes."
+        ],
+        "reason": "对照PDF第1页，依左栏至右栏的阅读顺序恢复全部访谈及脚注，修复双栏串行。"
+      }
+    }
+  ]
+}

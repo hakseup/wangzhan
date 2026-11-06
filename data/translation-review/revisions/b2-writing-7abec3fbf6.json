@@ -1,0 +1,18 @@
+{
+  "id": "b2-writing-7abec3fbf6",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "df3c6a2b58e19c7828ca74ff01b6aee2e6bcc115af882860412d11cbc2b5a96b",
+      "translations": [
+        "笔记本电脑。这款新型电脑配备续航可达一整天的电池。机身厚度仅1.7厘米，重量仅1.08千克。同时，耐久的铝制外壳也使它坚固耐用。你在网上购买了这款产品，却收到了一台不那么新式、性能也更差的电脑。你在一个讨论消费者网购时遇到的问题（假冒商品、配送延迟、货不对板等）的论坛上表达愤慨，并尝试提出解决办法。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Ordinateur portable. Ce nouvel ordinateur a désormais une batterie qui offre une journée d‘autonomie. Il ne mesure que 1,7 cm d'épaisseur, pour un poids plume de 1,08 kg. Mais sa coque en aluminium inaltérable lui assure également solidité et résistance. Vous avez acheté ce produit sur Internet mais vous avez reçu un ordinateur moins moderne et moins performant. Vous exprimez votre indignation sur un forum consacré aux problèmes liés aux achats sur Internet, parfois rencontrés par les consommateurs (contrefaçons, délais de livraison, produits non conformes, etc.), et vous tentez de proposer des solutions."
+        ],
+        "reason": "对照作文.pdf第2页补回产品标题及漏掉的 solidité et résistance，并修正 une、Il、1,7 cm 的OCR。"
+      }
+    }
+  ]
+}

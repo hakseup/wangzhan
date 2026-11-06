@@ -24,3 +24,9 @@ cloud-public/
 node_modules
 cloud/build.json
 cloud/catalog.json
+
+cloud/content-revisions.json
+
+data/translation-review/batches/
+
+cloud/revisions-*.json
