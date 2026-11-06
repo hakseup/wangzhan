@@ -22,7 +22,7 @@ html{overflow-x:clip;-webkit-text-size-adjust:100%;text-size-adjust:100%}
  .section-heading h2,.notebook-page>h1{font-size:34px}
  .library-toolbar .search-box{max-width:620px;width:min(42%,620px)}
  .search-box input,.select-wrap select{font-size:14px}
- .library-page>.empty-state{min-height:50vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;background:linear-gradient(130deg,#fffaf0,#fcf9f4)}
+ .library-page .empty-state{min-height:50vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;background:linear-gradient(130deg,#fffaf0,#fcf9f4)}
  .empty-state h3{font-size:25px}.empty-state p{font-size:16px;line-height:1.8}
  .is-home .hero-shortcuts{max-width:760px}
  .is-home .shortcut{min-height:clamp(150px,15vh,230px);padding:22px 26px}
