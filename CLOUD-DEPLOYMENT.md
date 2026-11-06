@@ -9,6 +9,17 @@
 - 数据库已通过远程迁移应用 `schema.sql`（20261106100618）及 `admin-dashboard.sql`。不要把源 SQL 重复应用到已有项目。
 - `import-assets` Edge Function 使用固定 Git 提交及 SHA256 清单导入资源。每个请求先验证用户与管理员权限；服务密钥只存在 Supabase 内部，不进入客户端或 Vercel。
 
+## 本次部署验证（2026-11-06）
+
+- 正式地址：https://noix-delf-b2-mac.vercel.app/
+- 部署 `dpl_H6bvzgJ6QXsEMnmBQw8eTfGuG11n`，代码 `07402292b142633c12ae0041b96677372543ca48`，状态 READY。
+- 30项本地自动测试通过，另通过真实线上匿名检查：首页、目录、Supabase消息、未登录私有文件HEAD阻断和CSRF检查。线上检查：https://github.com/hakseup/wangzhan/actions/runs/42202098147
+- Supabase安全顾问无告警；5个业务表启用RLS，anon无权限执行题库RPC，存储桶为私有。
+- Mac两架构DMG/ZIP构建成功：https://github.com/hakseup/wangzhan/actions/runs/42201676260
+- 长期下载：https://github.com/hakseup/wangzhan/releases/tag/b2-mac-1.0.0-unsigned
+- 待验证：真实邮件注册、管理员登录与资源导入、学生兑换、两台真实设备同步。尚未配置SMTP，不能声称公开注册已经可用。
+- 此次使用连接器手动发布。后续要随Git推送自动部署，请在Vercel项目Settings → Git连接 `hakseup/wangzhan` 并将Production Branch明确设置为 `noix-delf-b2-mac`；不可使用C1分支。
+
 ## 首次正式使用前必须完成
 
 1. Supabase → Authentication → URL Configuration：Site URL 设置为 `https://noix-delf-b2-mac.vercel.app`；Redirect URLs 增加 `https://noix-delf-b2-mac.vercel.app/`。
