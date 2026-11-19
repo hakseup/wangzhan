@@ -1,0 +1,2524 @@
+{
+  "assets": [
+    {
+      "asset": "new-written-a.json",
+      "exerciseIds": [
+        "short-practice-06-2",
+        "short-practice-06-3",
+        "long-practice-08",
+        "long-practice-09",
+        "short-practice-09-2",
+        "short-practice-09-3"
+      ],
+      "checks": [
+        {
+          "exercise": "long-practice-09",
+          "question": "q11",
+          "kind": "interpretive-answer",
+          "sourceAnswer": "A",
+          "note": "附件答案为A；记者用chance/malchance保留判断，但结尾ça va aller vite不能单独证明怀疑。保留来源答案并在解释中说明判断空间，不把嘉宾的sceptiques直接归为记者态度。"
+        },
+        {
+          "exercise": "short-practice-06-2",
+          "sourcePages": [
+            3
+          ],
+          "questionCount": 3,
+          "audio": "No audio supplied with these PDFs",
+          "reviewed": true
+        },
+        {
+          "exercise": "short-practice-06-3",
+          "sourcePages": [
+            3
+          ],
+          "questionCount": 4,
+          "audio": "No audio supplied with these PDFs",
+          "reviewed": true
+        },
+        {
+          "exercise": "long-practice-08",
+          "sourcePages": [
+            1,
+            2
+          ],
+          "questionCount": 11,
+          "audio": "No audio supplied with these PDFs",
+          "reviewed": true
+        },
+        {
+          "exercise": "long-practice-09",
+          "sourcePages": [
+            1,
+            2
+          ],
+          "questionCount": 11,
+          "audio": "No audio supplied with these PDFs",
+          "reviewed": true
+        },
+        {
+          "exercise": "short-practice-09-2",
+          "sourcePages": [
+            3
+          ],
+          "questionCount": 4,
+          "audio": "No audio supplied with these PDFs",
+          "reviewed": true
+        },
+        {
+          "exercise": "short-practice-09-3",
+          "sourcePages": [
+            4
+          ],
+          "questionCount": 3,
+          "audio": "No audio supplied with these PDFs",
+          "reviewed": true
+        }
+      ]
+    },
+    {
+      "asset": "new-written-b.json",
+      "exerciseIds": [
+        "short-supplement-10-1",
+        "short-supplement-10-2",
+        "long-supplement-16",
+        "short-supplement-16-1",
+        "short-supplement-16-2"
+      ],
+      "checks": [
+        {
+          "set": 12,
+          "status": "duplicate",
+          "existingIds": [
+            "short-2024-3-cn-1",
+            "short-2024-3-cn-2"
+          ],
+          "detail": "Kaps项目合租和Paris参与式预算：正文与问题相同；已核对新附件，不重复新增。"
+        },
+        {
+          "set": 16,
+          "status": "duplicate",
+          "existingIds": [
+            "reading-2024-5-fr"
+          ],
+          "detail": "阅读标题、正文与题目一致。新附件原文比旧OCR清晰，建议另用源文改进；本资产不修改旧题。"
+        },
+        {
+          "set": 16,
+          "question": "long:q11",
+          "status": "source-key-confirmed",
+          "detail": "附件答案为A（agacé）。文字可见强烈反驳；按参考答案保留，未凭没有提供的音频推断语气。"
+        },
+        {
+          "status": "audio-not-provided",
+          "detail": "附件只有PDF转录与试题，没有配套音频。五组新听力均audio:null并在来源注明。"
+        }
+      ]
+    },
+    {
+      "asset": "new-written-c.json",
+      "exerciseIds": [
+        "short-supp-17-1",
+        "short-supp-17-2",
+        "long-supp-18",
+        "short-supp-18-1",
+        "short-supp-18-2",
+        "reading-supp-18",
+        "long-supp-19",
+        "long-supp-20",
+        "short-supp-20-1",
+        "short-supp-20-2"
+      ],
+      "checks": [
+        {
+          "exercise": "long-supp-18",
+          "issue": "Q6 source key is A; transcript also warns against reducing housing to numbers. Explanation explicitly preserves this nuance rather than claiming unconditional support for spreadsheet-led planning."
+        },
+        {
+          "exercise": "short-supp-18-2",
+          "issue": "Original excerpt announces three stages of Socratic pedagogy, but contains only the first two. Kept complete supplied excerpt without inventing the absent third stage; all three questions are answerable."
+        },
+        {
+          "exercise": "long-supp-19",
+          "question": "q6",
+          "issue": "Supplied Chinese answer key says name lacked vitality, but French transcript says he did not have the face of his name. Corrected reference to appearance/stereotype mismatch, with explicit explanation."
+        },
+        {
+          "scope": "French mechanical cleanup",
+          "note": "Rejoined PDF line-wraps and soft hyphens; restored lexical hyphens in mal-logement, eux-mêmes, moment-là, Île-de-France; repaired clear duplicated puisque que and omitted preposition face à la population. No content invented."
+        },
+        {
+          "scope": "all 10 new C exercises",
+          "questions": 65,
+          "note": "Every source transcript/reading paragraph retained; source PDF filenames and page references preserved; all 65 questions compared with supplied answer keys. No audio was supplied in this upload."
+        }
+      ]
+    },
+    {
+      "asset": "new-oral-1.json",
+      "exerciseIds": [
+        "speaking-supp-5-1",
+        "speaking-supp-13-6",
+        "speaking-supp-13-7",
+        "speaking-supp-14-4",
+        "speaking-supp-14-5",
+        "speaking-supp-14-8",
+        "speaking-supp-15-2",
+        "speaking-supp-15-5",
+        "speaking-supp-16-1"
+      ],
+      "checks": [
+        {
+          "id": "speaking-supp-5-1",
+          "sourcePath": "/workspace/attachments/584c6b1e-3d9b-4e41-807f-de392422978c/C1第五套练习题（口语）_.pdf",
+          "pages": [
+            1,
+            2
+          ],
+          "sourceFiles": [
+            "C1第五套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 706,
+          "debateAnswerWords": [
+            47,
+            45,
+            48,
+            47,
+            47,
+            49
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-13-6",
+          "sourcePath": "/workspace/attachments/3eb9fc89-7450-49cd-8e88-6a674dec0acf/C1第十三套练习题（口语）_.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "sourceFiles": [
+            "C1第十三套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 711,
+          "debateAnswerWords": [
+            48,
+            49,
+            48,
+            50,
+            47,
+            50
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-13-7",
+          "sourcePath": "/workspace/attachments/3eb9fc89-7450-49cd-8e88-6a674dec0acf/C1第十三套练习题（口语）_.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "sourceFiles": [
+            "C1第十三套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 711,
+          "debateAnswerWords": [
+            48,
+            48,
+            47,
+            50,
+            48,
+            51
+          ],
+          "corrections": [
+            {
+              "paragraphId": "speaking-supp-13-7-p9",
+              "before": "*coaching : accompagnement de dirigeants, de sportifs, d’équipes sportives, ou d’individus, pour le développement de leurs savoirfaire dans leur vie professionnelle.",
+              "after": "*coaching : accompagnement de dirigeants, de sportifs, d’équipes sportives, ou d’individus, pour le développement de leurs savoir-faire dans leur vie professionnelle."
+            }
+          ]
+        },
+        {
+          "id": "speaking-supp-14-4",
+          "sourcePath": "/workspace/attachments/c048e1f2-6063-40b3-9d7f-7c9eab302521/C1第十四套练习题（口语）_.pdf",
+          "pages": [
+            7,
+            8
+          ],
+          "sourceFiles": [
+            "C1第十四套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 716,
+          "debateAnswerWords": [
+            46,
+            47,
+            50,
+            47,
+            52,
+            51
+          ],
+          "corrections": [
+            {
+              "paragraphId": "speaking-supp-14-4-p12",
+              "before": "(…) Les stérétotypes nous sont transmis depuis le plus jeune âge, par l’école, les parents, puis les médias et les organisations fréquentées ensuite, les lieux d’étude, de travail, en fait tous ceux où nous sommes socialisés. On intègre les normes, les valeurs de ces milieux. Les stéréotypes peuvent en faire partie. À l’inverse, si le milieu dans lequel on évolue les rejette, cela va atténuer les idées reçues, que nous en soyons les auteurs ou les victimes. Dans le cadre d’une expérience, j’ai soumis des étudiantes à un test de statistiques (présenté comme une évaluation du niveau des étudiants) après lequel elles étaient amenées à penser soit que « dans cette faculté, les étudiants pensent que femmes et hommes sont aussi bons en maths », soit que « dans cette faculté, les étudiants pensent que les femmes sont moins bonnes ». Quand l’environnement apparaît inégalitaire (« … les étudiants considèrent que les hommes sont plus compétents que les femmes »), les femmes adhèrent plus au stéréotype, se perçoivent comme moins compétentes en mathématiques et réalisent de moins bonnes performances que lorsque l’environnement s’avère plus égalitaire.",
+              "after": "(…) Les stéréotypes nous sont transmis depuis le plus jeune âge, par l’école, les parents, puis les médias et les organisations fréquentées ensuite, les lieux d’étude, de travail, en fait tous ceux où nous sommes socialisés. On intègre les normes, les valeurs de ces milieux. Les stéréotypes peuvent en faire partie. À l’inverse, si le milieu dans lequel on évolue les rejette, cela va atténuer les idées reçues, que nous en soyons les auteurs ou les victimes. Dans le cadre d’une expérience, j’ai soumis des étudiantes à un test de statistiques (présenté comme une évaluation du niveau des étudiants) après lequel elles étaient amenées à penser soit que « dans cette faculté, les étudiants pensent que femmes et hommes sont aussi bons en maths », soit que « dans cette faculté, les étudiants pensent que les femmes sont moins bonnes ». Quand l’environnement apparaît inégalitaire (« … les étudiants considèrent que les hommes sont plus compétents que les femmes »), les femmes adhèrent plus au stéréotype, se perçoivent comme moins compétentes en mathématiques et réalisent de moins bonnes performances que lorsque l’environnement s’avère plus égalitaire."
+            },
+            {
+              "paragraphId": "speaking-supp-14-4-p14",
+              "before": "Une première hypothèse, celle de l’intériorisation des stéréotypes, permet d’expliquer cet impact. Elle se produit par exemple quand les femmes ont à tel point intégré la croyance selon laquelle elles seraient moins bonnes en maths qu’elles se croient ellesmêmes moins compétentes dans cette matière. Et dès lors qu’on se considère moins bon en mathématiques, on va effectivement obtenir de moins bonnes performances. Mais une autre théorie, celle de la menace du stéréotype, propose que, même en l’absence d’intériorisation, chez des femmes qui rejettent complètement le stéréotype ou considèrent qu’il ne s’applique pas à elles, celui-ci peut faire des dégâts. En effet, certains contextes peuvent les amener à penser qu’elles seront potentiellement jugées par le biais de ce stéréotype. Par exemple, dans les écoles où elles sont peu représentées, le fait de passer un examen entourées de garçons peut avoir un effet délétère parce qu’elles peuvent penser que leurs performances vont être comparées à celles des garçons. Cela peut conduire à une baisse de leurs performances alors même que",
+              "after": "Une première hypothèse, celle de l’intériorisation des stéréotypes, permet d’expliquer cet impact. Elle se produit par exemple quand les femmes ont à tel point intégré la croyance selon laquelle elles seraient moins bonnes en maths qu’elles se croient elles-mêmes moins compétentes dans cette matière. Et dès lors qu’on se considère moins bon en mathématiques, on va effectivement obtenir de moins bonnes performances. Mais une autre théorie, celle de la menace du stéréotype, propose que, même en l’absence d’intériorisation, chez des femmes qui rejettent complètement le stéréotype ou considèrent qu’il ne s’applique pas à elles, celui-ci peut faire des dégâts. En effet, certains contextes peuvent les amener à penser qu’elles seront potentiellement jugées par le biais de ce stéréotype. Par exemple, dans les écoles où elles sont peu représentées, le fait de passer un examen entourées de garçons peut avoir un effet délétère parce qu’elles peuvent penser que leurs performances vont être comparées à celles des garçons. Cela peut conduire à une baisse de leurs performances alors même que"
+            }
+          ]
+        },
+        {
+          "id": "speaking-supp-14-5",
+          "sourcePath": "/workspace/attachments/c048e1f2-6063-40b3-9d7f-7c9eab302521/C1第十四套练习题（口语）_.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "sourceFiles": [
+            "C1第十四套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 718,
+          "debateAnswerWords": [
+            47,
+            51,
+            52,
+            53,
+            52,
+            51
+          ],
+          "corrections": [
+            {
+              "paragraphId": "speaking-supp-14-5-p7",
+              "before": "Il y a des gens qui, dans les meilleures circonstances possibles, ne parviennent pas au bonheur, cela peut même se transformer en cauchemar. Sans doute y a-til des prédispositions génétiques à éprouver le plaisir, comme des individus physiologiquement programmés à une moindre sensibilité à la souffrance, aux maladies, au vieillissement…",
+              "after": "Il y a des gens qui, dans les meilleures circonstances possibles, ne parviennent pas au bonheur, cela peut même se transformer en cauchemar. Sans doute y a-t-il des prédispositions génétiques à éprouver le plaisir, comme des individus physiologiquement programmés à une moindre sensibilité à la souffrance, aux maladies, au vieillissement…"
+            },
+            {
+              "paragraphId": "speaking-supp-14-5-p15",
+              "before": "Non, je la célèbre. Comme celle du XVIIIe siècle, très exaltée, mais prudente à la fois. Voltaire ne déclaraitil pas : « Le paradis terrestre est là où je suis » ? Les événements de l’époque le rendaient prudent, il savait que l’on n’en finirait jamais avec le mal, la douleur… Cependant, le XXe siècle a été emporté par un élan d’optimisme, un état d’esprit favorable au bonheur, au plaisir. Les moyens scientifiques, médicaux, techniques nous promettaient de venir à bout de tous les malheurs qui frappent l’humanité : cancer, famine, misère… Ivresse prométhéenne de l’homme contemporain ! Aujourd’hui, on est redevenu plus sceptique et,",
+              "after": "Non, je la célèbre. Comme celle du XVIIIe siècle, très exaltée, mais prudente à la fois. Voltaire ne déclarait-il pas : « Le paradis terrestre est là où je suis » ? Les événements de l’époque le rendaient prudent, il savait que l’on n’en finirait jamais avec le mal, la douleur… Cependant, le XXe siècle a été emporté par un élan d’optimisme, un état d’esprit favorable au bonheur, au plaisir. Les moyens scientifiques, médicaux, techniques nous promettaient de venir à bout de tous les malheurs qui frappent l’humanité : cancer, famine, misère… Ivresse prométhéenne de l’homme contemporain ! Aujourd’hui, on est redevenu plus sceptique et,"
+            },
+            {
+              "type": "reading-order",
+              "detail": "Moved the source continuation beginning comme le disent les scientifiques after the paragraph ending sceptique et,; all original paragraph IDs and French retained."
+            }
+          ]
+        },
+        {
+          "id": "speaking-supp-14-8",
+          "sourcePath": "/workspace/attachments/c048e1f2-6063-40b3-9d7f-7c9eab302521/C1第十四套练习题（口语）_.pdf",
+          "pages": [
+            15,
+            16
+          ],
+          "sourceFiles": [
+            "C1第十四套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 718,
+          "debateAnswerWords": [
+            50,
+            53,
+            51,
+            51,
+            51,
+            52
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-15-2",
+          "sourcePath": "/workspace/attachments/6a0e12df-66a3-4d2f-8a93-ed201c331439/C1第十五套练习题（口语）_.pdf",
+          "pages": [
+            3,
+            4
+          ],
+          "sourceFiles": [
+            "C1第十五套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 713,
+          "debateAnswerWords": [
+            54,
+            50,
+            51,
+            49,
+            55,
+            51
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-15-5",
+          "sourcePath": "/workspace/attachments/6a0e12df-66a3-4d2f-8a93-ed201c331439/C1第十五套练习题（口语）_.pdf",
+          "pages": [
+            9,
+            10
+          ],
+          "sourceFiles": [
+            "C1第十五套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 728,
+          "debateAnswerWords": [
+            56,
+            49,
+            50,
+            52,
+            54,
+            54
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-16-1",
+          "sourcePath": "/workspace/attachments/4b1bcb52-2127-44f6-8071-a70cf13ba179/C1第十六套练习题（口语）_.pdf",
+          "pages": [
+            1,
+            2
+          ],
+          "sourceFiles": [
+            "C1第十六套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "Paragraph-by-paragraph human-level editorial translation of extracted French; original proper names retained.",
+          "modelOrigin": "Original training composition, not an official answer or score guarantee.",
+          "monologueWords": 733,
+          "debateAnswerWords": [
+            50,
+            51,
+            49,
+            50,
+            53,
+            53
+          ],
+          "corrections": []
+        }
+      ]
+    },
+    {
+      "asset": "new-oral-1-tail.json",
+      "exerciseIds": [
+        "speaking-supp-16-4",
+        "speaking-supp-16-6",
+        "speaking-supp-17-2",
+        "speaking-supp-17-3",
+        "speaking-supp-17-6",
+        "speaking-supp-17-8",
+        "speaking-supp-18-7",
+        "speaking-supp-20-2",
+        "speaking-supp-20-6",
+        "speaking-supp-20-8"
+      ],
+      "checks": [
+        {
+          "id": "speaking-supp-16-4",
+          "sourcePath": "/workspace/attachments/4b1bcb52-2127-44f6-8071-a70cf13ba179/C1第十六套练习题（口语）_.pdf",
+          "pages": [
+            7,
+            8
+          ],
+          "sourceFiles": [
+            "C1第十六套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 724,
+          "debateAnswerWords": [
+            45,
+            48,
+            46,
+            49,
+            47,
+            50
+          ],
+          "sourcePrintedNotes": [
+            {
+              "paragraphId": "speaking-supp-16-4-p18",
+              "printed": "Autant de question",
+              "suggestedReading": "Autant de questions",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            },
+            {
+              "paragraphId": "speaking-supp-16-4-p18",
+              "printed": "des évaluations bénéfices ou des risques",
+              "suggestedReading": "des évaluations des bénéfices ou des risques",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            }
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-16-6",
+          "sourcePath": "/workspace/attachments/4b1bcb52-2127-44f6-8071-a70cf13ba179/C1第十六套练习题（口语）_.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "sourceFiles": [
+            "C1第十六套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 734,
+          "debateAnswerWords": [
+            50,
+            48,
+            48,
+            51,
+            50,
+            50
+          ],
+          "sourcePrintedNotes": [
+            {
+              "paragraphId": "speaking-supp-16-6-p10",
+              "printed": "le thème de surdoués",
+              "suggestedReading": "le thème des surdoués",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            },
+            {
+              "paragraphId": "speaking-supp-16-6-p15",
+              "printed": "pour mesure l’intelligence",
+              "suggestedReading": "pour mesurer l’intelligence",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            }
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-17-2",
+          "sourcePath": "/workspace/attachments/3d87ed31-4308-45e8-a41b-7ca39ee8f87d/C1第十七套练习题（口语）_.pdf",
+          "pages": [
+            3,
+            4
+          ],
+          "sourceFiles": [
+            "C1第十七套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 738,
+          "debateAnswerWords": [
+            50,
+            49,
+            49,
+            49,
+            49,
+            48
+          ],
+          "sourcePrintedNotes": [
+            {
+              "paragraphId": "speaking-supp-17-2-p7",
+              "printed": "est qu’ils soient paramétrables",
+              "suggestedReading": "est qu’ils sont paramétrables",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            }
+          ],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-17-3",
+          "sourcePath": "/workspace/attachments/3d87ed31-4308-45e8-a41b-7ca39ee8f87d/C1第十七套练习题（口语）_.pdf",
+          "pages": [
+            5,
+            6
+          ],
+          "sourceFiles": [
+            "C1第十七套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 734,
+          "debateAnswerWords": [
+            52,
+            51,
+            54,
+            50,
+            51,
+            48
+          ],
+          "sourcePrintedNotes": [
+            {
+              "paragraphId": "speaking-supp-17-3-p6",
+              "printed": "des raisons primordiales pour laquelle",
+              "suggestedReading": "des raisons primordiales pour lesquelles",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            },
+            {
+              "paragraphId": "speaking-supp-17-3-p6",
+              "printed": "comparé à celui d’un livre",
+              "suggestedReading": "comparées à celles d’un livre",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            }
+          ],
+          "corrections": [
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-17-3-p9",
+              "before": "威胁书籍生产的并不是互联网；真正需要思考对策的是公立学校：如何鼓励孩子们读书，而不是习惯性地转向屏幕。",
+              "after": "威胁书籍生产的并不是互联网，而是公立学校；学校必须思考解决办法，鼓励孩子读书，而不是总去看屏幕。"
+            },
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-17-3-p10",
+              "before": "* Molière、Zola和Le Clézio：三位著名的法国作家。",
+              "after": "* Molière、Zola和Le Clézio：三位著名的France作家。"
+            }
+          ]
+        },
+        {
+          "id": "speaking-supp-17-6",
+          "sourcePath": "/workspace/attachments/3d87ed31-4308-45e8-a41b-7ca39ee8f87d/C1第十七套练习题（口语）_.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "sourceFiles": [
+            "C1第十七套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 745,
+          "debateAnswerWords": [
+            52,
+            49,
+            53,
+            49,
+            52,
+            51
+          ],
+          "sourcePrintedNotes": [
+            {
+              "paragraphId": "speaking-supp-17-6-p3",
+              "printed": "Et sans impunité.",
+              "suggestedReading": "Et en toute impunité. (probable intended meaning; source and literal translation preserved)",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            }
+          ],
+          "corrections": [
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-17-6-p5",
+              "before": "别忘了，很多法国人——实际上是大多数——仍没有开博客，也没有社交网络账号。不过，即使网民想在网上保持匿名，真的做得到吗？确实有些工具可以让人相对隐蔽地浏览，但它们始终无法消除人的失误，尤其在社交网络上。",
+              "after": "别忘了，许多Français——实际上是大多数——仍没有开博客，也没有社交网络账号。不过，即使网民想在网上保持匿名，真的做得到吗？确实有些工具可以让人相对隐蔽地浏览，但它们始终无法消除人的失误，尤其在社交网络上。"
+            },
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-17-6-p9",
+              "before": "这一提议随即激起法国博客圈的愤怒。一方面，Cnil已经向认为自己遭受网络诽谤的人提供工具，帮助其要求行使回应权。如果程序不能解决问题，委员会会建议向主管机关报案，后者可以在调查中查明发言者的身份。",
+              "after": "这一提议随即激起France博客圈的愤怒。一方面，Cnil已经向认为自己遭受网络诽谤的人提供工具，帮助其要求行使回应权。如果程序不能解决问题，委员会会建议向主管机关报案，后者可以在调查中查明发言者的身份。"
+            }
+          ]
+        },
+        {
+          "id": "speaking-supp-17-8",
+          "sourcePath": "/workspace/attachments/3d87ed31-4308-45e8-a41b-7ca39ee8f87d/C1第十七套练习题（口语）_.pdf",
+          "pages": [
+            15,
+            16
+          ],
+          "sourceFiles": [
+            "C1第十七套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 736,
+          "debateAnswerWords": [
+            51,
+            50,
+            50,
+            52,
+            54,
+            54
+          ],
+          "sourcePrintedNotes": [],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-18-7",
+          "sourcePath": "/workspace/attachments/b010224c-8a72-4a34-a117-08a45e532f3e/C1第十八套练习题（口语）_.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "sourceFiles": [
+            "C1第十八套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 748,
+          "debateAnswerWords": [
+            53,
+            51,
+            49,
+            50,
+            50,
+            51
+          ],
+          "sourcePrintedNotes": [],
+          "corrections": []
+        },
+        {
+          "id": "speaking-supp-20-2",
+          "sourcePath": "/workspace/attachments/d9b7a6d3-c4eb-4306-93ae-d345e9354135/C1第二十套练习题（口语）_.pdf",
+          "pages": [
+            3,
+            4
+          ],
+          "sourceFiles": [
+            "C1第二十套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 755,
+          "debateAnswerWords": [
+            51,
+            52,
+            54,
+            53,
+            49,
+            57
+          ],
+          "sourcePrintedNotes": [
+            {
+              "paragraphId": "speaking-supp-20-2-p15",
+              "printed": "le travail était rempli",
+              "suggestedReading": "le travail était accompli",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            },
+            {
+              "paragraphId": "speaking-supp-20-2-p16",
+              "printed": "Ajoutée à cela, une absence",
+              "suggestedReading": "À cela s’ajoute une absence",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            }
+          ],
+          "corrections": [
+            {
+              "type": "proper-name-preservation",
+              "paragraphId": "speaking-supp-20-2-p3",
+              "before": "尽管存在工作过量、与上级疏远等风险，仍有近三分之一的法国在职人员采用了这种方式。",
+              "after": "尽管存在工作过量、与上级疏远等风险，仍有近三分之一的France在职人员采用了这种方式。"
+            },
+            {
+              "type": "proper-name-preservation",
+              "paragraphId": "speaking-supp-20-2-p11",
+              "before": "* Orange：一家法国电信企业。",
+              "after": "* Orange：一家France电信企业。"
+            },
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-20-2-p16",
+              "before": "结果，这位住在Paris的年轻女性很快开始过上作息错位的生活。“我越来越多地在晚上和周末工作，越来越难把私人生活和工作分开。”与此同时，经理完全没有提供支持。“他很难联系，也不对我的工作给出反馈。我可以连续几天不和任何人说话。因为刚进入这个领域，碰到一点问题我就给自己施压，感到内疚，怀疑能力。三年后，我终于撑不住了。”说到这里，她有些哽咽。",
+              "after": "结果，这位住在Paris的年轻女性很快开始过上作息错位的生活。“我越来越多地在晚上和周末工作，越来越难把私人生活和工作分开。”与此同时，经理完全没有提供支持。“他很难联系，也不对我的工作给出反馈。我可能整天都不和任何人说话。因为刚进入这个领域，碰到一点问题我就给自己施压，感到内疚，怀疑能力。三年后，我终于撑不住了。”说到这里，她有些哽咽。"
+            }
+          ]
+        },
+        {
+          "id": "speaking-supp-20-6",
+          "sourcePath": "/workspace/attachments/d9b7a6d3-c4eb-4306-93ae-d345e9354135/C1第二十套练习题（口语）_.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "sourceFiles": [
+            "C1第二十套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 751,
+          "debateAnswerWords": [
+            53,
+            53,
+            52,
+            52,
+            53,
+            53
+          ],
+          "sourcePrintedNotes": [],
+          "corrections": [
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-20-6-p5",
+              "before": "于是，以交换动物为基础的繁育计划开始出现。园内动物的管理变成一项全球团队合作，涉及约五十个国家的三百多家动物园和水族馆，必须十分严谨：目标是丰富圈养种群的遗传多样性。动物园里的动物不再仅被看作个体，也被看作物种的一名代表。",
+              "after": "于是，以交换动物为基础的繁育计划开始出现。园内动物的管理变成一项全球团队合作，涉及约五十个国家的三百多家动物园和水族馆，必须十分严谨：目标是丰富圈养种群的遗传多样性。动物园里的动物不再被视为一个个体，而是一个物种的代表。"
+            },
+            {
+              "type": "proper-name-preservation",
+              "paragraphId": "speaking-supp-20-6-p8",
+              "before": "事实上，动物园的热情碰上了一个重大障碍：不能把祖祖辈辈都以工厂化饲养鸡为食的狮子，直接放回非洲草原，因为斑马和羚羊可不会乖乖让它捕食。捕猎是一门复杂本领，需要在自然环境中，跟着成年同类学习。",
+              "after": "事实上，动物园的热情碰上了一个重大障碍：不能把祖祖辈辈都以工厂化饲养鸡为食的狮子，直接放回Afrique草原，因为斑马和羚羊可不会乖乖让它捕食。捕猎是一门复杂本领，需要在自然环境中，跟着成年同类学习。"
+            },
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-20-6-p11",
+              "before": "物种的未来，关键还在别处。Nouët继续说：“保护物种，必然要保护它们的自然栖息地。”也就是建立大面积保护区域，减轻周边各种压力；尤其必须让当地居民参与项目，并从中获益。",
+              "after": "物种的未来，关键还在别处。Nouët继续说：“保护物种，必然要保护它们的自然栖息地。”也就是建立大面积保护区域，摆脱周边各种压力，尤其是来自当地居民的压力；因此，必须让当地居民参与项目，并从中获益。"
+            },
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-20-6-p17",
+              "before": "1982年，为组织圈养繁殖、减少近亲繁殖风险，美国方面开发了管理圈养种群遗传信息的软件。1985年，首批欧洲繁育计划（EEP）也出现了，如今约有360个。参与EEP的动物园之间，会交换动物和共享信息。",
+              "after": "1982年，为组织圈养繁殖、减少近亲繁殖风险，Américains开发了管理圈养种群遗传信息的软件。1985年，首批programmes d’élevage européen（EEP，欧洲繁育计划）也出现了，如今约有360个。参与EEP的动物园之间，会交换动物和共享信息。"
+            },
+            {
+              "type": "proper-name-preservation",
+              "paragraphId": "speaking-supp-20-6-p21",
+              "before": "* Thoiry是一家位于Paris附近的法国动物园，包含可乘车游览的野生动物区、步行区和植物园。",
+              "after": "* Thoiry是一家位于Paris附近的France动物园，包含可乘车游览的野生动物区、步行区和植物园。"
+            }
+          ]
+        },
+        {
+          "id": "speaking-supp-20-8",
+          "sourcePath": "/workspace/attachments/d9b7a6d3-c4eb-4306-93ae-d345e9354135/C1第二十套练习题（口语）_.pdf",
+          "pages": [
+            15,
+            16
+          ],
+          "sourceFiles": [
+            "C1第二十套练习题（口语）_.pdf"
+          ],
+          "sourceFrenchReviewed": true,
+          "translationReviewed": true,
+          "translationMethod": "All 197 French/Chinese paragraph pairs editorially compared; original names retained; targeted translation corrections recorded.",
+          "modelOrigin": "Original training composition using a reusable argument structure and topic-specific arguments; not an official answer or score guarantee.",
+          "monologueWords": 750,
+          "debateAnswerWords": [
+            52,
+            54,
+            52,
+            51,
+            55,
+            55
+          ],
+          "sourcePrintedNotes": [
+            {
+              "paragraphId": "speaking-supp-20-8-p9",
+              "printed": "Loire- Atlantique",
+              "suggestedReading": "Loire-Atlantique",
+              "action": "Printed source wording retained verbatim; Chinese renders source meaning without silently rewriting the French."
+            }
+          ],
+          "corrections": [
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-20-8-p13",
+              "before": "到2050年，发达国家60岁以上人口比例预计将从20%升至33%。关于法国社会适应人口老龄化的报告作者Broussy先生写道，预期寿命延长是“文明的巨大进步”，但也带来严峻挑战。",
+              "after": "到2050年，发达国家60岁以上人口比例预计将从20%升至33%。一份关于France社会适应人口老龄化的报告作者Broussy先生写道，预期寿命延长是“文明的巨大进步”，但也带来严峻挑战。"
+            },
+            {
+              "type": "translation-editorial",
+              "paragraphId": "speaking-supp-20-8-p14",
+              "before": "关键在于，让老年人及其身边的人，都能在尽可能好的条件下经历这一过程。Japon、Allemagne等国家早已着手应对；在France，相关工作仍有很多要做。",
+              "after": "关键在于，让老年人及其身边的人，都能在尽可能好的条件下经历老龄化过程。Japon、Allemagne等国家早已着手应对；在France，一切尚待开展。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "new-oral-2.json",
+      "exerciseIds": [
+        "speaking-supp-5-6",
+        "speaking-supp-13-1",
+        "speaking-supp-13-2",
+        "speaking-supp-13-4",
+        "speaking-supp-14-1",
+        "speaking-supp-14-3",
+        "speaking-supp-14-7",
+        "speaking-supp-15-8",
+        "speaking-supp-16-3"
+      ],
+      "checks": [
+        {
+          "id": "speaking-supp-5-6",
+          "sourcePath": "/workspace/attachments/584c6b1e-3d9b-4e41-807f-de392422978c/C1第五套练习题（口语）_.pdf",
+          "pages": [
+            11,
+            12
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [
+            {
+              "paragraphId": "speaking-supp-5-6-p4",
+              "before": "« L’objectif est clair, explique Vincent Diebolt, directeur du CeNGEPS, mobiliser le grand public sur la question de la recherche clinique, l’informer et lui offrir la possibilité de participer à des essais cliniques. » Les essais cliniques de médicaments sur l’homme, avant leur « homologation »», sont indispensables pour proposer de nouveaux produits permettant d’améliorer le diagnostic et les traitements existants, ou de progresser dans des pathologies où l’arsenal thérapeutique est encore faible. Et la France présente un retard flagrant par rapport aux autres pays. Le nombre d’essais cliniques est tombé en dix ans de plus de 1 300 à 920, l’une des causes étant la difficulté à trouver des participants aux essais cliniques.",
+              "after": "« L’objectif est clair, explique Vincent Diebolt, directeur du CeNGEPS, mobiliser le grand public sur la question de la recherche clinique, l’informer et lui offrir la possibilité de participer à des essais cliniques. » Les essais cliniques de médicaments sur l’homme, avant leur « homologation », sont indispensables pour proposer de nouveaux produits permettant d’améliorer le diagnostic et les traitements existants, ou de progresser dans des pathologies où l’arsenal thérapeutique est encore faible. Et la France présente un retard flagrant par rapport aux autres pays. Le nombre d’essais cliniques est tombé en dix ans de plus de 1 300 à 920, l’une des causes étant la difficulté à trouver des participants aux essais cliniques."
+            },
+            {
+              "paragraphId": "speaking-supp-5-6-p25",
+              "before": "Pour comprendre le point central de l’éthique en recherche scientifique, il faut porter une attention particulière à cette question : où se situent les déséquilibres entre les chercheurs et leurs cobayes et comment peuton y remédier pour éviter tout conflit éthique ?",
+              "after": "Pour comprendre le point central de l’éthique en recherche scientifique, il faut porter une attention particulière à cette question : où se situent les déséquilibres entre les chercheurs et leurs cobayes et comment peut-on y remédier pour éviter tout conflit éthique ?"
+            }
+          ],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-13-1",
+          "sourcePath": "/workspace/attachments/3eb9fc89-7450-49cd-8e88-6a674dec0acf/C1第十三套练习题（口语）_.pdf",
+          "pages": [
+            1,
+            2
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [
+            {
+              "paragraphId": "speaking-supp-13-1-p11",
+              "before": "Ce consortium a reçu un budget de trois millions d’euros pour ses activités de 2011 à 2015. Le président d’Animath, le vaisseau amiral de Cap’Math, est Martin Andler, professeur en mathématiques à l’université de Versailles Saint- Quentin-en-Yvelines.",
+              "after": "Ce consortium a reçu un budget de trois millions d’euros pour ses activités de 2011 à 2015. Le président d’Animath, le vaisseau amiral de Cap’Math, est Martin Andler, professeur en mathématiques à l’université de Versailles Saint-Quentin-en-Yvelines."
+            }
+          ],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-13-2",
+          "sourcePath": "/workspace/attachments/3eb9fc89-7450-49cd-8e88-6a674dec0acf/C1第十三套练习题（口语）_.pdf",
+          "pages": [
+            3,
+            4
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-13-4",
+          "sourcePath": "/workspace/attachments/3eb9fc89-7450-49cd-8e88-6a674dec0acf/C1第十三套练习题（口语）_.pdf",
+          "pages": [
+            7,
+            8
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-14-1",
+          "sourcePath": "/workspace/attachments/c048e1f2-6063-40b3-9d7f-7c9eab302521/C1第十四套练习题（口语）_.pdf",
+          "pages": [
+            1,
+            2
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-14-3",
+          "sourcePath": "/workspace/attachments/c048e1f2-6063-40b3-9d7f-7c9eab302521/C1第十四套练习题（口语）_.pdf",
+          "pages": [
+            5,
+            6
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-14-7",
+          "sourcePath": "/workspace/attachments/c048e1f2-6063-40b3-9d7f-7c9eab302521/C1第十四套练习题（口语）_.pdf",
+          "pages": [
+            13,
+            14
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [
+            {
+              "paragraphId": "speaking-supp-14-7-p3",
+              "before": "Faire des horaires à rallonge, un gage d’efficacité ? L’idée porte un nom : le présentéisme. En augmentation dans les entreprises, il s’avère être une facette de la souffrance au travail. Explications de Pierre Blanc- Sahnoun, coach de cadres dirigeants.",
+              "after": "Faire des horaires à rallonge, un gage d’efficacité ? L’idée porte un nom : le présentéisme. En augmentation dans les entreprises, il s’avère être une facette de la souffrance au travail. Explications de Pierre Blanc-Sahnoun, coach de cadres dirigeants."
+            },
+            {
+              "paragraphId": "speaking-supp-14-7-p14",
+              "before": "Dans beaucoup de pays, notamment les pays anglosaxons, rester tard au travail est considéré comme un signe d’inefficacité, de mauvaise organisation, voire d’incompétence. En Australie par exemple, les gens finissent de travailler à 17 h 30. Il est intéressant de se demander comment ce pays peut avoir une telle économie avec des gens qui sortent tous les soirs avant 18 heures...",
+              "after": "Dans beaucoup de pays, notamment les pays anglo-saxons, rester tard au travail est considéré comme un signe d’inefficacité, de mauvaise organisation, voire d’incompétence. En Australie par exemple, les gens finissent de travailler à 17 h 30. Il est intéressant de se demander comment ce pays peut avoir une telle économie avec des gens qui sortent tous les soirs avant 18 heures..."
+            }
+          ],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-15-8",
+          "sourcePath": "/workspace/attachments/6a0e12df-66a3-4d2f-8a93-ed201c331439/C1第十五套练习题（口语）_.pdf",
+          "pages": [
+            15,
+            16
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [
+            {
+              "paragraphId": "speaking-supp-15-8-p18",
+              "before": "L’équipe de chercheurs a toutefois ajouté une subtilité à ce jeu. Les participants portaient des appareils de mesure de leurs mouvements oculaires. Or, ces capteurs étaient fixés, soit à une casquette posée sur leur tête, soit sur un casque. Et il est apparu que lorsqu’il s’agissait d’un casque, les joueurs prenaient plus de risques, gonflaient davantage le ballon, et que celuici éclatait plus souvent. En outre, quand ces cobayes ont rempli une échelle dite de recherche de sensations - qui mesure l’attirance pour les situations stimulantes, aventureuses, risquées, ou excitantes - ils ont obtenus des scores plus élevés lorsqu’ils portaient un casque.",
+              "after": "L’équipe de chercheurs a toutefois ajouté une subtilité à ce jeu. Les participants portaient des appareils de mesure de leurs mouvements oculaires. Or, ces capteurs étaient fixés, soit à une casquette posée sur leur tête, soit sur un casque. Et il est apparu que lorsqu’il s’agissait d’un casque, les joueurs prenaient plus de risques, gonflaient davantage le ballon, et que celui-ci éclatait plus souvent. En outre, quand ces cobayes ont rempli une échelle dite de recherche de sensations - qui mesure l’attirance pour les situations stimulantes, aventureuses, risquées, ou excitantes - ils ont obtenus des scores plus élevés lorsqu’ils portaient un casque."
+            }
+          ],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        },
+        {
+          "id": "speaking-supp-16-3",
+          "sourcePath": "/workspace/attachments/4b1bcb52-2127-44f6-8071-a70cf13ba179/C1第十六套练习题（口语）_.pdf",
+          "pages": [
+            5,
+            6
+          ],
+          "sourceFrenchPreserved": true,
+          "repairs": [],
+          "translationReview": "逐段人工复核；保留原文专名及历史时点，不将来源主张改写为当前科学事实。",
+          "studyModels": "原创训练参考，非官方范文或评分承诺。"
+        }
+      ]
+    },
+    {
+      "asset": "new-oral-2-tail.json",
+      "exerciseIds": [
+        "speaking-supp-16-7",
+        "speaking-supp-16-8",
+        "speaking-supp-17-4",
+        "speaking-supp-17-5",
+        "speaking-supp-18-1",
+        "speaking-supp-18-3",
+        "speaking-supp-19-1",
+        "speaking-supp-20-1",
+        "speaking-supp-20-3"
+      ],
+      "checks": [
+        {
+          "id": "speaking-supp-16-7",
+          "pages": [
+            13,
+            14
+          ],
+          "notes": [
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-16-8",
+          "pages": [
+            15,
+            16
+          ],
+          "notes": [
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-17-4",
+          "pages": [
+            7,
+            8
+          ],
+          "notes": [
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-17-5",
+          "pages": [
+            9,
+            10
+          ],
+          "notes": [
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-18-1",
+          "pages": [
+            1,
+            2
+          ],
+          "notes": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-18-3",
+          "pages": [
+            5,
+            6
+          ],
+          "notes": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-19-1",
+          "pages": [
+            1,
+            2
+          ],
+          "notes": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-20-1",
+          "pages": [
+            1,
+            2
+          ],
+          "notes": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        },
+        {
+          "id": "speaking-supp-20-3",
+          "pages": [
+            5,
+            6
+          ],
+          "notes": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "new-oral-3.json",
+      "exerciseIds": [
+        "speaking-supp-5-3",
+        "speaking-supp-5-7",
+        "speaking-supp-5-8",
+        "speaking-supp-13-5",
+        "speaking-supp-13-8",
+        "speaking-supp-14-2",
+        "speaking-supp-14-6",
+        "speaking-supp-15-1",
+        "speaking-supp-15-3"
+      ],
+      "checks": [
+        {
+          "id": "speaking-supp-5-3",
+          "paragraphCount": 19,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 733,
+          "debateAnswerWords": [
+            47,
+            60,
+            54,
+            54,
+            52,
+            54
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Source doc2 contains a typographical join “engendrentils”; source French retained. The studies disagree about an income threshold; translation retains both claims rather than choosing one."
+          ]
+        },
+        {
+          "id": "speaking-supp-5-7",
+          "paragraphCount": 22,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 731,
+          "debateAnswerWords": [
+            48,
+            57,
+            52,
+            55,
+            54,
+            51
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Source contains repeated “progresser progresser”, split cross-column sentences, “BFMTV Acualités” and “B-TE- MIA”; French retained, Chinese conveys intended meaning."
+          ]
+        },
+        {
+          "id": "speaking-supp-5-8",
+          "paragraphCount": 19,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 735,
+          "debateAnswerWords": [
+            47,
+            59,
+            60,
+            53,
+            54,
+            53
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Source contains “ma ché”, “au fil des des”, “allonsnous” and historical forecasts. French retained; unemployment projection explicitly treated as a prediction in model/debate, not an established fact."
+          ]
+        },
+        {
+          "id": "speaking-supp-13-5",
+          "paragraphCount": 20,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 732,
+          "debateAnswerWords": [
+            49,
+            54,
+            55,
+            56,
+            53,
+            48
+          ],
+          "sourceWarnings": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Source legal claims and pet statistics are translated as historical dossier assertions, not independently verified current law/statistics."
+          ]
+        },
+        {
+          "id": "speaking-supp-13-8",
+          "paragraphCount": 20,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 731,
+          "debateAnswerWords": [
+            49,
+            56,
+            56,
+            57,
+            51,
+            50
+          ],
+          "sourceWarnings": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Pediatric guidance and radiofrequency claims belong to the supplied historical dossier; model does not present them as independently checked current clinical guidance. Distinction between usage effects and radiofrequency effects preserved."
+          ]
+        },
+        {
+          "id": "speaking-supp-14-2",
+          "paragraphCount": 15,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 732,
+          "debateAnswerWords": [
+            50,
+            57,
+            54,
+            57,
+            55,
+            51
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Two split duplicate title fragments removed in source research normalization; one complete title retained. Technical “dispensation” translated as professional provision/checking of medicines, not sale alone."
+          ]
+        },
+        {
+          "id": "speaking-supp-14-6",
+          "paragraphCount": 21,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 723,
+          "debateAnswerWords": [
+            47,
+            59,
+            53,
+            53,
+            50,
+            53
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "“Un site à visiter” interpreted as a place to visit, not a website. Source historical Erasmus/participation figures retained."
+          ]
+        },
+        {
+          "id": "speaking-supp-15-1",
+          "paragraphCount": 23,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 732,
+          "debateAnswerWords": [
+            50,
+            57,
+            55,
+            59,
+            50,
+            51
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Historical nano-market, E171/E551 and regulatory statements retained as source assertions; no claim of present regulatory status. 1–100 nanometres translated without arithmetic error."
+          ]
+        },
+        {
+          "id": "speaking-supp-15-3",
+          "paragraphCount": 22,
+          "translationStatus": "Every source paragraph manually translated into natural Chinese; French proper names retained.",
+          "monologueWords": 731,
+          "debateAnswerWords": [
+            52,
+            55,
+            56,
+            55,
+            52,
+            49
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Dossier-based, training reference; hypothetical examples explicitly distinguished from source claims.",
+          "specificSourceReview": [
+            "Source gives “20 000 espèces” and “plus de 99 %” biomass: translated explicitly as source assertions, not endorsed as independently verified modern taxonomy/biomass totals. Models distinguish signaling, consciousness and ethical proposals."
+          ]
+        }
+      ]
+    },
+    {
+      "asset": "new-oral-3-tail.json",
+      "exerciseIds": [
+        "speaking-supp-15-6",
+        "speaking-supp-15-7",
+        "speaking-supp-16-2",
+        "speaking-supp-16-5",
+        "speaking-supp-17-1",
+        "speaking-supp-18-5",
+        "speaking-supp-20-4",
+        "speaking-supp-20-7",
+        "speaking-supp-20-9"
+      ],
+      "checks": [
+        {
+          "id": "speaking-supp-15-6",
+          "paragraphCount": 24,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 737,
+          "debateAnswerWords": [
+            49,
+            51,
+            49,
+            56,
+            53,
+            52
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-15-7",
+          "paragraphCount": 26,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 745,
+          "debateAnswerWords": [
+            47,
+            53,
+            50,
+            54,
+            55,
+            54
+          ],
+          "sourceWarnings": [
+            "Two-column source: native extraction order may interleave columns or put right column before left; use geometry-aware extraction.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-16-2",
+          "paragraphCount": 26,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 740,
+          "debateAnswerWords": [
+            51,
+            52,
+            49,
+            53,
+            53,
+            53
+          ],
+          "sourceWarnings": [
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-16-5",
+          "paragraphCount": 22,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 745,
+          "debateAnswerWords": [
+            49,
+            51,
+            49,
+            53,
+            53,
+            52
+          ],
+          "sourceWarnings": [
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-17-1",
+          "paragraphCount": 19,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 748,
+          "debateAnswerWords": [
+            49,
+            50,
+            49,
+            55,
+            53,
+            51
+          ],
+          "sourceWarnings": [
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-18-5",
+          "paragraphCount": 15,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 744,
+          "debateAnswerWords": [
+            50,
+            52,
+            50,
+            56,
+            51,
+            53
+          ],
+          "sourceWarnings": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-20-4",
+          "paragraphCount": 20,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 755,
+          "debateAnswerWords": [
+            52,
+            51,
+            50,
+            55,
+            56,
+            52
+          ],
+          "sourceWarnings": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-20-7",
+          "paragraphCount": 24,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 756,
+          "debateAnswerWords": [
+            50,
+            52,
+            51,
+            55,
+            56,
+            53
+          ],
+          "sourceWarnings": [
+            "PDF control characters in extracted text; replace with spaces/remove before import.",
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        },
+        {
+          "id": "speaking-supp-20-9",
+          "paragraphCount": 21,
+          "translationStatus": "Every source paragraph manually translated and reviewed in Chinese; French proper names, figures, headings, and notes retained.",
+          "monologueWords": 747,
+          "debateAnswerWords": [
+            53,
+            54,
+            49,
+            56,
+            55,
+            55
+          ],
+          "sourceWarnings": [
+            "Line-end hyphenation/soft hyphens present; join split words with source review.",
+            "Geometry-aware block reading order. Control characters normalized; soft hyphen line breaks joined. Verify hard-hyphen joins against source PDF when translating."
+          ],
+          "modelStatus": "Topic-grounded training reference with reusable argument structure; source claims distinguished from proposals; not an official answer or score guarantee."
+        }
+      ]
+    }
+  ],
+  "polish": [
+    {
+      "exercise": "speaking-supp-16-7",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-7",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-7",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-7",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-7",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-7",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-8",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-8",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-8",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-8",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-8",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-8",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-4",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-4",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-4",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-4",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-4",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-4",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-5",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-5",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-5",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-5",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-5",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-5",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-1",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-1",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-1",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-1",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-1",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-1",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-3",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-3",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-3",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-3",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-3",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-3",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-19-1",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-19-1",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-19-1",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-19-1",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-19-1",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-19-1",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-1",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-1",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-1",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-1",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-1",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-1",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-3",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-3",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-3",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-3",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-3",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-3",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-3",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-3",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-3",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-3",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-3",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-3",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-7",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-7",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-7",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-7",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-7",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-7",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-8",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-8",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-8",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-8",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-8",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-5-8",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-5",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-5",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-5",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-5",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-5",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-5",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-8",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-8",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-8",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-8",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-8",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-13-8",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-2",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-2",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-2",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-2",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-2",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-2",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-6",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-6",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-6",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-6",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-6",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-14-6",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-1",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-1",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-1",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-1",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-1",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-1",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-3",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-3",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-3",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-3",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-3",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-3",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-6",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-6",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-6",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-6",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-6",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-6",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-7",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-7",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-7",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-7",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-7",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-15-7",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-2",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-2",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-2",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-2",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-2",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-2",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-5",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-5",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-5",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-5",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-5",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-16-5",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-1",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-1",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-1",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-1",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-1",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-17-1",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-5",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-5",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-5",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-5",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-5",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-18-5",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-4",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-4",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-4",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-4",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-4",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-4",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-7",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-7",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-7",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-7",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-7",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-7",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-9",
+      "model": "debat",
+      "paragraph": 1,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-9",
+      "model": "debat",
+      "paragraph": 3,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-9",
+      "model": "debat",
+      "paragraph": 5,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-9",
+      "model": "debat",
+      "paragraph": 7,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-9",
+      "model": "debat",
+      "paragraph": 9,
+      "kind": "French elision / clear answer label"
+    },
+    {
+      "exercise": "speaking-supp-20-9",
+      "model": "debat",
+      "paragraph": 11,
+      "kind": "French elision / clear answer label"
+    }
+  ]
+}

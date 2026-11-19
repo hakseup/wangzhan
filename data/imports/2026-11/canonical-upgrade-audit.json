@@ -1,0 +1,545 @@
+{
+  "exercises": [
+    {
+      "id": "short-2024-3-cn-1",
+      "oldQuestionCount": 3,
+      "sourceQuestionCount": 4,
+      "safeExistingQuestionIds": [],
+      "note": "旧作答保留；题意或选项改变的原题使用独立source-q编号，不重用旧答案。"
+    },
+    {
+      "id": "short-2024-3-cn-2",
+      "oldQuestionCount": 3,
+      "sourceQuestionCount": 3,
+      "safeExistingQuestionIds": [],
+      "note": "旧作答保留；题意或选项改变的原题使用独立source-q编号，不重用旧答案。"
+    },
+    {
+      "id": "reading-2024-5-fr",
+      "oldQuestionCount": 4,
+      "sourceQuestionCount": 12,
+      "safeExistingQuestionIds": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "note": "旧作答保留；题意或选项改变的原题使用独立source-q编号，不重用旧答案。"
+    }
+  ],
+  "sourceAudit": [
+    {
+      "exerciseId": "short-2024-3-cn-1",
+      "oldQuestionCount": 3,
+      "sourceQuestionCount": 4,
+      "action": "replace-with-full-source-preserve-legacy",
+      "audioPreserved": true
+    },
+    {
+      "exerciseId": "short-2024-3-cn-2",
+      "oldQuestionCount": 3,
+      "sourceQuestionCount": 3,
+      "action": "replace-with-full-source-preserve-legacy",
+      "audioPreserved": true
+    },
+    {
+      "exerciseId": "reading-2024-5-fr",
+      "oldQuestionCount": 4,
+      "sourceQuestionCount": 12,
+      "action": "replace-with-full-source-preserve-legacy",
+      "audioPreserved": true
+    }
+  ],
+  "legacy": {
+    "short-2024-3-cn-1": {
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "choice",
+          "prompt": "Dans cet extrait, que signifie le dispositif KAPS ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Des colocations à projets solidaires.",
+              "zh": "围绕公益项目开展的合租。"
+            },
+            {
+              "id": "B",
+              "text": "Des logements réservés aux personnes âgées.",
+              "zh": "专供老年人居住的住房。"
+            },
+            {
+              "id": "C",
+              "text": "Des résidences sans engagement collectif.",
+              "zh": "没有集体参与要求的学生宿舍。"
+            }
+          ],
+          "answer": {
+            "value": "A",
+            "reference": "Des colocations à projets solidaires."
+          },
+          "explanation": {
+            "answer": "A — Des colocations à projets solidaires.",
+            "reason": "KAPS在摘录中直接展开为colocation à projets solidaires，即以公益项目为基础的合租。",
+            "evidence": [
+              {
+                "pid": "p0",
+                "quote": "Il existe aussi le dispositif KAPS, pour « colocation à projets solidaires », géré par l’Afev.",
+                "pairIds": [
+                  "short-2024-3-cn-1:p0:86"
+                ]
+              }
+            ]
+          },
+          "zh": "这段录音中的KAPS项目指什么？"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "choice",
+          "prompt": "En échange d’un loyer modéré, les étudiants doivent…",
+          "options": [
+            {
+              "id": "A",
+              "text": "devenir propriétaires du logement.",
+              "zh": "成为住房的所有者。"
+            },
+            {
+              "id": "B",
+              "text": "participer à la vie de leur quartier.",
+              "zh": "参与所在街区的生活。"
+            },
+            {
+              "id": "C",
+              "text": "travailler pour une agence immobilière.",
+              "zh": "为房地产中介工作。"
+            }
+          ],
+          "answer": {
+            "value": "B",
+            "reference": "participer à la vie de leur quartier."
+          },
+          "explanation": {
+            "answer": "B — participer à la vie de leur quartier.",
+            "reason": "学生获得较低租金的同时，须每周参与邻里活动或陪伴儿童，这是交换条件。",
+            "evidence": [
+              {
+                "pid": "p1",
+                "quote": "Les bénéficiaires s’engagent à participer à la vie de leur quartier en échange d’un loyer modéré.",
+                "pairIds": [
+                  "short-2024-3-cn-1:p1:0"
+                ]
+              },
+              {
+                "pid": "p2",
+                "quote": "En pratique, les étudiants s’engagent à consacrer plusieurs heures par semaine à la vie du quartier où ils ont obtenu leur logement.",
+                "pairIds": [
+                  "short-2024-3-cn-1:p2:0"
+                ]
+              }
+            ]
+          },
+          "zh": "作为享受低租金的交换条件，学生必须做什么？"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "choice",
+          "prompt": "Le jardin potager évoqué vise notamment à…",
+          "options": [
+            {
+              "id": "A",
+              "text": "produire exclusivement pour les commerces.",
+              "zh": "只为商家生产。"
+            },
+            {
+              "id": "B",
+              "text": "remplacer l’accompagnement des enfants.",
+              "zh": "替代对儿童的陪伴支持。"
+            },
+            {
+              "id": "C",
+              "text": "associer parents et enfants au jardinage et à l’environnement.",
+              "zh": "让家长和孩子共同参与园艺及环保活动。"
+            }
+          ],
+          "answer": {
+            "value": "C",
+            "reference": "associer parents et enfants au jardinage et à l’environnement."
+          },
+          "explanation": {
+            "answer": "C — associer parents et enfants au jardinage et à l’environnement.",
+            "reason": "菜园让居民和家长认识园艺与环境，并鼓励孩子和家长共同参与。",
+            "evidence": [
+              {
+                "pid": "p3",
+                "quote": "Un jardin potager permet de sensibiliser les habitants et les parents au jardinage, à la nature et à l’environnement, et de donner envie aux enfants de jardiner avec leurs parents.",
+                "pairIds": [
+                  "short-2024-3-cn-1:p3:0"
+                ]
+              }
+            ]
+          },
+          "zh": "录音中提到的菜园，主要希望实现什么目标？"
+        }
+      ],
+      "semanticMap": {
+        "q1": {
+          "newId": null,
+          "relation": "legacy-only",
+          "reason": "旧题询问KAPS缩写含义，原题没有对应问题。"
+        },
+        "q2": {
+          "newId": "source-q1",
+          "relation": "same-concept-changed-options",
+          "reason": "均问低租金的交换条件，但正确选项从B变为A，不可复用答题记录。"
+        },
+        "q3": {
+          "newId": "source-q4",
+          "relation": "related-concept-changed-options",
+          "reason": "旧题问亲子园艺参与，原题问最终的邻里联系目标，不是等价选项。"
+        }
+      }
+    },
+    "short-2024-3-cn-2": {
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "choice",
+          "prompt": "À quoi sert le budget participatif présenté dans cet extrait ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "À financer des projets améliorant le cadre de vie.",
+              "zh": "资助改善生活环境的项目。"
+            },
+            {
+              "id": "B",
+              "text": "À réserver les décisions aux entreprises privées.",
+              "zh": "让私人企业独占决策权。"
+            },
+            {
+              "id": "C",
+              "text": "À remplacer toutes les dépenses municipales.",
+              "zh": "替代全部市政开支。"
+            }
+          ],
+          "answer": {
+            "value": "A",
+            "reference": "À financer des projets améliorant le cadre de vie."
+          },
+          "explanation": {
+            "answer": "A — À financer des projets améliorant le cadre de vie.",
+            "reason": "参与式预算用于改善居民日常环境的公共项目，不是给个人自由支配的补贴。",
+            "evidence": [
+              {
+                "pid": "p0",
+                "quote": "Plusieurs centaines de projets ont permis d’améliorer la vie de tous les jours.",
+                "pairIds": [
+                  "short-2024-3-cn-2:p0:131"
+                ]
+              }
+            ]
+          },
+          "zh": "录音中介绍的参与式预算有什么用途？"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "choice",
+          "prompt": "Pour être retenu, un projet doit notamment…",
+          "options": [
+            {
+              "id": "A",
+              "text": "être proposé par un élu.",
+              "zh": "由民选官员提出。"
+            },
+            {
+              "id": "B",
+              "text": "être d’intérêt général et relever de la compétence municipale.",
+              "zh": "符合公共利益，且属于市政府职责范围。"
+            },
+            {
+              "id": "C",
+              "text": "bénéficier uniquement à son auteur.",
+              "zh": "只让提案人自己受益。"
+            }
+          ],
+          "answer": {
+            "value": "B",
+            "reference": "être d’intérêt général et relever de la compétence municipale."
+          },
+          "explanation": {
+            "answer": "B — être d’intérêt général et relever de la compétence municipale.",
+            "reason": "项目必须符合公共利益，并属于市政府权限，两项条件都要满足。",
+            "evidence": [
+              {
+                "pid": "p1",
+                "quote": "Ils doivent être d’intérêt général et relever de la compétence de la mairie.",
+                "pairIds": [
+                  "short-2024-3-cn-2:p1:112"
+                ]
+              }
+            ]
+          },
+          "zh": "一个项目要获选，尤其需要满足什么条件？"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "choice",
+          "prompt": "Qui peut participer au vote ?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Uniquement les Français majeurs.",
+              "zh": "只有法国成年公民。"
+            },
+            {
+              "id": "B",
+              "text": "Uniquement les propriétaires.",
+              "zh": "只有房屋所有者。"
+            },
+            {
+              "id": "C",
+              "text": "Les habitants, sans distinction d’âge ou de nationalité.",
+              "zh": "所有居民，不限年龄或国籍。"
+            }
+          ],
+          "answer": {
+            "value": "C",
+            "reference": "Les habitants, sans distinction d’âge ou de nationalité."
+          },
+          "explanation": {
+            "answer": "C — Les habitants, sans distinction d’âge ou de nationalité.",
+            "reason": "唯一居住条件之外，不限年龄或国籍；儿童和外国居民也能投票。",
+            "evidence": [
+              {
+                "pid": "p2",
+                "quote": "Les habitants peuvent voter sans distinction de nationalité ni d’âge : même les étrangers et les enfants peuvent participer.",
+                "pairIds": [
+                  "short-2024-3-cn-2:p2:61"
+                ]
+              }
+            ]
+          },
+          "zh": "哪些人可以参加投票？"
+        }
+      ],
+      "semanticMap": {
+        "q1": {
+          "newId": "source-q1",
+          "relation": "same-concept-changed-options",
+          "reason": "均问改善公共生活环境，但正确选项从A变为C。"
+        },
+        "q2": {
+          "newId": null,
+          "relation": "legacy-only",
+          "reason": "旧题问项目入选条件，原题source-q2问市政府团队的职责，不是同一道题。"
+        },
+        "q3": {
+          "newId": "source-q3",
+          "relation": "same-concept-changed-options",
+          "reason": "均问谁能投票，但正确选项从C变为B。"
+        }
+      }
+    },
+    "reading-2024-5-fr": {
+      "questions": [
+        {
+          "type": "choice",
+          "prompt": "Selon le journaliste, l’addiction à l’information serait dernièrement due à…",
+          "options": [
+            {
+              "id": "A",
+              "text": "l’apparition du smartphone.",
+              "zh": "智能手机的出现。"
+            },
+            {
+              "id": "B",
+              "text": "la surcharge d’informations.",
+              "zh": "信息过载。"
+            },
+            {
+              "id": "C",
+              "text": "la multiplication des médias.",
+              "zh": "媒体数量增多。"
+            }
+          ],
+          "answer": {
+            "value": "B",
+            "reference": "B"
+          },
+          "id": "q1",
+          "number": 1,
+          "sourceNumber": 1,
+          "explanation": {
+            "answer": "B — la surcharge d’informations.",
+            "reason": "文章把难以消化的信息量比作饮食问题，中心困难在信息过载与筛选。",
+            "evidence": [
+              {
+                "pid": "p1",
+                "quote": "Chaînes d'informatit hisser Ontinu, blôss, emails, réseaux sociaux et gnessageries atront-ils ainsi le devoir de sensibiliser lex, publie au dänger) potentiel qu'ils peuvent repr& nter Il est en effet aujourd'hüiindiscutable que;/propülsée à haute dose, multiforme et associée tiqute\"une séfie d'alertes et autres notifications, l'information joue avec notge geyveau et pas toujours de la meïlleurg des ) façons.",
+                "pairIds": [
+                  "reading-2024-5-fr:p1:0"
+                ]
+              }
+            ]
+          },
+          "zh": "记者认为，近来人们沉迷于信息的原因是什么？"
+        },
+        {
+          "type": "choice",
+          "prompt": "D’après le journaliste, la manière de consommer l’information est…",
+          "options": [
+            {
+              "id": "A",
+              "text": "compulsive et rapide.",
+              "zh": "冲动而快速。"
+            },
+            {
+              "id": "B",
+              "text": "ciblée et collaborative.",
+              "zh": "有针对性且重视协作。"
+            },
+            {
+              "id": "C",
+              "text": "épisodique et désordonnée.",
+              "zh": "断断续续、杂乱无章。"
+            }
+          ],
+          "answer": {
+            "value": "A",
+            "reference": "A"
+          },
+          "id": "q2",
+          "number": 2,
+          "sourceNumber": 2,
+          "explanation": {
+            "answer": "A — compulsive et rapide.",
+            "reason": "即时信息像快餐，时间紧张又受刺激吸引，使消费变得快速、反复甚至强迫。",
+            "evidence": [
+              {
+                "pid": "p2",
+                "quote": "Si on ajoute à cela le manqure.de tépsfon se retrouvègavec | une grande päntie du volume d'ihformations ifiimédiates consommée comme dà fast-food.",
+                "pairIds": [
+                  "reading-2024-5-fr:p2:388"
+                ]
+              }
+            ]
+          },
+          "zh": "记者如何描述人们获取和消费信息的方式？"
+        },
+        {
+          "type": "choice",
+          "prompt": "Selon Joël de Rosnay, l’intelligence artificielle doit être considérée comme…",
+          "options": [
+            {
+              "id": "A",
+              "text": "un outil dont le rôle est de réfléchir à notre place.",
+              "zh": "替我们思考的工具。"
+            },
+            {
+              "id": "B",
+              "text": "une aide dont on a besoin pour trier les informations.",
+              "zh": "帮助我们筛选信息的必要辅助。"
+            },
+            {
+              "id": "C",
+              "text": "un instrument dont le contrôle pourrait nous échapper.",
+              "zh": "可能脱离我们控制的工具。"
+            }
+          ],
+          "answer": {
+            "value": "B",
+            "reference": "B"
+          },
+          "id": "q3",
+          "number": 3,
+          "sourceNumber": 3,
+          "explanation": {
+            "answer": "B — une aide dont on a besoin pour trier les informations.",
+            "reason": "作者提到把人工智能称为“Intelligence Auxiliaire”（辅助智能），强调它应帮助人类处理信息，而不是代替人类思考；因此选B。A把辅助误说成替代，C则把重点误说成失控风险。",
+            "evidence": [
+              {
+                "pid": "p6",
+                "quote": "de laisser progressivententfune machine fénsermpour nous, certains, comme Joël de Rosnayi auteur Âé-La symphonie du vivantÿ#préfèrent parle ernes, d'Intelligence Auxiliaire.",
+                "pairIds": [
+                  "reading-2024-5-fr:p6:0"
+                ]
+              }
+            ],
+            "limitation": "本段原扫描转写有识别误差，核对时请结合“Intelligence Auxiliaire”及上下文理解。"
+          },
+          "zh": "Joël de Rosnay认为，应该怎样看待人工智能？"
+        },
+        {
+          "type": "choice",
+          "prompt": "Selon Étienne Klein, nous sommes manipulés par certains médias car nous…",
+          "options": [
+            {
+              "id": "A",
+              "text": "avons des difficultés à discerner le vrai du faux.",
+              "zh": "难以分辨真假。"
+            },
+            {
+              "id": "B",
+              "text": "négligeons de vérifier les sources d’information.",
+              "zh": "疏于核实信息来源。"
+            },
+            {
+              "id": "C",
+              "text": "sommes attirés par ce qui nous apporte du plaisir.",
+              "zh": "容易被让我们感到愉悦的东西吸引。"
+            }
+          ],
+          "answer": {
+            "value": "C",
+            "reference": "C"
+          },
+          "id": "q4",
+          "number": 4,
+          "sourceNumber": 4,
+          "explanation": {
+            "answer": "C — sommes attirés par ce qui nous apporte du plaisir.",
+            "reason": "作者用多巴胺解释对即时刺激的吸引，说明人容易追逐带来快感的内容，而非总按理性价值选择。",
+            "evidence": [
+              {
+                "pid": "p2",
+                "quote": "Ce féurotranSmetteur du plaisir procure, ra béré, par nos neurones, une sensation de bien”être -et-d'accoutumañee, à l'image du sucre cosomméf poutle plaisir, en grande quantité dans notre alintentation mialgré\"ses effèts catastrophiques suNR Mité Éa comséquentebiologique directe est la mise en sommëild'uñe partie du éerveau réfléclfijet raisonnépour stimiller, 1# eñçorè, la dopamine.",
+                "pairIds": [
+                  "reading-2024-5-fr:p2:0"
+                ]
+              }
+            ]
+          },
+          "zh": "Étienne Klein认为，我们为什么容易受到某些媒体操纵？"
+        }
+      ],
+      "semanticMap": {
+        "q1": {
+          "newId": "source-q3",
+          "relation": "equivalent",
+          "reason": "题意、选项、正确答案A一致，可由集成方决定保留旧ID。"
+        },
+        "q2": {
+          "newId": "source-q5",
+          "relation": "equivalent",
+          "reason": "题意、选项、正确答案A一致。"
+        },
+        "q3": {
+          "newId": "source-q9",
+          "relation": "equivalent",
+          "reason": "题意、选项、正确答案B一致。"
+        },
+        "q4": {
+          "newId": "source-q10",
+          "relation": "equivalent",
+          "reason": "题意、选项、正确答案C一致；旧证据误连多巴胺段，现已更正为Klein原话。"
+        }
+      }
+    }
+  }
+}

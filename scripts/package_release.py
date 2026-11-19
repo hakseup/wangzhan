@@ -23,6 +23,6 @@ for path in [site,source]:
   assert z.testzip()is None
   assert not any(n.endswith('.pdf')or'node_modules/'in n or'/.git/'in n for n in z.namelist())
   bank=json.loads(z.read('content.json'if path==site else'noix-dalf-c1/public/content.json'))
-  assert len(bank['exercises'])==176
+  assert len(bank['exercises'])==(bank.get('imports')or[{'totalExercises':176}])[-1]['totalExercises']
   assert len([n for n in z.namelist()if n.endswith(('.m4a','.mp3'))])==36
  print(path.name,round(path.stat().st_size/1024/1024,1),'MiB; integrity verified')

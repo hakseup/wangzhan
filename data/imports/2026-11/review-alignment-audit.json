@@ -1,0 +1,930 @@
+[
+  {
+    "exercise": "short-practice-06-2",
+    "question": "q1",
+    "fr": "Lucie Montchovi : Aujourd’hui, tout ou presque peut se louer et s’échanger ou encore se partager.",
+    "zh": "Lucie Montchovi：如今，几乎所有东西都可以出租、交换或共享。",
+    "quote": "Aujourd’hui, tout ou presque peut se louer et s’échanger ou encore se partager.",
+    "quoteZh": "如今，几乎什么都可以出租、交换或共享。"
+  },
+  {
+    "exercise": "short-practice-06-2",
+    "question": "q3",
+    "fr": "Mais ce qui ressort de cette nouvelle étude : acheter moins cher n’est plus la seule motivation des consommateurs mais bien acheter mieux.",
+    "zh": "但这项新研究尤其表明：消费者的动力已经不只是买得便宜，更是买得明智。",
+    "quote": "acheter moins cher n’est plus la seule motivation des consommateurs mais bien acheter mieux.",
+    "quoteZh": "消费者的动力已经不只是买得便宜，更是买得好、买得明智。"
+  },
+  {
+    "exercise": "short-practice-06-3",
+    "question": "q1",
+    "fr": "Hélène Bernard : C’est un service qui recense et expertise l’ensemble des découvertes des biens culturels maritimes français.",
+    "zh": "Hélène Bernard：这是一个负责登记并鉴定所有法国海洋文化遗产发现的部门。",
+    "quote": "C’est un service qui recense et expertise l’ensemble des découvertes des biens culturels maritimes français.",
+    "quoteZh": "我们的职责，是登记并鉴定所有在France海域发现的海洋文化遗产。"
+  },
+  {
+    "exercise": "short-practice-06-3",
+    "question": "q2",
+    "fr": "GF : Oui, ce sont de véritables passionnés de la plongée qui travaillent en lien avec des historiens, des archéologues pour reconstituer l’histoire de ces épaves.",
+    "zh": "GF：是的，他们是真正的潜水爱好者，会与历史学家、考古学家合作，重建这些沉船的历史。",
+    "quote": "qui travaillent en lien avec des historiens, des archéologues pour reconstituer l’histoire de ces épaves.",
+    "quoteZh": "他们与历史学家、考古学家合作，重建这些沉船的历史。"
+  },
+  {
+    "exercise": "short-practice-06-3",
+    "question": "q3",
+    "fr": "CM : Il y a certaines sociétés de par le monde qui se sont spécialisées dans la recherche d’épaves dans un but de faire des profits et je pense notamment à Odyssey Marine Exploration qui ont localisé d’ailleurs en 2011 l’épave d’un cargo britannique au large de l’Irlande qui contient près de 250 tonnes de lingots d’argent, qui est estimé à près de 150 millions d’euros.",
+    "zh": "CM：世界各地有一些公司专门以盈利为目的搜寻沉船，我尤其想到Odyssey Marine Exploration；该公司于2011年在Irlande外海发现了一艘英国货轮的遗骸，里面装有近250吨银锭，估值接近1.5亿欧元。",
+    "quote": "dans un but de faire des profits",
+    "quoteZh": "目的是从中获利。"
+  },
+  {
+    "exercise": "short-practice-06-3",
+    "question": "q4",
+    "fr": "GF : Si elle renferme un trésor qui vaut plusieurs centaines de millions d’euros, comme la frégate espagnole disparue en 1804 et retrouvée récemment, il y a négociation avec l’État propriétaire sur les pourcentages qui dépendent aussi du coût des recherches.",
+    "zh": "GF：如果其中藏着价值数亿欧元的宝物，比如那艘1804年失踪、最近才被找到的西班牙护卫舰，就需要与拥有它的国家谈判，商定分配比例；搜寻成本也是决定比例的因素之一。",
+    "quote": "il y a négociation avec l’État propriétaire sur les pourcentages qui dépendent aussi du coût des recherches.",
+    "quoteZh": "需要与拥有沉船的国家谈判分配比例，而比例也取决于搜寻成本。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q1",
+    "fr": "Didier Si Ammour : Ces dernières années, les plateformes d’enseignement à distance, les sites de communication et de partage entre enseignants, élèves et parents, les vidéos permettant d’accéder aux cours des établissements parmi les plus prestigieux, se sont multipliés sur la toile – avec quelles conséquences, pour quel avenir, c’est ce dont nous débattons ce matin avec Axelle Lemaire, la secrétaire d’État chargée du numérique, François Taddei, le directeur du Centre de recherches interdisciplinaires à Paris.",
+    "zh": "Didier Si Ammour：近年来，远程教学平台、供教师、学生与家长沟通分享的网站，以及让人们学习顶尖院校课程的视频，在网上大量涌现。这会带来什么影响，未来又将如何？今天早晨，我们将与负责数字事务的国务秘书Axelle Lemaire，以及Paris跨学科研究中心主任François Taddei一起讨论。",
+    "quote": "les plateformes d’enseignement à distance, les sites de communication et de partage entre enseignants, élèves et parents, les vidéos permettant d’accéder aux cours des établissements parmi les plus prestigieux, se sont multipliés sur la toile – avec quelles conséquences, pour quel avenir",
+    "quoteZh": "远程教学平台、供教师、学生和家长沟通分享的网站，以及让人们观看顶尖学校课程的视频，在网上不断涌现：这会带来什么影响，未来又会怎样？"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q2",
+    "fr": "Alors, mesdames et messieurs, comme moi vous pouvez constater que l’État a depuis des décennies voulu sinon anticiper, au moins accompagner la transformation numérique de notre société, en commençant d’ailleurs par les écoles.",
+    "zh": "各位也能看到，几十年来，国家一直希望即便不能预先引领，至少也要跟上社会的数字化转型，而学校正是起点之一。",
+    "quote": "l’État a depuis des décennies voulu sinon anticiper, au moins accompagner la transformation numérique de notre société, en commençant d’ailleurs par les écoles.",
+    "quoteZh": "几十年来，国家一直希望即便不能预先引领，至少也要跟上社会的数字化转型，而学校正是起点之一。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q4",
+    "fr": "Parce que, euh… le choix délibéré est celui de miser sur la formation des enseignants et de miser sur l’accès à des ressources pédagogiques, de nature numérique innovante.",
+    "zh": "因为，我们经过慎重考虑，决定把重点放在教师培训，以及让教师能够使用创新的数字教学资源上。",
+    "quote": "le choix délibéré est celui de miser sur la formation des enseignants et de miser sur l’accès à des ressources pédagogiques, de nature numérique innovante.",
+    "quoteZh": "这次我们明确把重点放在教师培训，以及让教师能够使用创新的数字教学资源上。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q5",
+    "fr": "Euh… mais ce qui importe, c’est non pas de faire entrer le numérique à l’école, c’est de faire entrer l’école dans la société euh… numérique.",
+    "zh": "关键不是把数字技术带进学校，而是让学校融入数字社会。",
+    "quote": "ce qui importe, c’est non pas de faire entrer le numérique à l’école, c’est de faire entrer l’école dans la société euh… numérique.",
+    "quoteZh": "关键不是把数字技术带进学校，而是让学校融入数字社会。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q6",
+    "fr": "Parce qu’il est très important aujourd’hui que nos enfants soient autonomes dans cet environnement numérique et pour l’être, eh bien il faut pouvoir maîtriser la machine et non pas être maîtrisé par la machine.",
+    "zh": "孩子们必须能够在数字环境中自主行动，而要做到这一点，他们就必须掌控机器，而不是被机器掌控。",
+    "quote": "il faut pouvoir maîtriser la machine et non pas être maîtrisé par la machine.",
+    "quoteZh": "必须能够掌控机器，而不是被机器掌控。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q7",
+    "fr": "On a besoin quelque part de développer une espèce de système immunitaire euh… cérébral qui nous permet de résister à des virus qui peuvent se propager sur Internet et qui sont pas tous bien intentionnés.",
+    "zh": "某种程度上，我们需要为大脑建立一套免疫系统，抵御网上传播的、并非都怀有善意的“病毒”。",
+    "quote": "une espèce de système immunitaire euh… cérébral qui nous permet de résister à des virus qui peuvent se propager sur Internet et qui sont pas tous bien intentionnés.",
+    "quoteZh": "为大脑建立某种免疫系统，抵御网上传播的、并非都怀有善意的“病毒”。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q8",
+    "fr": "F.T. : Ce qui est sûr, c’est que le… le système au départ est… a été construit comme une méritocratie et comme un système de compétition qui peut être extrême et qui peut être mal vécu d’ailleurs par toujours plus d’élèves.",
+    "zh": "F.T.：可以肯定的是，现有体系最初按照择优原则建立，带有很强的竞争性，而且竞争可能极端到让越来越多的学生感到难以承受。",
+    "quote": "a été construit comme une méritocratie et comme un système de compétition qui peut être extrême",
+    "quoteZh": "这个体系最初按择优原则建立，带有可能十分极端的竞争性。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q9",
+    "fr": "Donc par contre si vous êtes capable de coopérer, si vous êtes capable de créer, si vous êtes capable de critiquer l’existant de manière constructive, si vous êtes capable de communiquer avec des gens qui viennent de mondes très différents du vôtre, alors vous pourrez ensemble faire des choses que vous ne sauriez jamais faire seul.",
+    "zh": "相反，如果你会合作、会创造、能建设性地批评现有事物，并能与背景迥异的人沟通，就能一起完成个人绝不可能独自完成的事情。",
+    "quote": "vous pourrez ensemble faire des choses que vous ne sauriez jamais faire seul.",
+    "quoteZh": "你们就能一起完成个人绝不可能独自完成的事情。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q10",
+    "fr": "A.L. : Y’a certainement un enjeu d’acculturation du monde éducatif et en particulier chez les enseignants pour expliquer les vertus potentielles euh… de l’adoption de méthodes plus collaboratives en lien avec l’utilisation des outils numériques.",
+    "zh": "A.L.：教育界，尤其是教师，确实需要逐步了解并适应这种文化，理解把数字工具与更多合作式教学相结合可能带来的好处。",
+    "quote": "Y’a certainement un enjeu d’acculturation du monde éducatif et en particulier chez les enseignants pour expliquer les vertus potentielles",
+    "quoteZh": "教育界，尤其是教师，确实需要适应和理解这种文化，了解其潜在好处。"
+  },
+  {
+    "exercise": "long-practice-08",
+    "question": "q11",
+    "fr": "Et ce que permet le numérique, c’est à la fois l’introduction de ces partages dans l’apprentissage euh… des… euh... des connaissances mais aussi une plus grande personnalisation et un plus grand suivi individuel des élèves de la part des enseignants.",
+    "zh": "数字技术既有助于在知识学习过程中引入分享，也能让教师更加因材施教，更细致地跟踪每个学生。",
+    "quote": "une plus grande personnalisation et un plus grand suivi individuel des élèves de la part des enseignants.",
+    "quoteZh": "让教师更加因材施教，更细致地跟踪每个学生。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q1",
+    "fr": "Alors on précise tout de suite qu’on n’est pas en train de parler de cartes perforées qui vous corrigent des QCM, ça on sait le faire depuis belle lurette, on parle vraiment de systèmes dans lesquels vous saisissez par exemple une dissertation et, à la fin, on va vous donner, la machine va vous donner une note.",
+    "zh": "我们先说明，我们说的不是用穿孔卡来批改选择题，这种事早就能做了；我们说的是这样一种系统：比如，你输入一篇议论文，最后系统，也就是机器，会给出一个分数。",
+    "quote": "vous saisissez par exemple une dissertation et, à la fin, on va vous donner, la machine va vous donner une note.",
+    "quoteZh": "比如，你输入一篇议论文，机器最后会给出一个分数。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q2",
+    "fr": "Matthieu Cisel : C’est un système qui est en fait assez ancien, enfin il y a de la recherche dessus depuis assez longtemps, mais c’est que depuis, heu, un an ou deux qu’on commence à l’utiliser à grande échelle, et en fait c’est une plateforme de MOOC, donc de cours en ligne gratuits, qui a utilisé ça, qui s’appelle EDX…",
+    "zh": "Matthieu Cisel：这实际上是一个相当早的系统，或者说，相关研究已经开展了很长时间，但直到最近一两年才开始大规模使用；采用它的是一个叫作EDX的MOOC平台，也就是提供免费在线课程的平台……",
+    "quote": "c’est que depuis, heu, un an ou deux qu’on commence à l’utiliser à grande échelle",
+    "quoteZh": "只是最近一两年，才开始大规模使用。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q3",
+    "fr": "Et en fait ils ont utilisé ce système pour un cours de chimie et un cours de santé publique.",
+    "zh": "它们已将这个系统用于一门化学课和一门公共卫生课。",
+    "quote": "ils ont utilisé ce système pour un cours de chimie et un cours de santé publique.",
+    "quoteZh": "它们已将这个系统用于一门化学课和一门公共卫生课。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q4",
+    "fr": "Mais en fait pas du tout, c’est un enseignant… pour… pouvoir utiliser cette technologie, il faut calibrer la machine, c’est-à-dire que un enseignant doit corriger une centaine de copies au moins pour que on puisse comme ça extrapoler en fait sa façon de noter à d’autres textes, et…",
+    "zh": "但实际上完全不是这样，仍然需要教师……要使用这项技术，就必须校准机器，也就是说，教师至少要先批改一百份作业，这样才能把他的评分方式推广到其他文本，然后……",
+    "quote": "il faut calibrer la machine, c’est-à-dire que un enseignant doit corriger une centaine de copies au moins",
+    "quoteZh": "必须先校准机器，也就是说，教师至少要批改一百份作业。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q5",
+    "fr": "Mais en fait pas du tout, c’est un enseignant… pour… pouvoir utiliser cette technologie, il faut calibrer la machine, c’est-à-dire que un enseignant doit corriger une centaine de copies au moins pour que on puisse comme ça extrapoler en fait sa façon de noter à d’autres textes, et…",
+    "zh": "但实际上完全不是这样，仍然需要教师……要使用这项技术，就必须校准机器，也就是说，教师至少要先批改一百份作业，这样才能把他的评分方式推广到其他文本，然后……",
+    "quote": "pour que on puisse comme ça extrapoler en fait sa façon de noter à d’autres textes",
+    "quoteZh": "这样才能把这位教师的评分方式推广到其他文本。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q6",
+    "fr": "Matthieu Cisel : Ben en fait il y a pas mal de techniques différentes, hein, celle qu’utilise EDX c’est ce qu’on appelle le « machine learning » c’est-à-dire qu’en effet, il va comparer des textes, donc c’est l’intelligence artificielle qui va essayer d’extraire des éléments de sens dans un texte ou dans un autre, les comparer pour voir en fait aussi s’ils sont suffisamment proches…",
+    "zh": "Matthieu Cisel：其实有不少不同的技术；EDX采用的是所谓的“机器学习”，也就是说，系统会比较文本，人工智能尝试从不同文本中提取表达意义的要素，再比较它们，看看它们是否足够接近……",
+    "quote": "l’intelligence artificielle qui va essayer d’extraire des éléments de sens dans un texte ou dans un autre, les comparer pour voir en fait aussi s’ils sont suffisamment proches",
+    "quoteZh": "人工智能尝试从不同文本中提取表达意义的要素，再进行比较，判断它们是否足够接近。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q7",
+    "fr": "Matthieu Cisel : C’est ça… il y a beaucoup de ça aussi, en fait y’a, y’a beaucoup d’éléments dedans, le problème en fin de compte c’est… c’est quand même les retours et la notation sont quand même assez…, hein, pas toujours très fiables, hein, et les Américains étaient venus nous présenter le concept y’a quelques mois, et en fait ils nous disaient que par exemple sur des textes trop courts ça marchait pas, sur des textes trop longs ça marchait pas, on n’arrivait pas bien à extrapoler, mais sur des textes de taille moyenne ils arrivaient à faire des choses assez bien, en langue, en sciences politiques.",
+    "zh": "Matthieu Cisel：是的，这也是很大的一部分。其实里面涉及很多因素，最终的问题仍然是，反馈和评分并不总是很可靠。几个月前，美国研究者来向我们介绍这一概念，他们说，比如文本太短时不行，太长时也不行，难以有效推广评分方式；但对于中等篇幅的语言或政治学文本，倒能取得相当好的效果。",
+    "quote": "sur des textes trop courts ça marchait pas, sur des textes trop longs ça marchait pas",
+    "quoteZh": "文本太短时不行，文本太长时也不行。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q8",
+    "fr": "Matthieu Cisel : Ben, ce qui est intéressant, c’est que aussi on peut, heu, on soumet sa copie, on a une note, eh ben on recommence, on la réécrit on la resoumet, et on peut aller très vite, alors que ça prendrait des semaines en fin de compte avec un… un système éducatif normal, là on pourrait le faire en quelques minutes voire quelques heures, avoir des retours jusqu’à arriver, entre guillemets, à ce que l’enseignant attendait de nous.",
+    "zh": "Matthieu Cisel：有意思的是，我们可以提交作业、获得分数，然后重新来过，改写后再次提交，整个过程可以非常快。正常的教育体系里可能需要几个星期，这里只需几分钟，甚至几个小时，就能不断得到反馈，直到达到教师对我们的要求——姑且这样说。",
+    "quote": "on recommence, on la réécrit on la resoumet",
+    "quoteZh": "可以重新来过，修改后再次提交。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q10",
+    "fr": "En fait il faut trouver entre le… la machine, la correction automatique des copies et l’évaluation par les pairs, il faut trouver le bon équilibre entre un aspect formateur de corriger d’autres copies et un aspect précis d’être corrigé par une machine.",
+    "zh": "因此，需要在机器自动批改与同伴互评之间取得平衡：既保留批改别人作业所带来的学习价值，也利用机器评分的精确性。",
+    "quote": "un aspect formateur de corriger d’autres copies",
+    "quoteZh": "批改其他人的作业所具有的学习和培养作用。"
+  },
+  {
+    "exercise": "long-practice-09",
+    "question": "q11",
+    "fr": "Quand arrivera-t-elle à maturité, quand est-ce qu’on a une chance, entre guillemets, ou une malchance, c’est selon l’avis qu’on a sur cette technologie, de la voir arriver dans des établissements ?",
+    "zh": "这项技术什么时候会成熟？我们什么时候有可能——有人认为是幸运，有人觉得是不幸，这取决于对它的看法——看到它进入学校呢？",
+    "quote": "une chance, entre guillemets, ou une malchance, c’est selon l’avis qu’on a sur cette technologie",
+    "quoteZh": "“机会”——先给它加上引号——或者也可能是“坏事”，这取决于人们如何看待这项技术。"
+  },
+  {
+    "exercise": "short-practice-09-2",
+    "question": "q1",
+    "fr": "Mais dans un cas comme dans l’autre, ces appels commerciaux ont le don de nous exaspérer.",
+    "zh": "不管哪一种，这些商业电话都会让人十分恼火。",
+    "quote": "ces appels commerciaux ont le don de nous exaspérer.",
+    "quoteZh": "这些商业电话总是让我们十分恼火。"
+  },
+  {
+    "exercise": "short-practice-09-2",
+    "question": "q2",
+    "fr": "Le problème c’est que Pacitel n’a pas été à la hauteur des attentes, en effet elle a été créée en 2011 par les professionnels sur la base du volontariat et seules une centaine d’entreprises au total ont adhéré au dispositif.",
+    "zh": "问题在于Pacitel未能达到人们的预期：它是2011年由业内人士在自愿参与的基础上建立的，最终总共只有大约一百家公司加入。",
+    "quote": "elle a été créée en 2011 par les professionnels sur la base du volontariat et seules une centaine d’entreprises au total ont adhéré au dispositif.",
+    "quoteZh": "这份名单由业内人士于2011年自愿建立，最终总共只有约一百家公司参加。"
+  },
+  {
+    "exercise": "short-practice-09-2",
+    "question": "q3",
+    "fr": "Dominique Loriou : Créer une nouvelle liste d’opposition au démarchage téléphonique, mais cette fois cette liste sera obligatoire, et un décret en a précisé les modalités de fonctionnement en mai dernier.",
+    "zh": "Dominique Loriou：建立一份新的拒接电话推销名单，但这次名单将实行强制执行；此前5月的一项法令已经明确了其运作方式。",
+    "quote": "cette fois cette liste sera obligatoire",
+    "quoteZh": "但这次，这份名单将具有强制性。"
+  },
+  {
+    "exercise": "short-practice-09-2",
+    "question": "q4",
+    "fr": "Cette nouvelle liste d’opposition au démarchage téléphonique était prévue pour entrer en vigueur cet automne, mais il y a du retard et la raison est toute simple : l’appel d’offres pour trouver l’entreprise chargée de gérer cette nouvelle liste a été infructueux.",
+    "zh": "新名单本来打算今年秋季启用，却出现延误，原因很简单：寻找名单管理公司的招标没有成功。",
+    "quote": "l’appel d’offres pour trouver l’entreprise chargée de gérer cette nouvelle liste a été infructueux.",
+    "quoteZh": "寻找负责管理新名单的企业时，招标没有成功。"
+  },
+  {
+    "exercise": "short-practice-09-3",
+    "question": "q1",
+    "fr": "Philippe Duport : Ben oui, c’est un paradoxe, hein, parce qu’aujourd’hui le bâtiment détruit des emplois. 40 à 50 000 emplois devraient être supprimés cette année.",
+    "zh": "Philippe Duport：是的，这确实很矛盾，因为如今建筑业正在削减岗位，今年预计将减少四万到五万个工作岗位。",
+    "quote": "le bâtiment détruit des emplois.",
+    "quoteZh": "建筑业目前正在减少就业岗位。"
+  },
+  {
+    "exercise": "short-practice-09-3",
+    "question": "q2",
+    "fr": "Or le souci de performance énergétique change complètement la façon de construire, et les tâches des techniciens du bâtiment en deviennent bien plus complexes.",
+    "zh": "能源效率要求彻底改变了建造方式，也使建筑技术人员的工作更加复杂。",
+    "quote": "le souci de performance énergétique change complètement la façon de construire",
+    "quoteZh": "能源效率要求彻底改变了建造方式。"
+  },
+  {
+    "exercise": "short-supplement-10-1",
+    "question": "q1",
+    "fr": "À une réflexion sur le statut de l’enfant dans notre société, parce que on vit beaucoup aujourd’hui avec l’idée que le combat est gagné, que l’enfant est maintenant considéré comme une personne, qu’on le respecte, etc.",
+    "zh": "这是要反思儿童在我们社会中的地位，因为如今人们往往认为，这场争取权利的斗争已经胜利，孩子现在已经被当作独立的人，受到尊重，等等。",
+    "quote": "À une réflexion sur le statut de l’enfant dans notre société",
+    "quoteZh": "反思儿童在我们社会中的地位。"
+  },
+  {
+    "exercise": "short-supplement-10-1",
+    "question": "q3",
+    "fr": "En plus il n’a pas de vie privée, puisque il est sous le regard de l’appareil de photo des autres en permanence, ce qu’aucun adulte ne supporterait parce que c’est très violent, et en plus il a un statut d’objet puisqu’on l’utilise sans lui demander son avis.",
+    "zh": "而且，他没有私生活，因为他时刻处在别人的相机镜头之下；这种强烈的侵犯，任何成年人都难以忍受。此外，他还被当作物件，因为人们使用他的形象，却不征求他的意见。",
+    "quote": "et en plus il a un statut d’objet puisqu’on l’utilise sans lui demander son avis.",
+    "quoteZh": "而且，他被当成一个物件，因为别人利用他，却不问他的意见。"
+  },
+  {
+    "exercise": "short-supplement-10-1",
+    "question": "q4",
+    "fr": "Et ce statut d’objet, auquel s’ajoute une survalorisation de l’image, peut entraîner par exemple pour certains enfants des problèmes dans l’acquisition et l’apprentissage de la parole, parce que au fond tout se passe comme si la seule chose que ses parents attendaient de lui, ben c’est son image.",
+    "zh": "这种物化的地位，再加上对外在形象的过度重视，可能使一些孩子在语言习得和学习说话方面出现困难，因为在他们看来，父母仿佛只期待看到自己的形象。",
+    "quote": "peut entraîner par exemple pour certains enfants des problèmes dans l’acquisition et l’apprentissage de la parole",
+    "quoteZh": "例如，可能使某些孩子在语言习得和学习说话方面出现困难。"
+  },
+  {
+    "exercise": "short-supplement-10-2",
+    "question": "q1",
+    "fr": "Principale monnaie d’échange autrefois, ce sel a fait la gloire de la cité jusqu’à la Belle Époque, on venait du monde entier pour se soigner aux thermes de Salies-de-Béarn.",
+    "zh": "盐曾是重要的交换媒介，也让这座城市一直繁荣到Belle Époque时期；世界各地的人都来Salies-de-Béarn的温泉浴场疗养。",
+    "quote": "Principale monnaie d’échange autrefois, ce sel a fait la gloire de la cité jusqu’à la Belle Époque",
+    "quoteZh": "盐曾是重要的交换媒介，使这座城市一直繁荣到Belle Époque时期。"
+  },
+  {
+    "exercise": "short-supplement-10-2",
+    "question": "q2",
+    "fr": "Toutes les grandes découvertes ont été pratiquement réalisées parce qu’il y avait la possibilité de conserver les aliments grâce au sel, et à l’heure actuelle…",
+    "zh": "历史上，几乎所有伟大发现之所以成为可能，都是因为人们可以用盐保存食物，而到了如今……",
+    "quote": "Toutes les grandes découvertes ont été pratiquement réalisées parce qu’il y avait la possibilité de conserver les aliments grâce au sel",
+    "quoteZh": "几乎所有伟大发现之所以成为可能，都是因为人们可以用盐保存食物。"
+  },
+  {
+    "exercise": "short-supplement-10-2",
+    "question": "q3",
+    "fr": "BM : Bien sûr, le sel, heu, bon nombre d’établissements thermaux sont des établissements à base de sources salées qui, chacune pour des qualités plus ou moins démontrées, ont leurs qualités, on retrouve plusieurs sites qui tournent justement, qui gravitent autour de sources salées, donc autour de ce petit grain qui a des propriétés magiques.",
+    "zh": "BM：当然，很多温泉疗养机构都依托盐泉经营；这些盐泉各有其特点，虽然疗效得到证实的程度不一。有好几处疗养地正是围绕盐泉，也就是围绕这小小盐粒的奇妙特性发展起来的。",
+    "quote": "bon nombre d’établissements thermaux sont des établissements à base de sources salées",
+    "quoteZh": "许多温泉疗养机构都以含盐泉水为基础。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q3",
+    "fr": "Cependant, il se trouve que seules les mathématiques permettent de comprendre le monde.",
+    "zh": "然而，事实上，只有数学能够让我们理解世界。",
+    "quote": "seules les mathématiques permettent de comprendre le monde.",
+    "quoteZh": "唯有数学能使人理解世界。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q4",
+    "fr": "Et, le paradoxe extraordinaire, c’est que les mathématiques ont été inventées par nous et que, tout d’un coup, on ne sait pas pourquoi, c’est un miracle dit Einstein, elles sont les lois du monde.",
+    "zh": "奇妙的矛盾就在于，数学是我们发明的，却又不知为何成了世界的法则；Einstein称之为奇迹。",
+    "quote": "les mathématiques ont été inventées par nous et que, tout d’un coup, on ne sait pas pourquoi, c’est un miracle dit Einstein, elles sont les lois du monde.",
+    "quoteZh": "数学是我们发明的，却又不知为何成了世界的法则；Einstein把这称为奇迹。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q5",
+    "fr": "Alors, évidemment, ça fait deux populations qui ne s’entendent pas, qui ne se recoupent pas, que j’appelle d’un côté « les incultes savants » et de l’autre côté « les cultivés ignorants ».",
+    "zh": "结果，这两类人互不理解，没有交集；我把一方称为“缺少人文修养的学者”，另一方称为“有修养却不懂科学的人”。",
+    "quote": "ça fait deux populations qui ne s’entendent pas, qui ne se recoupent pas",
+    "quoteZh": "这形成了两个互不理解、没有交集的群体。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q6",
+    "fr": "Parce que, tous ceux qui parlent dans notre société, tous ceux qui décident, tous ceux qui gèrent, tous ceux qui administrent, tous ceux qui commandent sont tous exclusivement formés aux sciences humaines, aux sciences politiques, aux sciences économiques et en sociologie et ainsi de suite.",
+    "zh": "因为，在我们社会中，所有发言的人、作决定的人、经营管理的人、从事行政管理的人以及发号施令的人，接受的全都仅仅是人文学科、政治学、经济学、社会学等方面的训练。",
+    "quote": "tous ceux qui commandent sont tous exclusivement formés aux sciences humaines, aux sciences politiques, aux sciences économiques et en sociologie",
+    "quoteZh": "所有发号施令的人，都只接受过人文学科、政治学、经济学、社会学等方面的训练。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q7",
+    "fr": "Parce que, d’abord, c’est la biochimie qui a donné des médicaments, qui a donné la pénicilline, qui a fait augmenter l’espérance de vie et puis, d’autre part, par les nouvelles technologies que vous savez, c’est-à-dire l’ordinateur ou le portable, qui ont transformé les relations humaines, qui ont transformé l’accès à l’information et ainsi de suite.",
+    "zh": "生物化学带来了药物和青霉素，使人的预期寿命延长；计算机、手机等新技术也改变了人际关系和获取信息的方式。",
+    "quote": "l’ordinateur ou le portable, qui ont transformé les relations humaines, qui ont transformé l’accès à l’information",
+    "quoteZh": "计算机或手机改变了人际关系，也改变了获取信息的方式。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q8",
+    "fr": "Et, cependant, les sociétés sont toujours dirigées par la première des populations, c’est-à-dire celle précisément qui ne connaît rien aux causes du changement du monde en question.",
+    "zh": "然而，社会依然由第一类人管理，而他们恰恰不了解这些改变的成因。",
+    "quote": "celle précisément qui ne connaît rien aux causes du changement du monde en question.",
+    "quoteZh": "恰恰是不了解这个世界变化成因的那一类人。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q9",
+    "fr": "Il m’est arrivé de participer récemment à des colloques sur l’environnement, par exemple, où il y avait des juristes, où il y avait des philosophes, des sociologues, tout ce qu’il faut, mais il n’y avait pas un seul représentant ni de la climatologie, ni de la géophysique, etc.",
+    "zh": "最近，我曾参加有关环境的研讨会，在场有法学家、哲学家、社会学家，各种人都有，却没有任何一位气候学或地球物理学的代表。",
+    "quote": "il n’y avait pas un seul représentant ni de la climatologie, ni de la géophysique",
+    "quoteZh": "却没有任何一位气候学或地球物理学的代表。"
+  },
+  {
+    "exercise": "long-supplement-16",
+    "question": "q10",
+    "fr": "J’ai beaucoup de respect pour les sciences humaines, elles nous ont délivré de beaucoup d’erreurs et ainsi de suite, mais il se trouve que gouverner en ayant seulement cette culture-là fait oublier complètement les causes du changement de ce monde-là.",
+    "zh": "我非常尊重人文学科，它们帮助我们摆脱了许多错误，等等；但仅凭这种知识背景来治理社会，就会完全忘记这个世界发生变化的原因。",
+    "quote": "J’ai beaucoup de respect pour les sciences humaines, elles nous ont délivré de beaucoup d’erreurs",
+    "quoteZh": "我很尊重人文学科，它们帮助我们摆脱了许多错误。"
+  },
+  {
+    "exercise": "short-supplement-16-1",
+    "question": "q1",
+    "fr": "À Landerneau, en Bretagne, le Fonds Leclerc pour la culture met en scène sur 1 000 m2 quinze univers qui s’inspirent des cabinets de curiosités.",
+    "zh": "在Bretagne的Landerneau，Fonds Leclerc pour la culture在一千平方米的空间里，呈现了十五个以珍奇柜为灵感的世界。",
+    "quote": "le Fonds Leclerc pour la culture met en scène sur 1 000 m2 quinze univers qui s’inspirent des cabinets de curiosités.",
+    "quoteZh": "Fonds Leclerc pour la culture在一千平方米的空间中，呈现了十五个受珍奇柜启发的世界。"
+  },
+  {
+    "exercise": "short-supplement-16-1",
+    "question": "q3",
+    "fr": "Patrick MORIÈS : Les cabinets ont été détruits, si l’on veut, par l’évolution du savoir, c’est-à-dire qu’ils ont disparu à la fin du XVIIe siècle.",
+    "zh": "Patrick MORIÈS：可以说，珍奇柜是被知识的发展淘汰的，它们在十七世纪末消失了。",
+    "quote": "Les cabinets ont été détruits, si l’on veut, par l’évolution du savoir",
+    "quoteZh": "可以说，珍奇柜是被知识的发展淘汰的。"
+  },
+  {
+    "exercise": "short-supplement-16-1",
+    "question": "q4",
+    "fr": "Donc, il y avait déjà une nostalgie, une volonté de se réapproprier un monde en trois dimensions.",
+    "zh": "因此，人们产生了怀旧感，希望重新找回一个三维的真实世界。",
+    "quote": "il y avait déjà une nostalgie, une volonté de se réapproprier un monde en trois dimensions.",
+    "quoteZh": "人们已经产生了怀旧之情，希望重新找回一个三维的真实世界。"
+  },
+  {
+    "exercise": "short-supplement-16-2",
+    "question": "q1",
+    "fr": "Gaétan DE LAVILLÉON : La science, elle nous prouve que notre cerveau a des ressources limitées, une attention limitée et, du coup, être hyperconnecté ça va mettre ce cerveau en difficulté.",
+    "zh": "Gaétan DE LAVILLÉON：科学证明，大脑的资源有限，注意力也有限，因此，过度联网会让大脑难以应付。",
+    "quote": "notre cerveau a des ressources limitées, une attention limitée et, du coup, être hyperconnecté ça va mettre ce cerveau en difficulté.",
+    "quoteZh": "大脑的资源和注意力都有限，过度联网因此会使大脑陷入困境。"
+  },
+  {
+    "exercise": "short-supplement-16-2",
+    "question": "q2",
+    "fr": "Il faut que les personnes puissent se sentir en capacité de se réguler par elles-mêmes et de se dire « moi, j’ai besoin d’une pause, plus longue que celle de mes collègues, je vais la prendre pour revenir justement plus efficace, mais également plus heureux à la fin de la journée ».",
+    "zh": "每个人都应该能够自行调节，对自己说：“我需要比同事稍长一点的休息，就去休息一下，这样回来时不仅更有效率，一天下来也更快乐。”",
+    "quote": "Il faut que les personnes puissent se sentir en capacité de se réguler par elles-mêmes",
+    "quoteZh": "每个人都应感到自己能够自行调节。"
+  },
+  {
+    "exercise": "short-supplement-16-2",
+    "question": "q3",
+    "fr": "Il faut que les personnes puissent se sentir en capacité de se réguler par elles-mêmes et de se dire « moi, j’ai besoin d’une pause, plus longue que celle de mes collègues, je vais la prendre pour revenir justement plus efficace, mais également plus heureux à la fin de la journée ».",
+    "zh": "每个人都应该能够自行调节，对自己说：“我需要比同事稍长一点的休息，就去休息一下，这样回来时不仅更有效率，一天下来也更快乐。”",
+    "quote": "pour revenir justement plus efficace, mais également plus heureux à la fin de la journée",
+    "quoteZh": "这样回来时会更有效率，一天下来也会更快乐。"
+  },
+  {
+    "exercise": "short-supp-17-1",
+    "question": "q2",
+    "fr": "En tout cas, c’est plus juste que la taxe sur l’enlèvement des ordures ménagères calculée sur la surface habitée.",
+    "zh": "无论如何，这比按住房面积计算的生活垃圾清运税更公平。",
+    "quote": "c’est plus juste que la taxe sur l’enlèvement des ordures ménagères calculée sur la surface habitée.",
+    "quoteZh": "这比按住房面积计算的生活垃圾清运税更公平。"
+  },
+  {
+    "exercise": "short-supp-17-1",
+    "question": "q3",
+    "fr": "Les dépôts de sacs poubelle se sont aussi multipliés dans la nature, des gens ont également jeté leurs déchets dans la poubelle du voisin, et puis tout est rentré dans l’ordre : on jette moins, on trie plus.",
+    "zh": "在野外乱扔垃圾袋的情况也增加了，还有人把垃圾扔进邻居的桶里；不过后来一切恢复了正常：人们扔得更少了，分类做得更多了。",
+    "quote": "et puis tout est rentré dans l’ordre : on jette moins, on trie plus.",
+    "quoteZh": "后来一切恢复正常：大家扔得更少，分类更多。"
+  },
+  {
+    "exercise": "short-supp-17-2",
+    "question": "q1",
+    "fr": "Quand les cadres d’entreprise deviennent des tuteurs de lycéens ou d’étudiants qui eux-mêmes quelques années plus tard deviendront eux aussi des parrains, parrains de jeunes moins favorisés.",
+    "zh": "企业管理人员担任高中生或大学生的导师；几年后，这些年轻人也成为导师，帮助处境不利的后辈。",
+    "quote": "Quand les cadres d’entreprise deviennent des tuteurs de lycéens ou d’étudiants",
+    "quoteZh": "企业管理人员成为高中生或大学生的导师"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q1",
+    "fr": "En fait on peut pas déconnecter nos villes, nos architectures, des vies que nous avons envie de mener.",
+    "zh": "城市、建筑与我们希望过的生活无法分开。",
+    "quote": "on peut pas déconnecter nos villes, nos architectures, des vies que nous avons envie de mener.",
+    "quoteZh": "城市、建筑与我们希望过的生活无法分开。"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q2",
+    "fr": "La première c’est la crise climatique, c’est celle qui doit nous obséder de manière collective, en tant qu’architectes.",
+    "zh": "第一是气候危机，建筑师必须共同把它放在心上。",
+    "quote": "La première c’est la crise climatique",
+    "quoteZh": "第一是气候危机"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q2",
+    "fr": "La deuxième c’est l’épuisement des ressources, des ressources pour construire.",
+    "zh": "第二场危机是资源枯竭，具体说就是用于建筑的资源枯竭。",
+    "quote": "La deuxième c’est l’épuisement des ressources",
+    "quoteZh": "第二是资源枯竭"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q2",
+    "fr": "La troisième crise, c’est la crise politique, la crise sociale, que l’on perçoit, dont on voit tout un tas d’émergences, qui est ce lien entre des récits de société et la façon dont tout un chacun nous vivons notre quotidien, heu… « entre la fin du monde et la fin du mois », comme d’autres l’ont dit, mais, vraiment, sur ce rapport, qu’est-ce qui fait sens, quoi ?",
+    "zh": "第三场危机是政治危机、社会危机，我们能感受到它，也看到它的种种表现。它关系到社会叙事与我们每个人的日常生活之间的联系，就像有人所说的，是“世界末日与月底生计之间”的关系；真正的问题是，在这种关系中，什么才有意义？",
+    "quote": "La troisième crise, c’est la crise politique, la crise sociale",
+    "quoteZh": "第三是政治和社会危机"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q3",
+    "fr": "Si j’étais agriculteur, elle devrait aussi m’obséder en tant qu’agriculteur, mais il se trouve que, nous, on travaille dans l’architecture.",
+    "zh": "如果我是农民，也应该在自己的行业里关注它，只不过我们从事的是建筑。",
+    "quote": "Si j’étais agriculteur, elle devrait aussi m’obséder en tant qu’agriculteur",
+    "quoteZh": "如果我是农民，也应该在自己的行业里关注它"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q5",
+    "fr": "ND : Si vous voulez, aujourd’hui, la ville telle qu’elle est faite, et une grande partie de l’architecture, on a le sentiment qu’elle s’est éloignée de sa destination première, qui était d’accueillir.",
+    "zh": "ND：今天的城市和很大一部分建筑，似乎偏离了最初的使命：接纳。",
+    "quote": "elle s’est éloignée de sa destination première, qui était d’accueillir.",
+    "quoteZh": "它似乎偏离了最初的使命：接纳。"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q5",
+    "fr": "Aujourd’hui on sait que le mal-logement... il y a plus de 10 millions de personnes qui sont dans des situations de mal-logement.",
+    "zh": "但现在住房条件不良的人超过一千万。",
+    "quote": "il y a plus de 10 millions de personnes qui sont dans des situations de mal-logement.",
+    "quoteZh": "住房条件不良的人超过一千万。"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q7",
+    "fr": "ND : À ce point-là… En Île de France même, hein, des milliers de mètres carrés de bureaux qui sont aujourd’hui vides… Moi je viens d’Aveyron et de Villefranche-de-Rouergue, où il y a des bâtiments, des quartiers entiers qui sont quasiment vides parce que, par exemple, le centre-ville s’est totalement dépeuplé et s’est reporté sur des périphéries…",
+    "zh": "ND：甚至到了这种程度……即便在Île-de-France，也有成千上万平方米的办公室如今空置着。我来自Aveyron的Villefranche-de-Rouergue，那里有些建筑，甚至整个街区，都几乎空了，比如市中心的人口已流失殆尽，转移到了外围地区……",
+    "quote": "où il y a des bâtiments, des quartiers entiers qui sont quasiment vides",
+    "quoteZh": "那里有些建筑，甚至整个街区都几乎空了"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q8",
+    "fr": "Ce potentiel du réel ça peut être un potentiel conjoncturel, ça peut être un potentiel spatial, ça peut être… d’imaginer : reprendre une ancienne usine et en faire du logement, prendre une tour de bureaux et en faire de l’habitat d’urgence, parce que c’est l’urgence du moment.",
+    "zh": "这种现实中蕴藏的潜力，可以来自某种时机，也可以来自空间本身；还可以设想，把旧工厂改成住宅，把办公楼改成应急住房，因为这是当下的迫切需要。",
+    "quote": "reprendre une ancienne usine et en faire du logement, prendre une tour de bureaux et en faire de l’habitat d’urgence",
+    "quoteZh": "把旧工厂改成住宅，把办公楼改成应急住房"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q9",
+    "fr": "On pourrait décréter, par exemple, que l’on ne touche plus un hectare de terres agricoles en France : ça pourrait être une mesure qui nous forcerait à penser différemment nos façons de vivre, nos façons d’habiter, nos façons de nous déplacer.",
+    "zh": "比如，我们可以下令，法国不再占用一公顷农业用地；这样的措施会迫使我们以不同的方式思考生活、居住和出行。",
+    "quote": "On pourrait décréter, par exemple, que l’on ne touche plus un hectare de terres agricoles en France",
+    "quoteZh": "比如，可以规定不再占用France任何一公顷农业用地"
+  },
+  {
+    "exercise": "long-supp-18",
+    "question": "q10",
+    "fr": "Donc là l’idée ça va être de mixer à la fois un programme d’école maternelle, donc une école publique, et, dans les étages supérieurs, de faire un hôtel à projets, qui va accueillir une grande diversité d’actions de la société civile qui doit avoir des lieux comme ça où se réunir.",
+    "zh": "我们打算在其中设置一所公立幼儿园，并在楼上建设一个“项目旅馆”，为公民社会的各种活动提供聚集和开展项目的空间。",
+    "quote": "mixer à la fois un programme d’école maternelle, donc une école publique, et, dans les étages supérieurs, de faire un hôtel à projets",
+    "quoteZh": "把一所公立幼儿园与楼上的“项目旅馆”结合起来"
+  },
+  {
+    "exercise": "short-supp-18-1",
+    "question": "q1",
+    "fr": "EF : Bah justement il existe beaucoup de programmes, mais en fait c’est rien d’autre que des cahiers de vacances améliorés.",
+    "zh": "EF：确实已有很多软件，但其实不过是升级版的假期练习册。",
+    "quote": "c’est rien d’autre que des cahiers de vacances améliorés.",
+    "quoteZh": "其实不过是升级版的假期练习册。"
+  },
+  {
+    "exercise": "short-supp-18-1",
+    "question": "q3",
+    "fr": "C’est-à-dire, il y a 50 ans, c’était le fils de l’ambassadeur qui côtoyait le fils du gardien : c’était la même école pour tout le monde, et c’était génial.",
+    "zh": "也就是说，五十年前，大使的儿子和门卫的儿子在一起上学，大家进的是同样的学校，这非常好。",
+    "quote": "c’était le fils de l’ambassadeur qui côtoyait le fils du gardien : c’était la même école pour tout le monde",
+    "quoteZh": "大使的孩子和门卫的孩子在一起，所有人读的是同一所学校"
+  },
+  {
+    "exercise": "short-supp-18-1",
+    "question": "q4",
+    "fr": "C’est l’idée de dire : est-ce qu’on peut pas faire une éducation qui serait au moins accessible pour tout le monde, de façon libre, de façon gratuite.",
+    "zh": "我们的想法是：能不能提供一种教育，至少让所有人都能自由、免费地获得它？",
+    "quote": "faire une éducation qui serait au moins accessible pour tout le monde, de façon libre, de façon gratuite.",
+    "quoteZh": "提供至少向所有人自由、免费开放的教育。"
+  },
+  {
+    "exercise": "short-supp-18-2",
+    "question": "q1",
+    "fr": "Parce que... bah le but de l’enseignement, c’est pas de gaver les élèves de connaissances hein, comme des oies dont on voudrait faire grossir le foie, mais c’est de rendre les élèves capables de penser, de comprendre, de se questionner pour pouvoir ensuite savoir ce qu’ils voudront apprendre.",
+    "zh": "因为教学不是像给鹅填食以催肥鹅肝那样，往学生头脑里塞知识，而是让他们具备思考、理解和提问的能力，以便知道自己想学什么。",
+    "quote": "c’est de rendre les élèves capables de penser, de comprendre, de se questionner",
+    "quoteZh": "让学生具备思考、理解和提问的能力"
+  },
+  {
+    "exercise": "short-supp-18-2",
+    "question": "q3",
+    "fr": "En fait, c’est une façon de rendre l’élève actif dans la découverte en le faisant construire peu à peu un ensemble de déductions qui vont le conduire à connaître.",
+    "zh": "学生因此积极参与发现，逐渐建立一连串推论，最终获得知识。",
+    "quote": "c’est une façon de rendre l’élève actif dans la découverte en le faisant construire peu à peu un ensemble de déductions qui vont le conduire à connaître.",
+    "quoteZh": "让学生积极参与发现，逐渐建立一连串推论，最终获得知识。"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q1",
+    "fr": "Le manque de nature à Paris a été un choc pour Hugo Meunier, fondateur de Merci Raymond, une petite entreprise qui a pour mission de reconnecter les citadins à la nature.",
+    "zh": "Merci Raymond是一家以帮助城市居民重新亲近自然为使命的小企业；它的创始人Hugo Meunier对Paris缺少自然的环境深感震惊。",
+    "quote": "une petite entreprise qui a pour mission de reconnecter les citadins à la nature.",
+    "quoteZh": "一家以让城市居民重新与自然建立联系为使命的小企业。"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q3",
+    "fr": "Des chercheurs australiens sont également arrivés à la conclusion que les arbres en milieu urbain engendraient une réduction des risques de troubles psychologiques.",
+    "zh": "澳大利亚研究人员也得出结论，城市中的树木有助于降低出现心理障碍的风险。",
+    "quote": "les arbres en milieu urbain engendraient une réduction des risques de troubles psychologiques.",
+    "quoteZh": "城市树木有助于降低心理问题风险。"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q4",
+    "fr": "Les platanes, chênes ou peupliers peuvent, par exemple, aggraver la pollution en émettant des composés volatils organiques, précise la journaliste Carine Mayo.",
+    "zh": "记者Carine Mayo指出，悬铃木、橡树、杨树等可能释放挥发性有机物，反而加重污染。",
+    "quote": "Les platanes, chênes ou peupliers peuvent, par exemple, aggraver la pollution en émettant des composés volatils organiques",
+    "quoteZh": "悬铃木、橡树、杨树等可能释放挥发性有机物，反而加重污染"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q4",
+    "fr": "D’ailleurs, la journaliste rappelle que la capacité de séquestration de la pollution par les arbres n’est mesurée qu’en laboratoire.",
+    "zh": "此外，这位女记者提醒，树木截留污染物的能力只在实验室条件下得到过测量。",
+    "quote": "la capacité de séquestration de la pollution par les arbres n’est mesurée qu’en laboratoire.",
+    "quoteZh": "树木吸附污染物的能力只在实验室中得到测量。"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q5",
+    "fr": "Sur ce point, l’architecte dénonce un « mensonge d’un point de vue écologique » mais reconnaît que l’intérêt de la végétalisation se situe ailleurs : dans les relations sociales des citoyens.",
+    "zh": "在这一点上，这位建筑师斥之为“从生态角度看是个谎言”，但也承认，绿化的价值在于其他方面：居民之间的社会关系。",
+    "quote": "l’architecte dénonce un « mensonge d’un point de vue écologique »",
+    "quoteZh": "这位建筑师指责它是从生态角度看的一种“谎言”"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q6",
+    "fr": "Plus que leur effet sur l’environnement, il voit dans les jardins partagés des lieux de sociabilisation.",
+    "zh": "他更看重共享花园作为社交场所的作用，而不仅是环境效益。",
+    "quote": "il voit dans les jardins partagés des lieux de sociabilisation.",
+    "quoteZh": "他把共享花园视为社交场所。"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q7",
+    "fr": "La réalité, c’est qu’avec un jardin familial ou partagé, vous ne produisez qu’une centaine de kilos de légumes par an, mais vous consommez aussi énormément d’eau pour les cultiver... », confie-t-il à L’ADN.",
+    "zh": "他向L’ADN坦言：“现实是，家庭菜园或共享菜园一年只产出一百来公斤蔬菜，但种植它们也会消耗大量的水……”",
+    "quote": "avec un jardin familial ou partagé, vous ne produisez qu’une centaine de kilos de légumes par an, mais vous consommez aussi énormément d’eau pour les cultiver...",
+    "quoteZh": "家庭或共享菜园一年只产出一百来公斤蔬菜，种植过程却消耗了大量的水……"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q8",
+    "fr": "» À la tête de l’Observatoire de l’agriculture urbaine et de la biodiversité en Île-de-France, Antoine Lagneau indique à France Culture que « l’agriculture urbaine ne contribuera qu’à la marge à l’alimentation des villes ».",
+    "zh": "Île-de-France的Observatoire de l’agriculture urbaine et de la biodiversité负责人Antoine Lagneau在France Culture指出：“城市农业对城市食物供应只会起到边缘性的补充作用。”",
+    "quote": "l’agriculture urbaine ne contribuera qu’à la marge à l’alimentation des villes",
+    "quoteZh": "城市农业对城市食物供应只会起到边缘性的补充作用"
+  },
+  {
+    "exercise": "reading-supp-18",
+    "question": "q11",
+    "fr": "Pour Hugo Meunier, qui a récemment ouvert un restaurant appelé De la Graine à l’Assiette, c’est évident, l’agriculture urbaine a moins à voir avec l’alimentation qu’avec la pédagogie.",
+    "zh": "对最近开设了De la Graine à l’Assiette餐厅的Hugo Meunier来说，显然，城市农业的意义更多在于教育，而非食物供应。",
+    "quote": "l’agriculture urbaine a moins à voir avec l’alimentation qu’avec la pédagogie.",
+    "quoteZh": "城市农业的意义更多在教育，而非食物供应。"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q10",
+    "fr": "Anne-Laure SELLIER : Il y a peut-être une cinquantaine d’années qu’en sciences cognitives, en psychologie sociale et cognitive, on s’intéresse effectivement à la façon dont la pensée du prénom peut sculpter la personne et peut sculpter la pensée des autres qui reçoivent le prénom de cette personne.",
+    "zh": "Anne-Laure SELLIER：大概五十年来，认知科学以及社会、认知心理学都在研究：人们对一个名字的想法，怎样塑造拥有这个名字的人，又怎样塑造听到它的其他人的看法。",
+    "quote": "la façon dont la pensée du prénom peut sculpter la personne et peut sculpter la pensée des autres qui reçoivent le prénom de cette personne.",
+    "quoteZh": "人们对名字的想法怎样塑造名字的拥有者，也怎样塑造听到它的其他人的看法。"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q2",
+    "fr": "Je rencontre une Charlie, puis deux, puis trois et je ne contrôle absolument pas le fait que malgré moi, je forme un prototype de la Charlie moyenne dans ma tête.",
+    "zh": "先认识一个Charlie，再认识第二个、第三个，我便会不由自主地在头脑中形成一个“典型Charlie”。",
+    "quote": "je forme un prototype de la Charlie moyenne dans ma tête.",
+    "quoteZh": "我在头脑中形成了一个“典型Charlie”的形象。"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q3",
+    "fr": "Jean-François Amadieu : Ce que les gens ignorent le plus, ce qui est très peu connu, c’est le fait qu’un recruteur qui voit un CV, ou n’importe quel individu, va être influencé sans s’en rendre compte par un prénom parce que son histoire personnelle fait qu’il l’aime bien ou pas, il a un bon ou un mauvais souvenir.",
+    "zh": "Jean-François Amadieu：最少被人们认识到的一点，是招聘者——其实任何人都一样——看到简历上的名字时，会不知不觉受到个人经历的影响：喜欢或不喜欢这个名字，有美好或不愉快的回忆。",
+    "quote": "va être influencé sans s’en rendre compte par un prénom parce que son histoire personnelle fait qu’il l’aime bien ou pas",
+    "quoteZh": "会不知不觉地受到名字影响，因为个人经历使他喜欢或不喜欢这个名字"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q4",
+    "fr": "ALS : En fait, c’est étonnant que ce ne soit que près de 3 000, c’est un petit peu en-dessous de 3 000.",
+    "zh": "ALS：让我吃惊的倒是人数只有将近3000，实际还略低一些。",
+    "quote": "c’est étonnant que ce ne soit que près de 3 000",
+    "quoteZh": "令人吃惊的倒是人数只有将近3000"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q6",
+    "fr": "Et notamment, ce qui m’a beaucoup touchée, évidemment à cause de notre recherche, il y a eu le cas d’une personne qui a demandé à changer de prénom parce qu’il trouvait qu’il n’avait pas la tête de son prénom.",
+    "zh": "有一个案例尤其触动我，也与我们的研究有关：一位申请者想改名，因为他觉得自己的长相与名字不相符。",
+    "quote": "parce qu’il trouvait qu’il n’avait pas la tête de son prénom.",
+    "quoteZh": "因为他觉得自己的长相与名字不相符。"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q5",
+    "fr": "Voilà, bon ça c’est une souffrance psychologique assez lourde à porter quand votre prénom résonne plusieurs fois par jour et que vous sentez qu’on parle à quelqu’un d’autre.",
+    "zh": "一个名字每天响起多次，却觉得对方在叫别人，这种心理负担相当沉重。",
+    "quote": "c’est une souffrance psychologique assez lourde à porter",
+    "quoteZh": "这是一种相当沉重的心理痛苦"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q7",
+    "fr": "Mais si on revient un tout petit peu en arrière, on se rend compte sociologiquement, anthropologiquement parlant, que les gens changeaient de prénom à longueur d’existence.",
+    "zh": "不过，只要稍稍回顾过去，就会发现，从社会学和人类学的角度看，人们过去一生中都在不断更换名字。",
+    "quote": "les gens changeaient de prénom à longueur d’existence.",
+    "quoteZh": "人们过去一生中常常改名。"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q8",
+    "fr": "Donc, dans l’ouvrage Changer de prénom, on voit que les gens qui aujourd’hui passent devant le juge, ils ont vraiment besoin qu’il n’y ait plus une seule trace.",
+    "zh": "Changer de prénom这本书表明，今天走到法官面前的人，确实希望不再留下任何痕迹。",
+    "quote": "ils ont vraiment besoin qu’il n’y ait plus une seule trace.",
+    "quoteZh": "他们确实希望不再留下任何痕迹。"
+  },
+  {
+    "exercise": "long-supp-19",
+    "question": "q9",
+    "fr": "C’est-à-dire qu’on pourrait avoir un système où jusqu’à dix-huit ans on porte le prénom des parents et à dix-huit ans, une fois de façon fixe et définitive…",
+    "zh": "可以设立这样的制度：十八岁以前用父母取的名字，十八岁时，再作一次固定、最终的选择……",
+    "quote": "jusqu’à dix-huit ans on porte le prénom des parents et à dix-huit ans, une fois de façon fixe et définitive",
+    "quoteZh": "十八岁以前用父母取的名字，十八岁时，再作一次固定、最终的选择"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q2",
+    "fr": "Et là, à ce moment-là, les enfants sont privés ben de notre culture, la culture des humains, c’est-à-dire la culture des mots, la culture de la relation, la culture de la symbolique dont on a absolument besoin.",
+    "zh": "这时孩子失去的是我们人类的文化，也就是语言、关系和象征意义的文化，这些都是不可或缺的。",
+    "quote": "les enfants sont privés ben de notre culture, la culture des humains, c’est-à-dire la culture des mots, la culture de la relation, la culture de la symbolique",
+    "quoteZh": "孩子失去的是我们人类的文化，也就是语言、关系和象征意义的文化"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q4",
+    "fr": "On va par exemple, je prends souvent l’exemple du train parce que c’est vrai que les parents sont très... sont en difficulté quand ils prennent le train parce qu’ils ont peur que leurs enfants dérangent [...].",
+    "zh": "比如说，我经常举乘火车的例子，因为父母带孩子坐火车时确实常常很为难，担心孩子打扰别人。〔原文节选至此〕",
+    "quote": "les parents sont très... sont en difficulté quand ils prennent le train parce qu’ils ont peur que leurs enfants dérangent",
+    "quoteZh": "父母带孩子乘车时常常很为难，因为害怕孩子打扰别人"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q5",
+    "fr": "On l’entend souvent ça : l’enfant il ne faut pas qu’il bouge, il ne faut pas qu’il fasse de bruit.",
+    "zh": "我们经常听到这样的话：孩子不能动，也不能发出声音。",
+    "quote": "l’enfant il ne faut pas qu’il bouge, il ne faut pas qu’il fasse de bruit. Ça c’est une société qui est entravante pour l’enfance.",
+    "quoteZh": "孩子不能动、不能发出声音。这样的社会是在束缚童年。"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q5",
+    "fr": "Ça c’est une société qui est entravante pour l’enfance.",
+    "zh": "这就是一个束缚童年的社会。",
+    "quote": "l’enfant il ne faut pas qu’il bouge, il ne faut pas qu’il fasse de bruit. Ça c’est une société qui est entravante pour l’enfance.",
+    "quoteZh": "孩子不能动、不能发出声音。这样的社会是在束缚童年。"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q7",
+    "fr": "On ne parle pas avec l’enfant de ce qu’il est en train de regarder puisque l’objectif de l’écran, c’est de mettre l’enfant au calme et qu’il ne bouge pas.",
+    "zh": "可是多数时候，我们并不和孩子谈他正在看的东西，因为用屏幕的目的就是让他安静、别动。",
+    "quote": "l’objectif de l’écran, c’est de mettre l’enfant au calme et qu’il ne bouge pas.",
+    "quoteZh": "用屏幕的目的就是让孩子安静、别动。"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q8",
+    "fr": "Regardez, vous avez un tout-petit, vous allez le prendre en photo, il va tout de suite vouloir voir sa photo et là, à ce moment-là, on a vraiment un écran qui est un objet de relation, d’échange, l’enfant va se regarder, on va pouvoir lui parler de cet événement, « Mais oui, tu te rappelles, quand je t’ai pris en photo », etc...",
+    "zh": "你看，如果有个小宝宝，你给他拍照，他会立刻想看自己的照片；在这个时候，屏幕就真正成了促进关系与交流的物件：孩子看着自己，我们可以和他聊起这件事，比如说：“对呀，你还记得我给你拍照的时候吗？”等等。",
+    "quote": "on a vraiment un écran qui est un objet de relation, d’échange",
+    "quoteZh": "这时屏幕的确成为促进关系和交流的物件"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q10",
+    "fr": "C’est-à-dire de demander aux parents d’être des résistants, des refusants et d’essayer de ralentir, donc ça veut dire que la société doit l’entendre.",
+    "zh": "也就是说，希望父母抵抗这种节奏，学会拒绝，尝试慢下来，而社会也必须听见这样的诉求。",
+    "quote": "demander aux parents d’être des résistants, des refusants et d’essayer de ralentir",
+    "quoteZh": "希望父母抵抗这种节奏，学会说不，尝试慢下来"
+  },
+  {
+    "exercise": "long-supp-20",
+    "question": "q11",
+    "fr": "Pour les tout-petits, ça veut dire que si être en bonne santé comme je le dis, en parlant de santé culturelle, si être en bonne santé, c’est être dans la culture des mots et de l’éveil, il faut absolument une politique qui fait la promotion et qui pérennise des espaces d’éveil culturel et artistique pour les tout-petits dans la relation aux parents.",
+    "zh": "对幼儿来说，如果“文化健康”意味着处于语言与启蒙之中，就必须有政策推广并长期保障幼儿与父母共同参与的文化、艺术启蒙空间。",
+    "quote": "il faut absolument une politique qui fait la promotion et qui pérennise des espaces d’éveil culturel et artistique pour les tout-petits dans la relation aux parents.",
+    "quoteZh": "必须有政策推广并长期保障幼儿与父母共同参与的文化、艺术启蒙空间。"
+  },
+  {
+    "exercise": "short-supp-20-1",
+    "question": "q1",
+    "fr": "La société installe dans les entreprises où il y a des cantines de petites machines qui ont la particularité de traiter les restes alimentaires qui auraient dû terminer à la poubelle.",
+    "zh": "这家公司在设有食堂的企业安装小型机器，专门处理那些原本要被扔进垃圾桶的剩余食物。",
+    "quote": "traiter les restes alimentaires qui auraient dû terminer à la poubelle.",
+    "quoteZh": "处理原本要进垃圾桶的剩余食物。"
+  },
+  {
+    "exercise": "short-supp-20-1",
+    "question": "q2",
+    "fr": "Donc ce qu’on va chercher à faire, c’est à les former pour que demain ils puissent avoir le statut de maître-composteur et ramener un peu de formation, ramener un peu de diplômes dans ces métiers-là, parce que c’est un métier noble que de savoir faire circuler la matière organique.",
+    "zh": "因此，我们想做的是培训他们，让他们今后能够取得堆肥师资格，为这些职业增加一些培训和文凭认证，因为懂得让有机物循环利用，本身就是一项值得尊重的工作。",
+    "quote": "ils puissent avoir le statut de maître-composteur et ramener un peu de formation, ramener un peu de diplômes dans ces métiers-là",
+    "quoteZh": "使他们获得专业堆肥师的资格，为这些岗位带来更多培训和证书"
+  },
+  {
+    "exercise": "short-supp-20-1",
+    "question": "q3",
+    "fr": "GB : Ces machines ont été inventées pour équiper les îles, les hôtels des îles qui avaient des gros volumes de biodéchets qui ne savaient pas quoi en faire.",
+    "zh": "GB：这些机器最初是为岛屿及岛上的酒店设计的，那些地方有大量生物废弃物，却不知道怎么处理。",
+    "quote": "Ces machines ont été inventées pour équiper les îles, les hôtels des îles",
+    "quoteZh": "这些机器最初是为岛屿及岛上的酒店设计的"
+  },
+  {
+    "exercise": "short-supp-20-2",
+    "question": "q1",
+    "fr": "Et il y en a déjà, 1 600 plus précisément, pour cultiver 47 hectares en milieu urbain, chiffre donné par l’Association française de l’agriculture urbaine professionnelle, mais attendez-vous à voir ces agriculteurs des cités de plus en plus nombreux.",
+    "zh": "Association française de l’agriculture urbaine professionnelle给出的数字是：已有1600人在城市中耕种47公顷土地，今后城市农民还会越来越多。",
+    "quote": "attendez-vous à voir ces agriculteurs des cités de plus en plus nombreux.",
+    "quoteZh": "今后城市农民还会越来越多。"
+  },
+  {
+    "exercise": "short-supp-20-2",
+    "question": "q3",
+    "fr": "Ici, on parle de lampes led, de containers régulés entièrement par l’informatique, d’agriculteurs connectés grâce à leur smartphone.",
+    "zh": "这里使用的是LED灯、完全由计算机调控的集装箱，以及通过智能手机联网的农民。",
+    "quote": "de containers régulés entièrement par l’informatique, d’agriculteurs connectés grâce à leur smartphone.",
+    "quoteZh": "完全由电脑控制的集装箱，以及通过智能手机联网的农民。"
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "question": "source-q1",
+    "fr": "Ça se passe dans 30 villes de France et les bénéficiaires s’engagent à participer à la vie de leur quartier en échange d’un loyer modéré.",
+    "zh": "项目覆盖法国30座城市，参与者承诺投身所在街区的生活，以换取较低的租金。",
+    "quote": "les bénéficiaires s’engagent à participer à la vie de leur quartier en échange d’un loyer modéré.",
+    "quoteZh": "参与者承诺投身所在街区的生活，以换取较低的租金。"
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "question": "source-q2",
+    "fr": "Et Kaps grandit, hein... chaque année avec une demande croissante et d’ailleurs on peut se demander qu’est-ce qui motive le plus les étudiants : accéder à un logement à bas coût ou un élan de solidarité ?",
+    "zh": "Kaps每年都在扩大，需求不断增加；因此也可以问，最能吸引学生的究竟是什么：获得低价住房，还是一股投身公益互助的热情？",
+    "quote": "Kaps grandit, hein... chaque année avec une demande croissante",
+    "quoteZh": "Kaps每年都在扩大，需求也不断增加。"
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "question": "source-q3",
+    "fr": "Il s’agit généralement de quartiers défavorisés où cette nouvelle forme d’engagement tombe à pic.",
+    "zh": "这些通常是较为贫困的街区，这种新的参与方式可谓来得正是时候。",
+    "quote": "Il s’agit généralement de quartiers défavorisés",
+    "quoteZh": "这些通常是较为贫困的街区。"
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "question": "source-q4",
+    "fr": "Également pour donner envie aux enfants de s’impliquer dans... dans des activités de jardinage avec leurs parents et créer euh... au final du lien social au sein... au sein du quartier euh... par... par le biais de... de l’activité de jardinage.",
+    "zh": "另外，也要鼓励孩子和父母一起参加园艺活动，最终通过园艺活动增进街区内部的社会联系。",
+    "quote": "créer euh... au final du lien social au sein... au sein du quartier",
+    "quoteZh": "最终在街区内部建立社会联系。"
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "question": "source-q1",
+    "fr": "- Eric Delvaux : Catherine Boullay, depuis 3 ans, dans la capitale, la mairie propose aux Parisiens d’améliorer leur environnement grâce à un budget participatif, eh bien le 500e projet vient d’être inauguré ce week-end.",
+    "zh": "Eric Delvaux：Catherine Boullay，三年来，在巴黎，市政府通过参与式预算，让居民改善自己的生活环境；本周末，第500个项目刚刚落成。",
+    "quote": "la mairie propose aux Parisiens d’améliorer leur environnement grâce à un budget participatif",
+    "quoteZh": "市政府通过参与式预算，让巴黎居民改善自己的生活环境。"
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "question": "source-q2",
+    "fr": "B. : Tout le monde peut proposer et les pouvoirs publics, une petite équipe de sept personnes à la mairie de Paris, font le tri.",
+    "zh": "B.：任何人都能提出项目，公共部门负责筛选，具体由巴黎市政府的一个七人小组承担。",
+    "quote": "les pouvoirs publics, une petite équipe de sept personnes à la mairie de Paris, font le tri.",
+    "quoteZh": "公共部门，即巴黎市政府的七人小组，负责筛选。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "source-q2",
+    "fr": "Derrière, c’est la création d’une véritable dépendance.",
+    "zh": "这背后形成了真正的依赖。",
+    "quote": "Derrière, c’est la création d’une véritable dépendance. On parle désormais d’addiction à l’information.",
+    "quoteZh": "这背后形成了真正的依赖，如今我们称之为信息成瘾。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "source-q2",
+    "fr": "On parle désormais d’addiction à l’information.",
+    "zh": "我们如今称之为“信息成瘾”。",
+    "quote": "Derrière, c’est la création d’une véritable dépendance. On parle désormais d’addiction à l’information.",
+    "quoteZh": "这背后形成了真正的依赖，如今我们称之为信息成瘾。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "q1",
+    "fr": "Informations poubelles, vagues médiatiques... la question du volume est moins nouvelle que celle de son impact amplifié depuis l’arrivée des objets connectés.",
+    "zh": "垃圾信息、媒体热潮……信息量过大的问题并不新鲜，较新的问题是联网设备出现后，这种影响被放大了。",
+    "quote": "la question du volume est moins nouvelle que celle de son impact amplifié depuis l’arrivée des objets connectés.",
+    "quoteZh": "信息量的问题并不新鲜，较新的问题是联网设备出现后，其影响被放大了。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "source-q4",
+    "fr": "Ce neurotransmetteur du plaisir procure, lorsqu’il est libéré par nos neurones, une sensation de bien-être et d’accoutumance, à l’image du sucre consommé, pour le plaisir, en grande quantité dans notre alimentation malgré ses effets catastrophiques sur la santé.",
+    "zh": "这种带来愉悦的神经递质由神经元释放时，会产生舒适感，并使人形成依赖，就像我们为了快乐而在饮食中大量摄入糖分，尽管它对健康危害极大。",
+    "quote": "Ce neurotransmetteur du plaisir procure, lorsqu’il est libéré par nos neurones, une sensation de bien-être et d’accoutumance",
+    "quoteZh": "这种带来愉悦的神经递质由神经元释放时，会产生舒适感，并使人形成依赖。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "source-q6",
+    "fr": "Dans un contexte où chaque individu subit un grand écart informationnel, horizontal par le nombre de sujets à suivre, et vertical par le volume, chacun doit pourtant parvenir à assimiler les changements d’un monde complexe pour se projeter : quelle sera ma place dans la société de demain ?",
+    "zh": "每个人在信息层面都承受着双重压力：横向是必须关注的议题数量，纵向是信息总量；尽管如此，我们仍须理解复杂世界的变化，才能规划未来：我在明天的社会中会处于什么位置？",
+    "quote": "Dans un contexte où chaque individu subit un grand écart informationnel, horizontal par le nombre de sujets à suivre, et vertical par le volume, chacun doit pourtant parvenir à assimiler les changements d’un monde complexe pour se projeter",
+    "quoteZh": "每个人在信息层面都承受着横向议题数量与纵向信息总量的双重压力，但仍须理解复杂世界的变化，才能规划未来。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "source-q7",
+    "fr": "Manifeste pour un « journalisme augmenté », Eric Scherer affirme que « le pouvoir des journalistes est moins dans la production d’informations que dans une mission indispensable de filtre du tsunami informationnel mondial ».",
+    "zh": "在《Manifeste pour un « journalisme augmenté »》中，Eric Scherer指出：“记者的力量，与其说在于生产信息，不如说在于承担不可或缺的职责——过滤全球信息海啸。”",
+    "quote": "le pouvoir des journalistes est moins dans la production d’informations que dans une mission indispensable de filtre du tsunami informationnel mondial",
+    "quoteZh": "记者的力量，与其说在于生产信息，不如说在于承担不可或缺的职责——过滤全球信息海啸。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "q3",
+    "fr": "Conscients du risque de laisser progressivement une machine penser pour nous, certains, comme Joël de Rosnay, auteur de La symphonie du vivant, préfèrent parler d’IA en termes d’Intelligence Auxiliaire.",
+    "zh": "有些人意识到，逐渐让机器替我们思考存在风险，例如《La symphonie du vivant》的作者Joël de Rosnay，因此更愿意将AI称为“辅助智能”。",
+    "quote": "préfèrent parler d’IA en termes d’Intelligence Auxiliaire.",
+    "quoteZh": "更愿意把人工智能称为“辅助智能”。"
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "question": "q4",
+    "fr": "Pour Etienne Klein, physicien et philosophe des sciences, « nous préférons le bien-être à la vérité : plutôt que d’aimer la vérité parce qu’elle est la vérité, nous déclarons vraies les idées que nous aimons.",
+    "zh": "物理学家、科学哲学家Etienne Klein说：“我们更喜欢舒适感，而非真相；我们并非因为真相是真相而热爱它，而是把自己喜欢的想法宣布为真。",
+    "quote": "nous préférons le bien-être à la vérité",
+    "quoteZh": "我们更喜欢舒适感，而非真相。"
+  }
+]

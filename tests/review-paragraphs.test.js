@@ -34,3 +34,15 @@ test('context sentences map to their own translation, rather than the entire par
  for(const [fr,zh] of [['C’est un tabou.','这是一个禁忌话题。'],['Les enseignants qui se lient','与学生建立亲密联系']]){const s=p1.units.find(s=>s.text.startsWith(fr)),link=activeSentenceLinks(p1,s.id),t=p1.translation.find(t=>t.id===link.translationId);assert.ok(t.text.startsWith(zh));assert.notEqual(t.text,p1.zh);}
  const s=p2.units.find(s=>s.text.startsWith('D’emblée')),t=p2.translation.find(t=>t.id===activeSentenceLinks(p2,s.id).translationId);assert.equal(t.text,'人们很容易立刻想到不正当的恋情。');
 });
+
+test('reviewed source links match one exact sentence despite a paraphrased translation hint',()=>{
+ const e=bank.exercises.find(e=>e.id==='long-supplement-16');
+ const paragraphs=buildReviewParagraphs(e,bank.lexicon);
+ const p=paragraphs.find(p=>p.fr.includes('seules les mathématiques permettent'));
+ const unit=p.units.find(u=>u.text.includes('seules les mathématiques permettent'));
+ const linked=p.translation.find(t=>t.id===unit.translationId);
+ assert.match(linked.text,/唯有数学|只有数学/);
+ assert.doesNotMatch(linked.text,/Galilée/);
+ const active=activeSentenceLinks(p,unit.id);assert.equal(active.translationId,linked.id);
+ assert.equal(p.units.filter(u=>u.id===active.sourceId).length,1);
+});

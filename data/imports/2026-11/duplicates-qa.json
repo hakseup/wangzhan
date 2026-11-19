@@ -1,0 +1,1326 @@
+{
+  "scope": "All 20 rows and their existingExerciseIds in written-duplicates.json; new-written-a/b/c are outside mutation scope.",
+  "method": "Read source text question blocks and canonical prompts/types, accounting for true/false subparts. Audit confirms question coverage, not a retranslation or answer-by-answer revalidation of all retained assets.",
+  "findings": [
+    "Set 12 short 1: full transcript and four original questions must replace compressed excerpts and three supplementary questions. Original q2 (growing popularity) and q3 (disadvantaged areas) absent from old questions.",
+    "Set 12 short 2: same recording, but three original questions have different option sets; original q2 asks municipal team validation, unlike old q2 about project criteria.",
+    "Set 16 reading: eight original questions absent; body severely corrupted by OCR. Full nine body paragraphs plus glossary and 12 original questions supplied. Old q4 incorrectly cited dopamine paragraph instead of Klein; fixed.",
+    "No additional omitted original question found among remaining mapped long/short/reading assets. Printed question counts differ from atomic counts where true/false items contain subparts.",
+    "Do not reuse old short-question IDs for source questions with different options, even when the theme is shared. Four equivalent reading questions have explicit semantic mapping.",
+    "The blanket retain-one-existing-copy basis in written-duplicates.json is incorrect for these three canonical assets. Keep one canonical exercise, upgrade content in place, and preserve legacy questions/answer records."
+  ],
+  "sets": [
+    {
+      "set": 1,
+      "sourceFiles": [
+        "C1第一套练习题（笔试）_.pdf",
+        "C1第一套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2024-11-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 10,
+          "sourceAtomicQuestionCount": 10,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "text": 6,
+            "choice": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2024-11-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2024-11-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2024-11-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "tf": 4,
+            "text": 5
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2024-11-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 2,
+      "sourceFiles": [
+        "C1第二套练习题（笔试）_.pdf",
+        "C1第二套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2024-6-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 10,
+          "sourceAtomicQuestionCount": 10,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 6
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2024-6-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2024-6-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2023-3-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 14,
+          "sourceAtomicQuestionCount": 14,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 6,
+            "tf": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2023-3-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 3,
+      "sourceFiles": [
+        "C1第三套练习题（笔试）_.pdf",
+        "C1第三套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2021-5-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 8
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2021-6-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2021-6-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2023-6-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 13,
+          "sourceAtomicQuestionCount": 13,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "text": 6,
+            "choice": 4,
+            "tf": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2024-11-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 4,
+      "sourceFiles": [
+        "C1第四套练习题（笔试）_.pdf",
+        "C1第四套练习题（笔试）答案(5)_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2026-6-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 8
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2023-3-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2023-3-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2025-11-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 4,
+            "tf": 2
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2024-3-fr",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 5,
+      "sourceFiles": [
+        "C1第五套练习题（笔试）_.pdf",
+        "C1第五套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2024-3-fr",
+          "category": "long",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "text": 7,
+            "choice": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2025-8-fr-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2025-8-fr-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2021-10-fr",
+          "category": "reading",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "text": 4,
+            "choice": 3,
+            "tf": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2022-6-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 6,
+      "sourceFiles": [
+        "C1第六套练习题（笔试）_.pdf",
+        "C1第六套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2021-5-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 8
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2025-6-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "tf": 3,
+            "text": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2025-3-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 7,
+      "sourceFiles": [
+        "C1第七套练习题（笔试）_.pdf",
+        "C1第七套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2024-6-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 10,
+          "sourceAtomicQuestionCount": 10,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 6
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2025-3-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2025-3-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2025-6-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "tf": 3,
+            "text": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2021-10-fr",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 8,
+      "sourceFiles": [
+        "C1第八套练习题（笔试）_.pdf",
+        "C1第八套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "short-2025-6-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2025-6-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 2,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2022-6-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 4,
+            "tf": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2024-5-fr",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 9,
+      "sourceFiles": [
+        "C1第九套练习题（笔试）_.pdf",
+        "C1第九套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "reading-2022-3-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 13,
+          "sourceAtomicQuestionCount": 13,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 7,
+            "tf": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2022-3-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 10,
+      "sourceFiles": [
+        "C1第十套练习题（笔试）_.pdf",
+        "C1第十套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2021-3-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 6
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2021-3-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 13,
+          "sourceAtomicQuestionCount": 13,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 7,
+            "tf": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2021-3-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 11,
+      "sourceFiles": [
+        "C1第十一套练习题（笔试）_.pdf",
+        "C1第十一套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2022-11-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 6
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2022-6-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2022-6-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 2,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2022-11-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 5,
+            "tf": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2022-11-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 12,
+      "sourceFiles": [
+        "C1第十二套练习题（笔试）_.pdf",
+        "C1第十二套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2024-3-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 6,
+            "text": 6
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2024-3-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "canonical-upgrade-required",
+          "missingOriginalQuestions": [
+            2,
+            3
+          ],
+          "notes": "原有三题为自编补充题；与原题存在主题重叠，但选项均须以PDF原题为准。"
+        },
+        {
+          "exerciseId": "short-2024-3-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "canonical-upgrade-required",
+          "missingOriginalQuestions": [
+            2
+          ],
+          "notes": "原有三题为自编补充题；与原题存在主题重叠，但选项均须以PDF原题为准。"
+        },
+        {
+          "exerciseId": "reading-2024-3-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "tf": 2,
+            "text": 5
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2026-6-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "upgrade-canonical"
+    },
+    {
+      "set": 13,
+      "sourceFiles": [
+        "C1第十三套练习题（笔试）_.pdf",
+        "C1第十三套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2025-11-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 7
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2025-11-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2025-11-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "text": 1,
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2025-11-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 4,
+            "tf": 2
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2025-11-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 14,
+      "sourceFiles": [
+        "C1第十四套练习题（笔试）_.pdf",
+        "C1第十四套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2026-3-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 7
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2021-6-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2021-6-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2021-5-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "text": 5,
+            "choice": 4,
+            "tf": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2026-3-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 15,
+      "sourceFiles": [
+        "C1第十五套练习题（笔试）_.pdf",
+        "C1第十五套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2022-6-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "text": 7,
+            "choice": 5
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2022-6-cn-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2022-6-cn-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 2,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2026-3-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "tf": 1,
+            "text": 5
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2021-5-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 16,
+      "sourceFiles": [
+        "C1第十六套练习题（笔试）_.pdf",
+        "C1第十六套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "reading-2024-5-fr",
+          "category": "reading",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "text": 5,
+            "choice": 4,
+            "tf": 3
+          },
+          "status": "canonical-upgrade-required",
+          "missingOriginalQuestions": [
+            1,
+            2,
+            4,
+            6,
+            7,
+            8,
+            11,
+            12
+          ],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2025-8-fr",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "upgrade-canonical"
+    },
+    {
+      "set": 17,
+      "sourceFiles": [
+        "C1第十七套练习题（笔试）_.pdf",
+        "C1第十七套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2025-6-cn",
+          "category": "long",
+          "existingAtomicQuestionCount": 10,
+          "sourceAtomicQuestionCount": 10,
+          "sourcePrintedQuestionCount": 10,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 5
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2024-6-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "tf": 4,
+            "text": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2024-6-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 18,
+      "sourceFiles": [
+        "C1第十八套练习题（笔试）_.pdf",
+        "C1第十八套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "writing-2023-10-fr",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 19,
+      "sourceFiles": [
+        "C1第十九套练习题（笔试）_P.pdf",
+        "C1第十九套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "short-2024-3-fr-1",
+          "category": "short",
+          "existingAtomicQuestionCount": 4,
+          "sourceAtomicQuestionCount": 4,
+          "sourcePrintedQuestionCount": 4,
+          "sourceTypeCounts": {
+            "choice": 3,
+            "text": 1
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "short-2024-3-fr-2",
+          "category": "short",
+          "existingAtomicQuestionCount": 3,
+          "sourceAtomicQuestionCount": 3,
+          "sourcePrintedQuestionCount": 3,
+          "sourceTypeCounts": {
+            "choice": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2021-12-fr",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "tf": 3,
+            "text": 4
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "writing-2023-6-cn",
+          "category": "writing",
+          "existingAtomicQuestionCount": 0,
+          "sourceAtomicQuestionCount": 0,
+          "sourcePrintedQuestionCount": 0,
+          "sourceTypeCounts": {},
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "写作题保留原有任务，questions为空属预期。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    },
+    {
+      "set": 20,
+      "sourceFiles": [
+        "C1第二十套练习题（笔试）_.pdf",
+        "C1第二十套练习题（笔试）答案_.pdf"
+      ],
+      "checks": [
+        {
+          "exerciseId": "long-2023-10-fr",
+          "category": "long",
+          "existingAtomicQuestionCount": 11,
+          "sourceAtomicQuestionCount": 11,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "choice": 5,
+            "text": 6
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题题意与类型覆盖完整；换行、标点及精简表述不视为漏题。"
+        },
+        {
+          "exerciseId": "reading-2025-8-fr",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 12,
+          "sourceTypeCounts": {
+            "choice": 4,
+            "text": 5,
+            "tf": 3
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        },
+        {
+          "exerciseId": "reading-2025-3-cn",
+          "category": "reading",
+          "existingAtomicQuestionCount": 12,
+          "sourceAtomicQuestionCount": 12,
+          "sourcePrintedQuestionCount": 11,
+          "sourceTypeCounts": {
+            "text": 5,
+            "choice": 5,
+            "tf": 2
+          },
+          "status": "retain-existing-copy",
+          "missingOriginalQuestions": [],
+          "notes": "原题中的判断题小项拆为独立题；总数须按可作答单元比较，不能只比较最大印刷题号。"
+        }
+      ],
+      "status": "retain-one-existing-copy"
+    }
+  ],
+  "upgradeValidation": [
+    {
+      "exerciseId": "short-2024-3-cn-1",
+      "paragraphs": 5,
+      "questions": 4,
+      "allEvidenceExactSubstrings": true,
+      "allChinesePresent": true,
+      "legacyQuestionCountPreserved": true,
+      "audioUnchanged": true
+    },
+    {
+      "exerciseId": "short-2024-3-cn-2",
+      "paragraphs": 4,
+      "questions": 3,
+      "allEvidenceExactSubstrings": true,
+      "allChinesePresent": true,
+      "legacyQuestionCountPreserved": true,
+      "audioUnchanged": true
+    },
+    {
+      "exerciseId": "reading-2024-5-fr",
+      "paragraphs": 10,
+      "questions": 12,
+      "allEvidenceExactSubstrings": true,
+      "allChinesePresent": true,
+      "legacyQuestionCountPreserved": true,
+      "audioUnchanged": true
+    }
+  ]
+}

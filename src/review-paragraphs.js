@@ -14,6 +14,14 @@ export function buildReviewParagraphs(exercise,lexicon){
   const translation=sentenceRanges(paragraph.zh||'','zh').map(t=>({...t,id:`${exercise.id}:${paragraph.id}:zh:${t.start}`}));
   const hints=units.map(u=>pairs.find(p=>p.fr.trim()===u.text.trim())?.zh||'');
   const alignment=alignSentences(units,translation,hints,lexicon);
+  // Newly reviewed source files can carry an exact, independently checked
+  // sentence link. Validate both texts/offsets before using it; old material
+  // keeps its existing alignment behavior.
+  for(const link of paragraph.reviewLinks||[]){
+   const i=units.findIndex(u=>u.start<=link.frStart&&u.end>link.frStart&&u.text.trim()===link.fr);
+   const j=translation.findIndex(t=>t.start===link.zhStart&&t.text.trim()===link.zh);
+   if(i>=0&&j>=0){alignment.forward[i]=j;alignment.backward[j]=i;}
+  }
   units.forEach((u,i)=>{u.translationId=translation[alignment.forward[i]]?.id;});
   translation.forEach((t,i)=>{t.sourceId=units[alignment.backward[i]]?.id;t.pairId=t.sourceId;});
   return {...paragraph,index,pairs,units,translation};

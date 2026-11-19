@@ -1,15 +1,16 @@
 """Create the GitHub-downloadable, double-clickable full offline release."""
 from pathlib import Path
-import runpy
+import runpy,json
 from zipfile import ZipFile,ZIP_DEFLATED
 ROOT=Path(__file__).resolve().parents[1]
 runpy.run_path(str(ROOT/'scripts/package_standalone.py'))
 html=ROOT.parent/'wangzhan-release'/'胡桃法语-DALF-C1-双击打开.html'
 out=ROOT/'downloads/noix-dalf-c1-offline.zip';out.parent.mkdir(exist_ok=True)
-readme='''胡桃法语 DALF C1 · 巴黎手帐版 · 17日版细节续改
+total=len(json.loads((ROOT/'public/content.json').read_text())['exercises'])
+readme=f'''胡桃法语 DALF C1 · 巴黎手帐版 · 题库补充版
 
 1. 完整解压此压缩包，用电脑 Chrome 或 Edge 打开“胡桃法语-DALF-C1-双击打开.html”。
-2. 文件内含176组题库、36段音频、巴黎背景、Logo及手写字体，无需安装或启动服务。首次打开请稍等。
+2. 文件内含{total}组题库、36段音频、巴黎背景、Logo及手写字体，无需安装或启动服务。首次打开请稍等。
 3. 首页是一屏背景与六个入口；点击左侧题型或首页入口后，只显示所选题型全部题目。
 4. 首页词句每两分钟随机轮换，来自题库与个人高亮。
 5. 听、读、写、口四本词书按各自题库独立筛选，不固定数量，另补充对应的C1任务表达；查词新增词性、词形、词族、短语组成词和句子翻译。未收录词句可在站内联网补充，只将当前查询文字发送给MyMemory，可在查词面板关闭；词库、缓存及可用的浏览器本地翻译仍可离线使用。题目、选项、自己的答案均可高亮，删除高亮可保留备注。单词与笔记中可选择五本词书，进行“法语选中文”或“听音拼写”。到期复习优先，不限制每天学习的新词数量。仅添加了备注的单词进入个人词书，纯高亮和句子不进入背词队列。
@@ -20,6 +21,8 @@ readme='''胡桃法语 DALF C1 · 巴黎手帐版 · 17日版细节续改
 
 在线邮箱登录版：https://hutao-dalf-c1-hakseup.softmole6.chatgpt.site
 在线版支持邮箱和密码注册、登录及个人学习数据自动云端备份。离线文件保持本机保存，需要跨设备时可手动导出、导入。
+
+本次补充已核对全部二十套笔试和十九套口语附件，按正文与题目去重后增加练习，并逐题归入口语主题。第八套口语PDF超过32 MiB读取上限，待取得压缩/拆分文件后继续补入。本次附件没有新增录音，新听力以原文进行文字练习，原有36段录音全部保留。
 
 中文正文和写作指令已全量重新生成参考译文，标题、导语、写作指令及部分正文另经人工校订。其余仍为机器参考译文，尚未全部逐句人工审校；原始材料错行或缺失的已识别片段会注明，不猜测补写。
 阅读段落ID和法语文本保留，已增加标题、访谈问题及段落层级，尽量维护旧版标注位置。

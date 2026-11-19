@@ -14,6 +14,7 @@ import {StudyReference} from './study-reference.jsx';
 import {EvidenceReader,ReviewQuestion} from './review.jsx';
 import './practice-refinements.css';
 import {reconcileAnnotations} from './annotation-utils.js';
+import {currentAttemptResults} from './attempt-results.js';
 
 const ICONS={headphones:Headphones,audio:AudioLines,book:BookOpen,pen:PenLine,mic:Mic};
 const category=id=>CATEGORIES.find(c=>c.id===id)||CATEGORIES[0];
@@ -103,17 +104,17 @@ function PracticeTimer({defaultMinutes=50}){
 
 function Exercise({exercise:e,lexicon,state,update,markActivity,back,bookmark,notify}){
  const hasAudio=!!e.audio,isOutput=['writing','speaking'].includes(e.category),isComprehension=!isOutput;
- const savedReview=isComprehension&&location.hash.endsWith('/review')&&state.attempts[e.id]?.results;
+ const savedReview=isComprehension&&location.hash.endsWith('/review')&&currentAttemptResults(e,state.attempts[e.id],state.answers[e.id]||{});
  const [stage,setStage]=useState(savedReview?'review':'answer'),[tab,setTab]=useState('fr'),[results,setResults]=useState(savedReview||null),[dialog,setDialog]=useState(''),[ratio,setRatio]=useState(50),[current,setCurrent]=useState(0),[fullScreen,setFullScreen]=useState(!!document.fullscreenElement),[focusMode,setFocusMode]=useState(false),[activePair,setActivePair]=useState(null);
  const bench=useRef(null),answerScroll=useRef(null),materialScroll=useRef(null);
  useEffect(()=>{const changed=()=>setFullScreen(!!document.fullscreenElement);document.addEventListener('fullscreenchange',changed);const escape=ev=>{if(ev.key==='Escape')setFocusMode(false);};document.addEventListener('keydown',escape);return()=>{document.removeEventListener('fullscreenchange',changed);document.removeEventListener('keydown',escape);};},[]);
  const toggleFullscreen=async()=>{if(focusMode){setFocusMode(false);return;}try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.documentElement.requestFullscreen)await document.documentElement.requestFullscreen();else setFocusMode(true);}catch{setFocusMode(true);}};
  const answers=state.answers[e.id]||{},draft=state.drafts[e.id]||{},annotations=state.annotations[e.id]||[],review=isComprehension&&stage==='review';
- useEffect(()=>{const f=()=>{if(!location.hash.endsWith('/review')){setStage('answer');setResults(null);}else if(isComprehension&&state.attempts[e.id]?.results){setStage('review');setResults(state.attempts[e.id].results);}};window.addEventListener('hashchange',f);return()=>window.removeEventListener('hashchange',f);},[e.id,state.attempts[e.id],state.answers[e.id]]);
+ useEffect(()=>{const f=()=>{if(!location.hash.endsWith('/review')){setStage('answer');setResults(null);}else if(isComprehension&&state.attempts[e.id]?.results){setStage('review');setResults(currentAttemptResults(e,state.attempts[e.id],state.answers[e.id]||{}));}};window.addEventListener('hashchange',f);return()=>window.removeEventListener('hashchange',f);},[e.id,state.attempts[e.id],state.answers[e.id]]);
  const setAnswer=(id,key,value)=>{if(review)return;update(s=>({...s,attempts:Object.fromEntries(Object.entries(s.attempts).filter(([key])=>key!==e.id)),answers:{...s.answers,[e.id]:{...s.answers[e.id],[id]:{...s.answers[e.id]?.[id],[key]:value}}}}));setResults(null);};
  const setDraft=(key,value)=>update(s=>({...s,drafts:{...s.drafts,[e.id]:{...s.drafts[e.id],[key]:value}}}));
  const answered=e.questions.filter(q=>answers[q.id]?.value?.trim()).length;
- const submit=()=>{const r=gradeExercise(e,answers);setResults(r);update(s=>markActivity({...s,attempts:{...s.attempts,[e.id]:{submittedAt:new Date().toISOString(),results:r}}}));if(isComprehension){setStage('review');setTab('fr');location.hash=e.id+'/review';answerScroll.current?.scrollTo(0,0);materialScroll.current?.scrollTo(0,0);}notify('已提交，进入双语答案复盘页');};
+ const submit=()=>{const r=gradeExercise(e,answers);setResults(r);update(s=>markActivity({...s,attempts:{...s.attempts,[e.id]:{submittedAt:new Date().toISOString(),results:r,contentRevision:e.contentRevision}}}));if(isComprehension){setStage('review');setTab('fr');location.hash=e.id+'/review';answerScroll.current?.scrollTo(0,0);materialScroll.current?.scrollTo(0,0);}notify('已提交，进入双语答案复盘页');};
  const modify=()=>{setStage('answer');setResults(null);location.hash=e.id;answerScroll.current?.scrollTo(0,0);};
  const saveOutput=()=>{update(s=>markActivity({...s,attempts:{...s.attempts,[e.id]:{submittedAt:new Date().toISOString(),results:{},kind:e.category}}}));notify(e.category==='writing'?'作文与自评已保存':'口语提纲与自评已保存');};
  const jump=n=>{const next=Math.max(0,Math.min(e.questions.length-1,n));setCurrent(next);const container=answerScroll.current,target=container?.querySelector('#question-'+e.questions[next]?.id);if(container&&target)container.scrollTo({top:target.getBoundingClientRect().top-container.getBoundingClientRect().top+container.scrollTop-16,behavior:'smooth'});};

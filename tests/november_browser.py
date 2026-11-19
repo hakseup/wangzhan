@@ -1,0 +1,22 @@
+"""Verify new source sets, theme filters, revision-safe review and model persistence."""
+import json,os
+from pathlib import Path
+from playwright.sync_api import sync_playwright,expect
+ROOT=Path(__file__).resolve().parents[1];bank=json.loads((ROOT/'public/content.json').read_text());BASE=os.environ.get('NOIX_TEST_URL','http://127.0.0.1:4175');by={e['id']:e for e in bank['exercises']}
+with sync_playwright()as p:
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1440,'height':1000});errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE);page.wait_for_selector('.shortcut-grid');expect(page.locator('.shortcut-grid button')).to_have_count(6)
+ assert page.locator('.shortcut-grid button').nth(0).locator('small').inner_text().startswith('20')
+ page.locator('.shortcut-grid button').nth(4).click();expect(page.locator('.exercise-card')).to_have_count(140)
+ for topic in ['教育与成长','工作与经济','健康与科学','城市与环境','科技与社会','语言与文化','社会与生活']:
+  page.get_by_label('按文章主题筛选',exact=True).select_option(topic);expect(page.locator('.exercise-card')).to_have_count(sum(e['category']=='speaking'and e['topic']==topic for e in bank['exercises']));assert all(t==topic for t in page.locator('.card-topic').all_text_contents())
+ page.get_by_label('按文章主题筛选',exact=True).select_option('全部主题');page.get_by_label('搜索文章标题或中文关键词').fill('La télémédecine');expect(page.locator('.exercise-card')).to_have_count(1)
+ # New listening material has no invented recording; the submitted review is bilingual and complete.
+ page.evaluate("location.hash='long-practice-08'");page.wait_for_selector('.questions-list');expect(page.locator('.source-label')).to_contain_text('未提供音频');expect(page.locator('audio')).to_have_count(0);expect(page.locator('.translation-content')).to_have_count(0);page.get_by_role('button',name='提交并核对答案',exact=True).click();expect(page.locator('.review-question')).to_have_count(11);expect(page.locator('.review-paragraph')).to_have_count(len(by['long-practice-08']['paragraphs']));expect(page.locator('.review-options').first.locator('[role=listitem]')).to_have_count(3)
+ for eid in ['reading-supp-18','short-2024-3-cn-1','short-2024-3-cn-2','reading-2024-5-fr']:
+  page.evaluate('id=>location.hash=id',eid);page.wait_for_selector('.questions-list');page.locator('.exercise-footer .primary-btn').click();expect(page.locator('.review-question')).to_have_count(len(by[eid]['questions']));expect(page.locator('.review-paragraph')).to_have_count(len(by[eid]['paragraphs']));assert page.locator('.review-option-zh').count()>0
+ # A stale score must not be assigned to a differently worded source question.
+ page.evaluate('''()=>{const x=JSON.parse(localStorage.getItem('noix-dalf-c1-v1'));x.answers['short-2024-3-cn-1']={q2:{value:'B'}};x.attempts['short-2024-3-cn-1']={submittedAt:new Date().toISOString(),results:{q2:{status:'correct'}}};localStorage.setItem('noix-dalf-c1-v1',JSON.stringify(x));location.hash='short-2024-3-cn-1/review';}''');page.reload();page.wait_for_selector('.review-question');expect(page.locator('.question-status.unanswered')).to_have_count(4);assert page.evaluate("JSON.parse(localStorage.getItem('noix-dalf-c1-v1')).answers['short-2024-3-cn-1'].q2.value")=='B'
+ # Each new oral set uses the existing editable monologue/debate panels.
+ page.evaluate("location.hash='speaking-supp-16-7'");page.wait_for_selector('.speaking-prompt');page.get_by_role('button',name='范文',exact=True).click();expect(page.locator('.model-article')).to_have_count(2);expect(page.locator('.model-article').nth(1)).to_contain_text('Réponse')
+ article=page.locator('.model-article').first;article.get_by_role('button',name='编辑范文',exact=True).click();article.locator('[contenteditable=true]').fill('Ma version personnelle sur la télémédecine.');article.get_by_role('button',name='完成编辑',exact=True).click();page.reload();page.wait_for_selector('.speaking-prompt');page.get_by_role('button',name='范文',exact=True).click();expect(page.locator('.model-text').first).to_have_text('Ma version personnelle sur la télémédecine.')
+ assert not errors,errors;page.screenshot(path='/workspace/work/nov-import/new-source-reviewed.png');b.close();print('PASS: 140 oral sets in all seven themes; new and upgraded source questions, complete bilingual review/options, no invented audio, stale-score safety, editable models and persistence; no browser errors.')

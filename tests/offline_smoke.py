@@ -14,7 +14,7 @@ with sync_playwright()as p:
  page.route('**/*',route);page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto(URL);page.wait_for_selector('.shortcut-grid');page.evaluate('document.fonts.ready')
  assert page.locator('html').get_attribute('data-noix-offline')is not None
- assert page.evaluate('window.__NOIX_EMBEDDED_BANK__.exercises.length')==176
+ assert page.evaluate('window.__NOIX_EMBEDDED_BANK__.exercises.length')==252
  assert page.evaluate('document.fonts.check("700 24px Journal")')
  for sel in ['.brand .walnut-logo','.paris-background']:
   assert page.locator(sel).evaluate('(a)=>a.complete && a.naturalWidth>0 && a.src.startsWith("data:image/")')

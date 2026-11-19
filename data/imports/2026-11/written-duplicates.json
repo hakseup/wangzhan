@@ -1,0 +1,309 @@
+[
+  {
+    "set": 1,
+    "sourceFiles": [
+      "C1第一套练习题（笔试）_.pdf",
+      "C1第一套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2024-11-cn",
+      "short-2024-11-cn-1",
+      "short-2024-11-cn-2",
+      "reading-2024-11-cn",
+      "writing-2024-11-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 2,
+    "sourceFiles": [
+      "C1第二套练习题（笔试）_.pdf",
+      "C1第二套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2024-6-cn",
+      "short-2024-6-cn-1",
+      "short-2024-6-cn-2",
+      "reading-2023-3-cn",
+      "writing-2023-3-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 3,
+    "sourceFiles": [
+      "C1第三套练习题（笔试）_.pdf",
+      "C1第三套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2021-5-cn",
+      "short-2021-6-cn-1",
+      "short-2021-6-cn-2",
+      "reading-2023-6-cn",
+      "writing-2024-11-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 4,
+    "sourceFiles": [
+      "C1第四套练习题（笔试）_.pdf",
+      "C1第四套练习题（笔试）答案(5)_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2026-6-cn",
+      "short-2023-3-cn-1",
+      "short-2023-3-cn-2",
+      "reading-2025-11-cn",
+      "writing-2024-3-fr"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 5,
+    "sourceFiles": [
+      "C1第五套练习题（笔试）_.pdf",
+      "C1第五套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2024-3-fr",
+      "short-2025-8-fr-1",
+      "short-2025-8-fr-2",
+      "reading-2021-10-fr",
+      "writing-2022-6-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 6,
+    "sourceFiles": [
+      "C1第六套练习题（笔试）_.pdf",
+      "C1第六套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2021-5-cn",
+      "reading-2025-6-cn",
+      "writing-2025-3-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 7,
+    "sourceFiles": [
+      "C1第七套练习题（笔试）_.pdf",
+      "C1第七套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2024-6-cn",
+      "short-2025-3-cn-1",
+      "short-2025-3-cn-2",
+      "reading-2025-6-cn",
+      "writing-2021-10-fr"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 8,
+    "sourceFiles": [
+      "C1第八套练习题（笔试）_.pdf",
+      "C1第八套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "short-2025-6-cn-1",
+      "short-2025-6-cn-2",
+      "reading-2022-6-cn",
+      "writing-2024-5-fr"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 9,
+    "sourceFiles": [
+      "C1第九套练习题（笔试）_.pdf",
+      "C1第九套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "reading-2022-3-cn",
+      "writing-2022-3-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 10,
+    "sourceFiles": [
+      "C1第十套练习题（笔试）_.pdf",
+      "C1第十套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2021-3-cn",
+      "reading-2021-3-cn",
+      "writing-2021-3-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 11,
+    "sourceFiles": [
+      "C1第十一套练习题（笔试）_.pdf",
+      "C1第十一套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2022-11-cn",
+      "short-2022-6-cn-1",
+      "short-2022-6-cn-2",
+      "reading-2022-11-cn",
+      "writing-2022-11-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 12,
+    "sourceFiles": [
+      "C1第十二套练习题（笔试）_.pdf",
+      "C1第十二套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2024-3-cn",
+      "short-2024-3-cn-1",
+      "short-2024-3-cn-2",
+      "reading-2024-3-cn",
+      "writing-2026-6-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same source material; incomplete old exercises are replaced with full original questions under the existing exercise ID. Remaining source matches keep one existing copy.",
+    "upgradedExerciseIds": [
+      "short-2024-3-cn-1",
+      "short-2024-3-cn-2"
+    ]
+  },
+  {
+    "set": 13,
+    "sourceFiles": [
+      "C1第十三套练习题（笔试）_.pdf",
+      "C1第十三套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2025-11-cn",
+      "short-2025-11-cn-1",
+      "short-2025-11-cn-2",
+      "reading-2025-11-cn",
+      "writing-2025-11-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 14,
+    "sourceFiles": [
+      "C1第十四套练习题（笔试）_.pdf",
+      "C1第十四套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2026-3-cn",
+      "short-2021-6-cn-1",
+      "short-2021-6-cn-2",
+      "reading-2021-5-cn",
+      "writing-2026-3-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 15,
+    "sourceFiles": [
+      "C1第十五套练习题（笔试）_.pdf",
+      "C1第十五套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2022-6-cn",
+      "short-2022-6-cn-1",
+      "short-2022-6-cn-2",
+      "reading-2026-3-cn",
+      "writing-2021-5-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 16,
+    "sourceFiles": [
+      "C1第十六套练习题（笔试）_.pdf",
+      "C1第十六套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "reading-2024-5-fr",
+      "writing-2025-8-fr"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same source material; incomplete old exercises are replaced with full original questions under the existing exercise ID. Remaining source matches keep one existing copy.",
+    "upgradedExerciseIds": [
+      "reading-2024-5-fr"
+    ]
+  },
+  {
+    "set": 17,
+    "sourceFiles": [
+      "C1第十七套练习题（笔试）_.pdf",
+      "C1第十七套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2025-6-cn",
+      "reading-2024-6-cn",
+      "writing-2024-6-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 18,
+    "sourceFiles": [
+      "C1第十八套练习题（笔试）_.pdf",
+      "C1第十八套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "writing-2023-10-fr"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 19,
+    "sourceFiles": [
+      "C1第十九套练习题（笔试）_P.pdf",
+      "C1第十九套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "short-2024-3-fr-1",
+      "short-2024-3-fr-2",
+      "reading-2021-12-fr",
+      "writing-2023-6-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  },
+  {
+    "set": 20,
+    "sourceFiles": [
+      "C1第二十套练习题（笔试）_.pdf",
+      "C1第二十套练习题（笔试）答案_.pdf"
+    ],
+    "existingExerciseIds": [
+      "long-2023-10-fr",
+      "reading-2025-8-fr",
+      "reading-2025-3-cn"
+    ],
+    "action": "retain-one-existing-copy",
+    "basis": "Same article/transcript and corresponding question set; punctuation/OCR variants do not create a second exercise."
+  }
+]

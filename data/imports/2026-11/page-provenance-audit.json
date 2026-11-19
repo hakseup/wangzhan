@@ -1,0 +1,653 @@
+[
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p0",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 103
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p1",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 34
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p2",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 43
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p3",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 189
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p4",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 28
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p5",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1,
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 65
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p6",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 28
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p7",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 225
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p8",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 64
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p9",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 109
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p10",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 10
+  },
+  {
+    "exercise": "long-practice-08",
+    "paragraph": "p11",
+    "sourceFile": "C1第八套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 63
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p0",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 37
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p1",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 1
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p2",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 1
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p3",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 73
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p4",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 55
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p5",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 7
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p6",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 50
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p7",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 19
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p8",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 27
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p9",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 10
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p10",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 55
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p11",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 23
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p12",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 1,
+    "sourcePages": [
+      1
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 60
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p13",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 19
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p14",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 5
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p15",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 8
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p16",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 132
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p17",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 61
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p18",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 74
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p19",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 71
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p20",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 128
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p21",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 3
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p22",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 1
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p23",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 19
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p24",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 50
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p25",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 44
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p26",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 35
+  },
+  {
+    "exercise": "long-practice-09",
+    "paragraph": "p27",
+    "sourceFile": "C1第九套练习题（笔试）_.pdf",
+    "sourcePage": 2,
+    "sourcePages": [
+      2
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 30
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "paragraph": "src-p1",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 36
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "paragraph": "src-p2",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 128
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "paragraph": "src-p3",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 76
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "paragraph": "src-p4",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 38
+  },
+  {
+    "exercise": "short-2024-3-cn-1",
+    "paragraph": "src-p5",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 117
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "paragraph": "src-p1",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 30
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "paragraph": "src-p2",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 109
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "paragraph": "src-p3",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 14
+  },
+  {
+    "exercise": "short-2024-3-cn-2",
+    "paragraph": "src-p4",
+    "sourceFile": "C1第十二套练习题（笔试）_.pdf",
+    "sourcePage": 3,
+    "sourcePages": [
+      3
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 120
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p1",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 6,
+    "sourcePages": [
+      6
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 87
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p2",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 6,
+    "sourcePages": [
+      6
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 47
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p3",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 6,
+    "sourcePages": [
+      6
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 182
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p4",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 6,
+    "sourcePages": [
+      6
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 76
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p5",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 6,
+    "sourcePages": [
+      6,
+      7
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 123
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p6",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 7,
+    "sourcePages": [
+      7
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 116
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p7",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 7,
+    "sourcePages": [
+      7
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 94
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p8",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 7,
+    "sourcePages": [
+      7
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 149
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p9",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 7,
+    "sourcePages": [
+      7
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 70
+  },
+  {
+    "exercise": "reading-2024-5-fr",
+    "paragraph": "src-p10",
+    "sourceFile": "C1第十六套练习题（笔试）_.pdf",
+    "sourcePage": 7,
+    "sourcePages": [
+      7
+    ],
+    "method": "source-text-overlap",
+    "matchingNgrams": 7
+  }
+]

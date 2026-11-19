@@ -15,7 +15,7 @@ with sync_playwright()as p:
  assert page.locator('.brand .walnut-logo').evaluate('(a)=>a.complete && a.naturalWidth>0')
  expect(page.locator('.shortcut-grid button')).to_have_count(6)
  page.screenshot(path='/tmp/noix-v2-desktop.png')
- page.locator('.shortcut').first.click();expect(page.locator('.exercise-card')).to_have_count(14)
+ page.locator('.shortcut').first.click();expect(page.locator('.exercise-card')).to_have_count(20)
  page.get_by_label('搜索文章标题或中文关键词').fill('创客');expect(page.locator('.exercise-card')).to_have_count(1)
  page.get_by_role('button',name='开始练习 创客：一场新的工业革命？',exact=True).click()
  expect(page.locator('.question')).to_have_count(11)
@@ -99,7 +99,7 @@ with sync_playwright()as p:
  page.screenshot(path='/tmp/noix-v2-mobile-practice.png')
  page.goto(BASE);page.wait_for_selector('.shortcut-grid');assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
  page.screenshot(path='/tmp/noix-v2-mobile.png',full_page=True)
- page.get_by_role('button',name='打开导航',exact=True).click();expect(page.locator('.sidebar.is-open')).to_be_visible();page.get_by_role('button',name='长听力 14',exact=True).click();expect(page.locator('.sidebar.is-open')).to_have_count(0)
+ page.get_by_role('button',name='打开导航',exact=True).click();expect(page.locator('.sidebar.is-open')).to_be_visible();page.get_by_role('button',name='长听力 20',exact=True).click();expect(page.locator('.sidebar.is-open')).to_have_count(0)
  assert not errors,errors
  print('PASS: Paris assets, filters, 36 transcript gates, submission/review, audio, white independent panes, resizing, fullscreen, Arial, highlights, notes, writing, backup, oral topics and mobile; no browser errors.')
  browser.close()

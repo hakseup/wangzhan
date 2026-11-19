@@ -32,6 +32,6 @@ app='<script type="module">'+js.replace('</script','<\\/script')+'</script>'
 html=html.replace('</body>',embedded+app+'</body>')
 OUT.parent.mkdir(exist_ok=True)
 OUT.write_text(html)
-assert len(bank['exercises'])==176
+assert len(bank['exercises'])==(bank.get('imports')or[{'totalExercises':176}])[-1]['totalExercises']
 assert sum(bool(e.get('audio')) for e in bank['exercises'])==36
-print(f'{OUT} ({OUT.stat().st_size/1024/1024:.1f} MiB; 176 exercise sets and 36 embedded audio files)')
+print(f'{OUT} ({OUT.stat().st_size/1024/1024:.1f} MiB; {len(bank['exercises'])} exercise sets and 36 embedded audio files)')

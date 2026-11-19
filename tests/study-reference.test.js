@@ -7,13 +7,13 @@ import {removeHighlight} from '../src/annotation-utils.js';
 import {lookupWord,queryParts,translateSelection,restoreQueryNames} from '../src/dictionary.js';
 import {EMPTY_STATE,validImport} from '../src/lib.js';
 const bank=loadBankFixture();
-test('all 547 comprehension questions have a reason and exact source evidence',()=>{
+test('all 682 comprehension questions have a reason and exact source evidence',()=>{
  let count=0;for(const e of bank.exercises.filter(e=>['long','short','reading'].includes(e.category)))for(const q of e.questions){count++;assert.ok(q.explanation.reason?.length>8,e.id+q.id);assert.ok(q.explanation.evidence.length>0,e.id+q.id);for(const x of q.explanation.evidence){const p=e.paragraphs.find(p=>p.id===x.pid);assert.ok(p?.fr.includes(x.quote),e.id+q.id);assert.ok(x.quote.length>20);}}
- assert.equal(count,547);
+ assert.equal(count,682);
 });
 test('every writing/oral set has complete templates, word limits and a six-question debate',()=>{
  let count=0;for(const e of bank.exercises.filter(e=>['writing','speaking'].includes(e.category))){assert.equal(e.studyModels.length,2,e.id);for(const m of e.studyModels){count++;const text=m.paragraphs.join(' '),words=text.split(/\s+/).length;assert.ok(!/\[(?:主题|THÈME|原因|措施|phénomène|argument)\]/.test(text));if(m.id==='synthese'){assert.ok(words>=200&&words<=240,e.id+':'+words);assert.ok(!/\bje pense|\bselon moi/i.test(text));}if(m.id==='essai')assert.ok(words>=250);if(m.id==='monologue'){assert.ok(words>650);assert.match(text,/Problématique et plan/);assert.match(text,/Conclusion/);}if(m.id==='debat')assert.equal(m.paragraphs.filter(x=>/^\d+\./.test(x)).length,6);}}
- assert.equal(count,226);
+ assert.equal(count,336);
 });
 test('only noted short vocabulary enters personal book, and new study queues have no daily cap',()=>{
  const notes=[{id:'a',text:'confiance',note:'信任',level:0},{id:'b',text:'partager',note:'',level:1},{id:'c',text:'Les gens partagent leurs connaissances.',note:'人们分享知识',level:1},{id:'d',text:'Je vous remercie de votre attention',note:'感谢',level:1}];

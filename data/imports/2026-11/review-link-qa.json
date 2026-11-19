@@ -1,0 +1,307 @@
+{
+  "lowConfidenceReviewed": 48,
+  "lowConfidenceBestChanged": 9,
+  "noMissingParagraphMeaning": true,
+  "additionalHighConfidenceCorrections": [
+    {
+      "id": "reading-2024-5-fr:src-p7:306",
+      "start": 66,
+      "reason": "问题询问因追求愉悦而被操纵；对应Klein偏好舒适感而非真相的实际句子，比下一句“把喜欢的想法当真”更直接。"
+    },
+    {
+      "id": "reading-supp-18:p9:571",
+      "start": 189,
+      "reason": "原题答案为城市农业的教育功能；自动最佳错误选中餐厅名称介绍，正确为下一句教育意义。"
+    }
+  ],
+  "checks": [
+    {
+      "id": "short-2024-3-cn-1:src-p2:333",
+      "start": 108,
+      "text": "参与者以投身所在街区的公共生活，换取较低租金。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-2024-3-cn-1:src-p2:471",
+      "start": 131,
+      "text": "Kaps每年都在扩大，需求不断增加。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-2024-3-cn-2:src-p1:0",
+      "start": 0,
+      "text": "埃里克·德尔沃：卡特琳·布莱，三年来，巴黎市政府通过参与式预算，让居民改善自己的生活环境。",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-2024-5-fr:src-p3:596",
+      "start": 153,
+      "text": "这种带来愉悦的神经递质由神经元释放，使人感觉舒适，也容易形成依赖。",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-2024-5-fr:src-p3:1149",
+      "start": 252,
+      "text": "再加上时间不足，大量即时信息便像快餐一样被匆匆消费，最终形成真正的依赖。",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-2024-5-fr:src-p4:170",
+      "start": 84,
+      "text": "尽管如此，我们仍须理解复杂世界的变化，才能规划未来：我在明天的社会中会处于什么位置？",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-2024-5-fr:src-p5:348",
+      "start": 94,
+      "text": "增强型新闻业”宣言》中指出：“记者的力量，与其说在于生产信息，不如说在于承担不可或缺的职责——过滤全球信息海啸。”",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-2024-5-fr:src-p6:313",
+      "start": 71,
+      "text": "有些人意识到逐渐让机器替我们思考的风险，例如《生命的交响曲》的作者若埃尔·德·罗奈，因此更愿意将AI称作“辅助智能”。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-practice-08:p0:0",
+      "start": 0,
+      "text": "Didier Si Ammour：近年来，远程教学平台、供教师、学生和家长沟通分享的网站，以及让人们观看顶尖学校课程的视频，在网上不断涌现。",
+      "changedFromBest": true
+    },
+    {
+      "id": "long-practice-09:p3:115",
+      "start": 71,
+      "text": "我们说的是，你把一篇议论文等文字输入系统，机器最后会给出分数。",
+      "changedFromBest": true
+    },
+    {
+      "id": "long-practice-09:p4:0",
+      "start": 38,
+      "text": "只是最近一两年才开始大规模使用。",
+      "changedFromBest": true
+    },
+    {
+      "id": "long-practice-09:p10:63",
+      "start": 41,
+      "text": "要使用这种技术，必须先校准机器：教师至少要批改一百份作业，然后系统才能把这位教师的评分方式推广到其他文本。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-practice-09:p12:0",
+      "start": 24,
+      "text": "EDX采用的是所谓的“机器学习”：人工智能比较不同文本，尝试从中提取表达意义的要素，再判断这些文本的内容是否足够接近。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-practice-09:p16:0",
+      "start": 51,
+      "text": "几个月前，美国研究者来向我们介绍这一概念，提到文本太短或太长时，系统都难以有效推广教师的评分方法；对于中等篇幅的语言或政治学文章，倒能取得比较好的效果。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-practice-09:p18:0",
+      "start": 0,
+      "text": "Matthieu Cisel：有意思的地方还在于，学生交作业、收到分数后，可以立刻修改再交。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-practice-09:p25:112",
+      "start": 58,
+      "text": "我们什么时候可能——有人觉得是好事，也有人觉得是坏事——看到它进入学校呢？",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-practice-09-2:p5:168",
+      "start": 69,
+      "text": "原因是，这份名单由业内人士于2011年自愿建立，企业是否加入并无强制要求，最终只有约一百家公司参加，远远不足以让名单发挥作用。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-practice-09-3:p1:0",
+      "start": 24,
+      "text": "建筑业眼下正在裁员，预计今年将减少四万到五万个岗位，2008年危机以来一直如此。",
+      "changedFromBest": true
+    },
+    {
+      "id": "short-supplement-10-1:p3:565",
+      "start": 132,
+      "text": "Bruno，假如明天早晨，您头发被风吹乱地走进办公室，我把您拍下来，未经同意就公开照片，您可以告我。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-supplement-10-2:p11:0",
+      "start": 0,
+      "text": "BM：当然，许多温泉疗养机构利用含盐泉水开展疗养。",
+      "changedFromBest": true
+    },
+    {
+      "id": "long-supplement-16:p2:518",
+      "start": 139,
+      "text": "无用的话、治疗、预防、保护，甚至无用的悔恨，都取决于具体情境。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supplement-16:p3-0:502",
+      "start": 113,
+      "text": "然而，唯有数学能让人理解世界。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supplement-16:p3-1:363",
+      "start": 88,
+      "text": "两类人始终被分开。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supplement-16:p3-2:118",
+      "start": 19,
+      "text": "社会上发言、决策、管理、行政和指挥的人，几乎全都接受过人文学科、政治学、经济学、社会学等方面的训练。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supplement-16:p5:611",
+      "start": 143,
+      "text": "我很尊重人文学科，它们帮助我们摆脱了许多错误。",
+      "changedFromBest": true
+    },
+    {
+      "id": "short-supplement-16-1:p3:274",
+      "start": 74,
+      "text": "爱好者把它们陈列在家中，就像一座小博物馆，目的是让人认识世界，包括遥远的地方。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-18:p5:420",
+      "start": 87,
+      "text": "第二是资源枯竭，尤其是建筑资源。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-18:p5:858",
+      "start": 178,
+      "text": "第三是政治和社会危机，各种迹象都在显现：一方面是我们讲述的社会愿景，另一方面是每个人的日常生活，就像有人说的“世界末日与月底生计之间”的张力。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-18:p13:481",
+      "start": 120,
+      "text": "例如，把旧工厂改成住宅，或根据眼前的紧迫需要，把办公楼改成应急住房。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-18:p15:627",
+      "start": 135,
+      "text": "比如，可以规定不再占用France任何一公顷农业用地。",
+      "changedFromBest": true
+    },
+    {
+      "id": "short-supp-18-1:p5:288",
+      "start": 35,
+      "text": "而我们的游戏恰恰要成为第一个鼓励你打开书本、去参观博物馆的游戏。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-supp-18-1:p7:223",
+      "start": 44,
+      "text": "共和国公立学校的理念在我看来很了不起：五十年前，大使的孩子和门卫的孩子在同一所学校学习，这才是真正面向所有人的学校。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-supp-18-1:p9:25",
+      "start": 11,
+      "text": "我们想问：能不能提供一种至少向所有人自由、免费开放的教育，让每个人都有平等的机会，找到自己想接受的教育，或想追求的兴趣？",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-supp-18-2:p1:1560",
+      "start": 328,
+      "text": "一无所知”不是说没有任何知识，而是不认为自己无所不知、不认为自己事先就懂或永远都懂；从一开始就承认自己总还有东西要学。",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-supp-18:p1:102",
+      "start": 86,
+      "text": "这家小企业的使命，就是让城市居民重新与自然建立联系。",
+      "changedFromBest": true
+    },
+    {
+      "id": "reading-supp-18:p2:633",
+      "start": 175,
+      "text": "Australie研究者也认为，城市树木有助于降低心理问题风险；在“直角、坚硬表面和广告占据主导的环境”中，绿色叶片能带来感官上的安抚。",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-supp-18:p3:771",
+      "start": 228,
+      "text": "她还提醒，树木吸附污染物的能力只在实验室中得到测量。",
+      "changedFromBest": false
+    },
+    {
+      "id": "reading-supp-18:p4:337",
+      "start": 113,
+      "text": "他认为，从生态角度看，这是一种“谎言”；不过，他也承认绿化的意义另有所在：居民之间的社会关系。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-19:p9:819",
+      "start": 179,
+      "text": "稍微往前看，从社会学和人类学角度会发现，人们过去一生中常常改名；名字并不是什么固定的东西。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-20:p3:621",
+      "start": 119,
+      "text": "我们是“屏幕一代”，不要以为可以突然彻底摆脱屏幕，成年人自己也离不开它。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-20:p3:980",
+      "start": 197,
+      "text": "我经常举火车的例子：父母带孩子乘车往往很为难，因为害怕孩子打扰别人。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-20:p7:299",
+      "start": 54,
+      "text": "父母确实没有时间，无论处于什么社会阶层，生活都很辛苦。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-20:p13:130",
+      "start": 41,
+      "text": "这时，屏幕的确是一个促进关系和交流的物件：孩子看着自己，我们可以谈起拍照时的情景，“对呀，你还记得我给你拍照的时候吗？”",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-20:p13:711",
+      "start": 153,
+      "text": "人们常说孩子不能动、不能发出声音，这样的社会是在束缚童年。",
+      "changedFromBest": false
+    },
+    {
+      "id": "long-supp-20:p13:810",
+      "start": 153,
+      "text": "人们常说孩子不能动、不能发出声音，这样的社会是在束缚童年。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-supp-20-1:p1:225",
+      "start": 58,
+      "text": "UpCycle根据这个原则采取了同样的办法：在设有食堂的企业安装小型机器，处理原本要进垃圾桶的剩余食物。",
+      "changedFromBest": false
+    },
+    {
+      "id": "short-supp-20-1:p4:186",
+      "start": 51,
+      "text": "因此，我们想培训他们，让他们今后能获得maître-composteur，也就是专业堆肥师的资格，为这些岗位带来更多培训和证书。",
+      "changedFromBest": true
+    },
+    {
+      "id": "short-supp-20-2:p1:437",
+      "start": 132,
+      "text": "以持续吸引投资者的初创企业Agricool为例，它在集装箱里种草莓，其技术能让35平方米集装箱的产量，相当于4000平方米露地的产量。",
+      "changedFromBest": false
+    }
+  ]
+}

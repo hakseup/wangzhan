@@ -5,9 +5,9 @@ import {gradeQuestion,gradeExercise,annotationParts,wordCount,validImport,EMPTY_
 
 const bank=JSON.parse(readFileSync(new URL('../public/content.json',import.meta.url)));
 test('every imported document has an exercise; every objective question has a valid answer',()=>{
- assert.equal(bank.exercises.length,176);
- assert.equal(new Set(bank.exercises.flatMap(e=>e.sourceFiles)).size,117);
- assert.deepEqual(Object.fromEntries(['long','short','reading','writing','speaking'].map(c=>[c,bank.exercises.filter(e=>e.category===c).length])),{long:14,short:22,reading:27,writing:28,speaking:85});
+ assert.equal(bank.exercises.length,252);
+ assert.equal(new Set(bank.exercises.flatMap(e=>e.sourceFiles)).size,176);
+ assert.deepEqual(Object.fromEntries(['long','short','reading','writing','speaking'].map(c=>[c,bank.exercises.filter(e=>e.category===c).length])),{long:20,short:36,reading:28,writing:28,speaking:140});
  const ids=new Set();
  for(const e of bank.exercises){
   assert.ok(!ids.has(e.id),e.id);ids.add(e.id);
@@ -16,7 +16,7 @@ test('every imported document has an exercise; every objective question has a va
   assert.ok(!/\d{4}年|场次/.test(e.title+e.titleZh),e.id);
   assert.ok(!/法语课代表|大脸法语/.test(JSON.stringify(e)),e.id);
   assert.ok(e.questions.length||['writing','speaking'].includes(e.category),e.id);
-  if(e.category==='long'||e.category==='short')assert.ok(existsSync(new URL('../public'+e.audio,import.meta.url)),e.id);
+  if(e.category==='long'||e.category==='short'){if(e.audio)assert.ok(existsSync(new URL('../public'+e.audio,import.meta.url)),e.id);else{assert.equal(e.audioMissing,true,e.id);assert.match(e.source,/未提供音频/,e.id);}}
   for(const q of e.questions){
    assert.ok(q.prompt.length>6,e.id+q.id);
    if(q.type==='choice'){
@@ -67,9 +67,9 @@ test('French contractions and hyphenated words count as one word',()=>{
 
 test('revised writing/oral material preserves readable text and stable, unique paragraph anchors',()=>{
  const revised=bank.exercises.filter(e=>['writing','speaking'].includes(e.category));
- assert.equal(revised.length,113);
+ assert.equal(revised.length,168);
  for(const e of revised){
-  assert.equal(e.materialRevision,'trace-columns-rechecked-v3',e.id);
+  if(e.importId)assert.equal(e.translationKind,'source-reviewed',e.id);else assert.equal(e.materialRevision,'trace-columns-rechecked-v3',e.id);
   assert.equal(new Set(e.paragraphs.map(p=>p.id)).size,e.paragraphs.length,e.id+' unique paragraph anchors');
   for(const p of e.paragraphs){
    assert.ok(!/[\u0300-\u05ff\u3400-\u9fff\ufffd]/u.test(p.fr),e.id+' broken glyphs');

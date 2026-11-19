@@ -16,7 +16,7 @@ with sync_playwright() as p:
  assert '专属学习空间' not in page.locator('.sidebar').inner_text()
  assert '胡桃学习室' not in page.locator('.topbar').inner_text()
  page.screenshot(path='/workspace/work/journal-desktop.png');before=page.locator('.daily-phrase p[lang=fr]').inner_text();page.clock.fast_forward(120000);assert page.locator('.daily-phrase p[lang=fr]').inner_text()!=before
- page.locator('.shortcut').first.click();expect(page.locator('.exercise-card')).to_have_count(14)
+ page.locator('.shortcut').first.click();expect(page.locator('.exercise-card')).to_have_count(20)
  expect(page.locator('.paris-hero')).to_have_count(0)
  page.locator('.category-nav').nth(1).click();expect(page.locator('.exercise-card')).to_have_count(22)
  page.locator('.category-nav').nth(2).click();expect(page.locator('.exercise-card')).to_have_count(27)
