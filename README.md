@@ -2,7 +2,7 @@
 
 ## 邮箱登录与云端备份
 
-在线版：https://hutao-dalf-c1-hakseup.softmole6.chatgpt.site
+在线版：https://hutao-dalf-c1-hakseup.meilinheyhey.chatgpt.site
 
 点击右上角“登录”，可用邮箱和密码注册账户；登录后自动备份个人练习记录、草稿、收藏与笔记，其他设备登录同一账户即可恢复。每位用户的记录独立保存。离线文件继续使用本机存储和手动导出备份，不会向登录服务发送数据。
 
