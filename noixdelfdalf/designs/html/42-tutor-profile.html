@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>找老师 · 老师主页</title><link rel="stylesheet" href="noix.css"></head>
+<body class="m-tutor ">
+<header class="topnav">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="on">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header>
+<style>.av{border-radius:50%;display:grid;place-items:center;font-family:var(--hand);flex-shrink:0;position:relative}.av.on:after{content:"";position:absolute;right:2px;bottom:2px;width:12px;height:12px;border-radius:50%;background:#8fb27c;border:2px solid #fff}
+.wrap{padding:22px 72px 0;display:grid;grid-template-columns:1fr 360px;gap:30px}
+.hero{display:flex;gap:22px;align-items:center}
+.hero b{font-size:26px;font-weight:600;color:#33262f}
+.hero .s{font-size:12px;color:var(--muted);margin-top:4px}
+.hero .tg{display:flex;gap:6px;margin-top:10px}
+.hero .num{margin-left:auto;display:flex;gap:26px;text-align:center}
+.hero .num b{display:block;font-family:var(--hand);font-size:24px;color:var(--rose)}
+.hero .num small{font-size:11px;color:var(--muted)}
+.vid{height:250px;border-radius:20px;margin-top:20px;background:url(../assets/paris-haze.png) 30% 40%/cover;position:relative;overflow:hidden}
+.vid:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#3a2730b0,transparent 70%)}
+.vid .q{position:absolute;left:30px;bottom:28px;z-index:1;color:#fff;max-width:420px}
+.vid .q .hand{font-size:28px;line-height:1.3}
+.vid .q small{display:block;margin-top:8px;font-size:12px;color:#f0dfe3}
+.vid .pl{position:absolute;right:40px;bottom:30px;width:58px;height:58px;border-radius:50%;background:#fff;color:var(--rose);display:grid;place-items:center;z-index:1}
+.tabs{margin-top:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.two p{font-size:12.5px;line-height:1.95;color:#5c4e57}
+.two h3{font-family:var(--serif-zh);font-size:16px;margin-bottom:8px;color:#33262f}
+.rv{padding:14px 16px;border-radius:14px;background:#fffdfb;border:1px solid var(--line);margin-bottom:10px}
+.rv .h{display:flex;align-items:center;gap:8px;font-size:12px;color:#33262f}
+.rv .h small{margin-left:auto;font-size:11px;color:var(--faint)}
+.rv p{font-size:12px;line-height:1.8;color:#6c5e67;margin-top:6px}
+.bk{border-radius:20px;background:#fffdfb;border:1px solid var(--line);padding:22px 22px;box-shadow:0 18px 50px #a65f5812}
+.bk .hand{font-size:17px;color:var(--rose)}
+.ls{display:flex;flex-direction:column;gap:8px;margin:12px 0 16px}
+.ls div{display:flex;align-items:center;gap:10px;padding:11px 14px;border-radius:12px;border:1px solid var(--line);font-size:12.5px;color:#4c4049}
+.ls div small{display:block;font-size:11px;color:var(--faint)}
+.ls div b{margin-left:auto;font:400 16px var(--serif-fr);color:#33262f}
+.ls div.on{border-color:#e2bcb5;background:#fcf3f1}
+.cal{display:grid;grid-template-columns:40px repeat(7,1fr);gap:4px;font-size:10px;color:var(--faint);text-align:center}
+.cal b{font-weight:400;font-size:9.5px;color:var(--muted)}
+.cal small{font-size:9.5px;text-align:left;align-self:center}
+.cal i{height:20px;border-radius:5px;background:#f3eeec}.cal i.a{background:#f0d3cd}
+.bk .btn{width:100%;justify-content:center;margin-top:16px;background:var(--rose);color:#fff}
+.bk .note{font-size:11px;color:var(--faint);text-align:center;margin-top:10px}
+</style>
+<div class="wrap m-tutor"><section>
+<div class="crumb">找老师 <svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg> <span>Camille Durand</span></div>
+<div class="hero"><span class="av on" style="width:92px;height:92px;background:#ecd8d1;color:#a65f58;font-size:34px">CD</span><div><b>Camille Durand</b> <span class="chip rose" style="vertical-align:5px"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg> DELF/DALF 认证考官</span><div class="s">法国 · 里昂 · 母语：法语 · 也会说：英语、中文 B1 · 当地时间 13:40</div><div class="tg"><span class="chip line">口语陈述</span><span class="chip line">辩论</span><span class="chip line">写作批改</span><span class="chip line">B2–C1</span></div></div>
+<div class="num"><div><b>4.98</b><small><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg> 评分</small></div><div><b>1 240</b><small>节课</small></div><div><b>98%</b><small>出勤率</small></div></div></div>
+<div class="vid"><div class="q"><span class="hand">« Parler, c’est déjà gagner la moitié de l’épreuve. »</span><small>开口，就已经赢了口试的一半。—— 自我介绍视频 1:20</small></div><span class="pl"><svg class="i" style="width:20px;height:20px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></span></div>
+<div class="tabs"><a class="on">关于我</a><a>课程</a><a>学员评价 · 326</a><a>教学资料</a></div>
+<div class="two"><div><h3>我会怎样上课</h3><p>曾任 DELF/DALF 口试考官 6 年。擅长 B2–C1 口语陈述与辩论，课上用真题模拟，课后给出逐项评分表。<br>每节课从你在「题库练习」里的口语题开始：10 分钟准备、陈述、辩论，再逐条讲解语法与表达。</p></div>
+<div><div class="rv"><div class="h"><span class="av" style="width:26px;height:26px;background:#efe8f3;color:#735a78;font-size:12px">M</span> 梅同学 · C1 口语冲刺 <svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><small>2 周前</small></div><p>模拟了 6 次口试，每次都有评分表。考试那天题目刚好是教育话题，一点都不慌。</p></div>
+<div class="rv"><div class="h"><span class="av" style="width:26px;height:26px;background:#f7ecd6;color:#a6752f;font-size:12px">L</span> Lucas · B2 会话 <svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><small>1 个月前</small></div><p>Très patiente, elle corrige sans jamais interrompre. 课后笔记很详细。</p></div></div></div>
+</section>
+<aside style="padding-top:30px"><div class="bk"><span class="hand">Réserver un cours</span>
+<div class="ls"><div><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"/></svg><span>试听课<small>25 分钟 · 了解水平与目标</small></span><b>¥ 39</b></div>
+<div class="on"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v3"/></svg><span>DALF C1 口语模拟<small>50 分钟 · 含评分表</small></span><b>¥ 188</b></div>
+<div><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span>自由会话<small>50 分钟</small></span><b>¥ 158</b></div>
+<div><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5M2 12l10 5 10-5"/></svg><span>考前冲刺 · 10 节<small>每节 ¥ 169，省 ¥ 190</small></span><b>¥ 1 690</b></div></div>
+<div style="display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);margin-bottom:8px"><span>可约时间 · 北京时间</span><span><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg> 11 月 19 – 25 日 <svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></span></div>
+<div class="cal"><span></span><b>周四 19</b><b>周五 20</b><b>周六 21</b><b>周日 22</b><b>周一 23</b><b>周二 24</b><b>周三 25</b><small>09:00</small><i class=""></i><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><small>12:00</small><i class="a"></i><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><i class="a"></i><i class=""></i><small>18:30</small><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><small>19:30</small><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><i class="a"></i><small>20:30</small><i class="a"></i><i class=""></i><i class=""></i><i class="a"></i><i class="a"></i><i class="a"></i><i class=""></i></div><a class="btn">选择时间并预约 <svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><div class="note">开课前 24 小时可免费取消或改期</div></div></aside>
+</div>
+</body></html>

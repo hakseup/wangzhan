@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>阅读精听 · 文章精读</title><link rel="stylesheet" href="noix.css"></head>
+<body class="m-read ">
+<header class="topnav">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="on">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header>
+<style>
+.rd{display:grid;grid-template-columns:1fr 340px;height:828px}
+.art{padding:30px 0 0;overflow:hidden;position:relative}
+.tool{display:flex;align-items:center;gap:10px;padding:0 120px 18px;font-size:12px;color:var(--muted)}
+.tool .seg{margin-left:auto}
+.inner{padding:0 120px}
+.inner .k{display:flex;gap:8px}
+.inner h1{font:400 36px/1.3 var(--serif-fr);color:#2f2630;margin:14px 0 6px}
+.inner .zh{font-family:var(--serif-zh);font-size:17px;color:#6c7d96}
+.mini{display:flex;align-items:center;gap:12px;margin:18px 0 22px;padding:10px 14px;border-radius:14px;background:var(--blue-soft)}
+.mini .pb{width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center}
+.mini .w{display:flex;align-items:center;flex:1}.mini .w i{border-radius:3px;background:#b6c3d6}.mini .w i.on{background:var(--blue)}
+.mini small{font-size:11px;color:var(--blue)}
+.inner p{font:19px/1.95 var(--serif-fr);color:#262626;margin-bottom:18px}
+.inner p .cur{background:#eef2f9;box-shadow:0 0 0 4px #eef2f9;border-radius:3px}
+.w1{border-bottom:2px solid #9bb1d0;cursor:pointer}
+.pop{position:absolute;left:618px;top:402px;width:330px;background:#fff;border:1px solid #dfe4ee;border-radius:16px;box-shadow:0 24px 60px #2c3a5526;padding:18px 20px;z-index:3}
+.pop:before{content:'';position:absolute;left:40px;top:-7px;width:12px;height:12px;background:#fff;border-left:1px solid #dfe4ee;border-top:1px solid #dfe4ee;transform:rotate(45deg)}
+.pop .h{display:flex;align-items:baseline;gap:10px}
+.pop .h b{font-family:var(--hand);font-size:26px;color:#33445f}
+.pop .h small{font-size:11px;color:var(--faint)}
+.pop .h span{margin-left:auto;color:var(--blue)}
+.pop ol{margin:10px 0 0 18px;font-size:12.5px;line-height:1.85;color:#4c4049}
+.pop .ex{font:italic 12.5px/1.7 var(--serif-fr);color:#6c7d96;margin-top:8px}
+.pop .marks{display:flex;gap:6px;margin-top:14px;align-items:center;padding-top:12px;border-top:1px solid #eef0f4}
+.pop .marks i{width:20px;height:20px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #ddd}
+.pop .marks .btn{margin-left:auto;background:var(--blue);color:#fff;height:30px;padding:0 12px;font-size:11.5px}
+.side{border-left:1px solid var(--line);background:#fcfbf9;padding:26px 24px}
+.side .hand{font-size:17px;color:var(--blue)}
+.side .wl{margin-top:10px;display:flex;flex-direction:column}
+.side .wl div{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}
+.side .wl b{font:400 15px var(--serif-fr);color:#2f2630}
+.side .q{margin-top:22px;padding:16px 18px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+.side .q p{font-size:12.5px;line-height:1.8;color:#4c4049;margin:6px 0 10px}
+.side .q .o{display:flex;flex-direction:column;gap:6px}
+.side .q .o span{padding:8px 12px;border-radius:10px;border:1px solid var(--line);font:13px var(--serif-fr);color:#4c4049}
+</style>
+<div class="rd m-read">
+<section class="art">
+  <div class="tool"><a style="display:flex;gap:5px;align-items:center"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg> 今日报亭</a><span style="margin-left:18px"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="m9 11-6 6v3h9l3-3"/><path d="m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4"/></svg> 划线标注</span><span><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M4 7V4h16v3M9 20h6M12 4v16"/></svg> 字号</span>
+  <div class="seg"><a class="on">法文</a><a>双语对照</a><a>中文参考</a></div></div>
+  <div class="inner">
+    <div class="k"><span class="chip blue">社会 · B2</span><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> 6 分钟</span><span class="chip line">示例新闻</span></div>
+    <h1>À Paris, les cafés s’installent sur les trottoirs pour l’hiver</h1>
+    <div class="zh">巴黎咖啡馆的露天座位，今年冬天也不收起来了</div>
+    <div class="mini"><span class="pb"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></svg></span><div class="w"><i class="on" style="height:5px;width:2px;margin-right:3px"></i><i class="on" style="height:9px;width:2px;margin-right:3px"></i><i class="on" style="height:14px;width:2px;margin-right:3px"></i><i class="on" style="height:7px;width:2px;margin-right:3px"></i><i class="on" style="height:16px;width:2px;margin-right:3px"></i><i class="on" style="height:12px;width:2px;margin-right:3px"></i><i class="on" style="height:19px;width:2px;margin-right:3px"></i><i class="on" style="height:11px;width:2px;margin-right:3px"></i><i class="on" style="height:6px;width:2px;margin-right:3px"></i><i class="on" style="height:15px;width:2px;margin-right:3px"></i><i class="on" style="height:18px;width:2px;margin-right:3px"></i><i class="on" style="height:8px;width:2px;margin-right:3px"></i><i class="on" style="height:13px;width:2px;margin-right:3px"></i><i class="on" style="height:5px;width:2px;margin-right:3px"></i><i class="on" style="height:16px;width:2px;margin-right:3px"></i><i class="on" style="height:20px;width:2px;margin-right:3px"></i><i class="on" style="height:12px;width:2px;margin-right:3px"></i><i class="on" style="height:7px;width:2px;margin-right:3px"></i><i class="on" style="height:17px;width:2px;margin-right:3px"></i><i class="on" style="height:11px;width:2px;margin-right:3px"></i><i class="on" style="height:5px;width:2px;margin-right:3px"></i><i class="on" style="height:14px;width:2px;margin-right:3px"></i><i class="" style="height:18px;width:2px;margin-right:3px"></i><i class="" style="height:7px;width:2px;margin-right:3px"></i><i class="" style="height:12px;width:2px;margin-right:3px"></i><i class="" style="height:16px;width:2px;margin-right:3px"></i><i class="" style="height:6px;width:2px;margin-right:3px"></i><i class="" style="height:11px;width:2px;margin-right:3px"></i><i class="" style="height:15px;width:2px;margin-right:3px"></i><i class="" style="height:8px;width:2px;margin-right:3px"></i><i class="" style="height:17px;width:2px;margin-right:3px"></i><i class="" style="height:7px;width:2px;margin-right:3px"></i><i class="" style="height:5px;width:2px;margin-right:3px"></i><i class="" style="height:12px;width:2px;margin-right:3px"></i><i class="" style="height:16px;width:2px;margin-right:3px"></i><i class="" style="height:11px;width:2px;margin-right:3px"></i><i class="" style="height:6px;width:2px;margin-right:3px"></i><i class="" style="height:14px;width:2px;margin-right:3px"></i><i class="" style="height:19px;width:2px;margin-right:3px"></i><i class="" style="height:9px;width:2px;margin-right:3px"></i><i class="" style="height:5px;width:2px;margin-right:3px"></i><i class="" style="height:13px;width:2px;margin-right:3px"></i><i class="" style="height:17px;width:2px;margin-right:3px"></i><i class="" style="height:7px;width:2px;margin-right:3px"></i><i class="" style="height:11px;width:2px;margin-right:3px"></i><i class="" style="height:15px;width:2px;margin-right:3px"></i><i class="" style="height:6px;width:2px;margin-right:3px"></i><i class="" style="height:12px;width:2px;margin-right:3px"></i><i class="" style="height:16px;width:2px;margin-right:3px"></i><i class="" style="height:8px;width:2px;margin-right:3px"></i><i class="" style="height:14px;width:2px;margin-right:3px"></i><i class="" style="height:18px;width:2px;margin-right:3px"></i><i class="" style="height:6px;width:2px;margin-right:3px"></i><i class="" style="height:9px;width:2px;margin-right:3px"></i><i class="" style="height:15px;width:2px;margin-right:3px"></i><i class="" style="height:12px;width:2px;margin-right:3px"></i><i class="" style="height:5px;width:2px;margin-right:3px"></i><i class="" style="height:16px;width:2px;margin-right:3px"></i><i class="" style="height:11px;width:2px;margin-right:3px"></i><i class="" style="height:7px;width:2px;margin-right:3px"></i></div><small>01:12 / 03:40 · 1.0×</small></div>
+    <p><span class="cur">Les terrasses éphémères, nées pendant la crise sanitaire, sont désormais <span class="w1">pérennisées</span>.</span> Chaque hiver, elles accueillent des clients emmitouflés sous des <span class="mk1">couvertures en laine</span>, autour de radiateurs d’appoint.</p>
+    <p>Les <span class="wordnote">riverains</span>, eux, s’inquiètent du bruit et de l’<span class="mk2">encombrement des trottoirs</span>. « On ne peut plus passer avec une poussette », regrette une habitante du onzième arrondissement.</p>
+    <p>La mairie promet un <span class="mk3">cahier des charges plus strict</span> : chauffage électrique interdit, fermeture à vingt-deux heures…</p>
+  </div>
+  <div class="pop"><div class="h"><b>pérenniser</b><small>[peʁenize] v.t.</small><span><svg class="i" style="width:16px;height:16px;" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg></span></div>
+  <ol><li>使长久存在，使永久化</li><li>（临时措施）转为长期、常态化</li></ol>
+  <div class="ex">« pérenniser un dispositif » 把一项措施固定下来</div>
+  <div class="marks"><i style="background:#fff29b"></i><i style="background:#dfc3f3"></i><i style="background:#f4a8ae"></i><span style="font-size:11px;color:var(--faint);margin-left:4px">高亮</span><a class="btn"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg> 加入生词本</a></div></div>
+</section>
+<aside class="side"><span class="hand">Mots de l’article</span><span style="font-size:11px;color:var(--faint);margin-left:8px">本文生词 · 已加入 3</span>
+<div class="wl"><div><b>pérenniser</b><span>使常态化</span></div><div><b>éphémère</b><span>短暂的</span></div><div><b>le riverain</b><span>沿街居民</span></div><div><b>emmitouflé</b><span>裹得严实的</span></div><div><b>un cahier des charges</b><span>规范细则</span></div><div><b>d’appoint</b><span>辅助的</span></div></div>
+<div class="q"><span class="hand">Compréhension</span><p>读后小测 1 / 3：Que reprochent les riverains aux terrasses ?</p>
+<div class="o"><span>A. Leurs prix trop élevés</span><span style="border-color:#b8c6dc;background:#f2f5fa">B. Le bruit et l’encombrement</span><span>C. Le manque de chauffage</span></div></div>
+</aside></div>
+</body></html>

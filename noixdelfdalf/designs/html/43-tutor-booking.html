@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>找老师 · 预约课程</title><link rel="stylesheet" href="noix.css"></head>
+<body class="m-tutor ">
+<header class="topnav">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="on">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header>
+<style>.av{border-radius:50%;display:grid;place-items:center;font-family:var(--hand);flex-shrink:0;position:relative}.av.on:after{content:"";position:absolute;right:2px;bottom:2px;width:12px;height:12px;border-radius:50%;background:#8fb27c;border:2px solid #fff}
+.wrap{padding:26px 72px 0;display:grid;grid-template-columns:1fr 400px;gap:32px}
+.steps{display:flex;gap:10px;align-items:center;margin-bottom:22px;font-size:12.5px;color:var(--faint)}
+.steps span{display:flex;align-items:center;gap:8px}
+.steps i{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-style:normal;font-size:11px;border:1px solid var(--line-2)}
+.steps .done i{background:var(--rose-soft);color:var(--rose);border-color:transparent}
+.steps .on{color:var(--ink)}.steps .on i{background:var(--rose);color:#fff;border-color:var(--rose)}
+.steps em{flex:0 0 40px;height:1px;background:var(--line-2)}
+h1{font-family:var(--serif-zh);font-size:26px;font-weight:600;color:#33262f}
+.sub{font-size:12.5px;color:var(--muted);margin:6px 0 18px}
+.tz{display:flex;align-items:center;gap:10px;margin-bottom:12px;font-size:12px;color:var(--muted)}
+.tz .r{margin-left:auto;display:flex;gap:8px}
+.cal2{display:grid;grid-template-columns:56px repeat(7,1fr);gap:6px;text-align:center}
+.cal2 b{font-weight:500;font-size:12px;color:#5c4e57;padding-bottom:6px}
+.cal2 small{font-size:11px;color:var(--faint);text-align:left;align-self:center}
+.cal2 i{height:42px;border-radius:10px;background:#f6f2f0;font-style:normal;display:grid;place-items:center;font-size:12px}
+.cal2 i.a{background:#fff;border:1px solid #ecc9c2;color:var(--rose)}
+.cal2 i.a:before{content:'可约';font-size:11px}
+.cal2 i.sel{background:var(--rose);color:#fff;box-shadow:0 8px 20px #a65f5844;font-weight:600}
+.leg{display:flex;gap:16px;margin-top:14px;font-size:11px;color:var(--muted)}
+.leg i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:5px}
+.od{border-radius:22px;background:#fffdfb;border:1px solid var(--line);padding:24px;box-shadow:0 18px 50px #a65f5812}
+.od .hand{font-size:17px;color:var(--rose)}
+.od .t{display:flex;gap:14px;align-items:center;margin:14px 0;padding-bottom:16px;border-bottom:1px dashed var(--line-2)}
+.od .t b{font-size:15px;color:#33262f}
+.od .t small{display:block;font-size:11.5px;color:var(--muted)}
+.od .kv{display:flex;flex-direction:column;gap:11px;font-size:12.5px;color:#5c4e57;padding-bottom:16px;border-bottom:1px dashed var(--line-2)}
+.od .kv div{display:flex;justify-content:space-between}
+.od .kv span:first-child{color:var(--muted)}
+.od textarea{width:100%;height:76px;margin-top:14px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font:12px/1.7 var(--sans);color:#5c4e57;resize:none;background:#fff}
+.od .lk{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.od .tot{display:flex;align-items:baseline;justify-content:space-between;margin-top:16px}
+.od .tot b{font:400 30px var(--serif-fr);color:#33262f}
+.od .pay{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}
+.od .pay span{height:40px;border-radius:12px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:6px;font-size:12px;color:#5c4e57}
+.od .pay .on{border-color:#e2bcb5;background:#fcf3f1;color:var(--rose)}
+.od .btn{width:100%;justify-content:center;margin-top:14px;background:var(--rose);color:#fff;height:46px;font-size:13.5px}
+</style>
+<div class="wrap m-tutor"><section>
+<div class="steps"><span class="done"><i><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></i>选择课程</span><em></em><span class="on"><i>2</i>选择时间</span><em></em><span><i>3</i>确认并支付</span></div>
+<h1>选一个上课时间</h1><div class="sub">Camille 每周更新可约时段。选择后会锁定 10 分钟，等你完成支付。</div>
+<div class="tz"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20"/></svg> 北京时间 (UTC+8) · 老师所在地 里昂 (UTC+1)<div class="r"><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg></span><span class="chip line">11 月 19 – 25 日</span><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></span></div></div>
+<div class="cal2"><span></span><b>周四 19</b><b>周五 20</b><b>周六 21</b><b>周日 22</b><b>周一 23</b><b>周二 24</b><b>周三 25</b><small>09:00</small><i class="a"></i><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><small>10:00</small><i class=""></i><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><i class="a"></i><i class=""></i><small>12:00</small><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><small>18:30</small><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><i class="a"></i><small>19:30</small><i class="a"></i><i class=""></i><i class=""></i><i class="a"></i><i class="sel">19:30</i><i class="a"></i><i class=""></i><small>20:30</small><i class="a"></i><i class=""></i><i class="a"></i><i class=""></i><i class="a"></i><i class="a"></i><i class=""></i><small>21:30</small><i class=""></i><i class=""></i><i class="a"></i><i class=""></i><i class=""></i><i class="a"></i><i class="a"></i></div>
+<div class="leg"><span><i style="background:#fff;border:1px solid #ecc9c2"></i>可预约</span><span><i style="background:var(--rose)"></i>已选择</span><span><i style="background:#f6f2f0"></i>已约满 / 休息</span><span style="margin-left:auto"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14M7 22l-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg> 设为每周固定时间</span></div>
+</section>
+<aside><div class="od"><span class="hand">Votre réservation</span>
+<div class="t"><span class="av" style="width:54px;height:54px;background:#ecd8d1;color:#a65f58;font-size:20px">CD</span><div><b>Camille Durand</b><small>DALF C1 口语模拟 · 50 分钟</small></div></div>
+<div class="kv"><div><span>时间</span><span>11 月 23 日 周一 19:30 – 20:20</span></div><div><span>上课方式</span><span>胡桃课堂（浏览器直接进入）</span></div><div><span>取消政策</span><span>开课前 24 小时免费</span></div></div>
+<textarea>想练习 C1 口语「Faut-il tout noter ?」这道题，希望重点纠正连接词和论证结构。</textarea>
+<div class="lk"><span class="chip rose"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m16 6 4 14M12 6v14M8 8v12M4 4v16"/></svg> 附上题库：Faut-il tout noter ?</span><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/><path d="M2 6h4M2 10h4M2 14h4M2 18h4"/><path d="M21.4 5.6a2.1 2.1 0 1 0-3-3l-5 5-1 4 4-1z"/></svg> 分享我的生词本</span></div>
+<div class="tot"><span style="font-size:12px;color:var(--muted)">合计</span><b>¥ 188</b></div>
+<div class="pay"><span class="on"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg> 微信支付</span><span><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg> 支付宝</span></div>
+<a class="btn">确认预约并支付 <svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div></aside>
+</div>
+</body></html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>首页 · 题库与老师</title><link rel="stylesheet" href="noix.css"></head>
+<body class=" ">
+<header class="topnav">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="on">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header>
+<style>
+.wrap{padding:56px 72px 0;display:grid;grid-template-columns:600px 1fr;gap:40px}
+.lv{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.lv .l{border-radius:18px;padding:18px 20px;border:1px solid var(--line);background:#fffdfb;position:relative;overflow:hidden;min-height:166px}
+.lv .l .big{font-family:var(--hand);font-size:40px;line-height:1}
+.lv .l small{display:block;font-size:11.5px;color:var(--muted);margin-top:8px}
+.lv .l.soon{background:repeating-linear-gradient(135deg,#fbf8f4 0 10px,#f6f1ec 10px 20px);color:#b3a7ad}
+.lv .l.soon .chip{position:absolute;right:16px;top:16px}
+.lv .l.live{min-height:292px;color:#fff;border:0}
+.lv .l.live:before{content:'';position:absolute;inset:0;background:var(--img) center/cover;z-index:0}
+.lv .l.live:after{content:'';position:absolute;inset:0;background:var(--veil);z-index:0}
+.lv .l.live>*{position:relative;z-index:1}
+.lv .l.live .fr{font-size:15px;opacity:.95;margin-top:6px}
+.lv .l.live ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:4px 14px;margin-top:16px;font-size:11.5px}
+.lv .l.live ul b{font-family:var(--hand);font-size:14px;margin-left:4px}
+.lv .l.live .go{position:absolute;right:18px;bottom:18px;width:36px;height:36px;border-radius:50%;background:#fff;color:var(--c);display:grid;place-items:center}
+.ts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+.t{border-radius:18px;background:#fffdfb;border:1px solid var(--line);overflow:hidden}
+.t .ph{height:214px;display:grid;place-items:center;position:relative}
+.t .ph .hand{font-size:46px}
+.t .ph i{position:absolute;right:12px;bottom:12px;font-style:normal;font-size:10.5px;background:#ffffffd0;color:#5c4e57;border-radius:20px;padding:3px 9px;display:flex;gap:4px;align-items:center}
+.t .tb{padding:16px 18px}
+.t .nm{display:flex;justify-content:space-between;align-items:center}
+.t .nm b{font-size:15px;font-weight:600;color:#33262f}
+.t .nm span{font-size:12px;color:#8b6c35;display:flex;gap:3px;align-items:center}
+.t small{font-size:11px;color:var(--faint)}
+.t p{font-size:12px;color:#6c5e67;margin:9px 0}
+.t .tg{display:flex;gap:5px}.t blockquote{font:italic 12px/1.8 var(--serif-fr);color:#8b6f7f;margin-top:12px;padding-left:10px;border-left:2px solid var(--line-2)}
+.t .pr{display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line-2);font-size:11px;color:var(--muted)}
+.t .pr b{font-family:var(--serif-fr);font-size:17px;color:#33262f;font-weight:400}
+footer{position:absolute;left:0;right:0;bottom:0;height:138px;background:#3a2c37;color:#d8c9d3;display:flex;align-items:center;padding:0 72px;gap:60px}
+footer .fb{display:flex;align-items:center;gap:12px}
+footer .fb img{width:46px;height:46px;background:#fffaf2;border-radius:50%;padding:3px}
+footer .fb b{font-family:var(--serif-zh);font-size:18px;color:#f3d79a;display:block}
+footer .fb .hand{font-size:13px;color:#bfa9b8}
+footer nav{display:flex;gap:46px;font-size:12px}
+footer nav div{display:flex;flex-direction:column;gap:6px}
+footer nav b{color:#fff;font-weight:500;margin-bottom:2px}
+footer .r{margin-left:auto;text-align:right;font-size:11px;color:#a8949f;line-height:1.9}
+footer .r .hand{font-size:20px;color:#f3cf86;display:block}
+</style>
+<div class="wrap">
+  <section>
+    <div class="sec-title"><span class="hand">Banque d’exercices</span><h2>真题题库</h2><a class="more">全部题库 <svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></a></div>
+    <div class="lv">
+      <div class="l live" style="--img:url(../assets/arc-haze.png);--veil:linear-gradient(160deg,#b57b2ccc,#6d4a1fd9);--c:var(--amber)"><span class="big">DELF B2</span><div class="fr">Le café au pied de l’Arc</div>
+        <ul><li>长听力<b>17</b></li><li>短听力<b>17</b></li><li>阅读<b>34</b></li><li>写作<b>17</b></li><li>口语<b>228</b></li><li>考频表同步</li></ul><span class="go"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span></div>
+      <div class="l live" style="--img:url(../assets/paris-haze.png);--veil:linear-gradient(160deg,#8a6a8fcc,#4a344cd9);--c:var(--plum)"><span class="big">DALF C1</span><div class="fr">Brume sur la Seine</div>
+        <ul><li>长听力<b>20</b></li><li>短听力<b>36</b></li><li>阅读<b>28</b></li><li>写作<b>28</b></li><li>口语<b>140</b></li><li>36 段原声</li></ul><span class="go"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span></div>
+      <div class="l soon"><span class="big">A2</span><small>DELF A2 · 题库整理中</small><span class="chip">即将上线</span></div>
+      <div class="l soon"><span class="big">B1</span><small>DELF B1 · 题库整理中</small><span class="chip">即将上线</span></div>
+    </div>
+  </section>
+  <section>
+    <div class="sec-title"><span class="hand" style="color:var(--rose)">Nos professeurs</span><h2>找一位合适的老师</h2><a class="more">浏览全部老师 <svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></a></div>
+    <div class="ts"><div class="t"><div class="ph" style="background:#e9d6cf;color:#a65f58"><span class="hand">CD</span><i><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="m16 13 5.2 3.5a.5.5 0 0 0 .8-.4V7.9a.5.5 0 0 0-.8-.4L16 11"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg> 1:20</i></div>
+<div class="tb"><div class="nm"><b>Camille Durand</b><span><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg> 4.98</span></div><small>法国 · 里昂 · 1 240 节课</small><p>DELF 阅卷官经历 · 口语冲刺</p><div class="tg"><span class="chip line">口语</span><span class="chip line">B2–C1</span><span class="chip line">考试</span></div><blockquote>“模拟口试后她逐条写反馈，考场上我一点都不慌。”</blockquote>
+<div class="pr"><span><b>¥ 188</b> / 50 分钟</span><a class="btn ghost sm">预约试听</a></div></div></div><div class="t"><div class="ph" style="background:#dfe6dc;color:#5f7759"><span class="hand">王</span><i><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="m16 13 5.2 3.5a.5.5 0 0 0 .8-.4V7.9a.5.5 0 0 0-.8-.4L16 11"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg> 1:20</i></div>
+<div class="tb"><div class="nm"><b>王思敏</b><span><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg> 4.95</span></div><small>中国 · 上海 · 860 节课</small><p>中文讲解语法 · 零基础友好</p><div class="tg"><span class="chip line">语法</span><span class="chip line">A1–B1</span><span class="chip line">中文</span></div><blockquote>“虚拟式终于讲明白了，中文解释特别清楚。”</blockquote>
+<div class="pr"><span><b>¥ 128</b> / 50 分钟</span><a class="btn ghost sm">预约试听</a></div></div></div><div class="t"><div class="ph" style="background:#e2e6f1;color:#566d8e"><span class="hand">LM</span><i><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="m16 13 5.2 3.5a.5.5 0 0 0 .8-.4V7.9a.5.5 0 0 0-.8-.4L16 11"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg> 1:20</i></div>
+<div class="tb"><div class="nm"><b>Léa Martin</b><span><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg> 4.92</span></div><small>法国 · 波尔多 · 530 节课</small><p>新闻精读 · 发音纠正</p><div class="tg"><span class="chip line">发音</span><span class="chip line">阅读</span><span class="chip line">会话</span></div><blockquote>“每节课一篇新闻，读完再讨论，进步很快。”</blockquote>
+<div class="pr"><span><b>¥ 158</b> / 50 分钟</span><a class="btn ghost sm">预约试听</a></div></div></div></div>
+  </section>
+</div>
+<footer>
+  <div class="fb"><img src="../assets/hutao-logo.png" alt=""><div><b>胡桃法语</b><span class="hand">Noix · le français</span></div></div>
+  <nav><div><b>学习</b><span>系统学习</span><span>阅读精听</span></div><div><b>练习</b><span>DELF B2</span><span>DALF C1</span></div><div><b>老师</b><span>找老师</span><span>成为老师</span></div><div><b>账号</b><span>学习备份</span><span>帮助中心</span></div></nav>
+  <div class="r"><span class="hand">Un petit pas chaque jour</span>学习记录、生词本与笔记在四个板块间同步</div>
+</footer>
+</body></html>

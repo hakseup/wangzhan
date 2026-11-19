@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>首页 · 首屏</title><link rel="stylesheet" href="noix.css"></head>
+<body class=" ">
+<header class="topnav clear">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="on">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header>
+<style>
+.hero-bg{position:absolute;inset:0;z-index:-2;background:url(../assets/paris-haze.png) 70% 40%/cover}
+.hero-veil{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#fdf9f6f0 0%,#fbf6f3c4 40%,#f9f1ef30 72%,#f8ece410),linear-gradient(0deg,#fbf6f0f0 0%,#fbf6f000 34%),linear-gradient(180deg,#fffaf588,transparent 20%)}
+.topnav.clear{background:#fffcf855;backdrop-filter:blur(6px)}
+.hero{display:grid;grid-template-columns:1fr 430px;gap:60px;padding:70px 72px 0 96px;height:610px}
+.hero .hand.k{font-size:30px;color:#a0687f;transform:rotate(-3deg);display:inline-block}
+.hero h1{font-family:var(--serif-zh);font-size:54px;line-height:1.38;font-weight:600;color:#332432;letter-spacing:-.5px;margin:20px 0 14px}
+.hero h1 em{font-style:normal;color:#7b5e7d;background:linear-gradient(transparent 68%,#f5dc9a99 68%,#f5dc9a99 92%,transparent 92%)}
+.hero .sub{font:italic 22px/1.4 var(--serif-fr);color:#80627f}
+.hero .desc{font-size:13px;line-height:2;color:#7a6b75;margin:16px 0 30px;max-width:520px}
+.hero .ctas{display:flex;gap:12px}
+.levels{display:flex;align-items:center;gap:0;margin-top:44px;width:520px}
+.levels span{display:flex;flex-direction:column;align-items:center;gap:7px;flex:1;font-family:var(--hand);font-size:15px;color:#9a8792;position:relative}
+.levels span:before{content:'';width:11px;height:11px;border-radius:50%;background:#fff;border:2px solid #d9c9d2;z-index:1}
+.levels span:after{content:'';position:absolute;top:5px;left:50%;width:100%;height:1.5px;background:#dfd2d8}
+.levels span:last-child:after{display:none}
+.levels span.live:before{background:var(--honey);border-color:#fff6e3;box-shadow:0 0 0 4px #f3d79a66}
+.levels span.live.c1:before{background:#8c6a8f;box-shadow:0 0 0 4px #d9c7e077}
+.levels small{font:10px var(--sans);color:#a99aa3}
+.daily{padding:30px 32px 26px;margin-top:40px;border-radius:22px 28px 20px 26px;transform:rotate(.6deg)}
+.daily .top{display:flex;justify-content:space-between;align-items:center;color:#9a8592;font-size:11px}
+.daily .top .hand{font-size:20px;color:#a0687f}
+.daily blockquote{font-family:var(--hand);font-size:27px;line-height:1.5;color:#5f3f58;margin:20px 0 14px}
+.daily p{font-size:13px;line-height:1.9;color:#6e5f69}
+.daily .src{font-size:11px;color:#a59aa0;margin-top:14px;display:flex;align-items:center;gap:8px}
+.daily .acts{display:flex;gap:8px;margin-top:18px}
+.mini-mods{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:18px}
+.mini-mods a{padding:13px 12px;border-radius:14px;background:#fffbf6b0;border:1px solid #fffffff0;backdrop-filter:blur(10px);font-size:11.5px;color:#5b4b57;display:flex;flex-direction:column;gap:8px}
+.mini-mods a svg{color:var(--c)}
+.stats{position:absolute;left:96px;right:72px;bottom:44px;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #e3d6d6;padding-top:22px}
+.stats div{display:flex;align-items:baseline;gap:10px}
+.stats b{font-family:var(--hand);font-size:32px;color:#6d5270}
+.stats span{font-size:11.5px;color:#8b7b84}
+.star{position:absolute;top:120px;left:700px;color:#f2cf6c;filter:drop-shadow(0 0 10px #fff2c7)}
+</style>
+<div class="hero-bg"></div><div class="hero-veil"></div>
+<svg class="star" width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2v6M12 16v6M2 12h6M16 12h6M5 5l4 4M15 15l4 4M5 19l4-4M15 9l4-4"/></svg>
+<section class="hero">
+  <div>
+    <span class="hand k">Bienvenue chez Noix</span>
+    <h1>把法语，<em>一步一步</em><br>学成自己的语言</h1>
+    <div class="sub">Un petit pas chaque jour — de A1 jusqu’au C1.</div>
+    <p class="desc">系统讲解语法与主题词汇，每天推送地道法语新闻与原声音频，DELF / DALF 真题题库随时刷题，还可以预约母语老师一对一练口语。</p>
+    <div class="ctas"><a class="btn dark">开始系统学习 <svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><a class="btn ghost"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="m16 6 4 14M12 6v14M8 8v12M4 4v16"/></svg> 进入题库练习</a></div>
+    <div class="levels">
+      <span>A1<small>入门</small></span><span>A2<small>即将上线</small></span><span>B1<small>即将上线</small></span>
+      <span class="live">B2<small>313 组真题</small></span><span class="live c1">C1<small>252 组真题</small></span>
+    </div>
+  </div>
+  <div>
+    <div class="glass daily">
+      <div class="top"><span class="hand">La phrase du jour</span><span>11 月 19 日 · 周四</span></div>
+      <blockquote>« Le lien affectif est le premier levier pour la réussite scolaire. »</blockquote>
+      <p>情感纽带是促进学业成功的首要因素。</p>
+      <div class="src"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg>摘自 C1 阅读 · Enseignants : le droit d’aimer</div>
+      <div class="acts"><span class="chip line"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg> 朗读</span><span class="chip line"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg> 收藏</span><span class="chip line"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/><path d="M2 6h4M2 10h4M2 14h4M2 18h4"/><path d="M21.4 5.6a2.1 2.1 0 1 0-3-3l-5 5-1 4 4-1z"/></svg> 加入生词</span></div>
+    </div>
+    <div class="mini-mods">
+      <a style="--c:var(--sage)"><svg class="i" style="width:17px;height:17px;" viewBox="0 0 24 24"><path d="M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M9 7h7M9 11h5"/></svg>系统学习</a>
+      <a style="--c:var(--blue)"><svg class="i" style="width:17px;height:17px;" viewBox="0 0 24 24"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>阅读精听</a>
+      <a style="--c:var(--plum)"><svg class="i" style="width:17px;height:17px;" viewBox="0 0 24 24"><path d="m16 6 4 14M12 6v14M8 8v12M4 4v16"/></svg>题库练习</a>
+      <a style="--c:var(--rose)"><svg class="i" style="width:17px;height:17px;" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg>找老师</a>
+    </div>
+  </div>
+</section>
+<div class="stats">
+  <div><b>565</b><span>组 DELF / DALF 真题练习</span></div>
+  <div><b>49</b><span>段考试原声录音</span></div>
+  <div><b>12</b><span>个主题词汇单元</span></div>
+  <div><b>4</b><span>个学习板块，一个账号同步</span></div>
+</div>
+
+</body></html>

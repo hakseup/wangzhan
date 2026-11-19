@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>找老师 · 浏览老师</title><link rel="stylesheet" href="noix.css"></head>
+<body class="m-tutor ">
+<header class="topnav">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="on">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header>
+<style>.av{border-radius:50%;display:grid;place-items:center;font-family:var(--hand);flex-shrink:0;position:relative}.av.on:after{content:"";position:absolute;right:2px;bottom:2px;width:12px;height:12px;border-radius:50%;background:#8fb27c;border:2px solid #fff}
+.wrap{padding:28px 72px 0}
+.head{display:flex;align-items:flex-end;margin-bottom:18px}
+.head .hand{font-size:26px;color:var(--rose)}
+.head h1{font-family:var(--serif-zh);font-size:30px;font-weight:600;color:#33262f;margin-top:2px}
+.head p{font-size:12.5px;color:var(--muted);margin-top:6px}
+.head .r{margin-left:auto;display:flex;gap:10px}
+.fb{display:flex;gap:10px;align-items:center;padding:12px 14px;border-radius:16px;background:#fffdfb;border:1px solid var(--line);margin-bottom:16px}
+.fb .f{display:flex;flex-direction:column;gap:2px;padding:4px 14px;border-right:1px solid var(--line)}
+.fb .f small{font-size:10px;color:var(--faint)}
+.fb .f span{font-size:12.5px;color:var(--ink);display:flex;gap:6px;align-items:center}
+.fb .chips{display:flex;gap:6px;margin-left:6px}
+.fb .searchpill{margin-left:auto;background:#fff}
+.cnt{display:flex;font-size:12px;color:var(--muted);margin-bottom:10px}
+.cnt span:last-child{margin-left:auto}
+.row{display:grid;grid-template-columns:1fr 330px;gap:16px;margin-bottom:14px}
+.row .l{display:flex;gap:20px;padding:20px 22px;border-radius:18px;background:#fffdfb;border:1px solid var(--line)}
+.row .info{flex:1}
+.row .nm{display:flex;gap:10px;align-items:center}
+.row .nm b{font-size:17px;font-weight:600;color:#33262f}
+.row small{font-size:11.5px;color:var(--faint)}
+.row .tg{display:flex;gap:6px;margin:10px 0}
+.row p{font-size:12.5px;line-height:1.85;color:#5c4e57}
+.row .pr{width:170px;display:flex;flex-direction:column;gap:8px;border-left:1px dashed var(--line-2);padding-left:20px}
+.row .rt{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.row .rt b{font-size:15px;color:#33262f}
+.row .rt small{width:100%}
+.row .price b{font:400 22px var(--serif-fr);color:#33262f}
+.row .price small{display:block}
+.row .btn{justify-content:center}
+.vd{border-radius:18px;background-size:300%;position:relative;overflow:hidden}
+.vd:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#2d2228cc,transparent 60%)}
+.vd .pl{position:absolute;left:50%;top:38%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:#ffffffe0;color:var(--rose);display:grid;place-items:center;z-index:1}
+.vd .slots{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;color:#fff}
+.vd .slots small{font-size:10.5px;color:#f1e4e6}
+.vd .slots div{display:grid;grid-template-columns:repeat(14,1fr);gap:3px;margin-top:6px}
+.vd .slots i{height:14px;border-radius:3px;background:#ffffff33}.vd .slots i.a{background:#f0c9c2}.vd .slots i.b{background:#fff}
+</style>
+<div class="wrap m-tutor">
+<div class="head"><div><span class="hand">Trouver un prof</span><h1>找老师</h1><p>先看 1 分钟视频，再约一节 25 分钟试听课。课后笔记和生词会同步到你的学习记录。</p></div>
+<div class="r"><a class="btn ghost sm"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> 我的课程</a><a class="btn ghost sm"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg> 成为老师</a></div></div>
+<div class="fb"><div class="f"><small>我想学</small><span>DELF / DALF 备考 <svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span></div><div class="f"><small>授课语言</small><span>法语 · 中文 <svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span></div><div class="f"><small>价格 / 50 分钟</small><span>¥ 80 – 250 <svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span></div><div class="f"><small>可上课时间</small><span>工作日晚上 <svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span></div>
+<div class="chips"><span class="chip rose">母语老师</span><span class="chip line">考官经历</span><span class="chip line">口语</span></div><div class="searchpill" style="width:200px"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>老师姓名或关键词</div></div>
+<div class="cnt"><span>找到 48 位老师</span><span>排序：综合推荐 <svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></span></div>
+<div class="row"><div class="l"><span class="av on" style="width:84px;height:84px;background:#ecd8d1;color:#a65f58;font-size:30px">CD</span>
+<div class="info"><div class="nm"><b>Camille Durand</b><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg> 已认证</span></div><small>法国 · 里昂 · 母语：法语 · 也会说：英语、中文 B1</small><div class="tg"><span class="chip rose">DELF 认证考官</span><span class="chip line">口语</span><span class="chip line">考试冲刺</span><span class="chip line">B2–C1</span></div><p>曾任 DELF/DALF 口试考官 6 年。擅长 B2–C1 口语陈述与辩论，课上用真题模拟，课后给出逐项评分表。</p></div>
+<div class="pr"><div class="rt"><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><b>4.98</b><small>326 位学员 · 1 240 节课</small></div><div class="price"><b>¥ 188</b><small>50 分钟 · 试听 ¥ 39</small></div><a class="btn dark sm" style="background:var(--rose)">预约试听</a><a class="btn ghost sm"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 发消息</a></div></div>
+<div class="vd" style="background-image:url(../assets/paris-haze.png);background-position:20% 30%"><span class="pl"><svg class="i" style="width:16px;height:16px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></span><div class="slots"><small>本周可约</small><div><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><i class="b"></i><i class="a"></i><i class=""></i><i class=""></i><i class="a"></i><i class="a"></i><i class="a"></i><i class=""></i><i class="b"></i><i class="a"></i></div></div></div></div><div class="row"><div class="l"><span class="av on" style="width:84px;height:84px;background:#dfe7da;color:#5f7759;font-size:30px">王</span>
+<div class="info"><div class="nm"><b>王思敏</b><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg> 已认证</span></div><small>中国 · 上海 · 母语：中文 · 法语 C2 · 巴黎索邦大学硕士</small><div class="tg"><span class="chip rose">中文授课</span><span class="chip line">语法</span><span class="chip line">零基础</span><span class="chip line">A1–B1</span></div><p>用中文把语法讲透：时态、虚拟式、关系代词一张图理清。零基础到 B1 的学员最多，配合「系统学习」进度上课。</p></div>
+<div class="pr"><div class="rt"><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><b>4.95</b><small>214 位学员 · 860 节课</small></div><div class="price"><b>¥ 128</b><small>50 分钟 · 试听 ¥ 39</small></div><a class="btn dark sm" style="background:var(--rose)">预约试听</a><a class="btn ghost sm"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 发消息</a></div></div>
+<div class="vd" style="background-image:url(../assets/arc-haze.png);background-position:80% 70%"><span class="pl"><svg class="i" style="width:16px;height:16px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></span><div class="slots"><small>本周可约</small><div><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><i class="b"></i><i class="a"></i><i class=""></i><i class=""></i><i class="a"></i><i class="a"></i><i class="a"></i><i class=""></i><i class="b"></i><i class="a"></i></div></div></div></div><div class="row"><div class="l"><span class="av on" style="width:84px;height:84px;background:#e2e7f1;color:#566d8e;font-size:30px">LM</span>
+<div class="info"><div class="nm"><b>Léa Martin</b><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg> 已认证</span></div><small>法国 · 波尔多 · 母语：法语 · 也会说：英语</small><div class="tg"><span class="chip rose">新闻精读</span><span class="chip line">发音纠正</span><span class="chip line">会话</span><span class="chip line">B1–C1</span></div><p>每节课一篇法国新闻：先精读，再讨论，最后纠音。适合想把「阅读精听」里的内容说出来的同学。</p></div>
+<div class="pr"><div class="rt"><svg class="i" style="width:12px;height:12px;fill:#e5b04a;stroke:#e5b04a" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></svg><b>4.92</b><small>148 位学员 · 530 节课</small></div><div class="price"><b>¥ 158</b><small>50 分钟 · 试听 ¥ 39</small></div><a class="btn dark sm" style="background:var(--rose)">预约试听</a><a class="btn ghost sm"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 发消息</a></div></div>
+<div class="vd" style="background-image:url(../assets/arc-haze.png);background-position:50% 40%"><span class="pl"><svg class="i" style="width:16px;height:16px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></span><div class="slots"><small>本周可约</small><div><i class="a"></i><i class="a"></i><i class=""></i><i class="a"></i><i class="b"></i><i class="a"></i><i class=""></i><i class=""></i><i class="a"></i><i class="a"></i><i class="a"></i><i class=""></i><i class="b"></i><i class="a"></i></div></div></div></div>
+</div>
+</body></html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>系统学习 · 语法课</title><link rel="stylesheet" href="noix.css"></head>
+<body class="m-learn ">
+<header class="topnav">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="">首页<i>Accueil</i></a><a class="on">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header><div class="shell">
+<style>
+.ol{width:256px;flex-shrink:0;border-right:1px solid var(--line);padding:26px 22px;background:#fffdfbcc}
+.ol .back{font-size:11.5px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.ol .unit{margin:18px 0 18px;padding:16px;border-radius:14px;background:var(--sage-soft)}
+.ol .unit .hand{font-size:15px;color:var(--sage)}
+.ol .unit b{display:block;font-family:var(--serif-zh);font-size:18px;color:#33402f;margin:4px 0 10px}
+.ol .unit small{font-size:11px;color:#6a7466}
+.ol a{display:flex;align-items:center;gap:10px;padding:10px 10px;border-radius:9px;font-size:12.5px;color:#7a7076}
+.ol a svg{color:var(--sage)}
+.ol a i.o{width:14px;height:14px;border-radius:50%;border:1.5px solid #d5dccf}
+.ol a.on{background:#fff;border:1px solid #d6e0cf;color:#33402f;box-shadow:0 4px 14px #5f77590f}
+.les{flex:1;padding:30px 54px 0;overflow:hidden;display:grid;grid-template-columns:1fr 290px;gap:44px}
+.les .k{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+.les h1{font:400 38px/1.25 var(--serif-fr);color:#2f2630}
+.les .zh{font-family:var(--serif-zh);font-size:18px;color:#5f6e5a;margin:6px 0 18px}
+.les .lead{font-size:14px;line-height:2;color:#4c4049;padding:16px 20px;border-left:3px solid var(--sage);background:#f6f8f3;border-radius:0 12px 12px 0}
+.les h2{display:flex;align-items:center;gap:10px;font-family:var(--serif-zh);font-size:19px;font-weight:600;color:#33262f;margin:24px 0 12px}
+.les h2 span{font-family:var(--hand);font-size:16px;color:var(--sage)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font-weight:500;font-size:11px;color:var(--faint);padding:8px 14px;border-bottom:1px solid var(--line)}
+td{padding:11px 14px;border-bottom:1px solid #f1ebe9;color:#4c4049}
+td.fr{font-family:var(--serif-fr);font-size:15px;color:#2f2630}
+td.fr b{color:var(--sage)}
+.exs{display:flex;flex-direction:column;gap:10px}
+.ex{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:#fffdfb}
+.ex .pl{width:30px;height:30px;border-radius:50%;background:var(--sage-soft);color:var(--sage);display:grid;place-items:center;flex-shrink:0}
+.ex p{font:16px/1.6 var(--serif-fr);color:#2f2630}
+.ex p b{color:var(--sage);border-bottom:2px solid #c6d6bd}
+.ex small{display:block;font-size:12px;color:var(--muted);margin-top:3px}
+.side{display:flex;flex-direction:column;gap:14px}
+.side .card{padding:18px 20px}
+.side .hand{font-size:16px;color:var(--sage)}
+.side ul{list-style:none;margin-top:10px;display:flex;flex-direction:column;gap:9px;font-size:12.5px;color:#4c4049;line-height:1.7}
+.side li{display:flex;gap:8px}
+.side li:before{content:'';width:6px;height:6px;border-radius:50%;background:var(--sage);margin-top:8px;flex-shrink:0}
+.go{background:var(--sage)!important;color:#fff;border:0!important}
+.go .hand{color:#e7f0df!important}
+.go b{display:block;font-family:var(--serif-zh);font-size:19px;margin:6px 0 4px}
+.go small{font-size:11.5px;color:#dfe8d9}
+.go .btn{background:#fff;color:var(--sage);margin-top:14px;width:100%;justify-content:center}
+.warn{background:#fbf3e6!important;border-color:#f0e0bf!important}
+.warn .hand{color:var(--amber)!important}
+.warn p{font-size:12.5px;line-height:1.8;color:#6b5733;margin-top:8px}
+.warn p s{color:#b46a5f}
+</style>
+<aside class="ol"><a class="back" style="padding:0"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></svg> 返回 B2 语法路线</a>
+<div class="unit"><span class="hand">Unité 02</span><b>虚拟式</b><small>8 课 · 已完成 4 课</small><div class="bar" style="margin-top:10px;background:#fff"><span style="width:55%;background:var(--sage)"></span></div></div><a class=""><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span>1. 什么时候用虚拟式</span></a><a class=""><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span>2. 规则变位</span></a><a class=""><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span>3. 不规则动词</span></a><a class=""><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span>4. 意愿与情感</span></a><a class="on"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg><span>5. 让步：bien que, quoique</span></a><a class=""><i class=o></i><span>6. 目的：pour que, afin que</span></a><a class=""><i class=o></i><span>7. 虚拟式 vs. 直陈式</span></a><a class=""><i class=o></i><span>8. 单元测验</span></a></aside>
+<article class="les"><div>
+  <div class="k"><span class="chip sage">B2 · 第 5 课</span><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> 约 15 分钟</span><span class="chip line"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg> 例句均有真人朗读</span></div>
+  <h1>Le subjonctif après « bien que »</h1>
+  <div class="zh">让步从句：尽管……，虽然……</div>
+  <p class="lead"><b>bien que</b>、<b>quoique</b>、<b>encore que</b> 引导的让步从句，动词一律用<b>虚拟式</b>。说话人承认一个事实，但认为它并不妨碍主句的结果。</p>
+  <h2><span>1</span>常见让步连词</h2>
+  <table><tr><th>连接词</th><th>语域</th><th>例句</th></tr>
+  <tr><td class="fr"><b>bien que</b></td><td>通用</td><td class="fr">Bien qu’il <b>pleuve</b>, nous sortons.</td></tr>
+  <tr><td class="fr"><b>quoique</b></td><td>书面</td><td class="fr">Quoiqu’elle <b>soit</b> jeune, elle dirige l’équipe.</td></tr>
+  <tr><td class="fr"><b>encore que</b></td><td>正式 · 补充保留</td><td class="fr">C’est utile, encore que ce <b>soit</b> coûteux.</td></tr></table>
+  <h2><span>2</span>听一听，跟读</h2>
+  <div class="exs">
+    <div class="ex"><span class="pl"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></span><div><p>Bien que les terrasses <b>soient</b> pleines, le service reste rapide.</p><small>尽管露天座坐满了，上菜依然很快。</small></div></div>
+    <div class="ex"><span class="pl"><svg class="i" style="width:11px;height:11px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></span><div><p>Quoiqu’il <b>ait</b> beaucoup révisé, il redoute l’épreuve orale.</p><small>虽然他复习了很多，仍然害怕口试。（过去虚拟式）</small></div></div>
+  </div>
+</div>
+<aside class="side">
+  <div class="card"><span class="hand">À retenir</span><ul><li>bien que / quoique + 虚拟式</li><li>主从句主语相同时，可以省略为 bien que + 形容词：<i>bien que fatiguée</i></li><li>动作已完成用过去虚拟式 avoir / être + 过去分词</li></ul></div>
+  <div class="card warn"><span class="hand">Erreur fréquente</span><p><s>Bien qu’il est tard</s><br>→ Bien qu’il <b>soit</b> tard<br>考试写作中最常被扣分的语法错误之一。</p></div>
+  <div class="card go"><span class="hand">Exercices</span><b>配套练习 · 10 题</b><small>填空 · 选择 · 句型转换 · 约 8 分钟</small><a class="btn">开始练习 <svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
+  <div class="card" style="display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted)"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/><path d="M2 6h4M2 10h4M2 14h4M2 18h4"/><path d="M21.4 5.6a2.1 2.1 0 1 0-3-3l-5 5-1 4 4-1z"/></svg> 我的笔记 2 条 <span style="margin-left:auto"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></span></div>
+</aside></article></div>
+</body></html>

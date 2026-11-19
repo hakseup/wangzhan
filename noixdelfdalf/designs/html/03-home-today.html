@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>首页 · 今日学习</title><link rel="stylesheet" href="noix.css"></head>
+<body class=" ">
+<header class="topnav">
+  <a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <nav class="nav-links"><a class="on">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire &amp; écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="">找老师<i>Professeurs</i></a></nav>
+  <div class="nav-tools">
+    <div class="searchpill"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<kbd>⌘K</kbd></div>
+    <span class="iconbtn"><svg class="i" style="width:15px;height:15px;" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></span>
+    <span class="avatar">H</span>
+  </div>
+</header>
+<style>
+.wrap{padding:40px 72px 44px;height:828px;display:grid;grid-template-columns:1.25fr 1fr 360px;grid-template-rows:auto 1fr 1fr;gap:22px}
+.news{display:flex;flex-direction:column}.news .b{flex:1;display:flex;flex-direction:column}.news .player{margin-top:auto}
+.wrap>.sec-title{grid-column:1/-1;margin-bottom:-4px}
+.news{grid-row:span 2;border-radius:20px;overflow:hidden;background:#fffdfb;border:1px solid var(--line)}
+.news .pic{height:300px;background:url(../assets/arc-haze.png) 40% 60%/cover;position:relative}
+.news .pic .chip{position:absolute;top:18px;left:18px;background:#fffbf3e6}
+.news .pic .lvl{position:absolute;top:18px;right:18px;font-family:var(--hand);font-size:18px;color:#fff;background:#56473a99;padding:2px 12px;border-radius:20px}
+.news .b{padding:22px 26px}
+.news h3{font-family:var(--serif-fr);font-size:26px;line-height:1.3;color:#2f2630;font-weight:400}
+.news .zh{font-size:13px;color:var(--muted);margin:8px 0 14px}
+.news .ex{font-size:13.5px;line-height:1.9;color:#4c4049;font-family:var(--serif-fr)}
+.news .ex u{text-decoration:none;border-bottom:2px solid #9bb1d0}
+.player{display:flex;align-items:center;gap:14px;margin-top:18px;padding:12px 14px;border-radius:14px;background:var(--blue-soft)}
+.player .pb{width:40px;height:40px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center}
+.wave{display:flex;align-items:center;gap:3px;flex:1}.wave i{width:3px;border-radius:3px;background:#a9b9d2}.wave i:nth-child(-n+13){background:var(--blue)}
+.player small{font-size:11px;color:var(--blue)}
+.tile{padding:22px 24px;border-radius:20px;background:#fffdfb;border:1px solid var(--line);position:relative}
+.tile .k{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted)}
+.tile .k .hand{font-size:19px}
+.gram{background:linear-gradient(140deg,#eef3ea,#fbfaf6)}
+.gram h4{font-family:var(--serif-fr);font-style:italic;font-size:24px;color:#3e4d3a;margin:14px 0 6px;font-weight:400}
+.gram p{font-size:12.5px;color:#6a7466;line-height:1.85}
+.gram .ex{margin-top:12px;padding:12px 14px;border-radius:12px;background:#ffffffb8;font-family:var(--serif-fr);font-size:14px;color:#3e4d3a;line-height:1.7}
+.gram .ex b{color:var(--sage)}
+.word h4{font-family:var(--hand);font-size:34px;color:#5f3f58;margin:12px 0 2px}
+.word .ph{font-size:12px;color:var(--faint)}
+.word p{font-size:12.5px;line-height:1.85;color:#6e5f69;margin-top:8px}
+.word .fr-ex{font:italic 13px/1.7 var(--serif-fr);color:#7b6276;margin-top:8px}
+.me{grid-row:span 2;display:flex;flex-direction:column;gap:18px}.me .cont{flex:1}
+.streak{padding:24px;border-radius:20px;background:linear-gradient(150deg,#3e2f3c,#5a4357);color:#fff}
+.streak .hand{font-size:18px;color:#f3cf86}
+.streak .n{display:flex;align-items:baseline;gap:8px;margin:10px 0 16px}
+.streak .n b{font-family:var(--hand);font-size:52px;line-height:1}
+.streak .n span{font-size:12px;color:#d8c8d4}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;text-align:center;font-size:10px;color:#cbb9c6}
+.days i{display:block;height:28px;border-radius:8px;background:#ffffff1c;margin-top:5px}
+.days i.on{background:#f3cf86}
+.goal{display:flex;gap:18px;align-items:center}
+.ring{width:84px;height:84px;border-radius:50%;background:conic-gradient(var(--plum) 0 68%,#efe8f0 68%);display:grid;place-items:center}
+.ring b{width:66px;height:66px;border-radius:50%;background:#fffdfb;display:grid;place-items:center;font-family:var(--hand);font-size:20px;color:var(--plum)}
+.goal ul{list-style:none;font-size:12px;color:#6c5e67;display:flex;flex-direction:column;gap:7px}
+.goal li{display:flex;align-items:center;gap:8px}
+.cont .t{font-family:var(--serif-fr);font-size:17px;color:#33262f;margin:10px 0 4px}
+.gram .quiz{margin-top:14px;padding-top:14px;border-top:1px dashed #cfdac9}.gram .quiz small,.word .rel small,.news .vocab small{font-size:10.5px;color:var(--faint);display:block;margin-bottom:8px}.gram .quiz p{font:14px/1.7 var(--serif-fr);color:#3e4d3a}.gram .opts{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px}.gram .opts span{display:flex;justify-content:center;align-items:center;gap:4px;height:32px;border-radius:10px;background:#fff;border:1px solid #dfe6da;font:13px var(--serif-fr);color:#55604f}.gram .opts .ok{background:#e1ebdb;border-color:#b7c9ad;color:var(--sage)}.word .rel{margin-top:16px}.word .rel div,.word .acts{display:flex;gap:6px;flex-wrap:wrap}.word .acts{margin-top:14px}.news .vocab{display:flex;gap:6px;align-items:center;margin:14px 0}.news .vocab small{margin:0 6px 0 0}.recent{list-style:none;margin-top:16px;border-top:1px dashed var(--line-2);padding-top:10px}.recent li{display:flex;align-items:center;gap:9px;font-size:11.5px;color:#5f515a;padding:6px 0}.recent small{margin-left:auto;font-size:10.5px;color:var(--faint)}
+.cont small{font-size:11px;color:var(--muted)}
+.cont .bar{margin:12px 0 4px}
+</style>
+<div class="wrap">
+  <div class="sec-title"><span class="hand">Aujourd’hui</span><h2>今日学习</h2><span style="font-size:12px;color:var(--muted)">每天 20 分钟：一则新闻、一个语法点、一个词</span><a class="more">学习计划设置 <svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></svg></a></div>
+  <article class="news">
+    <div class="pic"><span class="chip blue"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg> 今日新闻 · 城市</span><span class="lvl">B1</span></div>
+    <div class="b">
+      <h3>À Paris, les cafés s’installent sur les trottoirs pour l’hiver</h3>
+      <div class="zh">巴黎咖啡馆的露天座位，今年冬天也不收起来了</div>
+      <p class="ex">Les terrasses éphémères, nées pendant la crise sanitaire, sont désormais <u>pérennisées</u>. Les riverains, eux, s’inquiètent du bruit…</p>
+      <div class="vocab"><small>本篇生词 6</small><span class="chip blue">pérenniser</span><span class="chip blue">éphémère</span><span class="chip blue">le riverain</span><span class="chip line">+3</span></div>
+      <div class="player"><span class="pb"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><path d="M7 4v16l13-8z" fill="currentColor"/></svg></span><div class="wave"><i style="height:8px"></i><i style="height:14px"></i><i style="height:22px"></i><i style="height:12px"></i><i style="height:26px"></i><i style="height:18px"></i><i style="height:30px"></i><i style="height:16px"></i><i style="height:10px"></i><i style="height:22px"></i><i style="height:28px"></i><i style="height:14px"></i><i style="height:20px"></i><i style="height:9px"></i><i style="height:24px"></i><i style="height:30px"></i><i style="height:18px"></i><i style="height:12px"></i><i style="height:26px"></i><i style="height:16px"></i><i style="height:8px"></i><i style="height:20px"></i><i style="height:28px"></i><i style="height:12px"></i><i style="height:18px"></i><i style="height:24px"></i><i style="height:10px"></i><i style="height:16px"></i><i style="height:22px"></i><i style="height:14px"></i><i style="height:26px"></i><i style="height:12px"></i><i style="height:8px"></i><i style="height:18px"></i><i style="height:24px"></i><i style="height:16px"></i></div><small>01:12 / 03:40</small></div>
+    </div>
+  </article>
+  <div class="tile gram">
+    <div class="k"><span class="hand" style="color:var(--sage)">Point de grammaire</span><span class="chip sage">B2 · 语法</span></div>
+    <h4>bien que + subjonctif</h4>
+    <p>表示让步“尽管……”。从句动词必须用虚拟式，主从句主语可以不同。</p>
+    <div class="ex">Bien qu’il <b>fasse</b> froid, les terrasses restent pleines.</div>
+    <div class="quiz"><small>配套练习 · 1 / 5</small><p>Bien qu’elle ______ fatiguée, elle continue de réviser.</p>
+      <div class="opts"><span>est</span><span class="ok">soit <svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span><span>sera</span><span>était</span></div></div>
+  </div>
+  <div class="me">
+    <div class="streak"><span class="hand">Série en cours</span>
+      <div class="n"><b>12</b><span>天连续打卡 · 最长 31 天</span></div>
+      <div class="days"><span>一<i class="on"></i></span><span>二<i class="on"></i></span><span>三<i class="on"></i></span><span>四<i class="on"></i></span><span>五<i></i></span><span>六<i></i></span><span>日<i></i></span></div>
+    </div>
+    <div class="tile goal"><div class="ring"><b>68%</b></div><ul>
+      <li style="color:var(--sage)"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span style="color:#6c5e67">语法课 1 / 1</span></li>
+      <li style="color:var(--blue)"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg><span style="color:#6c5e67">精听 3:40 / 10 分钟</span></li>
+      <li style="color:var(--faint)"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg><span>刷题 0 / 1 组</span></li>
+      <li style="color:var(--faint)"><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14M7 22l-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg><span>复习生词 6 / 20</span></li></ul></div>
+    <div class="tile cont"><div class="k"><span class="hand" style="color:var(--plum)">Reprendre</span><span class="chip plum">C1 阅读</span></div>
+      <div class="t">Enseignants : le droit d’aimer</div><small>教师也有表达关爱的权利 · 上次停在第 3 题</small>
+      <div class="bar"><span style="width:38%;background:var(--plum)"></span></div>
+      <a class="btn dark sm" style="margin-top:12px">继续作答 <svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+      <ul class="recent"><li><span class="dot" style="background:var(--amber)"></span>B2 短听力 · Le retour du troc ?<small>8 / 10</small></li><li><span class="dot" style="background:var(--sage)"></span>语法 · 关系代词 dont<small>已完成</small></li><li><span class="dot" style="background:var(--blue)"></span>精听 · 晨间新闻快讯<small>听写中</small></li></ul></div>
+  </div>
+  <div class="tile word">
+    <div class="k"><span class="hand" style="color:#a0687f">Le mot du jour</span><span class="chip rose">主题 · 城市生活</span></div>
+    <h4>la flânerie</h4><div class="ph">[flɑnʁi] n.f.</div>
+    <p>闲逛、漫步；带着好奇心在城市里无目的地散步。</p>
+    <div class="fr-ex">« Paris se découvre par la flânerie. »</div>
+    <div class="rel"><small>同主题词汇</small><div><span class="chip line">le trottoir 人行道</span><span class="chip line">la terrasse 露天座</span><span class="chip line">le riverain 沿街居民</span></div></div>
+    <div class="acts"><span class="chip rose"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg> 加入生词本</span><span class="chip line"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg> 发音</span><span class="chip line"><svg class="i" style="width:12px;height:12px;" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg> 进入「城市生活」词汇单元</span></div>
+  </div>
+</div>
+</body></html>
