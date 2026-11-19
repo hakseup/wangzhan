@@ -35,3 +35,9 @@ test('oral theme corrections and new source material are complete without placeh
  }
  assert.equal(bank.exercises.filter(e=>e.audio).length,36);
 });
+
+test('completed source upgrades retain French personal names, place names and book titles',()=>{
+ const text=bank.exercises.filter(e=>report.upgradedExerciseIds.includes(e.id)).flatMap(e=>e.paragraphs.map(p=>p.zh)).join(' ');
+ for(const name of ['Eric Delvaux','Valère Corréard','Marie-Lise Bertrand','Catherine Boullay','Eric Scherer','Joël de Rosnay','Etienne Klein','Cyril Dion','Paris','Porte de Vanves','La symphonie du vivant','A-t-on encore besoin des journalistes'])assert.ok(text.includes(name),name);
+ assert.doesNotMatch(text,/埃里克·|瓦莱尔·|玛丽-莉丝·|若埃尔·|艾蒂安·|西里尔·|旺沃门|《生命的交响曲》/);
+});
