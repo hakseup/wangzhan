@@ -12,6 +12,8 @@ test('the import preserves existing material and identifiers outside the three e
   const e=bank.exercises.find(e=>e.id===id);assert.ok(e,id);
   if(report.upgradedExerciseIds.includes(id))continue;
   const value=Object.fromEntries(Object.entries(e).filter(([k])=>!['topic','sourceFiles'].includes(k)));
+  const edit=read('data/audits/2026-11-24-oral-coverage.json').corrections.find(x=>x.id===id);
+  if(edit){value.title=edit.before.title;value.titleZh=edit.before.titleZh;if(edit.before.searchAliases)value.searchAliases=edit.before.searchAliases;else delete value.searchAliases;}
   assert.equal(createHash('sha256').update(JSON.stringify(stable(value))).digest('hex'),digest,id);
  }
 });

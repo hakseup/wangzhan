@@ -1,0 +1,2339 @@
+{
+  "date": "2026-11-24",
+  "scope": "核对用户提供的五份主题PDF与现有140组口语；目录、法语正文及同名不同材料分别核对。",
+  "websiteBaseCommit": "6fffcd0f4a7a5e8ad68617f88bc688a8166be78f",
+  "githubBaseHead": "8881b8d1c95afa009e1281f139dcb7edfc59822b",
+  "sourceFiles": [
+    {
+      "file": "工作主题.pdf",
+      "pages": 62,
+      "topics": 15,
+      "tocPages": 2
+    },
+    {
+      "file": "教育主题.pdf",
+      "pages": 78,
+      "topics": 19,
+      "tocPages": 2
+    },
+    {
+      "file": "社会生活主题.pdf",
+      "pages": 160,
+      "topics": 39,
+      "tocPages": 4
+    },
+    {
+      "file": "环境主题.pdf",
+      "pages": 131,
+      "topics": 32,
+      "tocPages": 3
+    },
+    {
+      "file": "科技主题.pdf",
+      "pages": 140,
+      "topics": 34,
+      "tocPages": 3
+    }
+  ],
+  "sourcePages": 571,
+  "pdfTopicOccurrences": 139,
+  "uniqueMatchedExercises": 138,
+  "websiteSpeakingCount": 140,
+  "missingExercises": [],
+  "newExercisesAdded": 0,
+  "duplicateMatches": {
+    "speaking-supp-20-4": 2
+  },
+  "websiteAdditionalExercises": [
+    {
+      "id": "speaking-1-11",
+      "title": "Accro aux séries télé, est-ce grave ?"
+    },
+    {
+      "id": "speaking-1-9",
+      "title": "Quelle place aujourd’hui pour les grands-parents ?"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "speaking-1-24",
+      "before": {
+        "title": "Mixité et orientation professionnelle",
+        "titleZh": "我们应该缩短工作时间吗？",
+        "topic": "工作与经济",
+        "searchAliases": null
+      },
+      "after": {
+        "title": "Faut-il réduire notre temps de travail ?",
+        "titleZh": "我们应该缩短工作时间吗？",
+        "topic": "工作与经济",
+        "searchAliases": null
+      },
+      "reason": "纠正错配的法语题名；错误题名属于另一组性别与职业题，不保留为本题搜索词。"
+    },
+    {
+      "id": "speaking-1-12",
+      "before": {
+        "title": "La vie sans télévision, est-ce possible ?",
+        "titleZh": "没有电视的生活，可能吗？",
+        "topic": "语言与文化",
+        "searchAliases": null
+      },
+      "after": {
+        "title": "Les écrans auraient-ils seulement des inconvénients ?",
+        "titleZh": "屏幕是否只有坏处？",
+        "topic": "科技与社会",
+        "searchAliases": [
+          "La vie sans télévision, est-ce possible ?",
+          "没有电视的生活，可能吗？"
+        ]
+      }
+    },
+    {
+      "id": "speaking-1-13",
+      "before": {
+        "title": "L’insouciance du droit à l’oubli chez les jeunes",
+        "titleZh": "年轻人是否忽视了被遗忘权？",
+        "topic": "科技与社会",
+        "searchAliases": null
+      },
+      "after": {
+        "title": "Les nouvelles technologies et le respect de la vie privée",
+        "titleZh": "新技术与隐私保护",
+        "topic": "科技与社会",
+        "searchAliases": [
+          "L’insouciance du droit à l’oubli chez les jeunes",
+          "年轻人是否忽视了被遗忘权？"
+        ]
+      }
+    }
+  ],
+  "entries": [
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        3,
+        6
+      ],
+      "sourceTitle": "Le partage de bureaux : une pratique à encourager ?",
+      "exerciseId": "speaking-1-31",
+      "websiteTitle": "Le partage de bureaux : une pratique à encourager ?",
+      "websiteTitleZh": "共享办公室值得鼓励吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        7,
+        10
+      ],
+      "sourceTitle": "Le télétravail",
+      "exerciseId": "speaking-2-26",
+      "websiteTitle": "Le télétravail",
+      "websiteTitleZh": "远程办公",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 0.8901,
+      "pdfCoverage": 0.8939,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        11,
+        14
+      ],
+      "sourceTitle": "Télétravail : la clé du bien-être et de l’efficacité ?",
+      "exerciseId": "speaking-supp-20-2",
+      "websiteTitle": "Télétravail : la clé du bien-être et de l’efficacité ?",
+      "websiteTitleZh": "远程办公：实现幸福感与效率的关键？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9975,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        15,
+        18
+      ],
+      "sourceTitle": "Travailler plus, est-ce travailler mieux ?",
+      "exerciseId": "speaking-supp-14-7",
+      "websiteTitle": "Travailler plus, est-ce travailler mieux ?",
+      "websiteTitleZh": "工作更多，是否就工作得更好？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 0.9956,
+      "pdfCoverage": 0.9929,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        19,
+        22
+      ],
+      "sourceTitle": "Faut-il réduire notre temps de travail ?",
+      "exerciseId": "speaking-1-24",
+      "websiteTitle": "Faut-il réduire notre temps de travail ?",
+      "websiteTitleZh": "我们应该缩短工作时间吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        23,
+        26
+      ],
+      "sourceTitle": "La promotion du « bien-être » au travail : que faut-il en penser ?",
+      "exerciseId": "speaking-supp-13-7",
+      "websiteTitle": "La promotion du « bien-être » au travail : que faut-il en penser ?",
+      "websiteTitleZh": "如何看待职场‘幸福感’的推广？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 0.9934,
+      "pdfCoverage": 0.9912,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        27,
+        30
+      ],
+      "sourceTitle": "Hyperconnexion au travail : quelles conséquences sur notre santé ?",
+      "exerciseId": "speaking-2-11",
+      "websiteTitle": "Hyperconnexion au travail : quelles conséquences sur notre santé ?",
+      "websiteTitleZh": "工作中过度联网如何影响健康？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 0.9854,
+      "pdfCoverage": 0.9854,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        31,
+        34
+      ],
+      "sourceTitle": "Faut-il chercher le bonheur au travail ?",
+      "exerciseId": "speaking-2-3",
+      "websiteTitle": "Faut-il chercher le bonheur au travail ?",
+      "websiteTitleZh": "应该在工作中寻找幸福吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        35,
+        38
+      ],
+      "sourceTitle": "Mixité et orientation professionnelle",
+      "exerciseId": "speaking-1-25",
+      "websiteTitle": "Mixité et orientation professionnelle",
+      "websiteTitleZh": "性别平等与职业选择",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        39,
+        42
+      ],
+      "sourceTitle": "Métiers de femmes, métiers d’hommes ?",
+      "exerciseId": "speaking-supp-20-3",
+      "websiteTitle": "Métiers de femmes, métiers d’hommes ?",
+      "websiteTitleZh": "职业应分为女人的工作和男人的工作吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        43,
+        46
+      ],
+      "sourceTitle": "Peut-on lutter contre la discrimination au travail ?",
+      "exerciseId": "speaking-2-34",
+      "websiteTitle": "Peut-on lutter contre la discrimination au travail ?",
+      "websiteTitleZh": "能否消除工作中的歧视？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        47,
+        50
+      ],
+      "sourceTitle": "L’économie numérique : menace ou opportunité pour l’économie traditionnelle ?",
+      "exerciseId": "speaking-supp-20-9",
+      "websiteTitle": "L’économie numérique : menace ou opportunité pour l’économie traditionnelle ?",
+      "websiteTitleZh": "数字经济：传统经济的威胁还是机遇？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        51,
+        54
+      ],
+      "sourceTitle": "Les robots vont-ils prendre la place de l’homme ?",
+      "exerciseId": "speaking-2-1",
+      "websiteTitle": "Les robots vont-ils prendre la place de l’homme ?",
+      "websiteTitleZh": "机器人将取代人类吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9859,
+      "pdfCoverage": 0.9859,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        55,
+        58
+      ],
+      "sourceTitle": "Les robots représentent-ils vraiment une menace pour l’emploi ?",
+      "exerciseId": "speaking-supp-17-8",
+      "websiteTitle": "Les robots représentent-ils vraiment une menace pour l’emploi ?",
+      "websiteTitleZh": "机器人真的威胁就业吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.997,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "工作主题.pdf",
+      "sourcePages": [
+        59,
+        62
+      ],
+      "sourceTitle": "La reconversion professionnelle : la clé pour s’épanouir ?",
+      "exerciseId": "speaking-1-17",
+      "websiteTitle": "La reconversion professionnelle : la clé pour s’épanouir ?",
+      "websiteTitleZh": "职业转型是实现自我的关键吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        3,
+        6
+      ],
+      "sourceTitle": "Que devrait être l’école du XXIe siècle ?",
+      "exerciseId": "speaking-2-9",
+      "websiteTitle": "Que devrait être l’école du XXIe siècle ?",
+      "websiteTitleZh": "21 世纪的学校应该是什么样？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 0.8754,
+      "pdfCoverage": 0.8836,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        7,
+        10
+      ],
+      "sourceTitle": "Quelle éducation aujourd’hui ?",
+      "exerciseId": "speaking-2-2",
+      "websiteTitle": "Quelle éducation aujourd’hui ?",
+      "websiteTitleZh": "今天，我们需要怎样的教育？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        11,
+        14
+      ],
+      "sourceTitle": "L’éducation bienveillante, la solution ?",
+      "exerciseId": "speaking-1-8",
+      "websiteTitle": "L’éducation bienveillante, la solution ?",
+      "websiteTitleZh": "善意教育能解决问题吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        15,
+        18
+      ],
+      "sourceTitle": "École à la maison : bonne ou mauvaise idée ?",
+      "exerciseId": "speaking-1-45",
+      "websiteTitle": "École à la maison : bonne ou mauvaise idée ?",
+      "websiteTitleZh": "在家上学：好主意还是坏主意？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        19,
+        22
+      ],
+      "sourceTitle": "L’école doit–elle commencer plus tôt ?",
+      "exerciseId": "speaking-1-16",
+      "websiteTitle": "L’école doit–elle commencer plus tôt ?",
+      "websiteTitleZh": "孩子应该更早入学吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        23,
+        26
+      ],
+      "sourceTitle": "L’ éducation des enfants : peut-on rejeter l’éducation traditionnelle ?",
+      "exerciseId": "speaking-supp-16-1",
+      "websiteTitle": "L’ éducation des enfants : peut-on rejeter l’éducation traditionnelle ?",
+      "websiteTitleZh": "儿童教育：可以拒绝传统教育吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9965,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        27,
+        30
+      ],
+      "sourceTitle": "Faut-il interdire les téléphones portables à l’école ?",
+      "exerciseId": "speaking-1-44",
+      "websiteTitle": "Faut-il interdire les téléphones portables à l’école ?",
+      "websiteTitleZh": "应该在学校禁止手机吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        31,
+        34
+      ],
+      "sourceTitle": "Vers la disparition de l’écriture manuscrite à l’école ?",
+      "exerciseId": "speaking-1-21",
+      "websiteTitle": "Vers la disparition de l’écriture manuscrite à l’école ?",
+      "websiteTitleZh": "手写会从学校中消失吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        35,
+        38
+      ],
+      "sourceTitle": "Que va devenir l’école numérique ?",
+      "exerciseId": "speaking-2-13",
+      "websiteTitle": "Que va devenir l’école numérique ?",
+      "websiteTitleZh": "数字学校的未来在哪里？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 0.9824,
+      "pdfCoverage": 0.9842,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        39,
+        42
+      ],
+      "sourceTitle": "Le numérique renforce-t-il les apprentissages ?",
+      "exerciseId": "speaking-supp-17-2",
+      "websiteTitle": "Le numérique renforce-t-il les apprentissages ?",
+      "websiteTitleZh": "数字技术能提升学习效果吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9968,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        43,
+        46
+      ],
+      "sourceTitle": "Quel rôle pour les enseignants à l’heure du numérique ?",
+      "exerciseId": "speaking-1-30",
+      "websiteTitle": "Quel rôle pour les enseignants à l’heure du numérique ?",
+      "websiteTitleZh": "数字时代的教师应扮演什么角色？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 0.9949,
+      "pdfCoverage": 0.9957,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        47,
+        50
+      ],
+      "sourceTitle": "L’utilisation des nouvelles technologies dans le système éducatif : progrès ou danger ?",
+      "exerciseId": "speaking-supp-13-4",
+      "websiteTitle": "L’utilisation des nouvelles technologies dans le système éducatif : progrès ou danger ?",
+      "websiteTitleZh": "教育系统使用新技术：进步还是危险？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9967,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        51,
+        54
+      ],
+      "sourceTitle": "Faut-il tout noter ?",
+      "exerciseId": "speaking-1-36",
+      "websiteTitle": "Faut-il tout noter ?",
+      "websiteTitleZh": "所有事物都需要被评分吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        55,
+        58
+      ],
+      "sourceTitle": "À quoi servent les mathématiques ?",
+      "exerciseId": "speaking-supp-13-1",
+      "websiteTitle": "À quoi servent les mathématiques ?",
+      "websiteTitleZh": "数学有什么用？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9975,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        59,
+        62
+      ],
+      "sourceTitle": "Apprendre autrement, apprendre mieux ?",
+      "exerciseId": "speaking-supp-17-5",
+      "websiteTitle": "Apprendre autrement, apprendre mieux ?",
+      "websiteTitleZh": "换一种方式学习，就能学得更好吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9972,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        63,
+        66
+      ],
+      "sourceTitle": "Le QI, un outil d’aide ou de discrimination ?",
+      "exerciseId": "speaking-supp-16-6",
+      "websiteTitle": "Le QI, un outil d’aide ou de discrimination ?",
+      "websiteTitleZh": "智商：帮助人的工具，还是造成歧视的工具？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.997,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        67,
+        70
+      ],
+      "sourceTitle": "Pédagogie et jeux vidéo",
+      "exerciseId": "speaking-1-27",
+      "websiteTitle": "Pédagogie et jeux vidéo",
+      "websiteTitleZh": "教学与电子游戏",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        71,
+        74
+      ],
+      "sourceTitle": "Faut-il faire revivre les langues régionales ?",
+      "exerciseId": "speaking-1-42",
+      "websiteTitle": "Faut-il faire revivre les langues régionales ?",
+      "websiteTitleZh": "我们应该复兴地方语言吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "教育主题.pdf",
+      "sourcePages": [
+        75,
+        78
+      ],
+      "sourceTitle": "Être polyglotte : quels sont les bénéfices ?",
+      "exerciseId": "speaking-1-15",
+      "websiteTitle": "Être polyglotte : quels sont les bénéfices ?",
+      "websiteTitleZh": "掌握多种语言有哪些益处？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        5,
+        8
+      ],
+      "sourceTitle": "La natalité en question",
+      "exerciseId": "speaking-2-27",
+      "websiteTitle": "La natalité en question",
+      "websiteTitleZh": "如何看待生育率？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9391,
+      "pdfCoverage": 0.9391,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        9,
+        12
+      ],
+      "sourceTitle": "La cohabitation tardive entre parents et enfants",
+      "exerciseId": "speaking-2-33",
+      "websiteTitle": "La cohabitation tardive entre parents et enfants",
+      "websiteTitleZh": "成年后仍与父母同住",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        13,
+        16
+      ],
+      "sourceTitle": "Faut-il espionner ses enfants ?",
+      "exerciseId": "speaking-1-37",
+      "websiteTitle": "Faut-il espionner ses enfants ?",
+      "websiteTitleZh": "我们应该监视孩子吗？",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        17,
+        20
+      ],
+      "sourceTitle": "Le congé de paternité : est-il justifié, est-il suffisant ?",
+      "exerciseId": "speaking-2-25",
+      "websiteTitle": "Le congé de paternité : est-il justifié, est-il suffisant ?",
+      "websiteTitleZh": "陪产假：必要吗，足够吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 0.9334,
+      "pdfCoverage": 0.9388,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        21,
+        24
+      ],
+      "sourceTitle": "Le vieillissement de la population : une charge ou un atout ?",
+      "exerciseId": "speaking-supp-20-8",
+      "websiteTitle": "Le vieillissement de la population : une charge ou un atout ?",
+      "websiteTitleZh": "人口老龄化：负担还是优势？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        25,
+        28
+      ],
+      "sourceTitle": "Quelle vie après la retraite ?",
+      "exerciseId": "speaking-2-6",
+      "websiteTitle": "Quelle vie après la retraite ?",
+      "websiteTitleZh": "退休之后，怎样生活？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9717,
+      "pdfCoverage": 0.9682,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        29,
+        32
+      ],
+      "sourceTitle": "Peut-on concilier médecine conventionnelle et médecines alternatives ?",
+      "exerciseId": "speaking-2-22",
+      "websiteTitle": "Peut-on concilier médecine conventionnelle et médecines alternatives ?",
+      "websiteTitleZh": "现代医学与替代医学能兼容吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 0.9918,
+      "pdfCoverage": 0.9918,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        33,
+        36
+      ],
+      "sourceTitle": "Quelle place accorder aux médecines alternatives ?",
+      "exerciseId": "speaking-1-29",
+      "websiteTitle": "Quelle place accorder aux médecines alternatives ?",
+      "websiteTitleZh": "替代医学应占据怎样的位置？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        37,
+        40
+      ],
+      "sourceTitle": "Peut-on condamner les médecines douces au nom de la science ?",
+      "exerciseId": "speaking-1-14",
+      "websiteTitle": "Peut-on condamner les médecines douces au nom de la science ?",
+      "websiteTitleZh": "能否以科学之名否定替代医学？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        41,
+        44
+      ],
+      "sourceTitle": "La médecine douce : que faut-il en penser ?",
+      "exerciseId": "speaking-1-1",
+      "websiteTitle": "La médecine douce : que faut-il en penser ?",
+      "websiteTitleZh": "如何看待替代医学？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        45,
+        48
+      ],
+      "sourceTitle": "L’hygiène : quelle importance, quelles limites ?",
+      "exerciseId": "speaking-2-17",
+      "websiteTitle": "L’hygiène : quelle importance, quelles limites ?",
+      "websiteTitleZh": "L’hygiène有多重要，又应有哪些限度？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        49,
+        52
+      ],
+      "sourceTitle": "Quel avenir pour la vaccination ?",
+      "exerciseId": "speaking-supp-15-2",
+      "websiteTitle": "Quel avenir pour la vaccination ?",
+      "websiteTitleZh": "疫苗接种的未来如何？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9972,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        53,
+        56
+      ],
+      "sourceTitle": "Le pharmacien, simple commerçant ou acteur de la santé à part entière ?",
+      "exerciseId": "speaking-supp-14-2",
+      "websiteTitle": "Le pharmacien, simple commerçant ou acteur de la santé à part entière ?",
+      "websiteTitleZh": "药剂师：只是商人，还是完整意义上的医疗卫生专业人员？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        57,
+        60
+      ],
+      "sourceTitle": "La télémédecine est-elle une solution d’avenir ?",
+      "exerciseId": "speaking-supp-16-7",
+      "websiteTitle": "La télémédecine est-elle une solution d’avenir ?",
+      "websiteTitleZh": "远程医疗是面向未来的解决方案吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9967,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        61,
+        64
+      ],
+      "sourceTitle": "Comment lutter contre les méfaits du sucre ?",
+      "exerciseId": "speaking-supp-18-7",
+      "websiteTitle": "Comment lutter contre les méfaits du sucre ?",
+      "websiteTitleZh": "如何应对糖摄入过量的危害？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9969,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        65,
+        68
+      ],
+      "sourceTitle": "Quelles solutions pour mieux se nourrir ?",
+      "exerciseId": "speaking-1-18",
+      "websiteTitle": "Quelles solutions pour mieux se nourrir ?",
+      "websiteTitleZh": "如何让我们吃得更好？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        69,
+        72
+      ],
+      "sourceTitle": "Devons-nous avoir peur de ce que nous mangeons ?",
+      "exerciseId": "speaking-1-40",
+      "websiteTitle": "Devons-nous avoir peur de ce que nous mangeons ?",
+      "websiteTitleZh": "我们应该害怕自己吃的食物吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        73,
+        76
+      ],
+      "sourceTitle": "Manger sans gluten : phénomène de mode ou pratique de santé ?",
+      "exerciseId": "speaking-1-6",
+      "websiteTitle": "Manger sans gluten : phénomène de mode ou pratique de santé ?",
+      "websiteTitleZh": "无麸质饮食：潮流还是健康实践？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        77,
+        80
+      ],
+      "sourceTitle": "Le jeûne, un véritable outil thérapeutique ?",
+      "exerciseId": "speaking-1-41",
+      "websiteTitle": "Le jeûne, un véritable outil thérapeutique ?",
+      "websiteTitleZh": "断食真的是一种治疗工具吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        81,
+        84
+      ],
+      "sourceTitle": "Peut-on vivre sans prendre de risques ?",
+      "exerciseId": "speaking-supp-15-8",
+      "websiteTitle": "Peut-on vivre sans prendre de risques ?",
+      "websiteTitleZh": "人能过完全不冒风险的生活吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9962,
+      "pdfCoverage": 0.9923,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        85,
+        88
+      ],
+      "sourceTitle": "Le bonheur, une illusion dangereuse ?",
+      "exerciseId": "speaking-supp-14-5",
+      "websiteTitle": "Le bonheur, une illusion dangereuse ?",
+      "websiteTitleZh": "幸福是一种危险的幻觉吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9859,
+      "pdfCoverage": 0.9792,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        89,
+        92
+      ],
+      "sourceTitle": "La banalisation des « psys » : nécessité ou dérive ?",
+      "exerciseId": "speaking-supp-14-8",
+      "websiteTitle": "La banalisation des « psys » : nécessité ou dérive ?",
+      "websiteTitleZh": "心理咨询的普及：必要之举还是走向失控？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 0.9964,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        93,
+        96
+      ],
+      "sourceTitle": "S’ennuyer est-il indispensable ?",
+      "exerciseId": "speaking-supp-5-1",
+      "websiteTitle": "S’ennuyer est-il indispensable ?",
+      "websiteTitleZh": "无聊是必不可少的吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        97,
+        100
+      ],
+      "sourceTitle": "Faut-il savoir s’ennuyer ?",
+      "exerciseId": "speaking-1-43",
+      "websiteTitle": "Faut-il savoir s’ennuyer ?",
+      "websiteTitleZh": "我们需要学会无聊吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        101,
+        104
+      ],
+      "sourceTitle": "Que peut nous apporter notre sommeil ?",
+      "exerciseId": "speaking-2-31",
+      "websiteTitle": "Que peut nous apporter notre sommeil ?",
+      "websiteTitleZh": "睡眠能给我们带来什么？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        105,
+        108
+      ],
+      "sourceTitle": "L’argent fait-il le bonheur ?",
+      "exerciseId": "speaking-supp-5-3",
+      "websiteTitle": "L’argent fait-il le bonheur ?",
+      "websiteTitleZh": "金钱能带来幸福吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.996,
+      "pdfCoverage": 0.9892,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        109,
+        112
+      ],
+      "sourceTitle": "Le revenu universel : est-ce une bonne idée ?",
+      "exerciseId": "speaking-supp-15-5",
+      "websiteTitle": "Le revenu universel : est-ce une bonne idée ?",
+      "websiteTitleZh": "全民基本收入是个好主意吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        113,
+        116
+      ],
+      "sourceTitle": "Revenu universel : une solution viable contre la pauvreté ?",
+      "exerciseId": "speaking-1-32",
+      "websiteTitle": "Revenu universel : une solution viable contre la pauvreté ?",
+      "websiteTitleZh": "全民基本收入能有效消除贫困吗？",
+      "websiteTheme": "工作与经济",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        117,
+        120
+      ],
+      "sourceTitle": "Comment le partage influence-t-il nos vies ?",
+      "exerciseId": "speaking-supp-15-7",
+      "websiteTitle": "Comment le partage influence-t-il nos vies ?",
+      "websiteTitleZh": "分享如何影响我们的生活？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9968,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        121,
+        124
+      ],
+      "sourceTitle": "Donner contribue-t-il à nous rendre heureux ?",
+      "exerciseId": "speaking-1-38",
+      "websiteTitle": "Donner contribue-t-il à nous rendre heureux ?",
+      "websiteTitleZh": "给予能让我们更幸福吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        125,
+        128
+      ],
+      "sourceTitle": "Garçons et filles stéréotypés ?",
+      "exerciseId": "speaking-1-26",
+      "websiteTitle": "Garçons et filles stéréotypés ?",
+      "websiteTitleZh": "男孩女孩被性别刻板印象束缚了吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        129,
+        132
+      ],
+      "sourceTitle": "Peut-on échapper aux stéréotypes ?",
+      "exerciseId": "speaking-supp-14-4",
+      "websiteTitle": "Peut-on échapper aux stéréotypes ?",
+      "websiteTitleZh": "能摆脱刻板印象吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9929,
+      "pdfCoverage": 0.9898,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        133,
+        136
+      ],
+      "sourceTitle": "Comment expliquer le succès de l’astrologie ?",
+      "exerciseId": "speaking-2-21",
+      "websiteTitle": "Comment expliquer le succès de l’astrologie ?",
+      "websiteTitleZh": "为什么占星术如此受欢迎？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        137,
+        140
+      ],
+      "sourceTitle": "Demain, tous cosmopolites ?",
+      "exerciseId": "speaking-supp-14-6",
+      "websiteTitle": "Demain, tous cosmopolites ?",
+      "websiteTitleZh": "未来，我们都会成为世界公民吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9976,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        141,
+        144
+      ],
+      "sourceTitle": "Quelles motivations pour la pratique du sport à très haut niveau ?",
+      "exerciseId": "speaking-2-15",
+      "websiteTitle": "Quelles motivations pour la pratique du sport à très haut niveau ?",
+      "websiteTitleZh": "人们为何追求高水平的体育表现？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 0.8923,
+      "pdfCoverage": 0.8954,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        145,
+        148
+      ],
+      "sourceTitle": "L’influence du sport professionnel sur la société est-elle positive ou négative ?",
+      "exerciseId": "speaking-2-29",
+      "websiteTitle": "L’influence du sport professionnel sur la société est-elle positive ou négative ?",
+      "websiteTitleZh": "职业体育对社会的影响是积极还是消极的？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9885,
+      "pdfCoverage": 0.9849,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        149,
+        152
+      ],
+      "sourceTitle": "Le sport, outil thérapeutique ou activité à risques ?",
+      "exerciseId": "speaking-1-7",
+      "websiteTitle": "Le sport, outil thérapeutique ou activité à risques ?",
+      "websiteTitleZh": "体育运动：治疗工具还是风险活动？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        153,
+        156
+      ],
+      "sourceTitle": "La campagne, nouvel avenir des sociétés modernes ?",
+      "exerciseId": "speaking-2-37",
+      "websiteTitle": "La campagne, nouvel avenir des sociétés modernes ?",
+      "websiteTitleZh": "乡村是现代社会的新未来吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "社会生活主题.pdf",
+      "sourcePages": [
+        157,
+        160
+      ],
+      "sourceTitle": "Est-il préférable de vivre en ville ou à la campagne ?",
+      "exerciseId": "speaking-supp-20-1",
+      "websiteTitle": "Est-il préférable de vivre en ville ou à la campagne ?",
+      "websiteTitleZh": "住在城市，还是住在乡村更好？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        4,
+        7
+      ],
+      "sourceTitle": "L’expansion de l’humanité menace-t-elle la planète ?",
+      "exerciseId": "speaking-2-36",
+      "websiteTitle": "L’expansion de l’humanité menace-t-elle la planète ?",
+      "websiteTitleZh": "人口扩张是否威胁地球？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        8,
+        11
+      ],
+      "sourceTitle": "L’humanité peut-elle encore sauver son environnement ?",
+      "exerciseId": "speaking-1-46",
+      "websiteTitle": "L’humanité peut-elle encore sauver son environnement ?",
+      "websiteTitleZh": "人类还能拯救环境吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        12,
+        15
+      ],
+      "sourceTitle": "Est-il possible de réduire notre empreinte écologique au niveau planétaire ?",
+      "exerciseId": "speaking-supp-19-1",
+      "websiteTitle": "Est-il possible de réduire notre empreinte écologique au niveau planétaire ?",
+      "websiteTitleZh": "能否在全球范围内减少我们的生态足迹？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        16,
+        19
+      ],
+      "sourceTitle": "Le numérique : une nouvelle forme de pollution ?",
+      "exerciseId": "speaking-supp-16-2",
+      "websiteTitle": "Le numérique : une nouvelle forme de pollution ?",
+      "websiteTitleZh": "数字技术：一种新的污染形式？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.997,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        20,
+        23
+      ],
+      "sourceTitle": "Quelles conséquences de la pollution sur la planète ?",
+      "exerciseId": "speaking-2-30",
+      "websiteTitle": "Quelles conséquences de la pollution sur la planète ?",
+      "websiteTitleZh": "污染给地球带来什么后果？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 0.9507,
+      "pdfCoverage": 0.9535,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        24,
+        27
+      ],
+      "sourceTitle": "L’éco-anxiété peut-elle avoir des effets positifs ?",
+      "exerciseId": "speaking-supp-17-4",
+      "websiteTitle": "L’éco-anxiété peut-elle avoir des effets positifs ?",
+      "websiteTitleZh": "生态焦虑也可能产生积极作用吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9967,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        28,
+        31
+      ],
+      "sourceTitle": "Humains et animaux : sur un pied d’égalité ?",
+      "exerciseId": "speaking-supp-13-5",
+      "websiteTitle": "Humains et animaux : sur un pied d’égalité ?",
+      "websiteTitleZh": "人与动物：应当处于平等地位吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9968,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        32,
+        35
+      ],
+      "sourceTitle": "L’Homme est-il supérieur aux autres espèces ?",
+      "exerciseId": "speaking-2-19",
+      "websiteTitle": "L’Homme est-il supérieur aux autres espèces ?",
+      "websiteTitleZh": "人类优于其他物种吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        36,
+        39
+      ],
+      "sourceTitle": "Les animaux auraient, eux aussi, une conscience",
+      "exerciseId": "speaking-1-10",
+      "websiteTitle": "Les animaux ont-ils une conscience ?",
+      "websiteTitleZh": "动物有意识吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 0.9598,
+      "pdfCoverage": 0.9587,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        40,
+        43
+      ],
+      "sourceTitle": "Quelle place accorder au bien-être animal ?",
+      "exerciseId": "speaking-2-8",
+      "websiteTitle": "Quelle place accorder au bien-être animal ?",
+      "websiteTitleZh": "动物福利应该占据怎样的位置？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9801,
+      "pdfCoverage": 0.9793,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        44,
+        47
+      ],
+      "sourceTitle": "Faut-il fermer les zoos ?",
+      "exerciseId": "speaking-supp-20-6",
+      "websiteTitle": "Faut-il fermer les zoos ?",
+      "websiteTitleZh": "应当关闭动物园吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        48,
+        51
+      ],
+      "sourceTitle": "Faut-il fermer les zoos ?",
+      "exerciseId": "speaking-1-22",
+      "websiteTitle": "Faut-il fermer les zoos ?",
+      "websiteTitleZh": "应该关闭动物园吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        52,
+        55
+      ],
+      "sourceTitle": "Peut-on parler d’une intelligence des plantes ?",
+      "exerciseId": "speaking-supp-15-3",
+      "websiteTitle": "Peut-on parler d’une intelligence des plantes ?",
+      "websiteTitleZh": "可以说植物具有智能吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9969,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        56,
+        59
+      ],
+      "sourceTitle": "La sixième extinction des espèces aura-t-elle lieu ?",
+      "exerciseId": "speaking-1-39",
+      "websiteTitle": "La sixième extinction des espèces aura-t-elle lieu ?",
+      "websiteTitleZh": "第六次物种大灭绝会发生吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        60,
+        63
+      ],
+      "sourceTitle": "L’agriculture urbaine est-elle une solution d’avenir fiable ?",
+      "exerciseId": "speaking-supp-18-5",
+      "websiteTitle": "L’agriculture urbaine est-elle une solution d’avenir fiable ?",
+      "websiteTitleZh": "城市农业是可靠的未来方案吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.997,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        64,
+        67
+      ],
+      "sourceTitle": "Comment assurer la sécurité alimentaire mondiale ?",
+      "exerciseId": "speaking-1-47",
+      "websiteTitle": "Comment assurer la sécurité alimentaire mondiale ?",
+      "websiteTitleZh": "如何保障全球粮食安全？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        68,
+        71
+      ],
+      "sourceTitle": "Comment nourrir les hommes sans détruire la planète ?",
+      "exerciseId": "speaking-supp-20-4",
+      "websiteTitle": "Comment nourrir les hommes sans détruire la planète ?",
+      "websiteTitleZh": "如何养活人类而不摧毁地球？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9951,
+      "note": "同一题目在附件中重复出现，网站保留一份"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        72,
+        75
+      ],
+      "sourceTitle": "Comment nourrir les hommes sans détruire la planète ?",
+      "exerciseId": "speaking-supp-20-4",
+      "websiteTitle": "Comment nourrir les hommes sans détruire la planète ?",
+      "websiteTitleZh": "如何养活人类而不摧毁地球？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 0.9117,
+      "pdfCoverage": 0.8887,
+      "note": "同一题目在附件中重复出现，网站保留一份"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        76,
+        79
+      ],
+      "sourceTitle": "Faut-il devenir végétarien ?",
+      "exerciseId": "speaking-supp-13-6",
+      "websiteTitle": "Faut-il devenir végétarien ?",
+      "websiteTitleZh": "应该成为素食者吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9972,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        80,
+        83
+      ],
+      "sourceTitle": "Quelle place à l’agriculture biologique ?",
+      "exerciseId": "speaking-2-18",
+      "websiteTitle": "Quelle place à l’agriculture biologique ?",
+      "websiteTitleZh": "有机农业应占据什么位置？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        84,
+        87
+      ],
+      "sourceTitle": "L’agriculture biologique est-elle l’avenir de l’homme ?",
+      "exerciseId": "speaking-2-35",
+      "websiteTitle": "L’agriculture biologique est-elle l’avenir de l’homme ?",
+      "websiteTitleZh": "有机农业是人类的未来吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        88,
+        91
+      ],
+      "sourceTitle": "Est-il possible de concilier le tourisme de masse et le développement durable ?",
+      "exerciseId": "speaking-1-20",
+      "websiteTitle": "Est-il possible de concilier le tourisme de masse et le développement durable ?",
+      "websiteTitleZh": "大众旅游与可持续发展能兼容吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        92,
+        95
+      ],
+      "sourceTitle": "Quelles mesures pour contrer le tourisme de masse ?",
+      "exerciseId": "speaking-supp-16-3",
+      "websiteTitle": "Quelles mesures pour contrer le tourisme de masse ?",
+      "websiteTitleZh": "采取哪些措施应对大众旅游？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9969,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        96,
+        99
+      ],
+      "sourceTitle": "Quelles solutions aux problèmes de transport dans les grandes villes ?",
+      "exerciseId": "speaking-2-16",
+      "websiteTitle": "Quelles solutions aux problèmes de transport dans les grandes villes ?",
+      "websiteTitleZh": "如何解决大城市的交通问题？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 0.9077,
+      "pdfCoverage": 0.9101,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        100,
+        103
+      ],
+      "sourceTitle": "Vers un nouvel usage de la voiture ?",
+      "exerciseId": "speaking-2-5",
+      "websiteTitle": "Vers un nouvel usage de la voiture ?",
+      "websiteTitleZh": "汽车会迎来新的使用方式吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 0.993,
+      "pdfCoverage": 0.9912,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        104,
+        107
+      ],
+      "sourceTitle": "La stigmatisation des transports et produits polluants est-elle vraiment efficace ?",
+      "exerciseId": "speaking-1-23",
+      "websiteTitle": "La stigmatisation des transports et produits polluants est-elle vraiment efficace ?",
+      "websiteTitleZh": "谴责高污染交通和产品真的有效吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        108,
+        111
+      ],
+      "sourceTitle": "Quelles initiatives individuelles pour protéger l’environnement ?",
+      "exerciseId": "speaking-supp-17-1",
+      "websiteTitle": "Quelles initiatives individuelles pour protéger l’environnement ?",
+      "websiteTitleZh": "个人可以采取哪些行动保护环境？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        112,
+        115
+      ],
+      "sourceTitle": "L’obsolescence programmée des produits est-elle bénéfique ?",
+      "exerciseId": "speaking-supp-20-7",
+      "websiteTitle": "L’obsolescence programmée des produits est-elle bénéfique ?",
+      "websiteTitleZh": "产品的计划性淘汰有益吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9972,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        116,
+        119
+      ],
+      "sourceTitle": "Consommer autrement, consommer mieux ?",
+      "exerciseId": "speaking-1-19",
+      "websiteTitle": "Consommer autrement, consommer mieux ?",
+      "websiteTitleZh": "改变消费方式，能否消费得更好？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        120,
+        123
+      ],
+      "sourceTitle": "Les nouvelles tendances de la consommation sont-elles efficaces pour l’écologie ?",
+      "exerciseId": "speaking-supp-18-1",
+      "websiteTitle": "Les nouvelles tendances de la consommation sont-elles efficaces pour l’écologie ?",
+      "websiteTitleZh": "新的消费趋势，真的有助于生态保护吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        124,
+        127
+      ],
+      "sourceTitle": "Marketing ou véritable révolution du monde de la beauté ?",
+      "exerciseId": "speaking-1-4",
+      "websiteTitle": "Marketing ou véritable révolution du monde de la beauté ?",
+      "websiteTitleZh": "美妆营销还是真正的行业革命？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "环境主题.pdf",
+      "sourcePages": [
+        128,
+        131
+      ],
+      "sourceTitle": "Est-il possible de réduire le gaspillage alimentaire ?",
+      "exerciseId": "speaking-2-7",
+      "websiteTitle": "Est-il possible de réduire le gaspillage alimentaire ?",
+      "websiteTitleZh": "减少食物浪费，可能吗？",
+      "websiteTheme": "城市与环境",
+      "status": "already-present",
+      "bodyCoverage": 0.9117,
+      "pdfCoverage": 0.908,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        4,
+        7
+      ],
+      "sourceTitle": "Faut-il redouter l’intelligence artificielle ?",
+      "exerciseId": "speaking-2-32",
+      "websiteTitle": "Faut-il redouter l’intelligence artificielle ?",
+      "websiteTitleZh": "我们应该害怕人工智能吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9953,
+      "pdfCoverage": 0.9953,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        8,
+        11
+      ],
+      "sourceTitle": "Les robots humanoïdes : amis ou ennemis ?",
+      "exerciseId": "speaking-1-33",
+      "websiteTitle": "Les robots humanoïdes : amis ou ennemis ?",
+      "websiteTitleZh": "人形机器人：朋友还是敌人？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9809,
+      "pdfCoverage": 0.979,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        12,
+        15
+      ],
+      "sourceTitle": "Faut-il imposer des limites à la technologie ?",
+      "exerciseId": "speaking-supp-16-8",
+      "websiteTitle": "Faut-il imposer des limites à la technologie ?",
+      "websiteTitleZh": "是否应该为技术发展设定边界？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9968,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        16,
+        19
+      ],
+      "sourceTitle": "Doit-on avoir peur de l’intelligence artificielle ?",
+      "exerciseId": "speaking-supp-5-8",
+      "websiteTitle": "Doit-on avoir peur de l’intelligence artificielle ?",
+      "websiteTitleZh": "我们应该害怕人工智能吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        20,
+        23
+      ],
+      "sourceTitle": "La nature peut-elle être mise au service de la technologie ?",
+      "exerciseId": "speaking-2-24",
+      "websiteTitle": "La nature peut-elle être mise au service de la technologie ?",
+      "websiteTitleZh": "自然能为科技服务吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9931,
+      "pdfCoverage": 0.9896,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        24,
+        27
+      ],
+      "sourceTitle": "L’enfant et les écrans : une vraie question de société",
+      "exerciseId": "speaking-supp-13-8",
+      "websiteTitle": "L’enfant et les écrans : une vraie question de société",
+      "websiteTitleZh": "儿童与屏幕：一个真正的社会问题",
+      "websiteTheme": "教育与成长",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9972,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        28,
+        31
+      ],
+      "sourceTitle": "Les écrans auraient-ils seulement des inconvénients ?",
+      "exerciseId": "speaking-1-12",
+      "websiteTitle": "Les écrans auraient-ils seulement des inconvénients ?",
+      "websiteTitleZh": "屏幕是否只有坏处？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9801,
+      "pdfCoverage": 0.9829,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        32,
+        35
+      ],
+      "sourceTitle": "Jusqu’à quel point les écrans modifient-ils nos comportements sociaux ?",
+      "exerciseId": "speaking-1-28",
+      "websiteTitle": "Jusqu’à quel point les écrans modifient-ils nos comportements sociaux ?",
+      "websiteTitleZh": "屏幕在多大程度上改变社交行为？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9853,
+      "pdfCoverage": 0.9913,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        36,
+        39
+      ],
+      "sourceTitle": "Faut-il avoir peur des jeux vidéo ?",
+      "exerciseId": "speaking-2-4",
+      "websiteTitle": "Faut-il avoir peur des jeux vidéo ?",
+      "websiteTitleZh": "我们应该害怕电子游戏吗？",
+      "websiteTheme": "社会与生活",
+      "status": "already-present",
+      "bodyCoverage": 0.9957,
+      "pdfCoverage": 0.9957,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        40,
+        43
+      ],
+      "sourceTitle": "Les nouvelles technologies sont-elles dangereuses pour la santé ?",
+      "exerciseId": "speaking-2-28",
+      "websiteTitle": "Les nouvelles technologies sont-elles dangereuses pour la santé ?",
+      "websiteTitleZh": "新技术会危害健康吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 0.9442,
+      "pdfCoverage": 0.9459,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        44,
+        47
+      ],
+      "sourceTitle": "Nouvelles technologies : un danger pour notre cerveau ?",
+      "exerciseId": "speaking-1-48",
+      "websiteTitle": "Nouvelles technologies : un danger pour notre cerveau ?",
+      "websiteTitleZh": "新技术会危害我们的大脑吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        48,
+        51
+      ],
+      "sourceTitle": "Faut-il mettre fin à l’anonymat sur Internet ?",
+      "exerciseId": "speaking-supp-17-6",
+      "websiteTitle": "Faut-il mettre fin à l’anonymat sur Internet ?",
+      "websiteTitleZh": "应当终结网络匿名吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        52,
+        55
+      ],
+      "sourceTitle": "Les nouvelles technologies et le respect de la vie privée",
+      "exerciseId": "speaking-1-13",
+      "websiteTitle": "Les nouvelles technologies et le respect de la vie privée",
+      "websiteTitleZh": "新技术与隐私保护",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9819,
+      "pdfCoverage": 0.9837,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        56,
+        59
+      ],
+      "sourceTitle": "La fin des influenceurs ?",
+      "exerciseId": "speaking-1-2",
+      "websiteTitle": "La fin des influenceurs ?",
+      "websiteTitleZh": "网红时代即将结束吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        60,
+        63
+      ],
+      "sourceTitle": "Faut-il s’inquiéter de la banalisation des avis en ligne ?",
+      "exerciseId": "speaking-supp-16-5",
+      "websiteTitle": "Faut-il s’inquiéter de la banalisation des avis en ligne ?",
+      "websiteTitleZh": "我们应当担忧网络评价日益普遍吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.997,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        64,
+        67
+      ],
+      "sourceTitle": "L’accès à l’information doit-il être gratuit ?",
+      "exerciseId": "speaking-2-14",
+      "websiteTitle": "L’accès à l’information doit-il être gratuit ?",
+      "websiteTitleZh": "获取新闻信息应该免费吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        68,
+        71
+      ],
+      "sourceTitle": "Les infox : d’un virus numérique à un virus sanitaire ?",
+      "exerciseId": "speaking-supp-16-4",
+      "websiteTitle": "Les infox : d’un virus numérique à un virus sanitaire ?",
+      "websiteTitleZh": "虚假信息：从数字病毒变成健康威胁？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        72,
+        75
+      ],
+      "sourceTitle": "L’homme bionique, problème ou solution ?",
+      "exerciseId": "speaking-supp-5-7",
+      "websiteTitle": "L’homme bionique, problème ou solution ?",
+      "websiteTitleZh": "仿生人：问题还是解决办法？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9969,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        76,
+        79
+      ],
+      "sourceTitle": "Jusqu’où faut-il aller dans l’amélioration des capacités humaines ?",
+      "exerciseId": "speaking-1-35",
+      "websiteTitle": "Jusqu’où faut-il aller dans l’amélioration des capacités humaines ?",
+      "websiteTitleZh": "提升人类能力，应该走多远？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9419,
+      "pdfCoverage": 0.9396,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        80,
+        83
+      ],
+      "sourceTitle": "Être un cobaye humain : à quel prix ?",
+      "exerciseId": "speaking-supp-5-6",
+      "websiteTitle": "Être un cobaye humain : à quel prix ?",
+      "websiteTitleZh": "作为人体试验志愿者：代价是什么？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 0.9963,
+      "pdfCoverage": 0.9926,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        84,
+        87
+      ],
+      "sourceTitle": "La science peut-elle rendre l’homme immortel ?",
+      "exerciseId": "speaking-supp-14-1",
+      "websiteTitle": "La science peut-elle rendre l’homme immortel ?",
+      "websiteTitleZh": "科学能使人类永生吗？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9973,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        88,
+        91
+      ],
+      "sourceTitle": "Quelle attitude adopter face à la généralisation des nanoparticules ?",
+      "exerciseId": "speaking-supp-15-1",
+      "websiteTitle": "Quelle attitude adopter face à la généralisation des nanoparticules ?",
+      "websiteTitleZh": "面对纳米颗粒的广泛使用，我们应当采取什么态度？",
+      "websiteTheme": "健康与科学",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9974,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        92,
+        95
+      ],
+      "sourceTitle": "Animaux génétiquement modifiés : quels impacts sur les humains ?",
+      "exerciseId": "speaking-1-34",
+      "websiteTitle": "Animaux génétiquement modifiés : quels impacts sur les humains ?",
+      "websiteTitleZh": "转基因动物会给人类带来什么影响？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9895,
+      "pdfCoverage": 0.9895,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        96,
+        99
+      ],
+      "sourceTitle": "L’avenir de l’Homme est-il dans l’espace ?",
+      "exerciseId": "speaking-supp-13-2",
+      "websiteTitle": "L’avenir de l’Homme est-il dans l’espace ?",
+      "websiteTitleZh": "人类的未来在太空吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9975,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        100,
+        103
+      ],
+      "sourceTitle": "L’avenir de l’humanité est-il dans l’espace ?",
+      "exerciseId": "speaking-1-5",
+      "websiteTitle": "L’avenir de l’humanité est-il dans l’espace ?",
+      "websiteTitleZh": "人类的未来在太空吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        104,
+        107
+      ],
+      "sourceTitle": "La recherche spatiale est-elle vraiment nécessaire ?",
+      "exerciseId": "speaking-2-12",
+      "websiteTitle": "La recherche spatiale est-elle vraiment nécessaire ?",
+      "websiteTitleZh": "太空研究真的必要吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9955,
+      "pdfCoverage": 0.9955,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        108,
+        111
+      ],
+      "sourceTitle": "La conquête de l’espace : une dépense inutile ?",
+      "exerciseId": "speaking-2-23",
+      "websiteTitle": "La conquête de l’espace : une dépense inutile ?",
+      "websiteTitleZh": "探索太空是一笔无用的开销吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 0.9916,
+      "pdfCoverage": 0.9874,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        112,
+        115
+      ],
+      "sourceTitle": "La science-fiction peut-elle aider la science ?",
+      "exerciseId": "speaking-supp-14-3",
+      "websiteTitle": "La science-fiction peut-elle aider la science ?",
+      "websiteTitleZh": "科幻能帮助科学吗？",
+      "websiteTheme": "科技与社会",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9974,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        116,
+        119
+      ],
+      "sourceTitle": "Vers la fin des livres ?",
+      "exerciseId": "speaking-supp-15-6",
+      "websiteTitle": "Vers la fin des livres ?",
+      "websiteTitleZh": "书籍将走向终结吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9971,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        120,
+        123
+      ],
+      "sourceTitle": "La mort de l’édition traditionnelle ?",
+      "exerciseId": "speaking-1-3",
+      "websiteTitle": "La mort de l’édition traditionnelle ?",
+      "websiteTitleZh": "传统出版业将走向终结吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        124,
+        127
+      ],
+      "sourceTitle": "Faut-il revoir le statut du droit d’auteur ?",
+      "exerciseId": "speaking-2-20",
+      "websiteTitle": "Faut-il revoir le statut du droit d’auteur ?",
+      "websiteTitleZh": "版权制度需要重新审视吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 1.0,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        128,
+        131
+      ],
+      "sourceTitle": "Quelle est la place de l’écrit à l’ère numérique ?",
+      "exerciseId": "speaking-supp-18-3",
+      "websiteTitle": "Quelle est la place de l’écrit à l’ère numérique ?",
+      "websiteTitleZh": "数字时代，书写处于怎样的位置？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.9972,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        132,
+        135
+      ],
+      "sourceTitle": "Le livre papier va-t-il disparaître sous l’influence d’Internet ?",
+      "exerciseId": "speaking-supp-17-3",
+      "websiteTitle": "Le livre papier va-t-il disparaître sous l’influence d’Internet ?",
+      "websiteTitleZh": "互联网会使纸质书消失吗？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 1.0,
+      "pdfCoverage": 0.997,
+      "note": "原文与材料匹配"
+    },
+    {
+      "sourceFile": "科技主题.pdf",
+      "sourcePages": [
+        136,
+        140
+      ],
+      "sourceTitle": "Quel avenir pour l’industrie musicale ?",
+      "exerciseId": "speaking-2-10",
+      "websiteTitle": "Quel avenir pour l’industrie musicale ?",
+      "websiteTitleZh": "音乐产业的未来在哪里？",
+      "websiteTheme": "语言与文化",
+      "status": "already-present",
+      "bodyCoverage": 0.9861,
+      "pdfCoverage": 0.9861,
+      "note": "原文与材料匹配"
+    }
+  ],
+  "method": "根据版面分栏顺序提取法语正文，按词组匹配并复核原题名、目录条目及材料。匹配分数仅用于定位；同题名的不同材料按正文区分。未将中文译文作为新法语题目。",
+  "previousOversizedAttachment": "这五份文件的核查不等于已读取此前超限的第八套口语独立附件，未取消原待补充标记。"
+}
