@@ -1,0 +1,444 @@
+<title>胡桃法语首页</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@600&display=swap">
+<style>
+@font-face{font-family:Journal;src:url(__FONT__) format('truetype');font-weight:400 700;font-display:swap}
+/* Layout: one clothesline across the page; the daily slot and four sections hang from it as cards that drop like drawers when chosen */
+:root{
+  --paper:#faf6f1; --surface:#fffdfa; --ink:#2f2630; --muted:#85777f; --faint:#b1a4ab; --line:#e9e0dc;
+  --rope:#9a7a60; --peg:#c8a27c; --peg-dark:#a8805a; --walnut:#7a4b2e; --honey:#d39a3a; --night:#3a2c37; --night-ink:#e6d8e0;
+  --sage:#5f7759; --sage-soft:#e6eee2; --blue:#566d8e; --blue-soft:#e5ebf4; --plum:#735a78; --plum-soft:#efe7f2;
+  --amber:#a6752f; --amber-soft:#f6ead2; --rose:#a65f58; --rose-soft:#f5e5e1; --kraft:#efe2cc; --kraft-ink:#6b4f2f;
+  --shadow:#4a2f3f1f;
+  --hand:Journal,'Segoe Print',cursive; --serif-zh:'Songti SC','Noto Serif SC',Georgia,serif;
+  --serif-fr:Georgia,'Times New Roman',serif; --sans:'PingFang SC','Noto Sans SC','Microsoft YaHei',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#1d181d; --surface:#272027; --ink:#efe6ea; --muted:#ab9da5; --faint:#7d7078; --line:#3a3139;
+  --rope:#b8977a; --peg:#b48c64; --peg-dark:#8f6a46; --walnut:#dcae86; --honey:#e2b25e; --night:#120d11; --night-ink:#d9cbd3;
+  --sage:#9bb592; --sage-soft:#26302a; --blue:#9fb4d4; --blue-soft:#232a36; --plum:#c3a7c8; --plum-soft:#30263303;
+  --plum-soft:#302632; --amber:#dcaa62; --amber-soft:#352b1d; --rose:#e0a39b; --rose-soft:#36252a; --kraft:#3a3024; --kraft-ink:#e8cfa8;
+  --shadow:#00000066; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#1d181d; --surface:#272027; --ink:#efe6ea; --muted:#ab9da5; --faint:#7d7078; --line:#3a3139;
+  --rope:#b8977a; --peg:#b48c64; --peg-dark:#8f6a46; --walnut:#dcae86; --honey:#e2b25e; --night:#120d11; --night-ink:#d9cbd3;
+  --sage:#9bb592; --sage-soft:#26302a; --blue:#9fb4d4; --blue-soft:#232a36; --plum:#c3a7c8;
+  --plum-soft:#302632; --amber:#dcaa62; --amber-soft:#352b1d; --rose:#e0a39b; --rose-soft:#36252a; --kraft:#3a3024; --kraft-ink:#e8cfa8;
+  --shadow:#00000066; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--plum);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1280px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+svg.i{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+
+/* nav */
+nav.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:color-mix(in srgb,var(--paper) 86%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:31;background:var(--paper)}
+nav.top .wrap{display:flex;align-items:center;gap:24px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.brand img{width:40px;height:40px}
+.brand b{display:block;font-family:var(--serif-zh);font-size:19px;color:var(--walnut);letter-spacing:1px;line-height:1.1}
+.brand small{display:block;font-family:var(--hand);font-size:12px;color:var(--honey)}
+.links{display:flex;gap:4px;flex:1;min-width:0}
+.links a{padding:8px 13px;border-radius:30px;font-size:13px;color:var(--muted);white-space:nowrap;display:flex;gap:6px;align-items:baseline}
+.links a i{font-style:normal;font-family:var(--hand);font-size:11px;color:var(--faint)}
+.links a.on{background:var(--surface);color:var(--ink);box-shadow:0 1px 6px var(--shadow)}
+.links a:hover{color:var(--ink)}
+.tools{display:flex;gap:10px;align-items:center}
+.search{display:flex;align-items:center;gap:8px;height:36px;padding:0 14px;border-radius:30px;border:1px solid var(--line);background:var(--surface);color:var(--faint);font-size:12px;white-space:nowrap}
+.me{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--plum-soft);color:var(--plum);font-family:var(--hand)}
+
+/* intro */
+.intro{display:flex;align-items:flex-end;gap:32px;padding-block:44px 6px}
+.intro .k{font-family:var(--hand);font-size:24px;color:var(--rose);display:inline-block;transform:rotate(-2deg)}
+.intro h1{font-family:var(--serif-zh);font-weight:600;font-size:clamp(28px,3.2vw,40px);line-height:1.3;margin:6px 0 8px;text-wrap:balance}
+.intro p{color:var(--muted);max-width:520px;margin:0}
+.intro p b{color:var(--ink);font-weight:500}
+.resume{margin-left:auto;display:flex;align-items:center;gap:14px;padding:12px 16px 12px 12px;border-radius:16px;background:var(--surface);border:1px solid var(--line);min-width:0}
+.resume .dot{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:var(--plum-soft);color:var(--plum);flex-shrink:0}
+.resume small{display:block;font-size:11px;color:var(--faint)}
+.resume b{display:block;font:400 15px var(--serif-fr);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.resume .bar{display:block;height:4px;border-radius:4px;background:var(--line);margin-top:6px;width:180px;overflow:hidden}
+.resume .bar span{display:block;height:100%;width:27%;background:var(--plum)}
+
+/* the line */
+.stage{position:relative;height:640px;margin-top:6px;touch-action:pan-y}
+.rope{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.rope path{fill:none;stroke-linecap:round}
+.rope .r{stroke:var(--rope);stroke-width:2.2}
+.rope .rs{stroke:var(--shadow);stroke-width:5;filter:blur(3px);transform:translate(0,7px)}
+.post{position:absolute;top:30px;width:14px;height:14px;border-radius:50%;background:var(--peg-dark);box-shadow:0 0 0 4px color-mix(in srgb,var(--peg) 35%,transparent)}
+.post.l{left:0}.post.r{right:0}
+.row{position:absolute;inset:0 24px;display:flex;gap:18px;align-items:flex-start}
+.hang{--g:1.18;flex:var(--g) 1 0;min-width:0;position:relative;transition:flex-grow .55s cubic-bezier(.2,.8,.2,1);will-change:transform}
+.hang.ticket{--g:.92}
+.stage.has-on .hang{--g:.9}
+.stage.has-on .hang.ticket{--g:.78}
+.stage.has-on .hang.on{--g:1.95}
+.peg{position:absolute;left:50%;top:-9px;width:13px;height:30px;margin-left:-6.5px;border-radius:3px;background:linear-gradient(90deg,var(--peg),var(--peg-dark));box-shadow:0 2px 4px var(--shadow);z-index:3}
+.peg::after{content:"";position:absolute;left:3px;right:3px;top:11px;height:5px;border-radius:2px;background:color-mix(in srgb,var(--rope) 60%,#000 10%)}
+.card{position:relative;display:block;width:100%;text-align:left;margin-top:10px;border-radius:16px 16px 18px 18px;background:var(--surface);border:1px solid var(--line);box-shadow:0 14px 34px var(--shadow);overflow:hidden;transform-origin:50% -10px;cursor:grab;user-select:none;-webkit-user-select:none;transition:opacity .4s,filter .4s,box-shadow .4s}
+.card:active{cursor:grabbing}
+.stage.has-on .hang:not(.on) .card{opacity:.78;filter:saturate(.75)}
+.hang.on .card{box-shadow:0 26px 60px var(--shadow)}
+.pic{height:118px;background-size:cover;background-position:center;position:relative}
+.pic::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,var(--surface)),color-mix(in srgb,var(--c) 22%,transparent);mix-blend-mode:normal}
+.pic .fr{position:absolute;left:16px;bottom:6px;z-index:1;font-family:var(--hand);font-size:clamp(19px,1.9vw,25px);color:var(--c);line-height:1.1;white-space:nowrap;transform:rotate(-2deg);transform-origin:left bottom}
+.body{padding:8px 18px 16px}
+.body h2{font-family:var(--serif-zh);font-weight:600;font-size:21px;margin:0;line-height:1.3}
+.body .sub{font-size:12px;color:var(--muted);margin-top:4px;min-height:38px}
+.meta{display:flex;align-items:center;justify-content:space-between;margin-top:10px;font-family:var(--hand);font-size:14px;color:var(--c)}
+.meta .go{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--c);color:var(--surface);transition:transform .3s}
+.hang.on .meta .go{transform:rotate(-45deg)}
+.drawer{display:grid;grid-template-rows:0fr;transition:grid-template-rows .55s cubic-bezier(.2,.8,.2,1)}
+.drawer>div{overflow:hidden}
+.hang.on .drawer{grid-template-rows:1fr}
+.drawer ul{list-style:none;margin:12px 0 0;padding:12px 0 0;border-top:1px dashed var(--line);display:grid;gap:8px}
+.drawer li{display:flex;align-items:center;gap:10px;font-size:12.5px;padding:8px 10px;border-radius:10px;background:var(--cs)}
+.drawer li svg{color:var(--c)}
+.drawer li small{margin-left:auto;color:var(--muted);font-size:11px;white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{font-size:11px;padding:3px 9px;border-radius:20px;background:var(--cs);color:var(--c);white-space:nowrap}
+.chip.b2{background:var(--amber-soft);color:var(--amber)}.chip.c1{background:var(--plum-soft);color:var(--plum)}.chip.soon{background:transparent;border:1px dashed var(--line);color:var(--faint)}
+.pull{display:flex;justify-content:center;align-items:center;gap:6px;margin-top:12px;font-size:11px;color:var(--faint)}
+.pull i{display:block;width:26px;height:4px;border-radius:4px;background:var(--line)}
+.hang.on .pull{color:var(--c)}
+.hang.on .pull i{background:var(--c)}
+.learn{--c:var(--sage);--cs:var(--sage-soft)}.panel.ticket{--c:var(--kraft-ink)}.read{--c:var(--blue);--cs:var(--blue-soft)}
+.bank{--c:var(--plum);--cs:var(--plum-soft)}.tutor{--c:var(--rose);--cs:var(--rose-soft)}
+
+/* daily ticket */
+.ticket .card{background:var(--kraft);border-color:color-mix(in srgb,var(--kraft-ink) 20%,transparent);color:var(--kraft-ink);border-radius:6px 6px 14px 14px}
+.ticket .card::before{content:"";position:absolute;left:50%;top:12px;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:var(--paper);box-shadow:inset 0 1px 2px var(--shadow)}
+.tk{padding:34px 16px 16px}
+.tk .k{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:11px;opacity:.8;white-space:nowrap}
+.tk .k span:first-child{font-family:var(--hand);font-size:17px;opacity:1}
+.tabs{display:flex;gap:4px;margin:10px 0 12px;padding:3px;border-radius:20px;background:color-mix(in srgb,var(--kraft-ink) 10%,transparent)}
+.tabs button{flex:1;font-size:11px;padding:3px 0;border-radius:20px;color:var(--kraft-ink);opacity:.75}
+.tabs button[aria-selected="true"]{background:var(--surface);opacity:1}
+.tk .word{font-family:var(--hand);font-size:clamp(22px,2.2vw,28px);line-height:1.25;min-height:70px}
+.tk .word.fr-s{font-size:clamp(16px,1.5vw,19px)}
+.tk .zh{font-size:12px;margin-top:6px}
+.tk .drawer .x{font:italic 12.5px/1.7 var(--serif-fr);margin-top:12px;padding-top:12px;border-top:1px dashed color-mix(in srgb,var(--kraft-ink) 30%,transparent)}
+.tk .acts{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.tk .acts span{font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid color-mix(in srgb,var(--kraft-ink) 25%,transparent)}
+.hint{position:absolute;left:50%;bottom:4px;transform:translateX(-50%);font-size:12px;color:var(--faint);display:flex;gap:8px;align-items:center;white-space:nowrap}
+.hint .hand{font-family:var(--hand);color:var(--rose);font-size:15px}
+
+/* quick bar */
+.quick{background:var(--night);color:var(--night-ink);margin-top:20px}
+.quick .wrap{display:flex;align-items:center;gap:28px;padding-block:26px;flex-wrap:wrap}
+.quick .brand b{color:#f3d79a}.quick .brand small{color:#bfa9b8}
+.quick .brand img{background:#fffaf2;border-radius:50%;padding:2px}
+.qa{display:flex;gap:8px;flex-wrap:wrap;flex:1;min-width:0}
+.qa a{display:flex;align-items:center;gap:7px;padding:9px 14px;border-radius:30px;background:#ffffff12;border:1px solid #ffffff1f;font-size:12.5px;white-space:nowrap;transition:background .2s}
+.qa a:hover{background:#ffffff24}
+.qa a b{font-family:var(--hand);font-weight:400;color:#f3cf86;font-size:13px}
+.motto{font-family:var(--hand);color:#f3cf86;font-size:19px;white-space:nowrap}
+
+/* section sheet (preview of the next page) */
+.sheet{position:fixed;inset:0;z-index:50;display:grid;place-items:end center;background:color-mix(in srgb,var(--night) 45%,transparent);opacity:0;pointer-events:none;transition:opacity .3s}
+.sheet.show{opacity:1;pointer-events:auto}
+.sheet .panel{width:min(760px,100%);background:var(--surface);border-radius:24px 24px 0 0;padding:28px max(24px,env(safe-area-inset-right,0px)) calc(28px + env(safe-area-inset-bottom,0px)) max(24px,env(safe-area-inset-left,0px));transform:translateY(40px);transition:transform .45s cubic-bezier(.2,.8,.2,1);border-top:6px solid var(--c)}
+.sheet.show .panel{transform:none}
+.sheet .hand{font-family:var(--hand);font-size:24px;color:var(--c)}
+.sheet h3{font-family:var(--serif-zh);font-size:26px;margin:4px 0 6px}
+.sheet p{color:var(--muted);margin:0 0 18px}
+.sheet .btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 18px;border-radius:30px;font-size:13px}
+.btn.solid{background:var(--c);color:var(--surface)}
+.btn.ghost{border:1px solid var(--line)}
+
+/* phone: the rope runs down the left edge */
+@media (max-width:820px){
+  .links,.search{display:none}
+  .intro{flex-direction:column;align-items:flex-start;padding-block:28px 10px}
+  .resume{margin-left:0;width:100%}.resume .bar{width:100%}
+  .stage{height:auto;padding:8px 0 40px 22px}
+  .rope,.post{display:none}
+  .stage::before{content:"";position:absolute;left:8px;top:0;bottom:30px;width:2px;background:var(--rope);border-radius:2px}
+  .row{position:static;flex-direction:column;gap:22px}
+  .hang,.stage.has-on .hang{flex:none;width:100%;transform:none!important}
+  .peg{left:-20px;top:28px;width:28px;height:12px;margin:0}
+  .peg::after{top:3px;bottom:3px;left:11px;right:auto;width:5px;height:auto}
+  .card{margin-top:0;transform:none!important}
+  .hint{position:static;transform:none;justify-content:center;margin-top:16px}
+  .hint .desk{display:none}.hint .tap{display:inline!important}
+  .qa{flex-basis:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01s!important}}
+</style>
+
+<nav class="top"><div class="wrap">
+  <a class="brand" href="#"><img src="__LOGO__" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <div class="links"><a class="on">首页<i>Accueil</i></a><a data-open="learn">系统学习<i>Apprendre</i></a><a data-open="read">阅读精听<i>Lire &amp; écouter</i></a><a data-open="bank">题库练习<i>S’exercer</i></a><a data-open="tutor">找老师<i>Professeurs</i></a></div>
+  <div class="tools"><span class="search"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章</span><span class="me">H</span></div>
+</div></nav>
+
+<main>
+<section class="wrap intro">
+  <div>
+    <span class="k">Un fil, quatre chemins</span>
+    <h1>顺着这根线，走进法语</h1>
+    <p>把鼠标移到卡片上，它会被<b>拉下来</b>展开；<b>点一下</b>或<b>往下拖</b>，就能进入这个板块。</p>
+  </div>
+  <a class="resume" data-open="bank" href="#"><span class="dot"><svg class="i" viewBox="0 0 24 24"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg></span>
+    <span style="min-width:0"><small>继续上次的练习 · C1 阅读 · 第 3 / 11 题</small><b>Enseignants : le droit d’aimer</b><span class="bar"><span></span></span></span></a>
+</section>
+
+<section class="wrap" aria-label="四个学习板块">
+<div class="stage" id="stage">
+  <svg class="rope" id="rope" aria-hidden="true"><path class="rs" id="ropeS"/><path class="r" id="ropeP"/></svg>
+  <span class="post l"></span><span class="post r"></span>
+  <div class="row" id="row">
+
+    <div class="hang ticket" data-key="daily">
+      <span class="peg"></span>
+      <div class="card" role="group" aria-label="今日推送" tabindex="0">
+        <div class="tk">
+          <div class="k"><span>Aujourd’hui</span><span>11 月 25 日</span></div>
+          <div class="tabs" role="tablist">
+            <button role="tab" aria-selected="true" data-t="0">一词</button><button role="tab" aria-selected="false" data-t="1">一句</button><button role="tab" aria-selected="false" data-t="2">新闻</button>
+          </div>
+          <div class="word" id="dWord">la flânerie</div>
+          <div class="zh" id="dZh">闲逛、漫步；带着好奇心在城里随意散步</div>
+          <div class="drawer"><div>
+            <div class="x" id="dEx">« Paris se découvre par la flânerie. »</div>
+            <div class="acts"><span>朗读</span><span>加入生词本</span><span>收藏</span></div>
+          </div></div>
+          <div class="pull"><i></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hang learn" data-key="learn">
+      <span class="peg"></span>
+      <div class="card" role="button" tabindex="0" aria-label="系统学习">
+        <div class="pic" style="background-image:url(__IMG_LEARN__)"><span class="fr">Apprendre</span></div>
+        <div class="body">
+          <h2>系统学习</h2><div class="sub">语法按等级讲透，主题词汇按场景记牢</div>
+          <div class="drawer"><div><ul>
+            <li><svg class="i" viewBox="0 0 24 24"><path d="M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>分级语法课<small>A1 – C1</small></li>
+            <li><svg class="i" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>主题词汇<small>12 个单元</small></li>
+            <li><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg>配套练习<small>学完即练</small></li>
+          </ul></div></div>
+          <div class="meta"><span>Leçon 5 · bien que</span><span class="go"><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="pull"><i></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hang read" data-key="read">
+      <span class="peg"></span>
+      <div class="card" role="button" tabindex="0" aria-label="阅读精听">
+        <div class="pic" style="background-image:url(__IMG_READ__)"><span class="fr">Lire &amp; écouter</span></div>
+        <div class="body">
+          <h2>阅读精听</h2><div class="sub">地道新闻和原声音频，点词就查，生词自动进本</div>
+          <div class="drawer"><div><ul>
+            <li><svg class="i" viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Z"/></svg>今日新闻<small>3 篇 · B1–C1</small></li>
+            <li><svg class="i" viewBox="0 0 24 24"><path d="M2 10v3M6 6v11M10 3v18M14 8v7M18 5v13M22 10v3"/></svg>逐句精听 · 听写<small>4 段音频</small></li>
+            <li><svg class="i" viewBox="0 0 24 24"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>生词本<small>20 个待复习</small></li>
+          </ul></div></div>
+          <div class="meta"><span>Le kiosque du jour</span><span class="go"><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="pull"><i></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hang bank" data-key="bank">
+      <span class="peg"></span>
+      <div class="card" role="button" tabindex="0" aria-label="题库练习">
+        <div class="pic" style="background-image:url(__IMG_BANK__)"><span class="fr">S’exercer</span></div>
+        <div class="body">
+          <h2>题库练习</h2><div class="sub">DELF / DALF 真题，听读写说四项全覆盖</div>
+          <div class="chips"><span class="chip b2">DELF B2 · 313 组</span><span class="chip c1">DALF C1 · 252 组</span></div>
+          <div class="drawer"><div><ul>
+            <li><svg class="i" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.8 9.8 0 0 0-6.7 2.7L3 8"/><path d="M3 3v5h5"/></svg>错题回顾<small>23 题</small></li>
+            <li><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>练习记录<small>已练 134 组</small></li>
+            <li style="background:transparent;border:1px dashed var(--line)"><svg class="i" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>DELF A2 · B1<small>即将上线</small></li>
+          </ul></div></div>
+          <div class="meta"><span>Banque d’exercices</span><span class="go"><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="pull"><i></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hang tutor" data-key="tutor">
+      <span class="peg"></span>
+      <div class="card" role="button" tabindex="0" aria-label="找老师">
+        <div class="pic" style="background-image:url(__IMG_TUTOR__)"><span class="fr">Professeurs</span></div>
+        <div class="body">
+          <h2>找老师</h2><div class="sub">看视频挑老师，选好时间，一对一开口说</div>
+          <div class="drawer"><div><ul>
+            <li><svg class="i" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>母语老师 · 中文老师<small>48 位</small></li>
+            <li><svg class="i" viewBox="0 0 24 24"><path d="m16 13 5.2 3.5a.5.5 0 0 0 .8-.4V7.9a.5.5 0 0 0-.8-.4L16 11"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>25 分钟试听课<small>¥ 39 起</small></li>
+            <li><svg class="i" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>我的课程<small>下节：周一 19:30</small></li>
+          </ul></div></div>
+          <div class="meta"><span>En tête-à-tête</span><span class="go"><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="pull"><i></i></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="hint"><span class="hand">tirez !</span><span class="desk">悬停展开 · 点击或向下拖动进入</span><span class="tap" style="display:none">轻点展开 · 再点一次进入</span></div>
+</div>
+</section>
+
+<section class="quick"><div class="wrap">
+  <a class="brand" href="#"><img src="__LOGO__" alt=""><span><b>胡桃法语</b><small>Noix · le français</small></span></a>
+  <div class="qa">
+    <a data-open="bank" href="#">DELF B2 题库 <b>313</b></a>
+    <a data-open="bank" href="#">DALF C1 题库 <b>252</b></a>
+    <a data-open="read" href="#">生词本 <b>20</b></a>
+    <a data-open="bank" href="#">错题回顾 <b>23</b></a>
+    <a data-open="tutor" href="#">我的课程</a>
+    <a data-open="learn" href="#">学习备份</a>
+  </div>
+  <span class="motto">Un petit pas chaque jour</span>
+</div></section>
+</main>
+
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sTitle">
+  <div class="panel"><span class="hand" id="sFr"></span><h3 id="sTitle"></h3>
+    <p id="sTxt"></p>
+    <div class="btns"><button class="btn solid" id="sBack">回到首页</button><span class="btn ghost" id="sNote">预览版：这里会进入板块首页</span></div></div>
+</div>
+
+<script>
+(() => {
+  const stage = document.getElementById('stage'), row = document.getElementById('row');
+  const ropeP = document.getElementById('ropeP'), ropeS = document.getElementById('ropeS');
+  const hangs = [...row.querySelectorAll('.hang')];
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const narrow = () => matchMedia('(max-width: 820px)').matches;
+  const st = hangs.map((h, i) => ({ h, card: h.querySelector('.card'), dip: 0, dv: 0, ang: (i % 2 ? 1.6 : -1.4), av: 0, rest: (i % 2 ? 1.6 : -1.4), pull: 0, x: 0 }));
+  let active = -1, drag = null;
+
+  const SECTIONS = {
+    learn: ['Apprendre', '系统学习', '语法路线和主题词汇单元会在这里展开：先学一课，再做配套练习。', 'learn'],
+    read: ['Lire & écouter', '阅读精听', '今日报亭、文章精读、逐句听写和生词本会放在这个板块。', 'read'],
+    bank: ['S’exercer', '题库练习', '这里会进入等级选择：DELF B2、DALF C1 两个题库，A2 和 B1 之后补充。', 'bank'],
+    tutor: ['Professeurs', '找老师', '浏览老师、看介绍视频、预约试听课，课后笔记同步到你的生词本。', 'tutor'],
+    daily: ['Aujourd’hui', '今日推送', '每日一词、一句和一则新闻都放在这张小票里，每天早上更新。', 'ticket'],
+  };
+
+  // rope geometry
+  function ropeY(x, W) {
+    let y = 36 + 30 * 4 * (x / W) * (1 - x / W);
+    for (const s of st) { if (s.dip > .1) y += s.dip * Math.exp(-Math.pow((x - s.x) / 120, 2)); }
+    return y;
+  }
+  function frame() {
+    if (!narrow()) {
+      const W = stage.clientWidth, sr = stage.getBoundingClientRect();
+      let d = '';
+      for (const s of st) { const r = s.h.getBoundingClientRect(); s.x = r.left - sr.left + r.width / 2; }
+      for (let x = 0; x <= W; x += 8) { d += (x ? 'L' : 'M') + x.toFixed(1) + ' ' + ropeY(x, W).toFixed(1); }
+      ropeP.setAttribute('d', d); ropeS.setAttribute('d', d);
+      st.forEach((s, i) => {
+        const target = (i === active ? 46 : 0) + s.pull;
+        if (drag && drag.i === i) { s.dip = target; s.dv = 0; }
+        else { s.dv = (s.dv + (target - s.dip) * .09) * .78; s.dip += s.dv; }
+        const goal = i === active || (drag && drag.i === i) ? 0 : s.rest;
+        s.av = (s.av + (goal - s.ang) * (reduce ? 1 : .05)) * (reduce ? 0 : .93); s.ang += reduce ? (goal - s.ang) : s.av;
+        const y = ropeY(s.x, W) - 6;
+        s.h.style.transform = `translateY(${y.toFixed(1)}px)`;
+        s.card.style.transform = `rotate(${s.ang.toFixed(2)}deg)`;
+      });
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // a passing pointer nudges the cards it crosses
+  let lastX = null;
+  stage.addEventListener('pointermove', e => {
+    if (reduce || narrow()) return;
+    if (lastX !== null) {
+      const dx = e.clientX - lastX, sr = stage.getBoundingClientRect();
+      st.forEach((s, i) => { if (i !== active && Math.abs(e.clientX - sr.left - s.x) < 110) s.av += dx * .035; });
+    }
+    lastX = e.clientX;
+  });
+  stage.addEventListener('pointerleave', () => { lastX = null; });
+
+  function setActive(i) {
+    active = i;
+    stage.classList.toggle('has-on', i >= 0);
+    hangs.forEach((h, k) => h.classList.toggle('on', k === i));
+  }
+  hangs.forEach((h, i) => {
+    h.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') setActive(i); });
+    h.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse' && !drag) setActive(-1); });
+    h.addEventListener('focusin', () => setActive(i));
+    h.addEventListener('focusout', () => { if (!h.contains(document.activeElement)) setActive(-1); });
+  });
+  stage.addEventListener('pointerleave', () => { if (!drag) setActive(-1); });
+
+  // drag a card down (or click it) to open its section
+  st.forEach((s, i) => {
+    s.card.addEventListener('pointerdown', e => {
+      if (e.target.closest('.tabs')) return;
+      drag = { i, y0: e.clientY, moved: 0, id: e.pointerId, type: e.pointerType };
+      s.card.setPointerCapture(e.pointerId);
+    });
+    s.card.addEventListener('pointermove', e => {
+      if (!drag || drag.i !== i) return;
+      const dy = e.clientY - drag.y0; drag.moved = Math.max(drag.moved, Math.abs(dy));
+      if (!narrow()) s.pull = Math.max(0, Math.min(150, dy * .85));
+    });
+    const end = e => {
+      if (!drag || drag.i !== i) return;
+      const d = drag; drag = null;
+      const pulled = s.pull; s.pull = 0;
+      if (pulled > 80) return open(s.h.dataset.key);
+      if (d.moved < 6) {
+        if (d.type !== 'mouse' && active !== i) { setActive(i); return; }
+        open(s.h.dataset.key);
+      }
+    };
+    s.card.addEventListener('pointerup', end);
+    s.card.addEventListener('pointercancel', () => { drag = null; s.pull = 0; });
+    s.card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(s.h.dataset.key); } });
+  });
+
+  // daily ticket tabs
+  const DAILY = [
+    ['la flânerie', '闲逛、漫步；带着好奇心在城里随意散步', '« Paris se découvre par la flânerie. »', false],
+    ['« Bien qu’il fasse froid, les terrasses restent pleines. »', '尽管天冷，露天座依然坐满了人。', 'bien que + 虚拟式 · 今天的语法点', true],
+    ['Les cafés gardent leurs terrasses l’hiver', '巴黎咖啡馆的露天座，冬天也不收了 · B1 · 3 分钟', '附原声音频 3:40 · 预计生词 9 个', true],
+  ];
+  const tabs = [...document.querySelectorAll('.tabs button')];
+  tabs.forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation();
+    const d = DAILY[+b.dataset.t];
+    tabs.forEach(t => t.setAttribute('aria-selected', t === b));
+    const w = document.getElementById('dWord'); w.textContent = d[0]; w.classList.toggle('fr-s', d[3]);
+    document.getElementById('dZh').textContent = d[1]; document.getElementById('dEx').textContent = d[2];
+  }));
+
+  // section sheet
+  const sheet = document.getElementById('sheet'), panel = sheet.querySelector('.panel');
+  let lastFocus = null;
+  function open(key) {
+    const s = SECTIONS[key]; if (!s) return;
+    lastFocus = document.activeElement;
+    panel.className = 'panel ' + s[3];
+    document.getElementById('sFr').textContent = s[0];
+    document.getElementById('sTitle').textContent = s[1];
+    document.getElementById('sTxt').textContent = s[2];
+    sheet.classList.add('show'); document.getElementById('sBack').focus();
+  }
+  function close() { sheet.classList.remove('show'); setActive(-1); if (lastFocus) lastFocus.focus?.(); }
+  document.getElementById('sBack').addEventListener('click', close);
+  sheet.addEventListener('click', e => { if (e.target === sheet) close(); });
+  addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+  document.querySelectorAll('[data-open]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); open(a.dataset.open); }));
+})();
+</script>
