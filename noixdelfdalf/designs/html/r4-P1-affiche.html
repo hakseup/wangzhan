@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=1440">
+<title>首页 P1 · 海报</title><link rel="stylesheet" href="noix.css"></head>
+<body class=" ">
+<svg width="0" height="0" style="position:absolute"><filter id="wob"><feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="1" seed="7"/><feDisplacementMap in="SourceGraphic" scale="1.8"/></filter>
+<filter id="wob2"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="1" seed="2"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter></svg>
+<style>
+@font-face{font-family:'Patrick Hand SC';src:url(../assets/fonts/patrick-hand-sc-latin-400-normal.woff2) format('woff2'),url(../assets/fonts/patrick-hand-sc-latin-ext-400-normal.woff2) format('woff2')}
+:root{--mint:#dbeadf;--mint-line:#c3dacb;--peach:#f2c6aa;--green:#2f7d52;--orange:#e1653a;--navy:#282c44;--cream:#fbf7ef;
+ --butter:#f6e5ad;--sky:#d3e3ef;--blush:#f3d3cf;--ink2:#4d5068;--soft:#7d7f90;--plum:#6f566f;
+ --cap:'Patrick Hand SC','Comic Sans MS',cursive;--zh:'LXGW WenKai','Kaiti SC','STKaiti',serif;--sans:'PingFang SC','Noto Sans SC',sans-serif}
+html{background:var(--cream)}
+body{font-family:var(--sans);color:var(--navy)}
+.cap{font-family:var(--cap);letter-spacing:1.4px;font-weight:400}
+.hb{position:absolute;inset:0;border:2px solid var(--bc,var(--navy));border-radius:inherit;filter:url(#wob);pointer-events:none}
+.hb.thick{border-width:2.6px;filter:url(#wob2)}
+/* nav */
+.nav{height:72px;display:flex;align-items:center;gap:30px;padding:0 64px;position:relative;z-index:2}
+.nav .brand{display:flex;align-items:center;gap:10px}
+.nav .brand img{width:40px}
+.nav .brand b{font-family:var(--zh);font-size:21px;color:#7a4b2e;display:block;line-height:1.1;font-weight:700}
+.nav .brand small{font-family:var(--cap);font-size:12px;color:var(--orange);letter-spacing:1px}
+.nav .links{display:flex;gap:26px;flex:1;margin-left:20px}
+.nav .links a{font-family:var(--zh);font-size:15px;color:var(--ink2);display:flex;gap:6px;align-items:baseline;position:relative;padding:4px 0}
+.nav .links a i{font-style:normal;font-family:var(--cap);font-size:12px;color:var(--soft);letter-spacing:1px}
+.nav .links a.on{color:var(--navy)}
+.nav .links a.on:after{content:'';position:absolute;left:0;right:0;bottom:-3px;height:3px;border-radius:3px;background:var(--orange);filter:url(#wob)}
+.nav .search{display:flex;align-items:center;gap:8px;height:36px;padding:0 16px;border-radius:30px;position:relative;font-size:12px;color:var(--soft);background:#fffdf8}
+.nav .me{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-family:var(--cap);font-size:16px;background:var(--butter);position:relative}
+/* bento grid */
+.grid{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;grid-template-rows:1.25fr .85fr auto;gap:18px}
+.t{position:relative;border-radius:20px;padding:22px 24px;display:flex;flex-direction:column}
+.t .lab{font-family:var(--cap);font-size:15px;letter-spacing:1.5px;color:var(--lc,var(--green))}
+.t h3{font-family:var(--zh);font-size:23px;font-weight:700;margin:2px 0 6px}
+.t p{font-size:12.5px;line-height:1.8;color:var(--ink2)}
+.bank{grid-row:1/3}
+.daily{grid-column:2/5}
+.quick{grid-column:1/-1}
+.ph{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+.ph>div{display:flex;flex-direction:column}
+.ph .fr{flex:1;border-radius:6px;position:relative;padding:6px;min-height:150px}
+.ph .fr .img{height:100%;border-radius:3px;background:var(--img)}
+.ph b{font-family:var(--cap);font-size:23px;letter-spacing:1px;margin-top:10px;font-weight:400}
+.ph small{font-size:12px;color:var(--ink2)}
+.ph small em{font-style:normal;font-family:var(--cap);font-size:16px;color:var(--orange)}
+.soon{display:flex;gap:8px;margin-top:14px}
+.soon span{font-family:var(--cap);font-size:13px;letter-spacing:1px;color:var(--soft);padding:3px 12px;border-radius:20px;position:relative}
+.dw{display:grid;grid-template-columns:1fr 250px;gap:28px;height:100%}
+.dtab{display:inline-flex;gap:14px;font-family:var(--zh);font-size:13px;color:var(--soft)}
+.dtab .on{color:var(--navy);position:relative}
+.dtab .on:after{content:'';position:absolute;left:-2px;right:-2px;bottom:-2px;height:2px;background:var(--orange);filter:url(#wob)}
+.word{font-family:var(--cap);font-size:46px;letter-spacing:1px;line-height:1.1;margin:10px 0 0}
+.pron{font-size:12px;color:var(--soft)}
+.zhm{font-family:var(--zh);font-size:15px;margin-top:6px}
+.ex{font-family:var(--zh);font-size:14px;color:var(--ink2);margin-top:6px}
+.acts{display:flex;gap:16px;margin-top:auto;padding-top:14px;font-size:12px;color:var(--ink2)}.acts span{display:flex;gap:5px;align-items:center}
+.dw>div:first-child{display:flex;flex-direction:column}
+.news{display:flex;flex-direction:column;gap:12px;padding-left:24px;position:relative}
+.news:before{content:'';position:absolute;left:0;top:4px;bottom:4px;width:1.6px;background:var(--navy);opacity:.35;filter:url(#wob)}
+.news small{font-family:var(--cap);font-size:13px;letter-spacing:1px;color:var(--orange)}
+.news b{display:block;font:400 15px/1.35 Georgia,serif}
+.news span{font-size:11px;color:var(--soft)}
+.m .ico{width:40px;height:40px;display:grid;place-items:center;margin-bottom:10px;position:relative;border-radius:50%}
+.m .meta{margin-top:auto;font-size:12px;color:var(--ink2);display:flex;gap:6px;align-items:center}
+.m .meta em{font-style:normal;font-family:var(--cap);font-size:15px;color:var(--orange);letter-spacing:.5px}
+.quick{display:flex;align-items:center;gap:10px;border-radius:18px;padding:14px 22px;background:var(--qb);color:#f2ece3}
+.quick .cap{color:var(--qa);font-size:17px;margin-right:10px}
+.quick a{display:flex;align-items:center;gap:7px;padding:7px 14px;border-radius:30px;font-size:12.5px;background:#ffffff14;border:1px solid #ffffff22;white-space:nowrap}
+.quick a em{font-style:normal;font-family:var(--cap);font-size:15px;color:var(--qa)}
+
+body{background:var(--cream)}
+.band{background:var(--peach);padding:0 0 30px;position:relative}
+.band .nav{background:transparent}
+.band .head{display:flex;align-items:flex-end;padding:22px 64px 0}
+.band h1{font-family:var(--cap);font-weight:400;font-size:54px;line-height:1.02;color:var(--green);letter-spacing:2px}
+.band .zh{font-family:var(--zh);font-size:19px;color:var(--navy);margin-top:10px}
+.band .r{margin-left:auto;text-align:right}
+.band .date{font-family:var(--cap);font-size:30px;color:var(--orange);letter-spacing:1.5px}
+.band .r small{display:block;font-family:var(--zh);font-size:14px;color:var(--navy)}
+.wall{background:linear-gradient(var(--mint-line) 1.5px,transparent 1.5px) 0 0/68px 52px,linear-gradient(90deg,var(--mint-line) 1.5px,transparent 1.5px) 0 0/68px 52px,var(--mint);padding:24px 64px 30px;height:636px}
+.wall .grid{height:100%}
+.quick{--qb:var(--navy);--qa:#f3b48f}
+</style>
+<div class="band"><header class="nav"><a class="brand"><img src="../assets/hutao-logo.png" alt=""><span><b>胡桃法语</b><small>NOIX · LE FRANÇAIS</small></span></a>
+<nav class="links"><a class="on">首页<i>Accueil</i></a><a class="">系统学习<i>Apprendre</i></a><a class="">阅读精听<i>Lire & écouter</i></a><a class="">题库练习<i>S’exercer</i></a><a class="">找老师<i>Professeurs</i></a></nav><span class="search" style="background:#fffdf8"><svg class="i" style="width:14px;height:14px;" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>搜索语法、词汇、文章<i class="hb" style="--bc:var(--navy)"></i></span><span class="me">H<i class="hb"></i></span></header>
+<div class="head"><div><h1>UN PETIT PAS,<br>CHAQUE JOUR.</h1><div class="zh">你好 Hutao，今天想从哪里开始？</div></div>
+<div class="r"><div class="date">MER. 26 NOV.</div><small>连续学习 12 天 · 本周已练 9 组题</small></div></div></div>
+<div class="wall"><div class="grid"><div class="t bank" style="background:#fffdf8"><i class="hb" style="--bc:var(--navy)"></i><span class="lab" style="--lc:var(--orange)">BANQUE D’EXERCICES</span><h3>题库练习</h3>
+<p>DELF / DALF 真题，听力、阅读、写作、口语四项都有。做完看复盘解析和原文定位。</p>
+<div class="ph">
+<div><div class="fr"><div class="img" style="--img:url(../assets/arc-haze.png) 30% 60%/cover"></div><i class="hb thick" style="--bc:var(--orange)"></i></div><b>DELF B2</b><small><em>313</em> 组 · 已练 46</small></div>
+<div><div class="fr"><div class="img" style="--img:url(../assets/paris-haze.png) 68% 40%/cover"></div><i class="hb thick" style="--bc:var(--orange)"></i></div><b>DALF C1</b><small><em>252</em> 组 · 已练 88</small></div>
+</div><div class="soon"><span>A2 · BIENTÔT<i class="hb" style="--bc:#b9bccb"></i></span><span>B1 · BIENTÔT<i class="hb" style="--bc:#b9bccb"></i></span></div></div><div class="t daily" style="background:#fffdf8"><i class="hb" style="--bc:var(--navy)"></i><div class="dw"><div>
+<div style="display:flex;justify-content:space-between;align-items:center"><span class="lab">AUJOURD’HUI · 今日推送</span><span class="dtab"><span class="on">一词</span><span>一句</span><span>新闻</span></span></div>
+<div class="word">LA FLÂNERIE</div><div class="pron">[flɑnʁi] n.f. · 城市生活</div><div class="zhm">闲逛、漫步；带着好奇心在城里随意走走。</div><div class="ex">« Paris se découvre par la flânerie. »</div>
+<div class="acts"><span><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg> 听发音</span><span><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg> 加入生词本</span><span><svg class="i" style="width:13px;height:13px;" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg> 「城市生活」词汇单元</span></div></div>
+<div class="news"><small>3 ARTICLES · 今日新闻</small><div><b>Les cafés gardent leurs terrasses l’hiver</b><span>B1 · 3 分钟 · 附音频</span></div><div><b>Le télétravail redessine les villes moyennes</b><span>B2 · 6 分钟</span></div><div><b>Sommeil : ce que la recherche a vraiment prouvé</b><span>C1 · 8 分钟 · 附音频</span></div></div></div></div><div class="t m" style="background:#fffdf8"><i class="hb" style="--bc:var(--navy)"></i><span class="ico" style="background:var(--mint);color:var(--green)"><svg class="i" style="width:18px;height:18px;" viewBox="0 0 24 24"><path d="M4 19.5V4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M9 7h7M9 11h5"/></svg></span><span class="lab" style="--lc:var(--green)">APPRENDRE</span><h3>系统学习</h3><p>分级语法课和主题词汇，学完马上练。</p><div class="meta">继续 <em>LEÇON 5</em> · bien que</div></div><div class="t m" style="background:#fffdf8"><i class="hb" style="--bc:var(--navy)"></i><span class="ico" style="background:var(--sky);color:#3c6a95"><svg class="i" style="width:18px;height:18px;" viewBox="0 0 24 24"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg></span><span class="lab" style="--lc:#3c6a95">LIRE & ÉCOUTER</span><h3>阅读精听</h3><p>新闻精读、逐句听写，点词就能查。</p><div class="meta">今日 <em>3</em> 篇 · <em>4</em> 段音频</div></div><div class="t m" style="background:#fffdf8"><i class="hb" style="--bc:var(--navy)"></i><span class="ico" style="background:var(--blush);color:#c0533a"><svg class="i" style="width:18px;height:18px;" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg></span><span class="lab" style="--lc:#c0533a">PROFESSEURS</span><h3>找老师</h3><p>看视频挑老师，约一节一对一。</p><div class="meta">下节课 <em>LUN. 19:30</em></div></div><div class="quick"><span class="cap">ACCÈS RAPIDE</span><a>DELF B2 题库 <em>313</em></a><a>DALF C1 题库 <em>252</em></a><a>错题回顾 <em>23</em></a><a>生词本 <em>20</em></a><a>我的收藏 <em>14</em></a><a>我的课程</a></div></div></div>
+</body></html>
