@@ -197,3 +197,44 @@ for a, b in [('UN PETIT PAS,<br>CHAQUE JOUR.', 'Un petit pas,<br>chaque jour.'),
     assert a in p1o, a
     p1o = p1o.replace(a, b)
 PAGES['r5-P1-polices-originales'] = p1o
+
+# ====================================================================== r6 · 题库卡片改版 + 中文霞鹜文楷
+import re as _re
+BANK6_CSS = '''<style>
+:root{--zh:'LXGW WenKai','Kaiti SC','STKaiti',serif}
+.nav .links a{font-family:var(--zh);font-size:15px}
+.zhm{font-family:var(--zh);font-size:15px}
+.band .zh{font-weight:400}
+.t h3{font-weight:700}
+.lv6{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1.7fr 1fr;gap:14px;margin-top:16px}
+.lv6>div{position:relative;border-radius:14px}
+.lv6 .in{position:absolute;inset:5px;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;padding:14px 14px 12px}
+.lv6 .live .bg{position:absolute;inset:-12px;background:var(--img);filter:blur(3px);transform:scale(1.04)}
+.lv6 .live .veil{position:absolute;inset:0;background:var(--v)}
+.lv6 .in>*:not(.bg):not(.veil){position:relative}
+.lv6 .live{color:#fff}
+.lv6 .live b{font-family:Journal,cursive;font-size:27px;line-height:1;white-space:nowrap}
+.lv6 .live i{font:italic 12px Georgia,serif;opacity:.95;margin-top:4px;white-space:nowrap}
+.lv6 .live ul{list-style:none;display:grid;grid-template-columns:auto auto;justify-content:start;gap:5px 14px;margin-top:12px;font-family:var(--zh);font-size:11.5px;white-space:nowrap}
+.lv6 .live ul em{font-style:normal;font-family:Journal,cursive;font-size:14px;margin-left:3px}
+.lv6 .live .ft{margin-top:auto;display:flex;align-items:center;justify-content:space-between;font-family:var(--zh);font-size:11.5px}
+.lv6 .live .go{width:30px;height:30px;border-radius:50%;background:#fffdf8;display:grid;place-items:center;color:var(--c)}
+.lv6 .soon6 .in{background:repeating-linear-gradient(135deg,#f6f1ea 0 9px,#fbf8f3 9px 18px);justify-content:flex-start}
+.lv6 .soon6 b{font-family:Journal,cursive;font-size:30px;color:#b9aeb4;line-height:1}
+.lv6 .soon6 small{font-family:var(--zh);font-size:12px;line-height:1.6;color:#a59aa1;margin-top:8px}
+.lv6 .soon6 .in .tag{position:absolute;right:10px;top:10px;font-family:var(--zh);font-size:11px;color:#9a8f96;background:#fbf8f3;border-radius:20px;padding:2px 9px}
+</style>'''
+BANK6 = f'''<div class="lv6">
+<div class="live" style="--c:#a6752f"><div class="in"><div class="bg" style="--img:url(../assets/arc-haze.png) 30% 55%/cover"></div><div class="veil" style="--v:linear-gradient(170deg,#c08a3ccc,#7a5222e0)"></div>
+<b>DELF B2</b><i>Le café au pied de l’Arc</i><ul><li>长听力<em>17</em></li><li>短听力<em>17</em></li><li>阅读<em>34</em></li><li>写作<em>17</em></li><li>口语<em>228</em></li></ul>
+<div class="ft"><span>已练 46 / 313</span><span class="go">{ic('arrow',14)}</span></div></div><i class="hb thick" style="--bc:var(--orange)"></i></div>
+<div class="live" style="--c:#735a78"><div class="in"><div class="bg" style="--img:url(../assets/paris-haze.png) 68% 40%/cover"></div><div class="veil" style="--v:linear-gradient(170deg,#9b7ca0cc,#4d364fe0)"></div>
+<b>DALF C1</b><i>Brume sur la Seine</i><ul><li>长听力<em>20</em></li><li>短听力<em>36</em></li><li>阅读<em>28</em></li><li>写作<em>28</em></li><li>口语<em>140</em></li></ul>
+<div class="ft"><span>已练 88 / 252</span><span class="go">{ic('arrow',14)}</span></div></div><i class="hb thick" style="--bc:var(--orange)"></i></div>
+<div class="soon6"><div class="in"><b>A2</b><small>DELF A2<br>题库整理中</small><span class="tag">即将上线</span></div><i class="hb thick" style="--bc:#e9a587"></i></div>
+<div class="soon6"><div class="in"><b>B1</b><small>DELF B1<br>题库整理中</small><span class="tag">即将上线</span></div><i class="hb thick" style="--bc:#e9a587"></i></div>
+</div>'''
+p6 = p1o.replace('</body>', BANK6_CSS + '</body>')
+p6, n = _re.subn(r'<div class="ph">.*?</div><div class="soon">.*?</div></div>', BANK6 + '</div>', p6, count=1, flags=_re.S)
+assert n == 1
+PAGES['r6-P1-final'] = p6
