@@ -238,3 +238,18 @@ p6 = p1o.replace('</body>', BANK6_CSS + '</body>')
 p6, n = _re.subn(r'<div class="ph">.*?</div><div class="soon">.*?</div></div>', BANK6 + '</div>', p6, count=1, flags=_re.S)
 assert n == 1
 PAGES['r6-P1-final'] = p6
+
+# ====================================================================== r7 · 上排照片框（原样）+ 下排条纹卡（图 2 样式）
+BANK7_CSS = '''<style>
+.ph{margin-top:14px}
+.soon7{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.soon7>div{position:relative;height:104px;border-radius:14px;border:1px solid #e6e0dc;padding:14px 14px;background:repeating-linear-gradient(135deg,#f5f0ea 0 9px,#fbf8f3 9px 18px)}
+.soon7 b{display:block;font-family:Journal,cursive;font-size:30px;color:#b9aeb4;line-height:1}
+.soon7 small{display:block;font-family:var(--zh);font-size:12px;color:#a59aa1;margin-top:10px;white-space:nowrap}
+.soon7 .tag{position:absolute;right:10px;top:12px;font-family:var(--zh);font-size:11px;color:#9a8f96;background:#fbf8f3;border-radius:20px;padding:2px 9px}
+</style>'''
+SOON7 = '''<div class="soon7"><div><b>A2</b><small>DELF A2 · 题库整理中</small><span class="tag">即将上线</span></div><div><b>B1</b><small>DELF B1 · 题库整理中</small><span class="tag">即将上线</span></div></div>'''
+p7 = p1o.replace('</body>', BANK6_CSS.replace('.lv6', '.unused') + BANK7_CSS + '</body>')
+p7, n = _re.subn(r'<div class="soon"><span>A2 · bientôt.*?</div></div>', SOON7 + '</div>', p7, count=1, flags=_re.S)
+assert n == 1
+PAGES['r7-P1-final'] = p7
