@@ -167,3 +167,33 @@ PAGES = {
     'r4-P2-aplats': p2,
     'r4-P3-croquis': p3,
 }
+
+# ====================================================================== P1 · 原字体版（Journal / Georgia / 宋体 / PingFang）
+FONT_FIX = '''<style>
+:root{--cap:Journal,'Songti SC','Noto Serif SC',cursive;--zh:'Songti SC','Noto Serif SC',Georgia,serif}
+.cap,.t .lab,.word,.band h1,.band .date,.news small,.soon span,.m .meta em,.ph small em,.quick .cap,.quick a em,.nav .brand small,.nav .links a i,.nav .me{letter-spacing:.2px!important;font-weight:700}
+.nav .links a{font-family:var(--sans);font-size:14px}
+.nav .brand small{font-size:12px;color:#c08a3e}
+.band h1{font-size:50px;line-height:1.08;transform:rotate(-1.5deg);transform-origin:left bottom}
+.band .zh{font-weight:600}
+.band .date{font-size:30px}
+.t .lab{font-size:17px}
+.t h3{font-weight:600}
+.word{font-size:50px;color:#5f3f58}
+.ex{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:15px}
+.zhm{font-family:var(--sans);font-size:14px}
+.ph b{font-family:Journal,cursive;font-weight:700;font-size:25px}
+.dtab{font-family:var(--sans)}
+.quick .cap{font-size:18px}
+.band{padding-bottom:22px}.band .head{padding-top:10px}.band .zh{margin-top:6px;font-size:18px}
+</style>'''
+p1o = p1.replace('</body>', FONT_FIX + '</body>')
+for a, b in [('UN PETIT PAS,<br>CHAQUE JOUR.', 'Un petit pas,<br>chaque jour.'), ('MER. 26 NOV.', 'mer. 26 nov.'),
+             ('BANQUE D’EXERCICES', 'Banque d’exercices'), ('AUJOURD’HUI · 今日推送', 'Aujourd’hui · 今日推送'),
+             ('LA FLÂNERIE', 'la flânerie'), ('3 ARTICLES · 今日新闻', '3 articles · 今日新闻'),
+             ('A2 · BIENTÔT', 'A2 · bientôt'), ('B1 · BIENTÔT', 'B1 · bientôt'),
+             ('>APPRENDRE<', '>Apprendre<'), ('>LIRE & ÉCOUTER<', '>Lire &amp; écouter<'), ('>PROFESSEURS<', '>Professeurs<'),
+             ('LEÇON 5', 'Leçon 5'), ('LUN. 19:30', 'lun. 19:30'), ('ACCÈS RAPIDE', 'Accès rapide'), ('NOIX · LE FRANÇAIS', 'Noix · le français')]:
+    assert a in p1o, a
+    p1o = p1o.replace(a, b)
+PAGES['r5-P1-polices-originales'] = p1o
