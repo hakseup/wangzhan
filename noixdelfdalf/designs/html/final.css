@@ -1,0 +1,79 @@
+/* 胡桃法语 · 定稿风格（首页 r8 延伸到各板块）
+   法语展示：Journal　法语正文：Georgia　中文标题：霞鹜文楷 LXGW WenKai　中文正文：PingFang / 思源黑体 */
+@font-face{font-family:Journal;src:url('../assets/Journal.ttf') format('truetype');font-weight:400 700;font-display:swap}
+:root{
+  --cream:#fbf7ef; --paper:#fffdf8; --mint:#dbeadf; --mint-line:#c3dacb; --peach:#f2c6aa; --butter:#f6e5ad; --sky:#d3e3ef; --blush:#f3d3cf; --lav:#e8dfee;
+  --navy:#282c44; --ink2:#4d5068; --soft:#7d7f90; --faint:#a9abb8; --rule:#e4ddd2;
+  --green:#2f7d52; --blue:#3c6a95; --orange:#e1653a; --deep-orange:#b8411a; --red:#c0533a; --plum:#735a78; --amber:#a6752f;
+  --fr:Journal,cursive; --serif:Georgia,'Times New Roman',serif; --zh:'LXGW WenKai','Kaiti SC','STKaiti',serif; --sans:'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--cream)}
+body{width:1440px;height:900px;overflow:hidden;position:relative;font-family:var(--sans);color:var(--navy);-webkit-font-smoothing:antialiased;background:var(--cream)}
+a{color:inherit;text-decoration:none}
+svg.i{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.fr{font-family:var(--fr);font-weight:700}
+.it{font-family:var(--serif);font-style:italic}
+.zh{font-family:var(--zh)}
+.num{font-family:var(--fr);font-weight:700;color:var(--orange)}
+.hb{position:absolute;inset:0;border:2px solid var(--bc,var(--navy));border-radius:inherit;filter:url(#wob);pointer-events:none}
+.hb.thick{border-width:2.6px;filter:url(#wob2)}
+.hb.lite{border-width:1.5px;--bc:#cfc6bb}
+.box{position:relative;border-radius:18px;background:var(--paper)}
+.flat{border-radius:18px}
+.uline{position:relative;display:inline-block}
+.uline:after{content:'';position:absolute;left:-2px;right:-2px;bottom:-4px;height:3px;border-radius:3px;background:var(--uc,var(--orange));filter:url(#wob)}
+
+/* nav */
+.nav{height:72px;display:flex;align-items:center;gap:30px;padding:0 64px;background:var(--peach);position:relative;z-index:3}
+.nav .brand{display:flex;align-items:center;gap:10px}
+.nav .brand img{width:40px}
+.nav .brand b{font-family:var(--zh);font-size:21px;color:#7a4b2e;display:block;line-height:1.1;font-weight:700}
+.nav .brand small{font-family:var(--fr);font-size:12px;color:#c08a3e;font-weight:700}
+.nav .links{display:flex;gap:26px;flex:1;margin-left:20px}
+.nav .links a{font-family:var(--zh);font-size:15px;color:var(--ink2);display:flex;gap:6px;align-items:baseline;position:relative;padding:4px 0}
+.nav .links a i{font-style:normal;font-family:var(--fr);font-weight:700;font-size:12px;color:#9b8a80}
+.nav .links a.on{color:var(--navy)}
+.nav .links a.on:after{content:'';position:absolute;left:0;right:0;bottom:-3px;height:3px;border-radius:3px;background:var(--orange);filter:url(#wob)}
+.nav .search{display:flex;align-items:center;gap:8px;height:36px;padding:0 16px;border-radius:30px;position:relative;font-size:12px;color:var(--soft);background:var(--paper)}
+.nav .me{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-family:var(--fr);font-weight:700;background:var(--butter);position:relative}
+
+/* page header */
+.ph{display:flex;align-items:flex-end;gap:24px;padding:26px 64px 18px}
+.ph .k{font-family:var(--fr);font-weight:700;font-size:22px;color:var(--mc)}
+.ph h1{font-family:var(--zh);font-size:32px;font-weight:700;line-height:1.25;margin-top:2px}
+.ph p{font-size:13px;color:var(--ink2);margin-top:6px}
+.ph .r{margin-left:auto;display:flex;gap:10px;align-items:center}
+.crumb{font-size:11.5px;color:var(--soft);margin-bottom:6px;display:flex;gap:6px;align-items:center}
+
+/* controls */
+.btn{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 18px;border-radius:30px;font-size:13px;position:relative;white-space:nowrap;font-family:var(--zh)}
+.btn.solid{background:var(--navy);color:var(--cream)}
+.btn.or{background:var(--orange);color:#fff}
+.btn.line{color:var(--navy)}
+.btn.sm{height:32px;padding:0 14px;font-size:12px}
+.pill{display:inline-flex;align-items:center;gap:5px;height:26px;padding:0 11px;border-radius:20px;font-size:11.5px;white-space:nowrap;position:relative;font-family:var(--zh)}
+.pill.mint{background:var(--mint);color:var(--green)}.pill.sky{background:var(--sky);color:var(--blue)}.pill.butter{background:var(--butter);color:#7a5a18}
+.pill.blush{background:var(--blush);color:var(--red)}.pill.lav{background:var(--lav);color:var(--plum)}.pill.peach{background:var(--peach);color:#8a4325}
+.pill.ghost{color:var(--ink2)}
+.tabs{display:flex;gap:28px;padding:0 64px;margin-bottom:18px}
+.tabs a{font-family:var(--zh);font-size:15px;color:var(--soft);padding-bottom:6px;position:relative}
+.tabs a.on{color:var(--navy)}
+.tabs a.on:after{content:'';position:absolute;left:-2px;right:-2px;bottom:-1px;height:3px;border-radius:3px;background:var(--orange);filter:url(#wob)}
+.seg{display:inline-flex;gap:4px;padding:4px;border-radius:30px;position:relative;background:var(--paper)}
+.seg a{font-family:var(--fr);font-weight:700;font-size:14px;padding:4px 13px;border-radius:30px;color:var(--soft)}
+.seg a.on{background:var(--navy);color:var(--cream)}
+.bar{height:7px;border-radius:7px;background:#ebe4d8;overflow:hidden}
+.bar span{display:block;height:100%;border-radius:7px;background:var(--bcol,var(--orange))}
+.wrap{padding:0 64px}
+.label{font-family:var(--fr);font-weight:700;font-size:17px;color:var(--mc,var(--orange))}
+h2.t{font-family:var(--zh);font-size:21px;font-weight:700}
+.secth{display:flex;align-items:baseline;gap:12px;margin-bottom:12px}
+.secth .more{margin-left:auto;font-size:12px;color:var(--soft);font-family:var(--zh)}
+.m-learn{--mc:var(--green)}.m-read{--mc:var(--blue)}.m-bank{--mc:var(--orange)}.m-tutor{--mc:var(--red)}
+.mk1{background:#fff29b}.mk2{background:#dfc3f3}.mk3{background:#f4a8ae}
+.wordnote{color:#b12736;font-weight:700}
+table{width:100%;border-collapse:collapse}
+th{text-align:left;font-weight:400;font-family:var(--zh);font-size:12px;color:var(--soft);padding:8px 12px;border-bottom:1.5px solid var(--navy)}
+td{padding:11px 12px;border-bottom:1px dashed var(--rule);font-size:12.5px;color:var(--ink2)}
+.av{border-radius:50%;display:grid;place-items:center;font-family:var(--fr);font-weight:700;flex-shrink:0;position:relative}
