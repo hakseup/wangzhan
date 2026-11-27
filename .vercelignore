@@ -1,0 +1,19 @@
+# 只上传构建所需文件。B2 私有音频与 PDF 存在 Supabase 私有存储，不随部署上传。
+node_modules
+web-dist
+.build
+dist
+.git
+apps/b2/public/audio
+apps/b2/public/pdfs
+apps/b2/data/source-text
+apps/b2/data/*.json
+apps/b2/server
+apps/b2/tests
+apps/b2/downloads
+apps/c1/downloads
+apps/c1/data
+apps/c1/scripts
+apps/c1/tests
+desktop
+tests
