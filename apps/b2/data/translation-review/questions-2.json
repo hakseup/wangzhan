@@ -1,0 +1,2662 @@
+[
+  {
+    "id": "b2-long-7d271dc89b",
+    "questions": [
+      {
+        "id": "b2-long-7d271dc89b-q1",
+        "zh": "访谈开始时，主持人指出，智力这一科学研究课题……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "长期以来一直受到研究者关注。"
+          },
+          {
+            "id": "B",
+            "zh": "会对教育领域产生影响。"
+          },
+          {
+            "id": "C",
+            "zh": "占用了科研预算的很大一部分。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q2",
+        "zh": "如今，研究者对智力的哪一种总体定义达成了共识？",
+        "options": [],
+        "prompt": "Sur quelle définition générale de l’intelligence les chercheurs sont-ils d’accord aujourd’hui ?",
+        "sourceRepair": "对照源PDF第3页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-7d271dc89b-q3",
+        "zh": "研究者指出，一个人的智力能力……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "会随着人生经历的丰富而变化。"
+          },
+          {
+            "id": "B",
+            "zh": "其发展变化仍有许多尚不清楚之处。"
+          },
+          {
+            "id": "C",
+            "zh": "会通过重复同一种经历而改变。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q4",
+        "zh": "截至目前，已经界定了多少种智力形式？",
+        "options": [],
+        "prompt": "Combien de formes d’intelligence ont été définies jusqu’à aujourd’hui ?",
+        "sourceRepair": "对照源PDF第3页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-7d271dc89b-q5",
+        "zh": "请列举《儿童》杂志主编卡罗尔·勒努奇提到的两种智力形式。",
+        "options": []
+      },
+      {
+        "id": "b2-long-7d271dc89b-q6",
+        "zh": "卡罗尔·勒努奇认为，了解自己的孩子是否属于超常儿童很重要，这样才能……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "帮助孩子更好地理解自己与别人的差异。"
+          },
+          {
+            "id": "B",
+            "zh": "找到适合孩子智力水平的学校。"
+          },
+          {
+            "id": "C",
+            "zh": "帮助孩子充分发展自己的能力。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q7",
+        "zh": "材料中提到的心理测量测试用于……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "确定一个人相对于总体平均水平所处的位置。"
+          },
+          {
+            "id": "B",
+            "zh": "测量一个人的智力能力水平。"
+          },
+          {
+            "id": "C",
+            "zh": "找出一个人发展最充分的智力形式。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q8",
+        "zh": "在法国，面向超常儿童的学校……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "总体上比较少见。"
+          },
+          {
+            "id": "B",
+            "zh": "只有私立学校。"
+          },
+          {
+            "id": "C",
+            "zh": "目前的教学成效还不太好。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q9",
+        "zh": "卡罗尔·勒努奇认为，父母应该教孩子……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "理解学校的社会运行方式。"
+          },
+          {
+            "id": "B",
+            "zh": "反抗在学校遇到的不公。"
+          },
+          {
+            "id": "C",
+            "zh": "仅仅把学校看作学习的地方。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q10",
+        "zh": "卡罗尔·勒努奇建议，父母应避免把自己内心的哪些东西传递给孩子？（1.5分）",
+        "options": [
+          {
+            "id": "A",
+            "zh": "恐惧。"
+          },
+          {
+            "id": "B",
+            "zh": "愿望。"
+          },
+          {
+            "id": "C",
+            "zh": "遗憾。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q11",
+        "zh": "卡罗尔·勒努奇认为，父母还应该引导孩子……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "学会放松。"
+          },
+          {
+            "id": "B",
+            "zh": "培养好奇心。"
+          },
+          {
+            "id": "C",
+            "zh": "尽自己最大的努力。",
+            "text": "donner le meilleur d’eux-mêmes.",
+            "sourceRepair": "对照源PDF第4页，恢复缺字或各选项共用的后缀。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7d271dc89b-q12",
+        "zh": "卡罗尔·勒努奇认为，学业不成功也能在职业上取得成功吗？她用什么例子来说明自己的观点？",
+        "options": [],
+        "prompt": "Pour Carole Renucci, peut-on réussir sa vie professionnelle sans réussir à l’école ? Quel exemple utilise-t-elle pour justifier sa position ?",
+        "sourceRepair": "对照源PDF第4页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-7d271dc89b-q13",
+        "zh": "请指出除学业成功之外，能让一个人生活幸福的一个因素。（答出一点即可）",
+        "options": [],
+        "prompt": "Donnez l’un des facteurs qui, en dehors de la réussite scolaire, permet le bien-être d’une personne. (une réponse attendue)",
+        "sourceRepair": "对照源PDF第4页，修复OCR缺字、断行或抽取顺序。"
+      }
+    ]
+  },
+  {
+    "id": "b2-long-daa1a34708",
+    "questions": [
+      {
+        "id": "b2-long-daa1a34708-q1",
+        "zh": "这次采访的总体主题是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "保护物种管理方面的一般问题。"
+          },
+          {
+            "id": "B",
+            "zh": "濒危物种贸易的监管。"
+          },
+          {
+            "id": "C",
+            "zh": "打击珍奇动植物的国际非法交易。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-daa1a34708-q2",
+        "zh": "涉及动物和植物物种的法律叫什么名字？",
+        "options": []
+      },
+      {
+        "id": "b2-long-daa1a34708-q3",
+        "zh": "瑞士对这项公约持什么立场？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "瑞士是最早的签署国之一。"
+          },
+          {
+            "id": "B",
+            "zh": "瑞士是这项公约的发起国。"
+          },
+          {
+            "id": "C",
+            "zh": "瑞士议员目前正在讨论是否通过这项公约。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-daa1a34708-q4",
+        "zh": "这项贸易公约保护多少种动物和植物？请分别填写动物物种数量和植物物种数量。",
+        "options": []
+      },
+      {
+        "id": "b2-long-daa1a34708-q5",
+        "zh": "这项贸易公约……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "对所有濒危物种一视同仁地提供保护。"
+          },
+          {
+            "id": "B",
+            "zh": "按照威胁的严重程度采取不同等级的保护。"
+          },
+          {
+            "id": "C",
+            "zh": "定期修订对已列入名录物种的保护措施。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-daa1a34708-q6",
+        "zh": "联邦兽医局物种保护负责人认为，为什么针对受保护物种制定国际法律很重要？",
+        "options": []
+      },
+      {
+        "id": "b2-long-daa1a34708-q7",
+        "zh": "在什么条件下，瑞士可以禁止进口某种受保护物种？",
+        "options": []
+      },
+      {
+        "id": "b2-long-daa1a34708-q8",
+        "zh": "贸易公约签署国定期举行会议，目的是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "衡量这项法律对动植物的影响。"
+          },
+          {
+            "id": "B",
+            "zh": "把新的濒危物种加入名录。"
+          },
+          {
+            "id": "C",
+            "zh": "确定可用于贸易的物种数量。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-daa1a34708-q9",
+        "zh": "请列举材料中提到的两种受保护动物。",
+        "options": []
+      },
+      {
+        "id": "b2-long-daa1a34708-q10",
+        "zh": "物种保护负责人认为，贸易公约作出的决定……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "有助于减少非法贸易。"
+          },
+          {
+            "id": "B",
+            "zh": "应涉及更多野生物种。"
+          },
+          {
+            "id": "C",
+            "zh": "能带来令人满意的成效。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-daa1a34708-q11",
+        "zh": "瑞士如何监管受保护物种市场？请列出两点。",
+        "options": []
+      },
+      {
+        "id": "b2-long-daa1a34708-q12",
+        "zh": "违反该法律所受的处罚发生了哪些变化？",
+        "options": []
+      },
+      {
+        "id": "b2-long-daa1a34708-q13",
+        "zh": "物种保护法尤其涉及……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "买家。"
+          },
+          {
+            "id": "B",
+            "zh": "转售商。"
+          },
+          {
+            "id": "C",
+            "zh": "网络商家。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-2f0a689663",
+    "questions": [
+      {
+        "id": "b2-reading-2f0a689663-q1",
+        "zh": "材料的主要主题是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "大学的授课语言。"
+          },
+          {
+            "id": "B",
+            "zh": "英语在精英高等院校中的影响。"
+          },
+          {
+            "id": "C",
+            "zh": "大学生人数的下降。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-2f0a689663-q2",
+        "zh": "根据材料，使用英语以外的语言授课意味着……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "会妨碍法国大学的竞争力。"
+          },
+          {
+            "id": "B",
+            "zh": "会减少有意移居国外者的机会。"
+          },
+          {
+            "id": "C",
+            "zh": "会给非法语学生增加困难。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-2f0a689663-q3",
+        "zh": "在雅克·阿塔利看来，从法国接收外国学生的人数来看，为什么这种看法没有根据？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-2f0a689663-q4",
+        "zh": "雅克·阿塔利认为，法语学生可能因为哪一原因而不再选择去法国留学？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "授课语言。"
+          },
+          {
+            "id": "B",
+            "zh": "可选的授课科目有限。"
+          },
+          {
+            "id": "C",
+            "zh": "法国教育体系难度较高。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-2f0a689663-q5",
+        "zh": "雅克·阿塔利认为，使用母语以外的语言授课有什么弊端？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "交流变得困难。"
+          },
+          {
+            "id": "B",
+            "zh": "备课需要更多时间。"
+          },
+          {
+            "id": "C",
+            "zh": "课程内容的质量会下降。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-2f0a689663-q6",
+        "zh": "用法语教授科学，会妨碍研究人员用英语撰写和发表研究成果。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-2f0a689663-q7",
+        "zh": "使用外语授课可能会推广到其他学校。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-2f0a689663-q8",
+        "zh": "雅克·阿塔利认为，未来讲法语的人数要增加，必须具备什么条件？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-2f0a689663-q9",
+        "zh": "雅克·阿塔利认为，在推广法国形象时，哪两个概念与法语密不可分？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-2f0a689663-q10",
+        "zh": "雅克·阿塔利建议优先采取什么措施？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "帮助外国学生更好地融入。"
+          },
+          {
+            "id": "B",
+            "zh": "改善法国教师的培训。"
+          },
+          {
+            "id": "C",
+            "zh": "改善大学之间的国际交流。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-4ddfa78836",
+    "questions": [
+      {
+        "id": "b2-reading-4ddfa78836-q1",
+        "zh": "材料介绍的一项创新举措是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "筹集资金，挽救古老的艺术作品。"
+          },
+          {
+            "id": "B",
+            "zh": "创办一所培养未来博物馆馆长的新学校。"
+          },
+          {
+            "id": "C",
+            "zh": "为古老的艺术作品创建一种新型博物馆。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q2",
+        "zh": "根据材料，博物馆能够……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "照料并保存艺术作品。"
+          },
+          {
+            "id": "B",
+            "zh": "在艺术作品原属地附近向公众展示作品。"
+          },
+          {
+            "id": "C",
+            "zh": "在与作品原有环境相似的背景中展出作品。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q3",
+        "zh": "公共行政部门有能力保存几乎所有的艺术作品。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q4",
+        "zh": "文中作者使用“这将带来一股新风”这一说法，意在表达什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "解释该项目理想主义的一面。"
+          },
+          {
+            "id": "B",
+            "zh": "表达这项举措的价值。"
+          },
+          {
+            "id": "C",
+            "zh": "表示对项目脆弱性的担忧。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q5",
+        "zh": "这些卢浮宫学院学生有什么共同点？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q6",
+        "zh": "参加“法国最大的博物馆”活动的学生，可以自由选择自己要研究的艺术作品。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q7",
+        "zh": "参与项目的学生有什么优势？请解释原因。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q8",
+        "zh": "围绕每件艺术作品开展的文化传播活动……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "是这项活动的次要方面。"
+          },
+          {
+            "id": "B",
+            "zh": "是筹得所需资金必不可少的环节。"
+          },
+          {
+            "id": "C",
+            "zh": "取决于参与活动的学生如何选择。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q9",
+        "zh": "根据材料，博物馆以外的艺术作品……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "越来越少见。"
+          },
+          {
+            "id": "B",
+            "zh": "主要存放在教堂里。"
+          },
+          {
+            "id": "C",
+            "zh": "涉及多个艺术门类。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4ddfa78836-q10",
+        "zh": "为什么参与这个项目对卢浮宫学院的学生有益？",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-long-7776c7b7d6",
+    "questions": [
+      {
+        "id": "b2-long-7776c7b7d6-q1",
+        "zh": "这期节目的主题是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "经济危机对餐饮业的影响。"
+          },
+          {
+            "id": "B",
+            "zh": "餐馆经营者反对食物浪费的行动。"
+          },
+          {
+            "id": "C",
+            "zh": "餐馆提供素食菜肴的趋势。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q2",
+        "zh": "在法国，餐饮企业造成的污染……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "比汽车多。"
+          },
+          {
+            "id": "B",
+            "zh": "与汽车一样多。"
+          },
+          {
+            "id": "C",
+            "zh": "比汽车少。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q3",
+        "zh": "餐馆经营者为什么希望改变经营做法？请列出两个原因。",
+        "options": []
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q4",
+        "zh": "酒店与餐饮业联合会通过什么方式向餐馆经营者提供信息？",
+        "options": []
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q5",
+        "zh": "餐馆经营者遇到了哪些困难？（请答出两点）",
+        "options": [],
+        "prompt": "Quelles sont les difficultés que rencontrent les restaurateurs ? (2 réponses attendues)",
+        "sourceRepair": "对照源PDF第3页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q6",
+        "zh": "这项行动面向哪些餐馆经营者？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "使用罐头食品的经营者。"
+          },
+          {
+            "id": "B",
+            "zh": "亲自烹制食材的经营者。"
+          },
+          {
+            "id": "C",
+            "zh": "使用冷冻食品的经营者。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q7",
+        "zh": "餐馆经营者可以怎样改变自己的做法？（请列出三项措施）",
+        "options": [],
+        "prompt": "Comment les restaurateurs peuvent-ils changer leurs pratiques ? (Citez 3 mesures)",
+        "sourceRepair": "对照源PDF第4页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q8",
+        "zh": "如何加入“有益气候”协会？",
+        "options": []
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q9",
+        "zh": "这个协会鼓励餐馆经营者使用哪类食材制作菜肴？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "本地食材。"
+          },
+          {
+            "id": "B",
+            "zh": "有机食材。"
+          },
+          {
+            "id": "C",
+            "zh": "素食食材。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q10",
+        "zh": "弗朗索瓦·帕斯托认为，花更高的价格购买质量更好的蔬菜是值得的，条件是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "充分利用整份食材。"
+          },
+          {
+            "id": "B",
+            "zh": "提高套餐价格。"
+          },
+          {
+            "id": "C",
+            "zh": "改善服务质量。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q11",
+        "zh": "“有益气候”协会认为，食用肉类会带来什么问题？（2.5分）",
+        "options": [],
+        "prompt": "Pour l’association Bon pour le climat, quel problème pose la consommation de viande ? 2,5 points",
+        "sourceRepair": "对照源PDF第4页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q12",
+        "zh": "顾客看到弗朗索瓦·帕斯托的菜单后有什么反应？",
+        "options": []
+      },
+      {
+        "id": "b2-long-7776c7b7d6-q13",
+        "zh": "在弗朗索瓦·帕斯托的菜单上……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "菜肴大多是素食。"
+          },
+          {
+            "id": "B",
+            "zh": "总会标明食材产地。"
+          },
+          {
+            "id": "C",
+            "zh": "蔬菜列在肉类前面。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-e7810b31d0",
+    "questions": [
+      {
+        "id": "b2-reading-e7810b31d0-q1",
+        "zh": "材料的主要主题是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "健康对工作的影响。"
+          },
+          {
+            "id": "B",
+            "zh": "工作压力的益处。"
+          },
+          {
+            "id": "C",
+            "zh": "员工在工作中的身心福祉。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q2",
+        "zh": "记者认为，如今工作环境的压力更大，因为劳动者……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "与同事相互竞争。"
+          },
+          {
+            "id": "B",
+            "zh": "与上司保持不间断的联系。"
+          },
+          {
+            "id": "C",
+            "zh": "因必须达成绩效而处于压力之中。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q3",
+        "zh": "Monster网站的发言人认为，为什么半数法国员工周日晚上睡不好？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q4",
+        "zh": "环境医学研究所认为，有多种原因可以解释法国劳动者的压力。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q5",
+        "zh": "环境医学研究所认为，老板可以做些什么来减轻员工的压力？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q6",
+        "zh": "根据材料，只有过度投入工作的员工才会出现睡眠问题。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q7",
+        "zh": "根据材料，远程工作如何帮助减轻员工的压力？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "减少日常通勤带来的问题。"
+          },
+          {
+            "id": "B",
+            "zh": "让人能够自由安排工作时间。"
+          },
+          {
+            "id": "C",
+            "zh": "使同事之间的紧张关系更容易承受。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q8",
+        "zh": "材料提到的企业为员工提供什么类型的服务？（答案有多种可能，答出一种即可）",
+        "options": []
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q9",
+        "zh": "根据材料，员工的身心福祉对企业意味着什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "有回报的投资。"
+          },
+          {
+            "id": "B",
+            "zh": "留住员工的一种方式。"
+          },
+          {
+            "id": "C",
+            "zh": "防范罢工的一种保障。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-e7810b31d0-q10",
+        "zh": "Monster网站的发言人认为，员工的身心福祉完全取决于企业的意愿。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-9512efba0b",
+    "questions": [
+      {
+        "id": "b2-reading-9512efba0b-q1",
+        "zh": "设立“职场邻里节”的目的是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "让员工重新愿意付出努力并恢复动力。"
+          },
+          {
+            "id": "B",
+            "zh": "促进工作领域中的交流与沟通。"
+          },
+          {
+            "id": "C",
+            "zh": "鼓励员工参与企业管理。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-9512efba0b-q2",
+        "zh": "阿塔纳斯·佩里凡认为，哪一种社会问题也出现在工作中？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "与金钱有关的关系成为冲突的来源。"
+          },
+          {
+            "id": "B",
+            "zh": "个人主义导致人们感到不幸福。",
+            "text": "L’individualisme est à l’origine du mal-être des personnes.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          },
+          {
+            "id": "C",
+            "zh": "人际关系恶化，使人与人之间难以接触。"
+          }
+        ],
+        "prompt": "Selon Atanase Périfan, quel problème de société se reproduit dans le travail ?",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-9512efba0b-q3",
+        "zh": "阿塔纳斯·佩里凡希望通过“职场邻里节”捍卫哪一种企业不可或缺的价值？",
+        "options": [],
+        "prompt": "Avec la Fête des voisins au travail, quelle valeur nécessaire aux entreprises Atanase Périfan souhaite-t-il défendre ?",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-9512efba0b-q4",
+        "zh": "阿塔纳斯·佩里凡认为，“职场邻里节”能够……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "增加同事之间的休闲活动数量。"
+          },
+          {
+            "id": "B",
+            "zh": "满足人们希望被认可为团队成员的愿望。"
+          },
+          {
+            "id": "C",
+            "zh": "满足人们在良好工作氛围中工作的需要。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-9512efba0b-q5",
+        "zh": "作者认为，企业完全不组织增进情谊的聚会。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-9512efba0b-q6",
+        "zh": "“职场邻里节”仅面向企业员工。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-9512efba0b-q7",
+        "zh": "大规模举办“职场邻里节”有什么意义？",
+        "options": [],
+        "prompt": "Quel est l’intérêt d’organiser une Fête des voisins au travail à grande échelle ?",
+        "sourceRepair": "对照源PDF第3页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-9512efba0b-q8",
+        "zh": "“职场邻里节”能给企业负责人带来什么好处？",
+        "options": [],
+        "prompt": "Quel avantage peut représenter la Fête des voisins au travail pour les chefs d’entreprise ?",
+        "sourceRepair": "对照源PDF第3页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-9512efba0b-q9",
+        "zh": "阿塔纳斯·佩里凡认为，员工主要担心工资太低。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-9512efba0b-q10",
+        "zh": "阿塔纳斯·佩里凡认为，工作的组织方式……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "依然扎根于等级制模式。"
+          },
+          {
+            "id": "B",
+            "zh": "正在逐渐转向协作。"
+          },
+          {
+            "id": "C",
+            "zh": "始终重视个人绩效。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-long-a13434a116",
+    "questions": [
+      {
+        "id": "b2-long-a13434a116-q1",
+        "zh": "与其他欧洲学生相比，法国学生的数学成绩……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "更好。"
+          },
+          {
+            "id": "B",
+            "zh": "相当。"
+          },
+          {
+            "id": "C",
+            "zh": "较差。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-a13434a116-q2",
+        "zh": "记者指出，法国在数学方面存在什么矛盾？",
+        "options": []
+      },
+      {
+        "id": "b2-long-a13434a116-q3",
+        "zh": "玛戈·巴斯蒂德认为，数学是一门……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "人人都能学会的学科。"
+          },
+          {
+            "id": "B",
+            "zh": "比其他学科更应优先学习的学科。"
+          },
+          {
+            "id": "C",
+            "zh": "取得成功必不可少的学科。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-a13434a116-q4",
+        "zh": "据记者介绍，一部分教师对数学持什么态度？",
+        "options": []
+      },
+      {
+        "id": "b2-long-a13434a116-q5",
+        "zh": "玛戈·巴斯蒂德提出了哪些帮助教师的办法？（答案有多种可能，请答出两点）",
+        "options": [],
+        "prompt": "Que propose Margaux Bastide pour aider les professeurs ? (plusieurs réponses possibles, 2 réponses attendues)",
+        "sourceRepair": "对照源PDF第3页，恢复括号内作答数量要求的正确顺序。"
+      },
+      {
+        "id": "b2-long-a13434a116-q6",
+        "zh": "学生用哪些原因来解释自己学习数学时的困难？（答案有多种可能，请答出两点）",
+        "options": [],
+        "prompt": "Quelles raisons donnent les élèves pour expliquer leurs difficultés avec les mathématiques ? (plusieurs réponses possibles, 2 réponses attendues)",
+        "sourceRepair": "对照源PDF第4页，恢复括号内作答数量要求的正确顺序。"
+      },
+      {
+        "id": "b2-long-a13434a116-q7",
+        "zh": "菲利普·莫罗认为，年幼的孩子天然觉得数学……（1分）",
+        "options": [
+          {
+            "id": "A",
+            "zh": "简单。"
+          },
+          {
+            "id": "B",
+            "zh": "好玩。"
+          },
+          {
+            "id": "C",
+            "zh": "有趣。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-a13434a116-q8",
+        "zh": "菲利普·莫罗认为，孩子应该怎样学习数学？",
+        "options": []
+      },
+      {
+        "id": "b2-long-a13434a116-q9",
+        "zh": "在菲利普·莫罗的学校，教师如何帮助学生理解运算？（1分）",
+        "options": []
+      },
+      {
+        "id": "b2-long-a13434a116-q10",
+        "zh": "玛戈·巴斯蒂德对以抽象方式学习数学有什么观察？",
+        "options": []
+      },
+      {
+        "id": "b2-long-a13434a116-q11",
+        "zh": "玛戈·巴斯蒂德认为，数学教师应该避免……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "讲太多细节。"
+          },
+          {
+            "id": "B",
+            "zh": "让学生死记硬背。"
+          },
+          {
+            "id": "C",
+            "zh": "使用过于难懂的词语。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-a13434a116-q12",
+        "zh": "父母在什么情况下可能会使孩子失去信心？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "没有能力帮助孩子。"
+          },
+          {
+            "id": "B",
+            "zh": "对成绩要求非常严格。"
+          },
+          {
+            "id": "C",
+            "zh": "对数学不太感兴趣。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-a13434a116-q13",
+        "zh": "菲利普·莫罗提出了什么办法来鼓励学生？",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-long-d4eb66ea5a",
+    "questions": [
+      {
+        "id": "b2-long-d4eb66ea5a-q1",
+        "zh": "记者认为，社交网络这一现象……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "在一些国家正在衰退。"
+          },
+          {
+            "id": "B",
+            "zh": "已在许多国家普及。"
+          },
+          {
+            "id": "C",
+            "zh": "开始影响新兴国家。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q2",
+        "zh": "讨论涉及社交网络以及……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "它对使用者的影响。"
+          },
+          {
+            "id": "B",
+            "zh": "它对儿童的危险。"
+          },
+          {
+            "id": "C",
+            "zh": "它在数据保护方面的不足。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q3",
+        "zh": "记者认为，关于社交网络的研究存在什么问题？",
+        "options": []
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q4",
+        "zh": "让-巴蒂斯特·斯蒂克利克和蒂埃里·克鲁泽分别是什么人？请分别介绍。",
+        "options": [],
+        "prompt": "Qui sont Jean-Baptiste Stuchlik et Thierry Crouzet ? Présentez-les. Jean-Baptiste Stuchlik : Thierry Crouzet :",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q5",
+        "zh": "记者说，三分之一的法国人希望……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "减少每天上网的时间。"
+          },
+          {
+            "id": "B",
+            "zh": "减少自己在社交网络上的活动。"
+          },
+          {
+            "id": "C",
+            "zh": "更好地掌控社交网络中的隐私。",
+            "text": "mieux maîtriser la confidentialité des réseaux sociaux.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q6",
+        "zh": "让-巴蒂斯特·斯蒂克利克认为，应该用哪个词来描述那些让人感到“依赖”的物品？",
+        "options": []
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q7",
+        "zh": "两位嘉宾的观点……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "相互对立。"
+          },
+          {
+            "id": "B",
+            "zh": "相似。"
+          },
+          {
+            "id": "C",
+            "zh": "相互补充。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q8",
+        "zh": "蒂埃里·克鲁泽举了哪一种成瘾行为的例子？",
+        "options": []
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q9",
+        "zh": "蒂埃里·克鲁泽认为，互联网的独特之处在于……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "速度快。"
+          },
+          {
+            "id": "B",
+            "zh": "持续不断。"
+          },
+          {
+            "id": "C",
+            "zh": "匿名性。"
+          }
+        ],
+        "prompt": "Selon Thierry Crouzet, la spécificité d’Internet, c’est…",
+        "sourceRepair": "对照源PDF第3页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q10",
+        "zh": "使用互联网给蒂埃里·克鲁泽带来了什么后果？",
+        "options": []
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q11",
+        "zh": "蒂埃里·克鲁泽认为，自己在社交网络上的活动已经变得……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "过度。"
+          },
+          {
+            "id": "B",
+            "zh": "危险。"
+          },
+          {
+            "id": "C",
+            "zh": "不自觉。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q12",
+        "zh": "让-巴蒂斯特·斯蒂克利克认为，蒂埃里·克鲁泽的行为可能出现在哪类人身上？",
+        "options": []
+      },
+      {
+        "id": "b2-long-d4eb66ea5a-q13",
+        "zh": "记者和嘉宾认为，应该如何解决人们使用社交网络时出现的行为问题？",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-4c5ed31ffc",
+    "questions": [
+      {
+        "id": "b2-reading-4c5ed31ffc-q1",
+        "zh": "这篇文章的主题是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "城市中管理人员的疲惫状态。"
+          },
+          {
+            "id": "B",
+            "zh": "城市小商店数量的减少。"
+          },
+          {
+            "id": "C",
+            "zh": "面向管理人员的新型商业形式。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q2",
+        "zh": "设立社区数字礼宾服务，是索镇商户发起的举措。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q3",
+        "zh": "索镇市政府通过什么举措，体现了对本地商户的重视？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q4",
+        "zh": "文中“时间不同步”指的是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "在工作场所花费的时间越来越长。"
+          },
+          {
+            "id": "B",
+            "zh": "往返住处与办公室的通勤时间。"
+          },
+          {
+            "id": "C",
+            "zh": "办公室的工作时间与商店的营业时间不兼容。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q5",
+        "zh": "弗雷德里克·施韦耶希望发展网络商业的哪一方面？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q6",
+        "zh": "弗雷德里克·施韦耶看好网络商业的这种发展，是因为……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "商品种类丰富。"
+          },
+          {
+            "id": "B",
+            "zh": "价格具有竞争力。"
+          },
+          {
+            "id": "C",
+            "zh": "网络销售业绩非常好。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q7",
+        "zh": "弗雷德里克·施韦耶认为，许多就业者在居住城市以外的地方购物。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q8",
+        "zh": "弗雷德里克·施韦耶希望向学生推广自己的本地网络商业服务。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q9",
+        "zh": "根据文章，Autolib’这类举措的目标是什么？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-4c5ed31ffc-q10",
+        "zh": "索镇计划……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "发展工作空间。"
+          },
+          {
+            "id": "B",
+            "zh": "开设自助商店。"
+          },
+          {
+            "id": "C",
+            "zh": "与其他城市建立网络商业合作关系。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-long-be4c1eed54",
+    "questions": [
+      {
+        "id": "b2-long-be4c1eed54-q1",
+        "zh": "这期节目的目的是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "评估Farmili的成效。",
+            "text": "d’évaluer l’efficacité de Farmili.",
+            "sourceRepair": "对照源PDF第3页，恢复缺字或各选项共用的后缀。"
+          },
+          {
+            "id": "B",
+            "zh": "解释Farmili的理念。"
+          },
+          {
+            "id": "C",
+            "zh": "总结Farmili的各项活动。",
+            "text": "de faire le bilan des activités de Farmili.",
+            "sourceRepair": "对照源PDF第3页，恢复缺字或各选项共用的后缀。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-be4c1eed54-q2",
+        "zh": "哪一段童年回忆启发吉斯兰·茹尔内创办了Farmili公司？",
+        "options": []
+      },
+      {
+        "id": "b2-long-be4c1eed54-q3",
+        "zh": "吉斯兰·茹尔内的哪一项观察，促使他创办了自己的企业？",
+        "options": []
+      },
+      {
+        "id": "b2-long-be4c1eed54-q4",
+        "zh": "创办Farmili以前，吉斯兰·茹尔内从事哪个领域的工作？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "医疗。"
+          },
+          {
+            "id": "B",
+            "zh": "农业。"
+          },
+          {
+            "id": "C",
+            "zh": "金融。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-be4c1eed54-q5",
+        "zh": "吉斯兰·茹尔内认为，第一份职业给他带来了什么？",
+        "options": []
+      },
+      {
+        "id": "b2-long-be4c1eed54-q6",
+        "zh": "吉斯兰·茹尔内认为，Farmili能让使用者……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "给予大自然重要的位置。"
+          },
+          {
+            "id": "B",
+            "zh": "熟悉农作物种植。"
+          },
+          {
+            "id": "C",
+            "zh": "意识到环境面临的危险。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-be4c1eed54-q7",
+        "zh": "吉斯兰·茹尔内认为，私人花园的优点在于……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "价格便宜。"
+          },
+          {
+            "id": "B",
+            "zh": "受到的污染较少。"
+          },
+          {
+            "id": "C",
+            "zh": "容易到达。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-be4c1eed54-q8",
+        "zh": "Farmili仅通过哪种方式提供服务？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "实体商店。"
+          },
+          {
+            "id": "B",
+            "zh": "互联网。"
+          },
+          {
+            "id": "C",
+            "zh": "农场。"
+          }
+        ]
+      },
+      {
+        "id": "b2-long-be4c1eed54-q9",
+        "zh": "Farmili向客户提供哪些工具来帮助他们？（请答出两项）",
+        "options": []
+      },
+      {
+        "id": "b2-long-be4c1eed54-q10",
+        "zh": "吉斯兰·茹尔内为什么不喜欢“新型宠物”这个说法？",
+        "options": []
+      },
+      {
+        "id": "b2-long-be4c1eed54-q11",
+        "zh": "吉斯兰·茹尔内认为，迷你农场为什么对养老院居民有益？（答案有多种可能，答出一点即可）",
+        "options": []
+      },
+      {
+        "id": "b2-long-be4c1eed54-q12",
+        "zh": "Farmili公司为住在公寓里的人提供什么？",
+        "options": []
+      },
+      {
+        "id": "b2-long-be4c1eed54-q13",
+        "zh": "吉斯兰·茹尔内对企业未来几年的发展有什么目标？",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-b4d7efcda9",
+    "questions": [
+      {
+        "id": "b2-reading-b4d7efcda9-q1",
+        "zh": "作者主要说明，大自然在哪方面发挥着关键作用？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "儿童的身体健康。",
+            "text": "la bonne santé des enfants.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          },
+          {
+            "id": "B",
+            "zh": "儿童的学业发展。"
+          },
+          {
+            "id": "C",
+            "zh": "儿童公民意识的培养。",
+            "text": "le développement de la citoyenneté des enfants.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q2",
+        "zh": "根据在西班牙开展的研究，儿童接触大自然能发展哪两种能力？（请答出两项）",
+        "options": []
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q3",
+        "zh": "科学家指出，空气质量与儿童的学习能力之间存在联系。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q4",
+        "zh": "大自然能让儿童变得更加……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "富有创造力。"
+          },
+          {
+            "id": "B",
+            "zh": "自然率真。"
+          },
+          {
+            "id": "C",
+            "zh": "独立自主。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q5",
+        "zh": "与大自然建立联系能够……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "培养艺术感受力。"
+          },
+          {
+            "id": "B",
+            "zh": "探索新的情感。"
+          },
+          {
+            "id": "C",
+            "zh": "更加尊重周围的环境。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q6",
+        "zh": "促进儿童接触大自然，是一个新提出的想法。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q7",
+        "zh": "经常接触大自然能够发展哪些社交能力？（答案有多种可能，请答出两项）",
+        "options": [],
+        "prompt": "Le contact régulier avec la nature permet de développer quelles compétences sociales ? (Plusieurs réponses possibles, 2 réponses attendues)",
+        "sourceRepair": "对照源PDF第3页，恢复括号内作答数量要求的正确顺序。"
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q8",
+        "zh": "安娜·马蒂厄认为，为什么有自信的孩子比其他孩子学得更好？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q9",
+        "zh": "克莱尔·勒孔特认为，通过接触大自然，儿童能够……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "理解时间的概念。"
+          },
+          {
+            "id": "B",
+            "zh": "辨认新的颜色。"
+          },
+          {
+            "id": "C",
+            "zh": "发现植物的特点。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-b4d7efcda9-q10",
+        "zh": "大自然能帮助儿童理解更复杂的概念。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-76eddbf2c1",
+    "questions": [
+      {
+        "id": "b2-reading-76eddbf2c1-q1",
+        "zh": "在这篇文章中，作者希望……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "描述动物工作的不同类型。"
+          },
+          {
+            "id": "B",
+            "zh": "谴责人类对动物的剥削。"
+          },
+          {
+            "id": "C",
+            "zh": "介绍近期有关动物工作的研究。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q2",
+        "zh": "你如何理解“工作曾被视为人类独有的特征”这一说法？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q3",
+        "zh": "为什么描述某些动物任务时所用的语言引起了研究者的兴趣？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q4",
+        "zh": "塞巴斯蒂安·穆雷认为，工作意味着……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "理解所收到的指令。"
+          },
+          {
+            "id": "B",
+            "zh": "正确地遵循指示。"
+          },
+          {
+            "id": "C",
+            "zh": "为实现既定目标运用自身能力。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q5",
+        "zh": "印度大象的例子如何帮助我们理解动物是怎样学会工作的？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q6-a",
+        "zh": "科学家很早就开始关注动物的工作。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q6-b",
+        "zh": "印度大象在工作的所有阶段都必须有人陪同。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q7",
+        "zh": "研究者认为，最能激励动物工作的是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "食物形式的奖励。"
+          },
+          {
+            "id": "B",
+            "zh": "陪伴它们的人的权威。"
+          },
+          {
+            "id": "C",
+            "zh": "与共同工作的人之间的情感联系。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q8",
+        "zh": "关于动物的工作，还有许多事情有待发现。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-76eddbf2c1-q9",
+        "zh": "根据文章，对动物工作的认可会因什么而不同？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "国家。"
+          },
+          {
+            "id": "B",
+            "zh": "动物种类。"
+          },
+          {
+            "id": "C",
+            "zh": "活动类型。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-short-4074c52966",
+    "questions": [
+      {
+        "id": "b2-short-4074c52966-q1",
+        "zh": "朱利安·富恩特斯构思的网站能够让人们……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "找到稀有的报纸或杂志。"
+          },
+          {
+            "id": "B",
+            "zh": "花订一份报纸的钱订阅多份报纸。"
+          },
+          {
+            "id": "C",
+            "zh": "让报纸或杂志得到再次利用。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-4074c52966-q2",
+        "zh": "朱利安·富恩特斯在杂志方面遇到了什么问题？他缺少……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "阅读的时间。"
+          },
+          {
+            "id": "B",
+            "zh": "购买的钱。"
+          },
+          {
+            "id": "C",
+            "zh": "存放的空间。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-4074c52966-q3",
+        "zh": "朱利安·富恩特斯为什么借助互联网实现自己的想法？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "为了节省时间。"
+          },
+          {
+            "id": "B",
+            "zh": "为了避免打扰邻居。"
+          },
+          {
+            "id": "C",
+            "zh": "为了让更多人参与。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-4074c52966-q4",
+        "zh": "在朱利安·富恩特斯的网站上注册，需要提供哪些信息？（请答出两项）",
+        "options": []
+      },
+      {
+        "id": "b2-short-4074c52966-q5",
+        "zh": "朱利安·富恩特斯认为，他的网站不会威胁报刊市场，因为它面向的是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "专业读者群。"
+          },
+          {
+            "id": "B",
+            "zh": "范围非常广泛的公众。"
+          },
+          {
+            "id": "C",
+            "zh": "偶尔阅读报刊的人。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-4074c52966-q6",
+        "zh": "朱利安·富恩特斯认为，他的网站……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "促进读者之间的社会联系。"
+          },
+          {
+            "id": "B",
+            "zh": "让读者的支出得到充分利用。"
+          },
+          {
+            "id": "C",
+            "zh": "鼓励读者采取环保行动。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-4074c52966-q7",
+        "zh": "朱利安·富恩特斯计划通过什么方式发展网站？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "把网站推广到其他国家。"
+          },
+          {
+            "id": "B",
+            "zh": "与报业集团合作。"
+          },
+          {
+            "id": "C",
+            "zh": "提供其他可交换的物品。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-bfc4dfdbca",
+    "questions": [
+      {
+        "id": "b2-reading-bfc4dfdbca-q1",
+        "zh": "这篇文章的主题是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "开展艺术教育的方式。"
+          },
+          {
+            "id": "B",
+            "zh": "艺术专业的就业出路。"
+          },
+          {
+            "id": "C",
+            "zh": "教师的艺术培训。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q2",
+        "zh": "菲利普·芬威克对亚眠研讨会所界定的艺术家角色提出了质疑。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q3",
+        "zh": "菲利普·芬威克认为，学校中的艺术活动指导人员太少。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q4",
+        "zh": "菲利普·芬威克认为，年轻人作为戏剧观众，表现出过多的……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "偏见。"
+          },
+          {
+            "id": "B",
+            "zh": "冷漠。"
+          },
+          {
+            "id": "C",
+            "zh": "不理解。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q5",
+        "zh": "你如何理解把“去剧院看戏”比作“一堂更轻松的数学课”？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q6",
+        "zh": "对于剧院数量的增加，芬威克发现了什么矛盾？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q7",
+        "zh": "菲利普·芬威克所说的让艺术“去学校化”，是指……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "加强学校中的艺术实践。"
+          },
+          {
+            "id": "B",
+            "zh": "把艺术教育扩展到整个社会。"
+          },
+          {
+            "id": "C",
+            "zh": "取消学校里的艺术教育。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q8",
+        "zh": "文章作者通过诗歌工作坊的例子，强调了哪一方面？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q9",
+        "zh": "菲利普·芬威克认为，艺术活动指导人员最主要的素质应该是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "专业技艺。"
+          },
+          {
+            "id": "B",
+            "zh": "经验。"
+          },
+          {
+            "id": "C",
+            "zh": "投入精神。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-bfc4dfdbca-q10",
+        "zh": "这篇文章的语气是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "鲜明表达立场的。"
+          },
+          {
+            "id": "B",
+            "zh": "讽刺的。"
+          },
+          {
+            "id": "C",
+            "zh": "悲观的。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-84dea7a4c3",
+    "questions": [
+      {
+        "id": "b2-reading-84dea7a4c3-q1",
+        "zh": "这篇文章的主要主题是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "生态旅游的成功。",
+            "text": "Le succès de l’écotourisme.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          },
+          {
+            "id": "B",
+            "zh": "生态旅游的影响。"
+          },
+          {
+            "id": "C",
+            "zh": "生态旅游的益处。",
+            "text": "Les avantages de l’écotourisme.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          }
+        ],
+        "prompt": "Quel est le thème principal de cet article ?",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q2",
+        "zh": "作者认为，生态旅游承担哪些使命？（请答出两项）",
+        "options": [],
+        "prompt": "Selon l’auteur, quelles sont les missions de l’écotourisme ? (2 réponses attendues)",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q3",
+        "zh": "作者认为，生态旅游优先倡导哪一类旅游？",
+        "options": [],
+        "prompt": "D’après l’auteur, quel type de tourisme l’écotourisme privilégie-t-il ?",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q4",
+        "zh": "作者认为，生态旅游的哪一间接后果，对某些国家确实构成了好处？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "人们对鲜为人知的文化越来越感兴趣。"
+          },
+          {
+            "id": "B",
+            "zh": "居民生活条件得到改善。"
+          },
+          {
+            "id": "C",
+            "zh": "被列入需要保护的地点的官方名录。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q5",
+        "zh": "有了生态旅游，旅行就成为对环境没有危害的行为。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q6",
+        "zh": "作者认为，生态旅游仍与大众旅游存在哪些共同点？（请答出两项）",
+        "options": [],
+        "prompt": "D’après l’auteur, quels points communs l’écotourisme garde-t-il avec le tourisme de masse ? (2 réponses attendues)",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q7",
+        "zh": "作者认为，生态旅游概念中的矛盾是什么？旅行标榜负责任，但同时……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "价格昂贵。"
+          },
+          {
+            "id": "B",
+            "zh": "参与人数众多。"
+          },
+          {
+            "id": "C",
+            "zh": "目的地遥远。"
+          }
+        ],
+        "prompt": "Pour l’auteur, qu’est-ce qui est paradoxal dans le concept de l’écotourisme ? Le caractère responsable des voyages mais aussi…",
+        "sourceRepair": "对照源PDF第3页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q8",
+        "zh": "作者认为，生态旅游要求人们考虑在度假地点出行所带来的生态影响。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-84dea7a4c3-q9",
+        "zh": "作者质疑，旅行是否一定要……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "去远方。"
+          },
+          {
+            "id": "B",
+            "zh": "频繁进行。"
+          },
+          {
+            "id": "C",
+            "zh": "持续很长时间。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-ed6357a046",
+    "questions": [
+      {
+        "id": "b2-reading-ed6357a046-q1",
+        "zh": "这篇文章的语气是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "讽刺的。"
+          },
+          {
+            "id": "B",
+            "zh": "带有论战色彩的。"
+          },
+          {
+            "id": "C",
+            "zh": "悲观的。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-ed6357a046-q2",
+        "zh": "你如何解释让-皮埃尔·达旺把缺乏身体锻炼称为一种“悄然侵袭的危害”？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-ed6357a046-q3",
+        "zh": "让-皮埃尔·达旺认为，应该保留卫生体系的基本框架。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-ed6357a046-q4",
+        "zh": "研究据称证实，体育运动对某些疾病具有积极作用。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-ed6357a046-q5",
+        "zh": "作者认为，发展体育设施的主要障碍可能是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "人们的观念有待改变。"
+          },
+          {
+            "id": "B",
+            "zh": "所需资金数额巨大。"
+          },
+          {
+            "id": "C",
+            "zh": "公共部门缺乏兴趣。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-ed6357a046-q6",
+        "zh": "让-皮埃尔·达旺用哪一类论据回应反对普及体育锻炼的人？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-ed6357a046-q7",
+        "zh": "让-皮埃尔·达旺认为，体育锻炼可以借助哪个领域得到推广？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "体育界。"
+          },
+          {
+            "id": "B",
+            "zh": "教育界。"
+          },
+          {
+            "id": "C",
+            "zh": "政界。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-ed6357a046-q8",
+        "zh": "让-皮埃尔·达旺对体育机构作出了什么积极的观察？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-ed6357a046-q9",
+        "zh": "在健康领域，作者主张把体育运动视为……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "增进舒适感的因素。"
+          },
+          {
+            "id": "B",
+            "zh": "不可或缺的有利因素。"
+          },
+          {
+            "id": "C",
+            "zh": "难以实现的目标。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-ed6357a046-q10",
+        "zh": "让-皮埃尔·达旺认为，体育协会在城市中发挥什么作用？",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-short-d69ea9d878",
+    "questions": [
+      {
+        "id": "b2-short-d69ea9d878-q1",
+        "zh": "记者说，在工作领域，什么情况十分常见？",
+        "options": [],
+        "prompt": "D’après le journaliste, dans le domaine du travail, qu’est-ce qui est très fréquent ?",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-short-d69ea9d878-q2",
+        "zh": "记者介绍，Viamétiers机构提供……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "一系列与就业专家的面谈。"
+          },
+          {
+            "id": "B",
+            "zh": "尝试一个新职业领域的机会。"
+          },
+          {
+            "id": "C",
+            "zh": "帮助转行的资金。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d69ea9d878-q3",
+        "zh": "Viamétiers的目标是让客户了解……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "自己是否对某一特定职业有天赋。"
+          },
+          {
+            "id": "B",
+            "zh": "自己梦想的职业是否真的适合自己。"
+          },
+          {
+            "id": "C",
+            "zh": "自身条件是否符合就业市场的需求。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d69ea9d878-q4",
+        "zh": "Viamétiers提供的指导服务……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "在非正式框架下开展。"
+          },
+          {
+            "id": "B",
+            "zh": "被视为劳动合同。"
+          },
+          {
+            "id": "C",
+            "zh": "被认可为职业培训。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d69ea9d878-q5",
+        "zh": "Viamétiers组织的职业实习涵盖……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "主要是非典型职业。"
+          },
+          {
+            "id": "B",
+            "zh": "所有职业类别。"
+          },
+          {
+            "id": "C",
+            "zh": "仅限于提供就业机会的行业。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d69ea9d878-q6",
+        "zh": "受访者认为，所提供的这种方案还有什么好处？",
+        "options": [],
+        "prompt": "Selon la personne interviewée, quel est l’autre avantage de la formule proposée ?",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      },
+      {
+        "id": "b2-short-d69ea9d878-q7",
+        "zh": "培训结束后，经常会发生什么情况？",
+        "options": [],
+        "prompt": "Une fois la formation terminée, que se passe-t-il fréquemment ?",
+        "sourceRepair": "对照源PDF第2页，修复OCR缺字、断行或抽取顺序。"
+      }
+    ]
+  },
+  {
+    "id": "b2-reading-be176b1572",
+    "questions": [
+      {
+        "id": "b2-reading-be176b1572-q1",
+        "zh": "对玛农来说，在家工作的主要好处是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "能获得新设备。"
+          },
+          {
+            "id": "B",
+            "zh": "省去通勤，从而节省时间。"
+          },
+          {
+            "id": "C",
+            "zh": "能自行安排工作时间。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-be176b1572-q2",
+        "zh": "对玛农所在的企业来说，远程工作与在办公室工作相比……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "好处更多。"
+          },
+          {
+            "id": "B",
+            "zh": "好处更少。"
+          },
+          {
+            "id": "C",
+            "zh": "好处一样多。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-be176b1572-q3",
+        "zh": "远程工作为什么对企业而言划算？（请列出两个原因）",
+        "options": []
+      },
+      {
+        "id": "b2-reading-be176b1572-q4",
+        "zh": "哪一项物质条件的变化促成了远程工作的发展？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-be176b1572-q5",
+        "zh": "远程工作……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "在法律适用上具有一定的自由度。"
+          },
+          {
+            "id": "B",
+            "zh": "由《劳动法》中的一项专门规定规范。"
+          },
+          {
+            "id": "C",
+            "zh": "适用与办公室工作相同的规则。"
+          }
+        ]
+      },
+      {
+        "id": "b2-reading-be176b1572-q6",
+        "zh": "根据企业的不同，远程工作者可能采用哪两种工作时间安排？",
+        "options": []
+      },
+      {
+        "id": "b2-reading-be176b1572-q7-a",
+        "zh": "专家认为，年轻一代将改变人们看待工作的方式。",
+        "options": []
+      },
+      {
+        "id": "b2-reading-be176b1572-q7-b",
+        "zh": "专家认为，办公室很快就会消失。",
+        "options": []
+      }
+    ]
+  },
+  {
+    "id": "b2-short-3ba13d05a5",
+    "questions": [
+      {
+        "id": "b2-short-3ba13d05a5-q1",
+        "zh": "受访男子在哪个领域工作？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "农业。"
+          },
+          {
+            "id": "B",
+            "zh": "商业。"
+          },
+          {
+            "id": "C",
+            "zh": "制药。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-3ba13d05a5-q2",
+        "zh": "材料提到的植物将有助于……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "研发新药。"
+          },
+          {
+            "id": "B",
+            "zh": "更好地治疗某些与外界隔绝的人群。"
+          },
+          {
+            "id": "C",
+            "zh": "推广自然疗法的使用。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-3ba13d05a5-q3",
+        "zh": "这些植物属于……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "秘鲁政府。"
+          },
+          {
+            "id": "B",
+            "zh": "亚马孙地区的一个印第安人社群。"
+          },
+          {
+            "id": "C",
+            "zh": "国际科学界。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-3ba13d05a5-q4",
+        "zh": "掌握这些植物知识有什么重要意义？",
+        "options": []
+      },
+      {
+        "id": "b2-short-3ba13d05a5-q5",
+        "zh": "近年来，对这些植物开展工作的目的是……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "编制名录，以便研究。"
+          },
+          {
+            "id": "B",
+            "zh": "撰写一本介绍其活性成分的著作。"
+          },
+          {
+            "id": "C",
+            "zh": "补充一项有关其治疗功效的研究。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-3ba13d05a5-q6",
+        "zh": "受访男子认为，为什么必须尽快完成这项工作？",
+        "options": []
+      },
+      {
+        "id": "b2-short-3ba13d05a5-q7",
+        "zh": "这名男子希望，所完成的工作能够用来……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "有效保护亚马孙森林。"
+          },
+          {
+            "id": "B",
+            "zh": "使印第安人的知识获得法律认可。"
+          },
+          {
+            "id": "C",
+            "zh": "全面编录热带疾病。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-short-e0107f91c2",
+    "questions": [
+      {
+        "id": "b2-short-e0107f91c2-q1",
+        "zh": "法国政府在印度洋建立了一处自然保护区，用来保护……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "植物和鸟类。"
+          },
+          {
+            "id": "B",
+            "zh": "鸟类和鱼类。"
+          },
+          {
+            "id": "C",
+            "zh": "植物和鱼类。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-e0107f91c2-q2",
+        "zh": "这处保护区有多大？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "6万平方公里。"
+          },
+          {
+            "id": "B",
+            "zh": "16万平方公里。",
+            "text": "160 000 km².",
+            "sourceRepair": "对照源PDF第2页，恢复OCR遗漏的面积单位上标²。"
+          },
+          {
+            "id": "C",
+            "zh": "60万平方公里。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-e0107f91c2-q3",
+        "zh": "如今，谁居住在这一地区？",
+        "options": []
+      },
+      {
+        "id": "b2-short-e0107f91c2-q4",
+        "zh": "这一地区有什么特点？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "植被非常丰富。"
+          },
+          {
+            "id": "B",
+            "zh": "气候几乎不变。"
+          },
+          {
+            "id": "C",
+            "zh": "动物物种非常多样。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-e0107f91c2-q5",
+        "zh": "这一项目的目标是什么？",
+        "options": [
+          {
+            "id": "A",
+            "zh": "观察污染对鱼类的影响。"
+          },
+          {
+            "id": "B",
+            "zh": "保护动物免受气候变化的影响。"
+          },
+          {
+            "id": "C",
+            "zh": "在更少干扰的情况下研究该地区的动植物。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-e0107f91c2-q6",
+        "zh": "哪两项事物将被禁止？（请答出两项）",
+        "options": []
+      },
+      {
+        "id": "b2-short-e0107f91c2-q7",
+        "zh": "建立这一保护区可能有助于……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "储存碳。"
+          },
+          {
+            "id": "B",
+            "zh": "转化碳。"
+          },
+          {
+            "id": "C",
+            "zh": "消耗碳。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2-short-d9776a8868",
+    "questions": [
+      {
+        "id": "b2-short-d9776a8868-q1",
+        "zh": "这期节目……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "批评数字领域培训不足。",
+            "text": "dénonce le manque de formations dans le numérique.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          },
+          {
+            "id": "B",
+            "zh": "介绍数字领域的一种新培训理念。"
+          },
+          {
+            "id": "C",
+            "zh": "探讨数字领域培训的优势。",
+            "text": "s’interroge sur les avantages des formations dans le numérique.",
+            "sourceRepair": "对照源PDF第2页，恢复缺字或各选项共用的后缀。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d9776a8868-q2",
+        "zh": "帕特里夏·马丁认为，与数字技术有关的职业……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "鲜为人知。"
+          },
+          {
+            "id": "B",
+            "zh": "需求很大。"
+          },
+          {
+            "id": "C",
+            "zh": "过于专业化。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d9776a8868-q3",
+        "zh": "Simplon学校提供的培训面向哪些人？",
+        "options": []
+      },
+      {
+        "id": "b2-short-d9776a8868-q4",
+        "zh": "要在Simplon学校学习……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "不一定需要学历文凭。"
+          },
+          {
+            "id": "B",
+            "zh": "必须具有高中毕业会考文凭。"
+          },
+          {
+            "id": "C",
+            "zh": "最好具有计算机方面的证书。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d9776a8868-q5",
+        "zh": "Simplon学校的学生中……",
+        "options": [
+          {
+            "id": "A",
+            "zh": "男性比女性多。"
+          },
+          {
+            "id": "B",
+            "zh": "男性比女性少。"
+          },
+          {
+            "id": "C",
+            "zh": "男女数量相同。"
+          }
+        ]
+      },
+      {
+        "id": "b2-short-d9776a8868-q6",
+        "zh": "除了帮助学生取得成功，Simplon学校还有什么目标？",
+        "options": []
+      },
+      {
+        "id": "b2-short-d9776a8868-q7",
+        "zh": "Simplon学校的经费来自哪里？",
+        "options": []
+      }
+    ]
+  }
+]

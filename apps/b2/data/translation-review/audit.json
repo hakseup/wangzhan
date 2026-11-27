@@ -1,0 +1,30 @@
+{
+  "exercises": 313,
+  "paragraphs": 511,
+  "oldMachineParagraphs": 210,
+  "retranslatedOrRevisedParagraphs": 312,
+  "sourceRepairedParagraphs": 26,
+  "questionTranslations": 673,
+  "reanchoredEvidence": 90,
+  "dictionaryEntriesRepaired": 53,
+  "otherArticlesReviewed": 245,
+  "additionalReviewChecks": 247,
+  "version": "2dc8519d30cfe403",
+  "sourceIssues": [
+    {
+      "id": "b2-long-daa1a34708",
+      "pid": "p2",
+      "note": "原PDF使用espèces（物种）描述短吻鳄数量，此处按上下文理解为个体，未擅改法语。"
+    },
+    {
+      "id": "b2-reading-bbb0f346ac",
+      "pid": "p5",
+      "note": "原PDF第1页此处留空，未猜补缺词：dans les ［留空］ des trottoirs。"
+    },
+    {
+      "id": "b2-reading-bbb0f346ac",
+      "pid": "p8",
+      "note": "原PDF第1页此处留空，未猜补缺词：pourront ensuite ［留空］ les endroits。"
+    }
+  ]
+}

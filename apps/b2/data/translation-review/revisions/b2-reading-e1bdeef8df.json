@@ -1,0 +1,86 @@
+{
+  "id": "b2-reading-e1bdeef8df",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "7afe87dde54e46106b2da89caae0c9c4d6f8f69a5d9e446f0450a9da2788578c",
+      "translations": [
+        "翻转课堂会给学校带来革命吗？",
+        "乍一看，它与传统课堂没有什么真正的区别。",
+        "然而，事实并非如此。"
+      ]
+    },
+    {
+      "id": "p2",
+      "sourceHash": "76cbfb2e42bdf7810c7b68bdf1c487e3fbbfa458fc4cdb6573507f7782494a57",
+      "translations": [
+        "巴黎近郊德朗西自由初中的数学教师尼古拉·勒穆瓦纳解释说：“借助新技术，我可以让学生在家了解理论内容，从而腾出课堂时间做练习。”",
+        "由此，教师单向讲授的课堂结束了。",
+        "欢迎来到翻转课堂：在这里，“作业”在学校做，课程在家学。",
+        "这位教师采用*这种方法已有两年，如今还担任培训师；因此，他把两小时的课堂时间都用来与初中生一起学习，抽出时间回答每个人的问题。",
+        "他经常会提到自己的课程，课程通过他自制的视频传播，发布在自己的网站或YouTube上。",
+        "为了检查学生是否观看并理解了视频，教师要求他们先在家回答在线问卷，再到课堂上补全一部分课程内容。",
+        "尼古拉·勒穆瓦纳指出：“数学尤其适合这种教学法，因为它有大量理论内容。",
+        "并非所有学科都是如此，而且这种方法也不适合所有老师。”",
+        "巴黎圣路易丝初高中学校的物理化学教师玛丽－卡米耶·库代尔也通过视频授课。",
+        "学生按照教师提供的学习计划，自行决定一节课里要做什么。",
+        "所以，这里的关键词就是“自主”。",
+        "她说明：“我给他们指路，但他们按自己的节奏前进。",
+        "我随时可以回答他们的问题，帮助他们分析和纠正错误。”"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "« Grâce aux nouvelles technologies, je peux proposer à mes élèves de découvrir les contenus théoriques chez eux afin de libérer du temps en classe pour faire des exercices », explique Nicolas Lemoine, enseignant en mathématiques au collège Liberté de Drancy, en proche banlieue parisienne.",
+          "Fini donc le cours magistral.",
+          "Bienvenue dans la classe inversée où les « devoirs » se font à l’école et les leçons à la maison.",
+          "L’enseignant, adepte* de cette méthode depuis deux ans et aujourd’hui formateur, passe ainsi les deux heures de cours à travailler avec les collégiens, en prenant le temps de répondre à chacun.",
+          "Il fait régulièrement référence à son cours, diffusé via la vidéo qu’il a lui-même réalisée et qu’il propose sur son site internet ou via YouTube.",
+          "Pour vérifier que les élèves ont regardé et compris, l’enseignant leur demande de répondre à un questionnaire en ligne, chez eux, puis de compléter une partie du cours, en classe.",
+          "« Les mathématiques sont particulièrement adaptées à cette pédagogie parce que l’apport théorique est important, observe Nicolas Lemoine.",
+          "Ce n’est pas le cas pour toutes les disciplines et la méthode ne convient pas non plus à tous les enseignants. »",
+          "Marie-Camille Coudert, professeure de physique-chimie au collège-lycée Sainte-Louise à Paris dispense également ses cours sous forme de vidéos.",
+          "Les élèves décident eux-mêmes de ce qu’ils font pendant l’heure de cours, en suivant un plan de travail proposé par l’enseignante.",
+          "Ici, le mot d’ordre est donc « autonomie ».",
+          "« Je leur montre le chemin, mais ils le parcourent à leur rythme, précise-t-elle.",
+          "Je suis à leur disposition pour répondre aux questions et les aider à travailler sur leurs erreurs. »"
+        ],
+        "reason": "对照PDF第1页恢复双栏正确阅读顺序：p2为完整左栏，p3为完整右栏及脚注。"
+      }
+    },
+    {
+      "id": "p3",
+      "sourceHash": "d07f034916de3f6b0f70b8ffe89df34916eb3114da9dee25a63070357f6a20c1",
+      "translations": [
+        "尼古拉·勒穆瓦纳指出，采用这种通常与娱乐联系在一起的数字媒介，“许多学生不觉得自己是在做家庭作业。",
+        "六年级学生阿迪勒也认同：“在家看视频，挺好的。",
+        "想看多少遍就能看多少遍。”他的说法与大多数学生的看法一致。",
+        "“这比做练习好，尤其是父母帮不了我们的时候。”梅莉莎补充说，她也很喜欢能够在课堂上按自己的节奏前进。",
+        "玛丽－卡米耶·库代尔也强调，把教师讲授的部分转移到家中，就能在学校为学生提供更好的支持，“尤其是那些学习有困难的学生”。",
+        "她说：“在谷歌时代，这种教学法重新定位了教师的角色，教师不再仅仅传授知识，而是越来越多地提供陪伴和指导。”",
+        "不过，这种主动学习教学法所赋予的自主性，也使一些学生感到无所适从。",
+        "高中毕业班学生露西抱怨说：“我需要一个老师帮助我分清信息的轻重主次，告诉我哪些是必须掌握的。”",
+        "她的同学鲁本也有同感：“17岁时要自己自主学习，实在太难了。”",
+        "尽管存在局限，如今仍有大量学校采用这种教学法。",
+        "虽然“翻转”并不完全是一场革命——正如教育科学研究者菲利普·梅里厄提醒的那样，老师以前就会布置家庭预习任务，并用大部分课堂时间进行讲评——但数字技术的引入为这一理念注入了新意。",
+        "*adepte：支持并采用这种方法的人。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Avec ce support numérique, plutôt associé au divertissement, « beaucoup d’élèves n’ont pas l’impression d’avoir des devoirs à la maison, relève Nicolas Lemoine.",
+          "Adil, en sixième, confirme : « La vidéo à la maison, c’est bien.",
+          "On peut la regarder autant de fois qu’on veut », témoigne-t-il, comme la plupart des élèves.",
+          "« C’est mieux que les exercices, surtout lorsque les parents ne peuvent pas nous aider », ajoute Melissa, qui apprécie également de pouvoir avancer à son rythme en classe.",
+          "Transférer le cours magistral à la maison permet ainsi de mieux accompagner les élèves à l’école et « notamment ceux qui sont en difficulté », souligne de son côté Marie-Camille Coudert.",
+          "« À l’ère de Google, dit-elle, cette pédagogie repositionne le rôle de l’enseignant(e), qui n’est plus seulement dans la transmission des connaissances, mais de plus en plus dans l’accompagnement. »",
+          "Pourtant, l’autonomie proposée par cette pédagogie active déstabilise certains élèves.",
+          "« Moi, j’ai besoin d’un prof qui m’aide à hiérarchiser les infos et me dise ce qu’il faut savoir », se plaint Lucie, élève en terminale.",
+          "Même ressenti chez son camarade Ruben : « L’autonomie, c’est trop dur quand on a 17 ans. »",
+          "Malgré ses limites, cette pédagogie est aujourd’hui utilisée dans un grand nombre d’établissements.",
+          "Si « l’inversion » n’est pas tout à fait révolutionnaire, (les enseignants donnaient déjà des préparations à faire à la maison et consacraient l’essentiel du cours à les corriger, rappelle Philippe Meirieu, chercheur en sciences de l’éducation), le concept est renouvelé avec l’introduction du numérique.",
+          "* adepte : qui défend et prend le parti de cette méthode."
+        ],
+        "reason": "对照PDF第1页恢复双栏正确阅读顺序：p2为完整左栏，p3为完整右栏及脚注。"
+      }
+    }
+  ]
+}

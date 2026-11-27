@@ -1,0 +1,50 @@
+{
+  "id": "b2-short-eee9568abe",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "d71d1e2b6cc94b9dacbe6e32ecb8ad72dedf001c1218de81edc9a878af3719e3",
+      "translations": [
+        "——记者娜塔莉·丰特雷尔：灯光意味着生活，意味着活动。",
+        "那么，为什么没有顾客的商店或超市、路上空无行人的市镇，还要让灯一直亮着？",
+        "更不用说那些空无一人的办公室，夜里还亮得像圣诞树一样。",
+        "据估计，法国有20%的办公面积在无人时仍亮着灯。",
+        "生态部决定研究制定规定，强制无人使用的建筑降低照明强度或关闭照明。",
+        "目的不是在每个开关旁边安排一名警察，而是推广自主运行的管理系统。",
+        "通过感应有人在场来开灯，根据室外光线调节亮度，或者设定自动开关灯的时间，这就是所谓的“智能照明”。",
+        "它每年可节省相当于100万户家庭用电量的电力。",
+        "目前，超过80%的非住宅照明设施使用的是高耗能灯具。至于公共照明，它引发的质疑也越来越多。",
+        "一些市镇发起了意见征询，询问居民：“您是否同意降低公共照明强度，或将其关闭？",
+        "”",
+        "公共照明约占城镇和村庄用电量的47%。",
+        "“星光城镇与村庄”行动支持这种做法，鼓励各市镇改善照明方式，或不设置照明。",
+        "此外，环境与能源管理署刚刚拨出2000万欧元补助，帮助人口不足2000的市镇更新其照明设施，每个市镇最多可有50个光源点获得资助。",
+        "目前已知，一半的设备已经老旧，使用着高耗能灯具，其中包括汞蒸气灯；这类灯具还将从2015年4月起禁止销售。",
+        "最后，从即将到来的7月1日起，发光招牌必须在凌晨1点到6点之间关闭。",
+        "您可以在France-info.fr网站找到本期专栏。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "– Nathalie Fontrel, journaliste : La lumière c’est la vie, l’activité. ",
+          "Alors pourquoi la laisser allumée dans des boutiques ou supermarchés vides de clients, dans des communes désertes de passants ? ",
+          "Sans compter les bureaux vides qui, la nuit, sont éclairés comme des sapins de Noël. ",
+          "On estime que 20 % des surfaces de bureaux restent allumées en France. ",
+          "Le ministère de l’Écologie a décidé de mettre à l’étude l’obligation de réduire ou d’éteindre l’éclairage dans les bâtiments non occupés. ",
+          "Il ne s’agit pas de mettre un policier derrière chaque interrupteur, mais de promouvoir des systèmes de gestion autonomes. ",
+          "La lumière s’allume par détection de présence, elle devient plus ou moins intense en fonction de la lumière extérieure, ou encore on peut programmer l’éclairage et l’extinction c’est ce que l’on appelle « l’éclairage intelligent ». ",
+          "Il permettrait d’économiser l’équivalent de la consommation électrique d’un million de ménages par an. ",
+          "Aujourd’hui, plus de 80 % des installations non résidentielles sont composées de lampes énergivores. Quant à l’éclairage public, il suscite de plus en plus d’interrogations. ",
+          "Certaines communes ont lancé des consultations pour demander aux habitants « Êtes-vous d’accord pour le réduire ou pour l’éteindre ? ",
+          "». ",
+          "L’éclairage public représente près de 47 % de la consommation d’électricité des villes et des villages. ",
+          "Cette démarche est soutenue par l’opération « Villes et villages étoilés » qui incite les communes à mieux ou à ne pas éclairer. ",
+          "L’ Agence de l’environnement et de la maîtrise de l’énergie vient d’ailleurs de débloquer une subvention de 20 millions d’euros pour aider les communes de moins de 2 000 habitants à rénover leur parc avec un nombre maximum de foyers lumineux aidés 50 par commune. ",
+          "Aujourd’hui, on sait que la moitié du matériel est vétuste, équipé de lampes énergivores, dont les lampes à vapeur de mercure, qui seront d’ailleurs interdites à la commercialisation à compter d’avril 2015. ",
+          "Enfin, les enseignes lumineuses seront éteintes entre 1 h et 6 h du matin à compter du 1er juillet prochain. ",
+          "Retrouvez cette chronique sur France-info.fr."
+        ],
+        "reason": "对照PDF第1页修正OCR漏字：80 %、Quant、6 h。"
+      }
+    }
+  ]
+}

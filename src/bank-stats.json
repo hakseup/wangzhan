@@ -1,0 +1,23 @@
+{
+ "b2": {
+  "total": 313,
+  "categories": {
+   "long": 17,
+   "short": 17,
+   "reading1": 17,
+   "reading2": 17,
+   "speaking": 228,
+   "writing": 17
+  }
+ },
+ "c1": {
+  "total": 252,
+  "categories": {
+   "long": 20,
+   "short": 36,
+   "reading": 28,
+   "writing": 28,
+   "speaking": 140
+  }
+ }
+}

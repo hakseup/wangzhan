@@ -1,0 +1,200 @@
+{
+  "id": "b2-long-317ac714cd",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "fd9fdda024ba9a2828a560b0ca0325523ee2a7c2065b722f3107243ee5c7b640",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：由《心理》杂志合作推出的《生活方式》栏目。",
+        "安娜-洛尔·加纳克，你好。",
+        "安娜-洛尔·加纳克：你好。"
+      ]
+    },
+    {
+      "id": "p2",
+      "sourceHash": "f35e1af12275e78c467bb4fcb3a78eff95e4c8a125571b13e9c203a0d714edbb",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：在五一前夕，我们要聊的话题，你肯定猜得到，就是工作，更确切地说，是工作与年轻人。",
+        "那些有幸找到工作的年轻人，怎样看待自己初入职场的经历呢？",
+        "安娜-洛尔，这是《心理》杂志刊登的一场座谈的主题。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Laetitia de Germon : Alors, en cette veille de 1er mai, nous allons parler, je vous le donne en mille, de travail, du travail et des jeunes, plus précisément. ",
+          "Ceux qui ont la chance de travailler, comment vivent-ils leurs premiers pas dans la vie professionnelle ? ",
+          "C'est le thème d'une rencontre publiée dans Psychologies Magazine, Anne-Laure."
+        ],
+        "reason": "对照PDF第1页，修复1er mai的OCR误识别。"
+      }
+    },
+    {
+      "id": "p3",
+      "sourceHash": "1ecfbe9867b35c3c5a0d5cea2e831dfdd157932cee3f847f179f15c842d7b1fc",
+      "translations": [
+        "安娜-洛尔·加纳克：是的，记者塞西尔·盖雷请来几位经历各不相同的年轻人，与精神科医生兼企业教练雅克-安托万·马拉雷维奇座谈，由他向大家提问。",
+        "所以，这不是一项长期研究，而是一次座谈，试图超越社会上关于年轻人与工作的种种普遍成见。",
+        "比如说他们不够投入、缺乏耐心，尤其在意调休假，等等。"
+      ]
+    },
+    {
+      "id": "p4",
+      "sourceHash": "48f2ce28b330ce8d485907d69c242cf55850e7b3e962ff63f1bec5d3999cf54c",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：而这次座谈呈现出的情况完全不是这样，对吗？"
+      ]
+    },
+    {
+      "id": "p5",
+      "sourceHash": "fa84809a24dead6ab8acf3c298a7a6e7773b925ae65a0652e495d394c3c020c2",
+      "translations": [
+        "安娜-洛尔·加纳克：对，完全不是。",
+        "座谈反映出的是价值观的深刻变化：对这些年轻人来说，工作不再是最重要的价值。",
+        "它排在家庭之后，对有些人来说，甚至还排在朋友和留给自己的时间之后。",
+        "其他民调其实已经揭示了这一点：2012年底，一项欧洲范围的调查显示，在接受调查的各个欧洲国家，家庭生活都遥遥领先，成为年轻人最关心的事情，占86%，而工作占59%。",
+        "但这并不意味着他们不投入工作，或者对职业生活缺乏兴趣。",
+        "相反，能感受到他们确实很想工作、学习，并在工作中成长。",
+        "只是经济危机、失业和职场的不稳定，这些当下的现实，说到底也是他们一直以来唯一熟悉的现实，让他们成为更清醒的劳动者，不像我们在较繁荣的年代那样，容易被追求成功的欲望蒙蔽双眼。",
+        "所以，这些成见首先来自上一代人的解读：在他们眼里，这种价值排序的颠倒必然有问题。"
+      ]
+    },
+    {
+      "id": "p6",
+      "sourceHash": "aeb46f874a07c50ec442d7971254b3afb09459871719b2afa620c9ebc88a8be1",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：那么，经济危机会影响他们的职业选择吗？"
+      ]
+    },
+    {
+      "id": "p7",
+      "sourceHash": "dfd3498180b36f70ca6c26e6d0c39e241b55df4e95e7969145baba6edfdf67bd",
+      "translations": [
+        "安娜-洛尔·加纳克：也就是说，无论如何，人们看待危机总有两种方式：要么视为恐惧的来源，要么视为机遇。",
+        "所以，年轻人的态度首先取决于他们的性格，以及个人和家庭经历。",
+        "他们是否培养出了冒险精神？还是说，对安全感的需求占了上风？",
+        "不过，他们似乎都有一个共同点，就是意识到自己必须适应环境。",
+        "例如，其中一位告诉我们，她知道企业不招人，所以主动从一份临时工作换到另一份，先尝试各种事情、各种职业，然后也许再考虑稳定下来。",
+        "另一位告诉我们，既然即使有无固定期限合同和管理人员身份，也不知道明天会怎样，那他干脆决定创办自己的中小企业，专做自己喜欢的事。",
+        "因此，在如此大的压力下，他们不得不学会适应，并培养出灵活性，这与较为僵化、不善应对变化的前辈形成鲜明对比。",
+        "但可以肯定的是，如果生活中的其他方面，比如家庭、朋友关系等没有稳定的基础，这种灵活性和持续的不稳定也是难以承受的。",
+        "这也就解释了刚才所说的价值排序的颠倒。"
+      ]
+    },
+    {
+      "id": "p8",
+      "sourceHash": "07a50252fe8f895ec4d6af15312b15bdd86a707fd850a4e25072d8e972909a75",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：不过，安娜-洛尔，我们知道，私人生活与职业生活的界限本就很模糊。",
+        "对这一代人来说更是如此，因为他们使用的各种技术工具，让工作越来越多地侵入私人生活。"
+      ]
+    },
+    {
+      "id": "p9",
+      "sourceHash": "09ef706b0310554dd4e7ebabe84c5b0cb2cf0212db94bd9234685f7bf466d276",
+      "translations": [
+        "安娜-洛尔·加纳克：是的，这也是所谓Y世代面临的一大陷阱：整天坐在电脑前，时刻离不开智能手机。",
+        "不过，他们都非常清楚这一点，恐怕比前辈们更清楚；前辈们对这些工具掌握得不够好，或者用起来没那么得心应手，却很容易被它们吞噬。",
+        "而这些前辈可能就是他们的父母，年轻人看着他们这样做，看着他们被工作吞噬，连周末也不例外。",
+        "这使年轻人更加谨慎。",
+        "但话说回来，也不能把他们理想化：其中最沉迷网络的人，沉迷程度远远超过上一代。"
+      ]
+    },
+    {
+      "id": "p10",
+      "sourceHash": "69f5263fa49865988881c4dc8768361d5f3af6b23fca3b4a38a33bd3f1e75ff7",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：既然谈到了他们与前辈的关系，那么年轻人如何看待上下级关系呢？",
+        "我们可能会认为，他们有点叛逆，对这种关系尤其抵触。",
+        "是这样吗？"
+      ]
+    },
+    {
+      "id": "p11",
+      "sourceHash": "6f90288f14b7e2a7c55341bd575649d48a6703ebedc846e473a8945c7ced6c9e",
+      "translations": [
+        "安娜-洛尔·加纳克：我们都知道，年轻一代并没有很好地接受和内化权威观念，因为在我们的社会和教育中，它已经不再是一种理所当然的价值。",
+        "一位受访的年轻教师就体现了这一点，他说，自己很难在学生面前树立权威。",
+        "从其他人的情况中，总体也能感觉到，虽然他们并不叛逆，也不拒绝上下级制度，但他们与上司的关系已经不那么明确：有些人喜欢领导用“你”来称呼自己，有些人则完全不喜欢，同时他们又受不了批评。",
+        "所以，上下级关系和权威并非让他们完全无法忍受，但显然，这个问题相当模糊，需要雇主视具体情况予以界定、明确规则，如果可能，最好与他们共同商定。",
+        "因此，这已经不再是理所当然的事情了。"
+      ]
+    },
+    {
+      "id": "p12",
+      "sourceHash": "e2064687674c50618f637348d42d2575d31e62f88908b8b3da17ad2058a86fbd",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：那么，他们谈到失业时会怎么说？"
+      ]
+    },
+    {
+      "id": "p13",
+      "sourceHash": "cd9d84f171fd536f93c93ecabadd39997ab4fee9952220fd1e111b4c55e183c4",
+      "translations": [
+        "安娜-洛尔·加纳克：失业当然是一个持续存在的威胁，他们已经学会与之共处。",
+        "但这并不一定使他们更加拘谨、更加僵化。",
+        "事实上，所有相关研究都表明，相比公共部门，年轻人更愿意去私营企业工作。",
+        "为什么呢？"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Anne-Laure Gannac : Le chômage, c'est évidemment une... une menace permanente avec laquelle ils ont appris à composer. ",
+          "Et cela ne les ra... cela ne les rend pas forcément plus. plus figés, plus raides. ",
+          "D'ailleurs, toutes les études sur le sujet révèlent que les jeunes préfèrent travailler dans des entreprises privées plutôt que dans le public. ",
+          "Pourquoi ?"
+        ],
+        "reason": "对照PDF第1页底部，修复水印遮挡引发的OCR乱码，并将断开的Pourquoi恢复为完整词。"
+      }
+    },
+    {
+      "id": "p14",
+      "sourceHash": "fb59a01940b5aa46b72a26cfe9fddbcf4235530563dc37e820ed5a08c2307db0",
+      "translations": [
+        "这是因为，个人成长的愿望在年轻人心中终究占据上风；别忘了，他们出生于个人主义的时代。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Bien parce que ce désir d’épanouissement personnel l’emporte, malgré tout, chez les jeunes nés à l’ère de… de l’individualisme, il ne faut pas l’oublier."
+        ],
+        "reason": "对照PDF第1页底部，合并跨行断句并删除误识别的水印符号。"
+      }
+    },
+    {
+      "id": "p15",
+      "sourceHash": "41c49f4994513358b286361b0bea708b851cc38d89f93585c03402dbae89ad1c",
+      "translations": [
+        "所以，我们这个时代的这一特点，想必有这样一个好处："
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Donc, l’un des bienfaits, sans doute, de cette caractéristique de notre époque, c’est celui-là :"
+        ],
+        "reason": "对照PDF第1页底部，修复水印遮挡引发的OCR乱码并恢复句段。"
+      }
+    },
+    {
+      "id": "p16",
+      "sourceHash": "2830cdd85775d603f8eae8b1a870a9d687572ceba8d3df9a54a93d189ab17cee",
+      "translations": [
+        "就是不想仅仅为了安稳而从事一份职业，而是希望这份投入对自己有意义。",
+        "否则，既然知道也许明天就会一无所有，又何必投入呢？",
+        "所以，这似乎就是占主导地位的思路。",
+        "并不是投入更少，而是可以说，他们抱有的幻想更少。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "c’est de… de ne pas vouloir faire un métier que par sécurité, mais vouloir que cet investissement ait du sens pour soi.",
+          "Sinon, à quoi bon s’investir sachant que demain, peut-être, on n’aura plus rien ?",
+          "Donc, c’est cela, la logique qui semble dominer.",
+          "Non pas moins investis, mais, disons, moins bercés d’illusions."
+        ],
+        "reason": "对照PDF第1页底部，修复水印遮挡引发的OCR乱码。"
+      }
+    },
+    {
+      "id": "p17",
+      "sourceHash": "b5298764f7721d99fa1140009f5a0b911fbda5c7afa47a01879292fc4e0d26be",
+      "translations": [
+        "莱蒂西娅·德热尔蒙：谢谢你，安娜-洛尔·加纳克。"
+      ]
+    }
+  ]
+}

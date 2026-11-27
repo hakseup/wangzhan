@@ -1,13 +1,18 @@
 {
-  "name": "noix-dalf-c1",
+  "name": "noix-francais",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
+  "description": "胡桃法语网站：首页门户、系统学习、阅读精听、题库练习（DELF B2 / DALF C1）与找老师。",
+  "engines": {"node": ">=22.12"},
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0",
-    "test": "node --test tests/*.test.js"
+    "build": "node scripts/build.mjs",
+    "build:cloud": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test tests/*.test.js && npm run test:b2 && npm run test:c1",
+    "test:b2": "cd apps/b2 && node --test tests/*.test.js",
+    "test:c1": "cd apps/c1 && node --test tests/*.test.js"
   },
   "dependencies": {
     "dompurify": "^3.4.17",

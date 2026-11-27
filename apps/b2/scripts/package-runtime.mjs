@@ -1,0 +1,10 @@
+import {cpSync,mkdirSync,readFileSync,writeFileSync,existsSync} from 'node:fs';import {resolve} from 'node:path';
+const out=resolve(process.argv[2]||'downloads/pwa-runtime');mkdirSync(out,{recursive:true});
+for(const dir of ['dist','server'])cpSync(dir,resolve(out,dir),{recursive:true});
+for(const name of ['.env.example','compose.yaml','Caddyfile','DEPLOYMENT.md'])cpSync(name,resolve(out,name));
+writeFileSync(resolve(out,'package.json'),JSON.stringify({name:'noix-delf-b2-pwa-codes-runtime',private:true,version:'1.0.0',type:'module',engines:{node:'>=24'},scripts:{start:'node --env-file-if-exists=.env server/start.mjs'}},null,2)+'\n');
+writeFileSync(resolve(out,'Dockerfile'),`FROM node:24-bookworm-slim\nENV NODE_ENV=production\nWORKDIR /app\nCOPY dist ./dist\nCOPY server ./server\nRUN mkdir -p /app/data/runtime && chown -R node:node /app/data\nUSER node\nEXPOSE 3000\nCMD ["node","server/start.mjs"]\n`);
+writeFileSync(resolve(out,'.dockerignore'),'.git\n.env\n.env.*\nnode_modules\ndata/runtime\n');
+writeFileSync(resolve(out,'开始使用.md'),'# 胡桃法语 · 邮箱账号与兑换码PWA\n\n本包已包含构建好的前端、服务端和题库，不含在线支付。部署步骤见 DEPLOYMENT.md。\n\n这不是可双击打开的离线HTML版本：账号注册、云端进度和PWA安装需要服务器运行。尚未包含实际服务器地址或邮件密钥。请完整解压，按说明配置域名、HTTPS及邮件服务。\n\n使用Docker部署无需在服务器安装前端构建工具；也可安装Node.js 24后配置.env，再运行npm start，运行时无需npm install。\n');
+mkdirSync(resolve(out,'许可说明'),{recursive:true});for(const name of ['NOTICE.txt','CC-BY-SA-4.0.txt'])cpSync('data/'+name,resolve(out,'许可说明',name));
+const build=JSON.parse(readFileSync(resolve(out,'dist/build.json')));if(!existsSync(resolve(out,'dist/content.json')))throw Error('Missing bank');console.log('Runtime package:',out,'build:',build.id);

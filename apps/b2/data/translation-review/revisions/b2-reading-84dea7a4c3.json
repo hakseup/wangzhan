@@ -1,0 +1,66 @@
+{
+  "id": "b2-reading-84dea7a4c3",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "9a927844333373ee6ab64fb88710719c617f34650b308ee8d76f3e8e93a0a90f",
+      "sourceCorrection": {
+        "units": [
+          "Écotourisme : derrière la façade verte",
+          "Le développement exponentiel du tourisme va de pair avec une dégradation tout aussi exponentielle et souvent irréversible de l’environnement.",
+          "Heureusement, le tourisme se met aussi à l’écologie.",
+          "Aussi appelé « tourisme de nature », l’écotourisme, qui est apparu il y a quelques décennies, connaît une progression de 20 % par an.",
+          "Ce type de tourisme représenterait 1 % du tourisme en France.",
+          "L’écotourisme tient avant tout à protéger et à valoriser les espaces naturels en danger en réinvestissant l’argent du tourisme local dans la préservation et l’entretien de ces espaces.",
+          "Il s’efforce de prévenir les impacts négatifs, autant sur les populations locales que sur l’environnement.",
+          "Une alternative pour voyager écologique et responsable tout en aidant à la protection de l’environnement, au développement local et à la préservation du patrimoine culturel du pays d’accueil.",
+          "Mais concrètement, quelles forces et quelles limites révèlent ce phénomène tendance ?",
+          "L’écotourisme est-il une bonne alternative au tourisme de masse ?",
+          "Selon l’Organisation mondiale du tourisme, l’écotourisme est un tourisme qui consiste à voyager dans des zones naturelles, conservées relativement intactes, dans le but d’étudier, d’admirer et d’apprécier tout élément de caractère culturel existant dans ces zones, comme la culture traditionnelle des habitants locaux.",
+          "Ces activités touristiques sont organisées de préférence à une petite échelle pour de petits groupes et par de petits opérateurs.",
+          "Dans de nombreux pays, l’intégration des préoccupations de préservation de l’environnement dans les projets d’aménagement touristique a conduit au classement et à la protection de certains sites naturels à des fins scientifiques, écologiques et touristiques, un plus indéniable.",
+          "L’écotourisme constitue une garantie de stabilité en servant de soutien économique, à condition de mesurer et de limiter les impacts de l’homme sur l’environnement.",
+          "Cependant, en incitant à visiter des sites naturels sauvages et en les transformant en destination de vacances, l’écotourisme risque de compromettre l’existence de ces endroits.",
+          "Sans oublier les implications que les touristes peuvent avoir sur l’économie et la sociologie locales, en particulier par leur plus ou moins grande ouverture aux saveurs et coutumes locales…",
+          "La faiblesse de l’écotourisme, c’est qu’il marche dans les traces imposées par la conception actuelle du tourisme : passive et consommatrice.",
+          "On constate en effet un accroissement des déplacements dont l’impact sur l’environnement est d’autant plus important qu’on voyage loin.",
+          "Même éco-responsable, l’écotourisme propose une surenchère de destinations exotiques.",
+          "Cela a un impact élevé en termes de pollution.",
+          "La problématique du tourisme durable est là aussi : on est sensible à la protection de son lieu de villégiature mais on peut anéantir tous ses efforts « CO2 » en s’y rendant en avion ou en voiture.",
+          "Le bon écotouriste doit limiter ses trajets et à plus forte raison ceux utilisant des moyens de transport particulièrement polluants.",
+          "Il doit veiller à utiliser sur place les moyens de transport en commun, les modes de déplacement les plus respectueux de l’environnement (marche à pied, vélo,…) pour éviter les embouteillages et autres encombrements.",
+          "L’écotourisme devrait donc conduire à terme, à limiter les formes de tourisme qui consistent à prendre quelques jours pour aller au bout du monde dans un endroit paradisiaque sans tenir compte de l’impact de ce type de voyage sur les lieux en question.",
+          "Finalement, le voyage ne serait-il pas au coin de la rue ?"
+        ],
+        "reason": "对照原PDF第1页修复双栏串行，恢复先左栏后右栏的正确阅读顺序"
+      },
+      "translations": [
+        "生态旅游：绿色外衣的背后",
+        "旅游业呈指数式增长，与之相伴的是同样呈指数式、而且往往不可逆转的环境恶化。",
+        "幸好，旅游业也开始走向环保。",
+        "生态旅游也称“自然旅游”，兴起于几十年前，如今每年增长20%。",
+        "据说，这类旅游约占法国旅游业的1%。",
+        "生态旅游首先致力于保护和提升濒危自然区域的价值，将当地旅游收入重新投入这些区域的保护和维护。",
+        "它努力避免给当地居民和环境带来负面影响。",
+        "这是一种环保、负责任的旅行选择，同时有助于保护环境、促进当地发展，以及保护接待国的文化遗产。",
+        "但具体而言，这股潮流显露出了哪些优势和局限？",
+        "生态旅游是大众旅游的良好替代方案吗？",
+        "根据世界旅游组织的说法，生态旅游是前往相对保持原貌的自然区域，以研究、欣赏和体验这些区域中的各类文化特色为目的的旅游，例如体验当地居民的传统文化。",
+        "这些旅游活动最好以较小规模组织，面向小团体，由小型经营者承办。",
+        "在许多国家，将环境保护纳入旅游开发项目，促使某些自然景区被列入保护名录，并出于科学、生态和旅游目的受到保护，这无疑是一项益处。",
+        "生态旅游通过提供经济支持来保障稳定，前提是要衡量并限制人类对环境的影响。",
+        "然而，鼓励人们游览野生自然景区，并将其变成度假目的地，可能使生态旅游危及这些地方的存续。",
+        "还不能忘记，游客可能对当地的经济与社会生活产生影响，尤其是他们在多大程度上愿意接纳当地饮食和习俗所带来的影响……",
+        "生态旅游的弱点在于，它沿袭了当前旅游观念所规定的道路：被动、以消费为导向。",
+        "事实上，我们看到出行活动不断增加，而且去得越远，对环境的影响就越大。",
+        "即便自称负有生态责任，生态旅游也在竞相推出更具异域风情的目的地。",
+        "这在污染方面造成了严重影响。",
+        "可持续旅游的问题也在于此：我们重视保护度假地点，却可能因为乘飞机或开车前往那里，使所有减少“二氧化碳排放”的努力化为乌有。",
+        "合格的生态游客应减少出行，尤其应减少使用污染特别严重的交通工具出行。",
+        "在当地，应注意使用公共交通，以及步行、骑车等最环保的出行方式，以避免交通堵塞及其他拥堵现象。",
+        "因此，生态旅游最终应当限制这样的旅游形式：只花几天时间就跑到世界另一端的世外桃源，却不考虑这类旅行对当地的影响。",
+        "说到底，旅行会不会就在街角呢？"
+      ]
+    }
+  ]
+}

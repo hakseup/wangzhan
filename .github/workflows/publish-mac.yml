@@ -1,0 +1,26 @@
+name: Publish unsigned Mac downloads
+on:
+  workflow_dispatch:
+  push:
+    branches: [noix-delf-b2-mac]
+    paths: ['.github/workflows/publish-mac.yml']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: Noix-B2-Mac-installers-unsigned
+          run-id: 42201676260
+          github-token: ${{ github.token }}
+          path: installers
+      - name: Publish permanent download links
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sha256sum installers/* > installers/SHA256SUMS.txt
+          gh release create b2-mac-1.0.0-unsigned installers/* --target 07402292b142633c12ae0041b96677372543ca48 --prerelease --title '胡桃法语 B2 · Mac 1.0.0（未签名）' --notes-file desktop/RELEASE-NOTES.md

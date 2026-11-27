@@ -1,0 +1,70 @@
+{
+  "id": "b2-reading-1c9282dc7d",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "0de21436e63f5b6bcc7ce24edfe5fb1deb349c480d5e195aad3abf56bc098189",
+      "translations": [
+        "乡村还是城市，必须作出选择吗？",
+        "多年来，越来越多法国人选择住在城市，因为这里汇聚了最多的就业机会和服务。",
+        "然而，尽管如此，无论对乡村居民还是城市居民而言，象征宁静与安逸的乡村地区始终代表着理想的生活环境。",
+        "那么，怎样才能让乡村的优点也出现在我们的城市中呢？",
+        "随着城市化逐步推进，政府亟须把城市改造成令人愉快、适宜居住的空间。",
+        "因此，“慢城”等理念体现出放缓城市生活节奏、减轻焦虑和压力的必要性。",
+        "这一运动迅速传播，如今已覆盖欧洲30个国家的252座“慢城”。",
+        "不过，获得这一称号并不容易，因为必须满足许多标准，尤其涉及环保以及对残障人士的重视。",
+        "此外，城市人口不得超过五万！",
+        "这一条件使世界各大都市——即使是最环保的都市——也无法成为“慢城”。",
+        "因此，旧金山、罗马和巴塞罗那的市长目前正在推进一个“慢都市”项目。",
+        "与此同时，其他举措也正在成形，以拉近城市与乡村的距离。",
+        "“垂直农业*”的发展就是例子：它能在占地面积极小的设施中生产食品。",
+        "然而，即使这些城市农场提供了提高产量的办法，要融入乡村所代表的美好生活的象征性价值，仍然并不容易。",
+        "正因如此，城市里出现了越来越多专门销售农村食品的集市。",
+        "这些集市拉近了商户与顾客之间的距离，不像大型超市那样缺少人情味。",
+        "“集市让农民多了一份收入。",
+        "我开始渐渐熟悉他们了，因此我知道他们向我提供的是优质产品。”年轻的城市居民克莱芒丝说。",
+        "最后，社区协会效仿乡村互助模式，为居民提供就近帮助，例如找临时保姆、修自行车、提购物袋等。",
+        "数字技术领域也一样，许多网络平台出现，为人们提供物品出借和借用服务。",
+        "“通过这种交流，人们除了省钱，还能互相帮助、结识新朋友、体验新事物。",
+        "互联网因此使人们能够真正见面，而不再仅仅是在虚拟空间中交流。”社会学家塞德里克·焦尔吉表示。",
+        "尽管如此，也不要忘记，城市本身同样可以为乡村提供灵感。",
+        "城市是丰富文化生活的中心，汇集着多种多样的活动和外出休闲选择，因此也是一个向世界敞开的地方。",
+        "这是一种节奏更快、但也别具魅力的生活方式。",
+        "所以，目的并不是创造一个把两个世界混成一体的同质化空间，而是在两者之间架起桥梁，让城市生活更加幸福。",
+        "* 垂直农业：利用建筑物整个高度生产食品，从而减少占地面积。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Campagne ou ville, faut-il choisir ?",
+          "Depuis des années, les Français sont de plus en plus nombreux à choisir de vivre en ville, le lieu qui réunit le plus d’emplois et de services.",
+          "Or, malgré ce constat, les espaces ruraux, symboles de calme et de sérénité, sont toujours, associés au cadre de vie idéal, autant pour les ruraux que pour les urbains.",
+          "Alors, comment faire pour que les avantages des campagnes se retrouvent dans nos villes ?",
+          "Avec l’urbanisation progressive des territoires, il est devenu vital pour les pouvoirs publics de transformer les villes en espaces agréables et habitables pour les gens.",
+          "Ainsi, certains concepts, comme celui de « ville lente », sont caractéristiques de la nécessité de ralentir le rythme de vie citadin pour faire diminuer les problématiques d’anxiété et de stress.",
+          "Ce mouvement, qui se répand rapidement, s’étend aujourd’hui à 252 « villes lentes » en Europe, dans 30 pays différents.",
+          "Néanmoins, il n’est pas simple d’obtenir cette appellation car de nombreux critères, liés, notamment, au respect de l’environnement et à la place donnée aux personnes handicapées, doivent être respectés.",
+          "De plus, la ville ne doit pas compter plus de 50 000 habitants !",
+          "Cet élément empêche donc les métropoles mondiales — même les plus écologiques — de devenir des « villes lentes ».",
+          "C’est la raison pour laquelle les maires de San Francisco, Rome ou Barcelone travaillent actuellement sur un projet de « métropoles lentes ».",
+          "D’autres initiatives prennent également forme pour rapprocher les villes des campagnes.",
+          "C’est ce que démontre le développement de « l’agriculture verticale* » qui aide à obtenir des produits alimentaires dans une structure occupant une surface au sol extrêmement réduite.",
+          "Mais, même si ces fermes urbaines proposent des moyens pour produire plus, l’inclusion des valeurs symboliques liées au bien-vivre qu’évoque la campagne est compliquée.",
+          "C’est pour cette raison que de plus en plus de marchés spécialisés dans la vente d’aliments produits en milieu rural sont organisés dans les villes.",
+          "Ils apportent du lien entre commerçants et clients, contrairement aux hypermarchés où tout est plus impersonnel.",
+          "« Les marchés assurent aux fermiers un revenu complémentaire.",
+          "Comme je commence à bien les connaître, je sais qu’ils me proposent des produits de qualité », affirme Clémence, une jeune citadine.",
+          "Enfin, les associations de quartier apportent de l’aide de proximité aux habitants sur le modèle de la solidarité pratiquée à la campagne : trouver une baby-sitter, faire réparer son vélo, porter des courses, etc.",
+          "Il en est de même avec le numérique, de nombreuses plateformes en ligne apparaissent pour proposer des prêts et des emprunts d’objets.",
+          "« Grâce à ce type d’échanges, en plus de faire des économies, les individus s’entraident, rencontrent des gens et peuvent vivre de nouvelles expériences.",
+          "Internet permet ainsi de faire des rencontres réelles et non plus uniquement virtuelles », affirme le sociologue Cédric Giorgi.",
+          "Malgré tout, n’oublions pas que la ville peut être, elle aussi, une source d’inspiration pour les campagnes.",
+          "Cœur d’une vie culturelle riche, elle accueille une grande diversité d’activités, de sorties, et représente ainsi un lieu d’ouverture sur le monde.",
+          "Un mode de vie plus rythmé, mais qui possède aussi son charme.",
+          "Il ne s’agit donc pas de créer un espace uniforme qui regrouperait ces deux univers, mais de créer des ponts entre eux pour toujours plus de bonheur en ville.",
+          "* agriculture verticale : production d’aliments sur toute la hauteur d’un bâtiment, réduisant ainsi l’espace occupé au sol."
+        ],
+        "reason": "对照PDF第1页修复双栏串行，恢复先左栏后右栏的阅读顺序并分离脚注。"
+      }
+    }
+  ]
+}

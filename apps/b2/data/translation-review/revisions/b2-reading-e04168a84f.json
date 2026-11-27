@@ -1,0 +1,106 @@
+{
+  "id": "b2-reading-e04168a84f",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "ea7d791f92fab810470179f773331624930d349e2dc2df8885cb275df93b7a30",
+      "translations": [
+        "巴黎大众运输公司（RATP）*希望从3G*中获益。这家负责巴黎交通的公司将发起招标，为地铁铺设互联网网络，但附带的独家经营权令移动通信企业不满。"
+      ]
+    },
+    {
+      "id": "p2",
+      "sourceHash": "8fbbc7c545fcf0ca0166637d66b1856966a78d8527ce33db5c78c4a51217987c",
+      "translations": [
+        "每天有500万乘客无法有效连接互联网。",
+        "在地下的巴黎地铁里，他们的智能手机只能用来打电话。",
+        "在RATP运营区段乘坐大区快铁（RER）*的160万旅客，也面临同样的情况。",
+        "然而，移动通信运营商并非没有意愿。",
+        "但RATP为引入3G而选定的方案引起不满*：只允许一家运营商独家部署自己的网络。",
+        "这样就能让各家相互竞争，抬高报价。",
+        "RATP正准备发起招标。",
+        "公司已向四家通信运营商发函，邀请它们登记参与程序，领取投标申请材料。",
+        "目的是“在RATP的地下设施范围内建设3G网络”。",
+        "其设想是：运输公司与中选运营商成立合资公司，由运营商负责安装无线通信设备。",
+        "建成的网络将供出租，RATP则从中收取佣金。",
+        "这相当于按营业收入分成。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Cinq millions d’usagers sont quotidiennement privés d’une connexion efficace à Internet.",
+          "En sous-sol, dans le métro parisien, leurs smartphones sont seulement bons à téléphoner.",
+          "Même régime pour les 1,6 million de voyageurs qui empruntent les lignes du RER* sur les tronçons exploités par la RATP.",
+          "Ce n’est pas l’envie qui manque, pourtant, aux opérateurs de téléphonie mobile.",
+          "Mais le schéma retenu par la RATP pour apporter la 3G fait grincer des dents* : réserver à un opérateur l’exclusivité pour déployer son réseau.",
+          "Et donc, faire grimper les enchères en les mettant en compétition.",
+          "La RATP s’apprête à lancer son appel d’offres.",
+          "Un courrier a été adressé aux quatre opérateurs de téléphonie, les invitant à s’inscrire dans la procédure pour récupérer le dossier de candidature.",
+          "Ceci pour « construire un réseau 3G dans les emprises souterraines de la RATP ».",
+          "L’idée : la régie constituerait une société commune avec l’opérateur élu, à charge pour lui de poser ses équipements radio.",
+          "Le réseau construit serait loué et, au passage, la RATP prélèverait sa commission.",
+          "Une sorte d’intéressement au chiffre d’affaires."
+        ],
+        "reason": "对照PDF第1页，按左栏自上而下恢复法语顺序，修复双栏串行。"
+      }
+    },
+    {
+      "id": "p3",
+      "sourceHash": "0a63a6061607e89189a271ecd2d8a867efd419171a53de3b5aee5e38f276fa9a",
+      "translations": [
+        "运营商都表示愿意参与。",
+        "但气氛并不热烈。",
+        "事实上，它们更希望共同出资建设这一地下网络，以便各家都能利用它获益。",
+        "不过，RATP并不排除考虑其他方案，因为“技术、参与者和合作架构的可能性都已发生变化”。",
+        "说得正是。",
+        "一家运营商反驳道：“如果说有什么变化，那就是网络变得更加饱和，尤其是3G网络。”",
+        "它质疑，若让数百万旅客的互联网流量全部通过一家运营商的无线电频率传输，运输公司能否保证优质服务。",
+        "那就像跨越国界一样：“在地铁外开始的通话，切换网络时必然会中断。”",
+        "另一项批评针对RATP方案在法律上是否站得住脚：问题在于它区别对待运营商，因为这等于除一家外，禁止所有运营商进入公共空间。",
+        "这恰恰是竞争层面存在问题的典型方案，而该公司在自己的交通网络上本就处于垄断地位。",
+        "更别提费用了……",
+        "运输公司否认向运营商敲竹杠*，但表示，既然涉及公共空间，自己就有理由收取占用费。",
+        "“我们的数百万乘客为运营商带来了营业收入。",
+        "这是有价值的！",
+        "公共交通从中获得一些回报是正常的。”",
+        "RATP为其方案辩护，解释说不能让各家运营商随意行事；该项目负责人总结道：“我们重视的是在我们全部设施范围内实现3G覆盖，而不是到头来只有50个车站［地下车站共316个］，各家在那里各装各的设备。”",
+        "运营商方面还表示，“3G问题很重要，用户对此期待已久”。",
+        "它们表示“迫切希望找到解决方案，满足客户需求”。",
+        "RATP知道，自己已经把运营商攥在手心里了……",
+        "* RATP：巴黎大众运输公司。",
+        "* 3G：第三代移动通信技术，支持移动互联网连接。",
+        "* RER：大区快速铁路网。",
+        "* grincer des dents：生气、不满。",
+        "* rançonner：无理索取钱财。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Les opérateurs ont tous répondu présent.",
+          "Mais l’ambiance n’y est pas.",
+          "Ces derniers préféreraient en effet participer collectivement au financement de ce réseau souterrain pour pouvoir chacun l’utiliser à profit.",
+          "Mais la RATP ne s’interdit pas de réfléchir à d’autres schémas puisque « les techniques, les acteurs et les possibilités de montage ont évolué. »",
+          "Précisément.",
+          "« S’il y a eu un changement, c’est bien dans la saturation des réseaux, notamment 3G », riposte un opérateur.",
+          "Qui met au défi la régie d’assurer un service de qualité, en faisant écouler le trafic internet de plusieurs millions de voyageurs sur les fréquences radio d’un seul opérateur.",
+          "Ce sera comme lorsqu’on passe une frontière : « La conversation initiée à l’extérieur du métro va forcément couper en changeant de réseau. »",
+          "Une autre critique porte sur la fiabilité juridique du dispositif de la RATP : en cause, la discrimination entre opérateurs puisque cela revient à interdire à tous, sauf un, l’accès à l’espace public.",
+          "Soit l’exemple même d’un schéma problématique sur le plan concurrentiel, alors que la compagnie est déjà en situation de monopole sur son réseau.",
+          "Sans parler de la facture...",
+          "La régie se défend de rançonner* les opérateurs mais s’agissant du domaine public, elle se dit fondée à appliquer une taxe pour son occupation.",
+          "« Nos millions d’usagers apportent du chiffre d’affaires aux opérateurs.",
+          "Cela a une valeur !",
+          "Il est normal que les transports publics en retirent quelque chose. »",
+          "Défendant son schéma, la RATP explique qu’on ne peut pas laisser chacun faire n’importe quoi : « Ce qui nous importe, c’est de couvrir l’intégralité de notre domaine en 3G, et non de se retrouver avec 50 stations [sur 316 souterraines], où chacun aurait ses installations », conclut la responsable du dossier.",
+          "Chez les opérateurs, on ajoute que « le sujet 3G est important et très attendu par les abonnés ».",
+          "On se dit « pressé de trouver une solution pour répondre aux besoins des clients ».",
+          "La RATP sait qu’elle a les opérateurs dans sa main...",
+          "* RATP : Régie autonome des transports parisiens.",
+          "* 3G : 3ème génération de téléphones mobiles permettant une connexion Internet itinérante.",
+          "* RER : Réseau express régional.",
+          "* grincer des dents : être en colère.",
+          "* rançonner : réclamer injustement de l’argent."
+        ],
+        "reason": "对照PDF第1页，先读左栏末段，再读右栏及脚注，修复双栏串行和抽取时丢失的词间空格。"
+      }
+    }
+  ]
+}

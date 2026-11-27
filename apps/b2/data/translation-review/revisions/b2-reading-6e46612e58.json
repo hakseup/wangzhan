@@ -1,0 +1,62 @@
+{
+  "id": "b2-reading-6e46612e58",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "b86b4e0703967a77335b1730b2a646b0af39ead8eb8a53525fee11d94b77b7de",
+      "sourceCorrection": {
+        "units": [
+          "Manger mieux pour jeter moins",
+          "En France, plus de 10 millions de tonnes d’aliments sont jetés chaque année, dont 1,2 million pourraient encore être consommés.",
+          "Un véritable gaspillage.",
+          "Les pertes sont partout : 33 % viennent des particuliers ou de la restauration (cantines scolaires et d’entreprises, hôpitaux, restaurants…).",
+          "Depuis la loi de 2016, les restaurateurs parisiens doivent mettre en place un tri sélectif et sont encouragés à proposer aux clients qui n’ont pas fini leur assiette d’emporter les restes.",
+          "Mais cela ne suffit pas.",
+          "Dans la restauration, le problème est renforcé par l’utilisation importante de produits industriels, prêts à servir, contenant beaucoup d’emballages.",
+          "Les chefs cuisiniers développent eux aussi ce concept de restauration responsable et sont à la tête de ce mouvement.",
+          "Ils ont exprimé d’abord leurs idées à la télévision et ils sont nombreux aujourd’hui à porter publiquement l’idée qu’un bon cuisinier ne jette pas mais récupère (têtes de poisson, pain dur…).",
+          "« Dans les restaurants des palaces, chez des chefs très connus, on ne sert que les meilleures parties du produit.",
+          "Pour certains poissons, on ne travaille que le filet central, le reste est jeté à la poubelle…», racontent Charles Regnaudin et Maxime Bonnabry-Duval, récemment diplômés d’une école de gastronomie.",
+          "L’objectif de leur projet professionnel de fin d’études s’est très vite concentré autour de la lutte contre le gaspillage alimentaire.",
+          "« On voulait donner du sens à nos métiers… avec des produits transformés, issus du gaspillage », racontent-ils.",
+          "Ils montent alors un restaurant pour les plus pauvres, à Paris, à partir de produits abîmés ou proches de la date limite de vente, récupérés sur des marchés ou chez des producteurs.",
+          "Puis, ils lancent à Bordeaux leur entreprise qui regroupe un restaurant gastronomique, une épicerie fine, un camion pour les événements et des cours de cuisine pour apprendre à imaginer des repas sans gaspillage.",
+          "Manger mieux, de saison, local et gaspiller moins pour que la révolution verte passe aussi par les assiettes, c’est la devise qui motive toute l’équipe de François Pasteau, chef d’un restaurant parisien.",
+          "« La lutte contre le gaspillage, c’est un tout, un ensemble.",
+          "Elle intervient dans l’acte d’achat, quand on privilégie les produits naturels et les circuits courts de distribution, mais aussi dans la gestion du tri, dans la manière de cuisiner et parfois de jeter ce que nous ne pouvons pas recycler », explique le cuisinier, président de l’association Bon pour le Climat, qui rassemble des professionnels engagés dans la promotion d’une alimentation durable.",
+          "« Le produit est utilisé deux ou trois fois, donc on y gagne aussi économiquement et cela permet d’investir dans d’autres gestes écologiques et citoyens », explique-t-il en racontant son combat gagné pour participer à la mise en place d’une expérimentation parisienne de ramassage des déchets issus de la nourriture.",
+          "« La restauration traditionnelle est en train de bouger », se réjouit Stéphan Martinez.",
+          "Il a expérimenté la collecte des déchets chez 80 professionnels du cœur historique de Paris, pour les recycler.",
+          "« Si on y arrive là, on y arrivera partout », se dit-il alors.",
+          "L’expérience connaît un vrai succès : l’entreprise collecte aujourd’hui les déchets verts de grands hôtels-restaurants, de nombreuses cantines scolaires, de bars de quartier ou de marchés."
+        ],
+        "reason": "对照原PDF第1页修复双栏串行，恢复先左栏后右栏的正确阅读顺序"
+      },
+      "translations": [
+        "吃得更好，扔得更少",
+        "法国每年有超过1000万吨食物被扔掉，其中120万吨本来仍可食用。",
+        "这实在是巨大的浪费。",
+        "损耗无处不在，其中33%来自家庭或餐饮业，包括学校和企业食堂、医院、餐馆等。",
+        "根据2016年出台的法律，巴黎的餐饮经营者必须开展垃圾分类，同时，法律也鼓励他们主动请没有吃完餐食的顾客将剩余食物打包带走。",
+        "但这样还不够。",
+        "餐饮业大量使用包装繁多、可直接上桌的工业化食品，使问题更加严重。",
+        "厨师们也在推广这种负责任的餐饮理念，并走在这场运动的前列。",
+        "他们最初在电视上表达自己的想法，如今很多人公开倡导：好厨师不会把鱼头、硬面包等扔掉，而是会加以回收利用。",
+        "“在豪华酒店的餐厅里，在那些名厨的厨房里，只有食材最好的部分才会被端上桌。",
+        "有些鱼只用中间的鱼柳部分，其余全都扔进垃圾桶……”刚从一所烹饪学校毕业的夏尔·勒尼奥丹和马克西姆·博纳布里-迪瓦尔这样说。",
+        "他们的毕业职业项目很快就确定了以反对食物浪费为目标。",
+        "他们说：“我们想让自己的职业有意义……通过加工利用那些原本会被浪费的食材。”",
+        "于是，他们在巴黎开了一家面向最贫困人群的餐馆，食材来自市场或生产者提供的受损或临近销售期限的产品。",
+        "之后，他们又在波尔多创办了一家企业，集精致餐厅、精品食品店、活动餐车以及烹饪课程于一体，教人设计不浪费食材的餐食。",
+        "吃得更好、选当季食物、买本地产品、减少浪费，让绿色革命也走进餐盘——这句口号激励着巴黎一家餐馆主厨弗朗索瓦·帕斯托的整个团队。",
+        "“反对浪费是一个整体，是一套相互联系的做法。",
+        "它体现在采购时优先选择天然产品和短链供应渠道，也体现在垃圾分类管理、烹饪方式，以及有时如何丢弃无法回收利用的东西上。”这位厨师解释道。他也是“有益气候”协会的主席，该协会汇集了致力于推广可持续饮食的专业人士。",
+        "“食材使用两三次，在经济上也会有收益，这样就能投入到其他有利于环保、体现公民责任的行动中。”他解释道，并讲述自己如何经过努力，终于得以参与巴黎的一项餐厨垃圾收集试验。",
+        "“传统餐饮业正在发生变化。”斯泰凡·马丁内斯欣喜地说。",
+        "他曾尝试为巴黎历史中心区的80家业内经营者收集垃圾，以便回收利用。",
+        "当时他对自己说：“如果在这里能做到，那么在哪里都能做到。”",
+        "这项试验取得了真正的成功：如今，这家公司为大型酒店餐厅、许多学校食堂、社区酒吧以及市场收集有机垃圾。"
+      ]
+    }
+  ]
+}

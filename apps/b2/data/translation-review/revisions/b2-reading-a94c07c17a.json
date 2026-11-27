@@ -1,0 +1,75 @@
+{
+  "id": "b2-reading-a94c07c17a",
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sourceHash": "525e8a968449992c262aa36dc63b58d02566220863c9a72ce6e74658279f5ebd",
+      "translations": [
+        "运动处方：如何在改善法国人健康状况的同时，减缓法国药品销售额的增长？",
+        "如何增进老年人的身心健康，同时又不增加药物处方*？",
+        "近几个月开始兴起的“运动处方”，或许能够回应这些问题。"
+      ]
+    },
+    {
+      "id": "p2",
+      "sourceHash": "1670f9afd4acb009000f3f990fdf391f846277786acb0ca47d438b9a4e19dbfa",
+      "translations": [
+        "这项做法终于写入了法律，但这只是对法律的一项修改，适用对象仅限于长期患病的人。",
+        "对患者来说，按医生处方运动首先可能有两方面的益处：进行适合自身状况和疾病的运动，可以改善整体身体状态。",
+        "此外，按处方运动还可以切实减少用药，从而减轻某些治疗的副作用。",
+        "斯特拉斯堡于2012年启动了一项运动健康处方试验，取得了非常令人鼓舞的结果。",
+        "斯特拉斯堡的例子标志着这种做法开始兴起，但目前仍只是零星开展。",
+        "如果没有切实的意愿去推广和支持运动处方，这种做法可能仍然只是个别人的自发尝试。",
+        "然而，要产生显著影响，就必须在全国范围内推广这种做法。",
+        "目前，阻碍运动处方全面推广的主要因素，是它所需要的资金投入。",
+        "国家财政确实紧张，但必须着眼长远：投入这种做法，就能借助规模效应取得有说服力的成果。",
+        "事实上，从长远来看，运动处方能够降低心血管疾病风险、减少缺乏运动的情况，也能降低糖尿病风险。",
+        "这些健康问题的治疗都给公共部门带来沉重负担：全面推广运动处方，能够减少公共医疗卫生支出。",
+        "但要做到这一点，公共部门就必须认真介入，推动事情发展。",
+        "一些补充医疗保险机构*已经宣布，将支持这项举措，承担相关体育活动的费用。",
+        "事实上，目前没有计划由社会保障体系*直接承担运动处方相关活动的费用。",
+        "资金可以来自多个渠道，由地区和地方机构、医疗保险机构或患者协会共同承担。",
+        "但还需要进一步行动，全面推广这项措施。",
+        "例如，医生可以向所有能从中受益的患者推荐这类活动。",
+        "为此，必须支持医生履行开具运动处方的职责，为他们提供相关培训，或提供处方参考标准、指导手册，而目前还没有这些条件。",
+        "最后，为了充分发挥运动对法国人整体身心健康的益处，应当把这一机制扩大到所有体育活动。",
+        "因此，体育俱乐部考虑为这类人群开设专门的活动课程，是合乎逻辑的，比如法国田径联合会已经这样做了。",
+        "各体育联合会一直希望增加会员人数，应当由它们为这一特殊目标群体设置足够有吸引力的活动。"
+      ],
+      "sourceCorrection": {
+        "units": [
+          "Cette pratique s’inscrit enfin dans la loi, mais il ne s’agit que d’une modification de la loi s’adressant aux personnes atteintes de maladies de longue durée.",
+          "Pour le patient, dans un premier temps, le bénéfice du sport sur ordonnance médicale peut-être double : en pratiquant une activité sportive adaptée à sa condition et à sa pathologie, cela peut améliorer sa forme générale.",
+          "Mais la pratique du sport sur ordonnance peut aussi conduire à limiter de manière réelle la médication, permettant de diminuer les effets secondaires de certains traitements.",
+          "À Strasbourg, une expérimentation de sport-santé sur ordonnance a été lancée en 2012 et a montré des résultats très encourageants.",
+          "L’exemple strasbourgeois est le symbole de l’émergence de cette pratique, mais cela ne correspond encore qu’à un déploiement ponctuel.",
+          "Sans volonté réelle de promouvoir et d’appuyer le sport sur ordonnance, cette pratique pourrait rester à l’état d’initiative individuelle.",
+          "Or, pour que cela ait un impact significatif, il faut que cette tendance soit adoptée sur le plan national.",
+          "Le principal frein à l’adoption généralisée du sport sur ordonnance vient actuellement de l’investissement financier que cela nécessiterait.",
+          "Les caisses de l’État sont vides, certes, mais c’est une vision à long terme qu’il faut adopter : miser sur une telle pratique permettrait, avec une économie d’échelle, d’afficher des résultats convaincants.",
+          "En effet, le sport sur ordonnance permettrait, en se projetant, de réduire les risques cardio-vasculaires, l’inactivité ou encore le diabète.",
+          "Autant de problèmes médicaux représentant des traitements lourds à assumer pour les pouvoirs publics : promouvoir globalement le sport sur ordonnance permettrait de réduire les dépenses publiques en matière de santé.",
+          "Mais pour cela, il faut que les pouvoirs publics interviennent sérieusement pour faire évoluer les choses.",
+          "Certaines complémentaires santé* ont déjà annoncé qu’elles adopteraient cette initiative avec une prise en charge des activités liées au sport.",
+          "En effet, il n’est pas prévu que la Sécurité sociale* prenne directement en charge les activités liées au sport sur ordonnance.",
+          "Le financement pourrait être multiple, couvert par des organismes régionaux et locaux et par les assurances maladie ou des associations de patients.",
+          "Mais il faut aller plus loin et généraliser cette mesure.",
+          "Les médecins pourraient, par exemple, proposer ce type d’activités à tous les patients pour qui les effets seraient bénéfiques.",
+          "Pour cela, les médecins devront être appuyés dans leur rôle de prescripteur de l’activité physique en étant formés dans ce sens ou avoir à disposition un référentiel ou un guide de prescription, ce qui n’est pas le cas actuellement.",
+          "Enfin, en poussant les bénéfices du sport pour le bien-être des Français en général, il faudrait élargir le dispositif à toute pratique sportive.",
+          "Ainsi, il semblerait logique que les clubs songent à développer des séances particulières pour ce type de public, comme l’a fait la Fédération française d’athlétisme, par exemple.",
+          "Aux fédérations, dont la volonté d’augmenter le nombre de leurs adhérents est constante, de mettre en place des activités suffisamment attractives pour cette cible particulière."
+        ],
+        "reason": "双栏OCR串栏；对照原PDF第1页，按左栏后右栏的正确顺序恢复。"
+      }
+    },
+    {
+      "id": "p3",
+      "sourceHash": "921174e96fc61a73045cdaca7620ee5e2861aa533b5aed9b86f6e304f1a8bfa9",
+      "translations": [
+        "* 处方：医生开具的医嘱。* 补充医疗保险：私人医疗保险制度。",
+        "* 社会保障体系：公共医疗保险制度。"
+      ]
+    }
+  ]
+}

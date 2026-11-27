@@ -1,0 +1,2552 @@
+[
+  {
+    "section": "entries",
+    "key": "pair",
+    "entry": {
+      "zh": "同辈；同等者；偶数的；成双的",
+      "forms": [
+        "pairs"
+      ],
+      "sources": [
+        "speaking-1-15",
+        "speaking-1-30"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "偶数的；成双的；相等的"
+        },
+        {
+          "pos": "n",
+          "zh": "同辈；同等者；贵族议员"
+        }
+      ],
+      "related": [
+        "pairement",
+        "pairie"
+      ],
+      "collocations": [
+        {
+          "fr": "pairs monolingues",
+          "zh": "只使用一种语言的同辈"
+        },
+        {
+          "fr": "hors pair",
+          "zh": "出类拔萃的；超群的"
+        },
+        {
+          "fr": "nombre pair",
+          "zh": "偶数"
+        },
+        {
+          "fr": "au pair",
+          "zh": "以提供服务换取食宿的；互惠生"
+        },
+        {
+          "fr": "fonction paire",
+          "zh": "偶函数"
+        },
+        {
+          "fr": "double paire",
+          "zh": "两对牌（扑克）"
+        },
+        {
+          "fr": "deux paires",
+          "zh": "两对牌（扑克）"
+        },
+        {
+          "fr": "paire minimale",
+          "zh": "最小对立体（语言学中仅一个音位不同的一对词）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "coeur",
+    "entry": {
+      "zh": "心；心脏；内心；热忱",
+      "forms": [
+        "coeur"
+      ],
+      "sources": [
+        "speaking-2-12"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "心；心脏；内心（cœur的不使用连字写法）"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "coeur artificiel",
+          "zh": "人工心脏"
+        },
+        {
+          "fr": "coeur de notre action politique",
+          "zh": "我们政治行动的核心"
+        },
+        {
+          "fr": "affaire de coeur",
+          "zh": "感情纠葛；恋爱之事"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "po",
+    "entry": {
+      "zh": "疑似缩写或残缺词形，需核对原文",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "缺少可确认的法语词义，需结合原文核对"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "po enseignante",
+          "zh": "原文搭配不完整，需核对"
+        },
+        {
+          "fr": "PO US",
+          "zh": "疑似缩写，具体含义需核对"
+        },
+        {
+          "fr": "pos nasss",
+          "zh": "原文疑有识别错误，无法确定含义"
+        },
+        {
+          "fr": "po seur éteint",
+          "zh": "原文疑有识别错误，无法确定含义"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "dehors",
+    "entry": {
+      "zh": "在外面；在户外；外部；外表",
+      "forms": [
+        "dehors"
+      ],
+      "sources": [
+        "long-2022-6-cn",
+        "reading-2021-10-fr",
+        "reading-2023-6-cn",
+        "reading-2024-11-cn",
+        "reading-2026-3-cn",
+        "reading-mock-6",
+        "writing-2026-3-cn",
+        "speaking-1-10",
+        "speaking-1-44",
+        "speaking-1-47",
+        "speaking-1-5",
+        "speaking-2-17",
+        "speaking-2-28",
+        "speaking-2-4"
+      ],
+      "senses": [
+        {
+          "pos": "adv",
+          "zh": "在外面；向外"
+        },
+        {
+          "pos": "n",
+          "zh": "外部；外表"
+        },
+        {
+          "pos": "prep",
+          "zh": "在……之外（常用于en dehors de）"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "en dehors de",
+          "zh": "在……之外；除……以外"
+        },
+        {
+          "fr": "toutes voiles dehors",
+          "zh": "扬起全部船帆；全力以赴"
+        },
+        {
+          "fr": "en dehors",
+          "zh": "在外面；在外部"
+        },
+        {
+          "fr": "mettre le nez dehors",
+          "zh": "出门；到外面去"
+        },
+        {
+          "fr": "mettre le pied dehors",
+          "zh": "迈出家门；出门"
+        },
+        {
+          "fr": "à coucher dehors",
+          "zh": "难以发音、书写或记忆的（常形容姓名）"
+        },
+        {
+          "fr": "à ne pas mettre un chien dehors",
+          "zh": "天气恶劣得连狗都不宜出门"
+        },
+        {
+          "fr": "à ne pas mettre un chat dehors",
+          "zh": "天气极为恶劣，连猫也不宜出门"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "ph",
+    "entry": {
+      "zh": "直升机航母（porte-hélicoptères的缩写）",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "直升机航母（军事用语缩写）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "murs",
+    "entry": {
+      "zh": "墙壁（mur的复数）；成熟的（mûrs的无重音写法）；Murs为专名",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "name",
+          "zh": "Murs（专有名称）"
+        },
+        {
+          "pos": "adj",
+          "zh": "成熟的（mûrs的无重音写法）"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "les murs ont des oreilles",
+          "zh": "隔墙有耳"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "quai",
+    "entry": {
+      "zh": "码头；河岸；站台",
+      "forms": [
+        "quai"
+      ],
+      "sources": [
+        "long-2021-5-cn",
+        "reading-2024-5-fr"
+      ],
+      "senses": [
+        {
+          "pos": "name",
+          "zh": "Quai（专有名称）"
+        },
+        {
+          "pos": "n",
+          "zh": "码头；河岸；车站站台"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "quai d'orsay",
+          "zh": "奥赛码头；借指法国外交部"
+        },
+        {
+          "fr": "quai des orfèvres",
+          "zh": "金银匠码头；借指法国司法警察部门"
+        },
+        {
+          "fr": "à quai",
+          "zh": "（船）靠码头；（列车）停靠站台"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "patte",
+    "entry": {
+      "zh": "爪；动物的腿；脚",
+      "forms": [
+        "pattes"
+      ],
+      "sources": [
+        "speaking-2-17",
+        "speaking-2-5"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "爪；动物的腿；（口语）人的手或腿"
+        }
+      ],
+      "related": [
+        "patin"
+      ],
+      "collocations": [
+        {
+          "fr": "pattes sur le sol",
+          "zh": "爪子着地"
+        },
+        {
+          "fr": "à quatre pattes",
+          "zh": "四肢着地"
+        },
+        {
+          "fr": "marcher à quatre pattes",
+          "zh": "四肢着地爬行"
+        },
+        {
+          "fr": "bas les pattes",
+          "zh": "把手拿开！别碰！"
+        },
+        {
+          "fr": "mouton à cinq pattes",
+          "zh": "稀罕之物；难以找到的全才"
+        },
+        {
+          "fr": "pattes d'éléphant",
+          "zh": "喇叭裤；喇叭形裤腿"
+        },
+        {
+          "fr": "estomac sur pattes",
+          "zh": "贪吃的人；大胃王"
+        },
+        {
+          "fr": "estomac à pattes",
+          "zh": "贪吃的人；大胃王"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "aperçu",
+    "entry": {
+      "zh": "概况；概述；一瞥；预览",
+      "forms": [
+        "aperçu"
+      ],
+      "sources": [
+        "reading-mock-5",
+        "speaking-1-25"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "概况；概述；简要介绍"
+        },
+        {
+          "pos": "intj",
+          "zh": "疑似词性误标；常用作名词，意为概况、概述"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "aperçu de leurs réflexions",
+          "zh": "他们思考内容的概述"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "riz",
+    "entry": {
+      "zh": "稻；大米；米饭",
+      "forms": [
+        "riz"
+      ],
+      "sources": [
+        "reading-2025-8-fr",
+        "writing-2023-3-cn"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "稻；大米；米饭"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "gâteau de riz",
+          "zh": "米糕；大米布丁"
+        },
+        {
+          "fr": "vin de riz",
+          "zh": "米酒"
+        },
+        {
+          "fr": "riz au lait",
+          "zh": "牛奶米布丁"
+        },
+        {
+          "fr": "riz complet",
+          "zh": "糙米"
+        },
+        {
+          "fr": "riz blanc",
+          "zh": "白米；白米饭"
+        },
+        {
+          "fr": "riz sauvage",
+          "zh": "菰米；野米"
+        },
+        {
+          "fr": "papier de riz",
+          "zh": "米纸"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "monté",
+    "entry": {
+      "zh": "安装好的；装配好的；骑乘的",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "安装好的；装配好的；骑乘的"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "monté comme un âne",
+          "zh": "（粗俗）阴茎粗大的"
+        },
+        {
+          "fr": "pièce montée",
+          "zh": "装饰性多层蛋糕；婚礼大蛋糕"
+        },
+        {
+          "fr": "montée de lait",
+          "zh": "开始泌乳；（魁北克口语）突然大发脾气"
+        },
+        {
+          "fr": "coup monté",
+          "zh": "预先策划的骗局；圈套"
+        },
+        {
+          "fr": "collet monté",
+          "zh": "拘谨古板的；装腔作势的"
+        },
+        {
+          "fr": "monté sur ressorts",
+          "zh": "像装了弹簧似的活蹦乱跳；坐不住的"
+        },
+        {
+          "fr": "monté sur ressort",
+          "zh": "像装了弹簧似的活蹦乱跳；坐不住的"
+        },
+        {
+          "fr": "montée des eaux",
+          "zh": "水位上涨；海平面上升"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "pot",
+    "entry": {
+      "zh": "罐；壶；盆；便盆；（口语）运气",
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "罐；壶；盆；便盆；（口语）运气"
+        }
+      ],
+      "related": [
+        "potiche",
+        "potée"
+      ],
+      "collocations": [
+        {
+          "fr": "pot aux connaissances",
+          "zh": "搭配不规范，需结合原文核对"
+        },
+        {
+          "fr": "pot de fleur",
+          "zh": "花盆；（比喻）只作摆设、不起作用的人"
+        },
+        {
+          "fr": "pot d'échappement",
+          "zh": "排气管"
+        },
+        {
+          "fr": "payer les pots cassés",
+          "zh": "赔偿损失；承担后果"
+        },
+        {
+          "fr": "avoir du pot",
+          "zh": "走运"
+        },
+        {
+          "fr": "tourner autour du pot",
+          "zh": "拐弯抹角；绕圈子"
+        },
+        {
+          "fr": "cuiller à pot",
+          "zh": "大汤勺；长柄勺"
+        },
+        {
+          "fr": "pot de chambre",
+          "zh": "便盆；夜壶"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "réception",
+    "entry": {
+      "zh": "接收；接待；招待会；接待处",
+      "forms": [
+        "réception"
+      ],
+      "sources": [
+        "speaking-1-11"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "接收；接待；接待处；招待会"
+        }
+      ],
+      "related": [
+        "réceptionnaire",
+        "réceptionner",
+        "réceptionniste"
+      ],
+      "collocations": [
+        {
+          "fr": "chef de réception",
+          "zh": "接待主管；前台主管"
+        },
+        {
+          "fr": "boîte de réception",
+          "zh": "收件箱"
+        },
+        {
+          "fr": "boite de réception",
+          "zh": "收件箱（不加重音的拼写）"
+        },
+        {
+          "fr": "accusé de réception",
+          "zh": "收讫确认；回执"
+        },
+        {
+          "fr": "accuser réception",
+          "zh": "确认收到；确认收讫"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "oeil",
+    "entry": {
+      "zh": "眼睛；目光",
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "眼睛（œil的不使用连字写法）"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "yeux au ciel",
+          "zh": "眼睛望向天空；翻白眼"
+        },
+        {
+          "fr": "yeux de l’",
+          "zh": "原文片段未完，需核对后文"
+        },
+        {
+          "fr": "yeux de l’artiste",
+          "zh": "艺术家的眼睛；艺术家的眼光"
+        },
+        {
+          "fr": "yeux du monde",
+          "zh": "世人的目光；世人的眼中"
+        },
+        {
+          "fr": "yeux de la population",
+          "zh": "公众的目光；公众的眼中"
+        },
+        {
+          "fr": "à ses yeux",
+          "zh": "在他或她看来"
+        },
+        {
+          "fr": "sous les yeux de",
+          "zh": "当着……的面；在……眼前"
+        },
+        {
+          "fr": "se regarder dans le blanc des yeux",
+          "zh": "四目相对；直视对方"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "plantation",
+    "entry": {
+      "zh": "种植；栽植；种植园",
+      "forms": [
+        "plantation"
+      ],
+      "sources": [
+        "short-2025-11-cn-2"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "种植；栽植；种植园"
+        }
+      ],
+      "related": [
+        "planter"
+      ],
+      "collocations": [
+        {
+          "fr": "plantation de mai",
+          "zh": "竖立五月树的传统活动"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "égalité",
+    "entry": {
+      "zh": "平等；相等；平分",
+      "curated": true,
+      "forms": [
+        "d'égalité",
+        "l'égalité",
+        "égalité"
+      ],
+      "sources": [
+        "reading-mock-1",
+        "writing-2021-10-fr",
+        "writing-2025-11-cn",
+        "writing-extra-5",
+        "speaking-1-16",
+        "speaking-1-25",
+        "speaking-2-19",
+        "speaking-2-25"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "平等；相等；（比赛）平分"
+        }
+      ],
+      "related": [
+        "égal",
+        "égalitaire"
+      ],
+      "collocations": [
+        {
+          "fr": "égalité femme",
+          "zh": "涉及女性的平等（片段，需结合后文）"
+        },
+        {
+          "fr": "égalité entre les femmes et les hommes",
+          "zh": "男女平等"
+        },
+        {
+          "fr": "égalité de traitement au travail",
+          "zh": "工作中的平等待遇"
+        },
+        {
+          "fr": "égalité de résultat",
+          "zh": "结果平等"
+        },
+        {
+          "fr": "égalité entre hommes",
+          "zh": "男性之间的平等；人们之间的平等（依语境）"
+        },
+        {
+          "fr": "etat de l'égalité",
+          "zh": "平等状况"
+        },
+        {
+          "fr": "état de l'égalité",
+          "zh": "平等状况"
+        },
+        {
+          "fr": "liberté, égalité, fraternité",
+          "zh": "自由、平等、博爱"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "fayard",
+    "entry": {
+      "zh": "山毛榉（地方用语）",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "山毛榉（地方用语）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "pré",
+    "entry": {
+      "zh": "草地；草甸；牧场",
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "草地；草甸；牧场"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "succise des prés",
+          "zh": "草地蓝盆花（Succisa pratensis）"
+        },
+        {
+          "fr": "pomme de pré",
+          "zh": "（加拿大阿卡迪亚地区）蔓越莓"
+        },
+        {
+          "fr": "pré carré",
+          "zh": "自己的地盘；专属领域"
+        },
+        {
+          "fr": "trèfle des prés",
+          "zh": "红三叶草；红车轴草"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "parfait",
+    "entry": {
+      "zh": "完美的；完善的；理想的",
+      "forms": [
+        "parfait",
+        "parfaite"
+      ],
+      "sources": [
+        "long-2022-11-cn",
+        "short-2022-6-cn-1",
+        "writing-2026-6-cn",
+        "speaking-1-2",
+        "speaking-1-8"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "完美的；完善的；完全的"
+        },
+        {
+          "pos": "n",
+          "zh": "（语法）完成时"
+        }
+      ],
+      "related": [
+        "parfaitement"
+      ],
+      "collocations": [
+        {
+          "fr": "nul n'est parfait",
+          "zh": "人无完人"
+        },
+        {
+          "fr": "accord parfait",
+          "zh": "完全和弦；三和弦"
+        },
+        {
+          "fr": "carré parfait",
+          "zh": "完全平方数"
+        },
+        {
+          "fr": "cube parfait",
+          "zh": "完全立方数"
+        },
+        {
+          "fr": "bouquet parfait",
+          "zh": "须苞石竹；美国石竹（Dianthus barbatus）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "merle",
+    "entry": {
+      "zh": "乌鸫；Merle为专名",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "name",
+          "zh": "Merle（专有名称）"
+        },
+        {
+          "pos": "n",
+          "zh": "乌鸫（Turdus merula）"
+        }
+      ],
+      "related": [
+        "merlesse",
+        "merlette"
+      ],
+      "collocations": [
+        {
+          "fr": "grossier merle",
+          "zh": "粗鲁无礼的人"
+        },
+        {
+          "fr": "merle blanc",
+          "zh": "罕见的人或物；珍稀之物"
+        },
+        {
+          "fr": "merle d'amérique",
+          "zh": "旅鸫（Turdus migratorius）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "boeuf",
+    "entry": {
+      "zh": "牛；阉牛；牛肉",
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "牛；阉牛；牛肉（bœuf的不使用连字写法）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "brun",
+    "entry": {
+      "zh": "棕色；褐色；棕色的；棕发的",
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "棕色的；褐色的；棕发的；晒黑的"
+        },
+        {
+          "pos": "n",
+          "zh": "棕色；褐色；棕发的人"
+        }
+      ],
+      "related": [
+        "brunante"
+      ],
+      "collocations": [
+        {
+          "fr": "ours brun",
+          "zh": "棕熊"
+        },
+        {
+          "fr": "naine brune",
+          "zh": "褐矮星"
+        },
+        {
+          "fr": "canard brun",
+          "zh": "斑鸭（Anas fulvigula）"
+        },
+        {
+          "fr": "sauce brune",
+          "zh": "棕色酱汁；褐色肉汁酱"
+        },
+        {
+          "fr": "chemise brune",
+          "zh": "褐衫队员；纳粹冲锋队员"
+        },
+        {
+          "fr": "bière brune",
+          "zh": "深色啤酒；黑啤酒"
+        },
+        {
+          "fr": "lièvre brun",
+          "zh": "欧洲野兔"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "marguerite",
+    "entry": {
+      "zh": "滨菊；玛格丽特（人名）",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "name",
+          "zh": "玛格丽特（女性名字）"
+        },
+        {
+          "pos": "n",
+          "zh": "滨菊；雏菊状的花"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "marguerite des canaries",
+          "zh": "木茼蒿；玛格丽特花（Argyranthemum frutescens）"
+        },
+        {
+          "fr": "marguerite du cap",
+          "zh": "蓝雏菊（Felicia amelloides）"
+        },
+        {
+          "fr": "marguerite géante",
+          "zh": "大滨菊（Leucanthemum maximum）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "franc",
+    "entry": {
+      "zh": "坦率的；真诚的；完全的；免税的；法郎",
+      "forms": [
+        "franc"
+      ],
+      "sources": [
+        "reading-mock-5",
+        "writing-2024-3-fr"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "坦率的；真诚的；完全的；免税的；法兰克人的"
+        },
+        {
+          "pos": "n",
+          "zh": "法郎；法兰克人"
+        }
+      ],
+      "related": [
+        "franchement"
+      ],
+      "collocations": [
+        {
+          "fr": "franc français",
+          "zh": "法国法郎"
+        },
+        {
+          "fr": "franc suisse",
+          "zh": "瑞士法郎"
+        },
+        {
+          "fr": "coup franc",
+          "zh": "任意球"
+        },
+        {
+          "fr": "franc cfa",
+          "zh": "非洲金融共同体法郎"
+        },
+        {
+          "fr": "à franc étrier",
+          "zh": "快马加鞭地；全速前进"
+        },
+        {
+          "fr": "moineau franc",
+          "zh": "家麻雀（Passer domesticus）"
+        },
+        {
+          "fr": "franc comme l'or",
+          "zh": "非常坦率真诚的"
+        },
+        {
+          "fr": "perche franche",
+          "zh": "河鲈（Perca fluviatilis）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "semaine",
+    "entry": {
+      "zh": "星期；周；一周",
+      "forms": [
+        "semaine",
+        "semaines"
+      ],
+      "sources": [
+        "long-2021-3-cn",
+        "long-2022-6-cn",
+        "long-2023-10-fr",
+        "long-2024-3-cn",
+        "short-2021-6-cn-1",
+        "short-2021-6-cn-2",
+        "short-2024-11-cn-2",
+        "short-2024-3-cn-1",
+        "short-2024-6-cn-2",
+        "short-2025-8-fr-1",
+        "reading-2024-11-cn",
+        "reading-2025-11-cn",
+        "writing-2021-10-fr",
+        "writing-2023-11-cn",
+        "writing-2023-6-cn",
+        "writing-2024-5-fr",
+        "writing-extra-2",
+        "writing-extra-3",
+        "writing-extra-6",
+        "writing-extra-7",
+        "speaking-1-11",
+        "speaking-1-17",
+        "speaking-1-24",
+        "speaking-1-27",
+        "speaking-1-31",
+        "speaking-1-41",
+        "speaking-1-43",
+        "speaking-1-45",
+        "speaking-1-48",
+        "speaking-1-5",
+        "speaking-1-7",
+        "speaking-1-9",
+        "speaking-2-15",
+        "speaking-2-25",
+        "speaking-2-26"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "星期；周；一周"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "semaine de travail",
+          "zh": "工作周"
+        },
+        {
+          "fr": "semaine de travail de quatre jours",
+          "zh": "每周工作四天的工作周"
+        },
+        {
+          "fr": "neuf semaines",
+          "zh": "九周"
+        },
+        {
+          "fr": "semaine de vacances",
+          "zh": "一周假期"
+        },
+        {
+          "fr": "semaine de la langue française",
+          "zh": "法语周"
+        },
+        {
+          "fr": "semaine des quatre jeudis",
+          "zh": "遥遥无期的时候；猴年马月"
+        },
+        {
+          "fr": "fin de semaine",
+          "zh": "周末；（法国也可指）一周临近结束的时候"
+        },
+        {
+          "fr": "fin de semaine folle",
+          "zh": "疯狂购物周末；黑色星期五购物周末（加拿大用语）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "signer",
+    "entry": {
+      "zh": "签字；签署；署名；使用手语",
+      "forms": [
+        "signant",
+        "signer",
+        "signé"
+      ],
+      "sources": [
+        "long-2021-5-cn",
+        "long-2023-10-fr",
+        "short-2024-3-fr-2",
+        "reading-2021-12-fr",
+        "reading-2023-6-cn",
+        "writing-2021-5-cn",
+        "writing-2024-11-af",
+        "speaking-1-21",
+        "speaking-1-22",
+        "speaking-1-3",
+        "speaking-1-42",
+        "speaking-2-10"
+      ],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "签字；签署；署名；用手语交流"
+        }
+      ],
+      "related": [
+        "signature"
+      ],
+      "collocations": [
+        {
+          "fr": "signer un avenant au contrat de travail",
+          "zh": "签署劳动合同补充协议"
+        },
+        {
+          "fr": "signer une charte",
+          "zh": "签署章程；签署承诺书"
+        },
+        {
+          "fr": "signer cette charte",
+          "zh": "签署这份章程或承诺书"
+        },
+        {
+          "fr": "signé un accord",
+          "zh": "签署了一项协议"
+        },
+        {
+          "fr": "signé la Convention",
+          "zh": "签署了该公约"
+        },
+        {
+          "fr": "langue des signes",
+          "zh": "手语"
+        },
+        {
+          "fr": "langue des signes américaine",
+          "zh": "美国手语"
+        },
+        {
+          "fr": "langue des signes française",
+          "zh": "法国手语"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "doux",
+    "entry": {
+      "zh": "温和的；温柔的；柔软的；甜的",
+      "forms": [
+        "douce",
+        "douces",
+        "doux"
+      ],
+      "sources": [
+        "reading-2023-3-cn",
+        "reading-2024-11-cn",
+        "speaking-1-1",
+        "speaking-1-14",
+        "speaking-1-26",
+        "speaking-1-35",
+        "speaking-1-39",
+        "speaking-1-8",
+        "speaking-2-22"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "温和的；温柔的；柔软的；甜的；不辛辣的；（水）淡的"
+        },
+        {
+          "pos": "adv",
+          "zh": "温和地；轻轻地"
+        }
+      ],
+      "related": [
+        "doucet"
+      ],
+      "collocations": [
+        {
+          "fr": "douce en complément de leurs soins infirmiers",
+          "zh": "温和的……，作为护理的补充（原文片段缺少中心词）"
+        },
+        {
+          "fr": "patate douce",
+          "zh": "甘薯；红薯"
+        },
+        {
+          "fr": "eau douce",
+          "zh": "淡水"
+        },
+        {
+          "fr": "en douce",
+          "zh": "偷偷地；悄悄地"
+        },
+        {
+          "fr": "marin d'eau douce",
+          "zh": "不熟悉航海的人；冒牌水手（贬义）"
+        },
+        {
+          "fr": "faire les yeux doux",
+          "zh": "向人送秋波；眉目传情"
+        },
+        {
+          "fr": "vin doux",
+          "zh": "甜葡萄酒"
+        },
+        {
+          "fr": "doux comme un agneau",
+          "zh": "像羔羊一样温顺"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "facteur",
+    "entry": {
+      "zh": "因素；因数；因子；邮递员",
+      "forms": [
+        "facteur",
+        "facteurs"
+      ],
+      "sources": [
+        "long-2024-3-fr",
+        "long-2026-6-cn",
+        "short-2025-6-cn-1",
+        "reading-2021-3-cn",
+        "reading-2022-6-cn",
+        "reading-2023-6-cn",
+        "reading-2026-6-cn",
+        "reading-mock-3",
+        "reading-mock-6",
+        "writing-2023-11-cn",
+        "writing-extra-2",
+        "writing-extra-4",
+        "writing-extra-5",
+        "writing-extra-6",
+        "speaking-1-46",
+        "speaking-1-5",
+        "speaking-2-22",
+        "speaking-2-27",
+        "speaking-2-5"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "因素；因数；因子；邮递员"
+        }
+      ],
+      "related": [
+        "factorerie",
+        "factoriser"
+      ],
+      "collocations": [
+        {
+          "fr": "facteurs tout aussi déterminants",
+          "zh": "同样具有决定作用的因素"
+        },
+        {
+          "fr": "seul facteur",
+          "zh": "唯一因素"
+        },
+        {
+          "fr": "autres facteurs",
+          "zh": "其他因素"
+        },
+        {
+          "fr": "principaux facteurs",
+          "zh": "主要因素"
+        },
+        {
+          "fr": "facteurs sociologiques",
+          "zh": "社会学因素"
+        },
+        {
+          "fr": "facteur de production",
+          "zh": "生产要素"
+        },
+        {
+          "fr": "facteur premier",
+          "zh": "质因数"
+        },
+        {
+          "fr": "facteur travail",
+          "zh": "劳动要素（经济学）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "o",
+    "entry": {
+      "zh": "字母O；字节的缩写",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "拉丁字母O的名称"
+        },
+        {
+          "pos": "symbol",
+          "zh": "字节（octet）的缩写"
+        },
+        {
+          "pos": "character",
+          "zh": "法语字母表的第十五个字母"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "a. o.",
+          "zh": "缩写，具体含义需结合上下文"
+        },
+        {
+          "fr": "tomber sur un os",
+          "zh": "遇到难题；碰到障碍"
+        },
+        {
+          "fr": "os frontal",
+          "zh": "额骨"
+        },
+        {
+          "fr": "os palatin",
+          "zh": "腭骨"
+        },
+        {
+          "fr": "os trapèze",
+          "zh": "大多角骨"
+        },
+        {
+          "fr": "en chair et en os",
+          "zh": "本人亲自；活生生地"
+        },
+        {
+          "fr": "n'avoir que la peau sur les os",
+          "zh": "瘦得皮包骨头"
+        },
+        {
+          "fr": "e dans l'o",
+          "zh": "连字œ的名称"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "jalousie",
+    "entry": {
+      "zh": "嫉妒；妒忌；醋意；百叶窗",
+      "forms": [
+        "jalousie"
+      ],
+      "sources": [
+        "reading-2021-3-cn"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "嫉妒；妒忌；醋意；百叶窗"
+        }
+      ],
+      "related": [
+        "jaloux"
+      ],
+      "collocations": [
+        {
+          "fr": "vert de jalousie",
+          "zh": "嫉妒得脸色发青；嫉妒万分"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "arracher",
+    "entry": {
+      "zh": "拔掉；扯下；夺取；争得",
+      "forms": [
+        "arracher"
+      ],
+      "sources": [
+        "short-2023-3-cn-1"
+      ],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "拔掉；扯下；夺取；争得；（s’arracher）挣脱；勉强离开"
+        }
+      ],
+      "related": [
+        "arrachable",
+        "arrachage",
+        "arrachement",
+        "arracheur"
+      ],
+      "collocations": [
+        {
+          "fr": "tout arracher",
+          "zh": "把一切都拔掉或扯掉"
+        },
+        {
+          "fr": "s'arracher les cheveux",
+          "zh": "急得抓头发；焦虑万分"
+        },
+        {
+          "fr": "à l'arrache",
+          "zh": "（口语）匆忙地；草草地"
+        },
+        {
+          "fr": "arracher la gueule",
+          "zh": "（粗俗，指食物等）辣得嘴受不了；味道刺激得难以忍受"
+        },
+        {
+          "fr": "arracher les mots de la bouche",
+          "zh": "费力地从某人口中套出话"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "accuser",
+    "entry": {
+      "zh": "指控；控告；指责；显示出",
+      "forms": [
+        "accusent",
+        "accusée",
+        "n'accuse"
+      ],
+      "sources": [
+        "writing-2025-11-cn",
+        "writing-2026-3-cn",
+        "speaking-2-5"
+      ],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "指控；控告；指责；显露出；显示出"
+        }
+      ],
+      "related": [
+        "accusataire",
+        "accusation",
+        "accusable"
+      ],
+      "collocations": [
+        {
+          "fr": "accuse pas Internet",
+          "zh": "不要责怪互联网"
+        },
+        {
+          "fr": "accusé de réception",
+          "zh": "收讫确认；回执"
+        },
+        {
+          "fr": "accuser le coup",
+          "zh": "明显受到打击；显出受挫的反应"
+        },
+        {
+          "fr": "accuser réception",
+          "zh": "确认收到；确认收讫"
+        },
+        {
+          "fr": "qui s'excuse s'accuse",
+          "zh": "越辩解越显得有罪；此地无银三百两"
+        },
+        {
+          "fr": "qui s'excuse, s'accuse",
+          "zh": "越辩解越显得有罪；此地无银三百两"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "mai",
+    "entry": {
+      "zh": "五月",
+      "forms": [
+        "mai"
+      ],
+      "sources": [
+        "long-2023-11-cn",
+        "reading-2025-3-cn",
+        "reading-mock-5",
+        "writing-extra-2",
+        "writing-extra-3",
+        "speaking-1-48"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "五月"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "mai prochain",
+          "zh": "即将到来的五月"
+        },
+        {
+          "fr": "belle de mai",
+          "zh": "贝勒德迈（马赛地名）"
+        },
+        {
+          "fr": "mais oui",
+          "zh": "当然；当然是这样"
+        },
+        {
+          "fr": "mais encore",
+          "zh": "还有呢；请进一步说明"
+        },
+        {
+          "fr": "lentement mais sûrement",
+          "zh": "缓慢而稳步地"
+        },
+        {
+          "fr": "n'en pouvoir mais",
+          "zh": "（旧语）对此无能为力；对此不负责任"
+        },
+        {
+          "fr": "mais bien sûr",
+          "zh": "当然；（反讽）是啊，当然了"
+        },
+        {
+          "fr": "arbre de mai",
+          "zh": "五月树；五月柱"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "voilà",
+    "entry": {
+      "zh": "那就是；这就是；瞧",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "那就是；这就是；瞧（引出所展示或提及的事物）"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "voilà une question importante et intéressante",
+          "zh": "这就是一个重要而有趣的问题"
+        },
+        {
+          "fr": "en veux-tu en voilà",
+          "zh": "要多少有多少；多得很"
+        },
+        {
+          "fr": "et voilà le travail",
+          "zh": "看，搞定了！"
+        },
+        {
+          "fr": "voilà tout",
+          "zh": "仅此而已；就是这样"
+        },
+        {
+          "fr": "voilà qui est fait",
+          "zh": "这就办好了；完成了"
+        },
+        {
+          "fr": "qui voilà",
+          "zh": "瞧，谁来了"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "joli",
+    "entry": {
+      "zh": "漂亮的；好看的；可爱的",
+      "forms": [
+        "joli",
+        "jolie",
+        "jolies",
+        "jolis"
+      ],
+      "sources": [
+        "long-2025-6-cn",
+        "speaking-1-32",
+        "speaking-1-37",
+        "speaking-1-43"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "漂亮的；好看的；可爱的"
+        }
+      ],
+      "related": [
+        "joliesse",
+        "joliment"
+      ],
+      "collocations": [
+        {
+          "fr": "jolie laide",
+          "zh": "长相不标准却别有魅力的女人"
+        },
+        {
+          "fr": "faire joli",
+          "zh": "显得好看；起装饰作用"
+        },
+        {
+          "fr": "faire le joli cœur",
+          "zh": "献殷勤；卖弄风情"
+        },
+        {
+          "fr": "bois de joli cœur",
+          "zh": "留尼汪当地称为joli cœur的海桐属植物（Pittosporum senacia）"
+        },
+        {
+          "fr": "joli cœur",
+          "zh": "爱献殷勤的男人；调情者"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "perche",
+    "entry": {
+      "zh": "杆；竿；长杆；鲈鱼",
+      "forms": [
+        "perche"
+      ],
+      "sources": [
+        "writing-2025-8-fr"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "杆；竿；长杆；钓竿；鲈鱼"
+        }
+      ],
+      "related": [
+        "perchiste"
+      ],
+      "collocations": [
+        {
+          "fr": "saut à la perche",
+          "zh": "撑竿跳高"
+        },
+        {
+          "fr": "tendre la perche",
+          "zh": "伸出援手；给人接话或脱困的机会"
+        },
+        {
+          "fr": "tendre une perche",
+          "zh": "伸出援手；给人接话或脱困的机会"
+        },
+        {
+          "fr": "perche commune",
+          "zh": "河鲈（Perca fluviatilis）"
+        },
+        {
+          "fr": "perche de rivière",
+          "zh": "河鲈（Perca fluviatilis）"
+        },
+        {
+          "fr": "perche franche",
+          "zh": "河鲈（Perca fluviatilis）"
+        },
+        {
+          "fr": "perche européenne",
+          "zh": "河鲈（Perca fluviatilis）"
+        },
+        {
+          "fr": "perche de mer",
+          "zh": "海鲈"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "cravater",
+    "entry": {
+      "zh": "给……系领带；揪住脖子；（俗）抓住、逮捕",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "给……系领带；揪住某人的脖子；（俗）抓住、逮捕"
+        }
+      ],
+      "related": [
+        "cravate"
+      ],
+      "collocations": [
+        {
+          "fr": "cravate de notaire",
+          "zh": "（粗俗）乳交"
+        },
+        {
+          "fr": "se jeter un verre derrière la cravate",
+          "zh": "喝下一杯酒"
+        },
+        {
+          "fr": "haut sur cravate",
+          "zh": "趾高气扬的；自命不凡的"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "habitable",
+    "entry": {
+      "zh": "可居住的；适宜居住的",
+      "forms": [
+        "habitable",
+        "habitables"
+      ],
+      "sources": [
+        "writing-2022-11-cn",
+        "speaking-1-5"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "可居住的；适宜居住的"
+        }
+      ],
+      "related": [
+        "habitabilité",
+        "habiter"
+      ],
+      "collocations": [
+        {
+          "fr": "autres planètes habitables",
+          "zh": "其他宜居行星"
+        },
+        {
+          "fr": "planètes habitables",
+          "zh": "宜居行星"
+        },
+        {
+          "fr": "zone habitable",
+          "zh": "宜居带（可能允许行星表面存在液态水的恒星周围区域）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "fausser",
+    "entry": {
+      "zh": "使变形；歪曲；使失真",
+      "forms": [
+        "fausse",
+        "fausser",
+        "faussez",
+        "faussés"
+      ],
+      "sources": [
+        "long-2023-11-cn",
+        "writing-2021-3-cn",
+        "writing-2023-10-fr",
+        "speaking-1-1",
+        "speaking-1-16",
+        "speaking-1-39",
+        "speaking-1-9",
+        "speaking-2-18",
+        "speaking-2-22",
+        "speaking-2-6"
+      ],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "使弯曲、变形；歪曲；使失真"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "fausser son jugement",
+          "zh": "使自己的判断失真；影响自己的判断"
+        },
+        {
+          "fr": "fausse couche",
+          "zh": "流产；小产"
+        },
+        {
+          "fr": "fausse note",
+          "zh": "错音；不和谐的音；不协调之处"
+        },
+        {
+          "fr": "faire fausse route",
+          "zh": "走错路；误入歧途"
+        },
+        {
+          "fr": "fausse modestie",
+          "zh": "假谦虚；故作谦虚"
+        },
+        {
+          "fr": "fausser compagnie",
+          "zh": "不辞而别；设法摆脱某人的陪伴"
+        },
+        {
+          "fr": "fausse manœuvre",
+          "zh": "错误操作；失误"
+        },
+        {
+          "fr": "fausse piste",
+          "zh": "错误线索；误导性的线索"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "fleur",
+    "entry": {
+      "zh": "花；花朵；精华；赞美",
+      "forms": [
+        "fleurs"
+      ],
+      "sources": [
+        "short-2022-6-cn-2",
+        "speaking-1-36"
+      ],
+      "senses": [
+        {
+          "pos": "name",
+          "zh": "弗勒尔（女性名字）"
+        },
+        {
+          "pos": "n",
+          "zh": "花；花朵；精华；赞美"
+        }
+      ],
+      "related": [
+        "fleuriste"
+      ],
+      "collocations": [
+        {
+          "fr": "pot de fleur",
+          "zh": "花盆；（比喻）只作摆设、不起作用的人"
+        },
+        {
+          "fr": "terre des fleurs",
+          "zh": "花之国；Terre des Fleurs（名称）"
+        },
+        {
+          "fr": "empire des fleurs",
+          "zh": "花之帝国；Empire des Fleurs（名称）"
+        },
+        {
+          "fr": "fleur de sel",
+          "zh": "盐之花（海盐表面形成的细薄盐晶）"
+        },
+        {
+          "fr": "fleur de lys",
+          "zh": "鸢尾花；百合花饰纹章"
+        },
+        {
+          "fr": "fleur de lis",
+          "zh": "鸢尾花；百合花饰纹章"
+        },
+        {
+          "fr": "jeter des fleurs",
+          "zh": "赞美；恭维"
+        },
+        {
+          "fr": "à fleur de peau",
+          "zh": "极为敏感的；感情容易激动的"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "sonore",
+    "entry": {
+      "zh": "声音的；响亮的；有声的",
+      "forms": [
+        "sonores"
+      ],
+      "sources": [
+        "reading-2023-3-cn",
+        "reading-mock-4"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "声音的；响亮的；（语音）浊音的"
+        },
+        {
+          "pos": "n",
+          "zh": "浊辅音（语音学）"
+        }
+      ],
+      "related": [
+        "sonorement",
+        "sonoriser"
+      ],
+      "collocations": [
+        {
+          "fr": "volume sonore",
+          "zh": "音量"
+        },
+        {
+          "fr": "bande sonore",
+          "zh": "声带；音轨；配乐"
+        },
+        {
+          "fr": "livre sonore",
+          "zh": "有声书；发声读物"
+        },
+        {
+          "fr": "pollution sonore",
+          "zh": "噪声污染"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "inscrire",
+    "entry": {
+      "zh": "登记；注册；报名；题写；列入",
+      "forms": [
+        "d'inscrire",
+        "inscrire",
+        "inscrit",
+        "inscrite",
+        "inscrites",
+        "inscrivent",
+        "inscrivons",
+        "l'inscrire",
+        "s'inscrire",
+        "s'inscrit",
+        "s'inscrive"
+      ],
+      "sources": [
+        "long-2021-3-cn",
+        "long-2023-10-fr",
+        "long-2023-11-cn",
+        "long-2025-11-cn",
+        "reading-2021-10-fr",
+        "reading-2022-6-cn",
+        "reading-2024-3-cn",
+        "reading-2026-3-cn",
+        "reading-mock-1",
+        "writing-2023-10-fr",
+        "writing-2024-3-fr",
+        "writing-2026-3-cn",
+        "speaking-1-22",
+        "speaking-1-30",
+        "speaking-1-37",
+        "speaking-1-4",
+        "speaking-1-45",
+        "speaking-2-29",
+        "speaking-2-3",
+        "speaking-2-6",
+        "speaking-2-8",
+        "speaking-2-9"
+      ],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "登记；注册；报名；题写；列入；（几何）使内接"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "s'inscrire dans",
+          "zh": "属于……的范畴；融入……的背景或进程"
+        },
+        {
+          "fr": "inscrit dans le contrat de travail",
+          "zh": "写入劳动合同的"
+        },
+        {
+          "fr": "inscrit dans un monde complètement digitalisé",
+          "zh": "置身于一个完全数字化的世界"
+        },
+        {
+          "fr": "inscrire leur garçon",
+          "zh": "给他们的儿子报名"
+        },
+        {
+          "fr": "inscrivons pas dans cette grande chaîne humaine",
+          "zh": "不加入这条庞大的人际纽带（片段，需结合原文）"
+        },
+        {
+          "fr": "inscrire un sens",
+          "zh": "赋予或写入一种含义（依语境）"
+        },
+        {
+          "fr": "barre inscrite",
+          "zh": "字母内部的横划或斜划（排印学）"
+        },
+        {
+          "fr": "s'inscrire en faux",
+          "zh": "提出异议；否认其真实性"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "parfaire",
+    "entry": {
+      "zh": "完善；使完美；完成",
+      "forms": [
+        "parfaire"
+      ],
+      "sources": [
+        "speaking-1-24"
+      ],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "完善；使完美；完成；补足款项"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "parfaire sa formation et ses compétences",
+          "zh": "完善自身所受训练及技能"
+        },
+        {
+          "fr": "nul n'est parfait",
+          "zh": "人无完人"
+        },
+        {
+          "fr": "accord parfait",
+          "zh": "完全和弦；三和弦"
+        },
+        {
+          "fr": "carré parfait",
+          "zh": "完全平方数"
+        },
+        {
+          "fr": "cube parfait",
+          "zh": "完全立方数"
+        },
+        {
+          "fr": "bouquet parfait",
+          "zh": "须苞石竹；美国石竹（Dianthus barbatus）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "grincer",
+    "entry": {
+      "zh": "发出嘎吱声；发出刺耳的摩擦声；磨牙",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "发出嘎吱声；发出刺耳的摩擦声；磨牙"
+        }
+      ],
+      "related": [
+        "grincement"
+      ],
+      "collocations": [
+        {
+          "fr": "grincer de plus en plus de dents",
+          "zh": "越来越咬牙切齿；引起越来越多的不满（依语境）"
+        },
+        {
+          "fr": "grincer des dents",
+          "zh": "磨牙；咬牙切齿；表示不满"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "snob",
+    "entry": {
+      "zh": "势利的；附庸风雅的；势利眼",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "势利的；附庸风雅的"
+        },
+        {
+          "pos": "n",
+          "zh": "势利眼；附庸风雅的人"
+        }
+      ],
+      "related": [
+        "snobinard",
+        "snobissime"
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "baigner",
+    "entry": {
+      "zh": "浸泡；给……洗澡；沐浴；游泳",
+      "forms": [
+        "baigne"
+      ],
+      "sources": [
+        "speaking-2-11"
+      ],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "浸泡；给……洗澡；使湿润；（水域）流经、环绕；使沉浸；（se baigner）洗澡、游泳"
+        }
+      ],
+      "related": [
+        "baignable",
+        "baigneur",
+        "baignoire"
+      ],
+      "collocations": [
+        {
+          "fr": "avoir les dents du fond qui baignent",
+          "zh": "（口语）吃得太撑，恶心得想吐"
+        },
+        {
+          "fr": "ça baigne",
+          "zh": "（口语）一切顺利；没问题"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "style",
+    "entry": {
+      "zh": "风格；文体；作风；样式",
+      "forms": [
+        "style",
+        "styles"
+      ],
+      "sources": [
+        "reading-2025-3-cn",
+        "writing-extra-5",
+        "speaking-1-45"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "风格；文体；作风；样式；（植物）花柱"
+        }
+      ],
+      "related": [
+        "stylet",
+        "styliser",
+        "stylisme",
+        "styliste",
+        "stylométrie",
+        "stylopode"
+      ],
+      "collocations": [
+        {
+          "fr": "style de vie",
+          "zh": "生活方式"
+        },
+        {
+          "fr": "par exemple dans un style",
+          "zh": "例如，以一种……风格（片段）"
+        },
+        {
+          "fr": "style éducatif",
+          "zh": "教育方式；教育风格"
+        },
+        {
+          "fr": "figure de style",
+          "zh": "修辞格；修辞手法"
+        },
+        {
+          "fr": "style libre",
+          "zh": "自由泳；自由式（依语境）"
+        },
+        {
+          "fr": "faire style",
+          "zh": "（口语）装作；假装"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "trouble",
+    "entry": {
+      "zh": "紊乱；障碍；骚乱；浑浊的；模糊的",
+      "forms": [
+        "trouble",
+        "troubles"
+      ],
+      "sources": [
+        "short-2024-11-cn-1",
+        "reading-2025-6-cn",
+        "writing-2022-3-cn",
+        "writing-2025-3-cn",
+        "writing-2026-6-cn",
+        "speaking-1-1",
+        "speaking-1-29",
+        "speaking-1-41",
+        "speaking-1-46",
+        "speaking-1-48",
+        "speaking-1-6",
+        "speaking-1-9",
+        "speaking-2-22",
+        "speaking-2-3",
+        "speaking-2-4"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "紊乱；障碍；不安；骚乱"
+        },
+        {
+          "pos": "adj",
+          "zh": "浑浊的；模糊的；可疑的"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "trouble alimentaire",
+          "zh": "进食障碍；饮食失调"
+        },
+        {
+          "fr": "trouble moteur",
+          "zh": "运动功能障碍"
+        },
+        {
+          "fr": "troubles digestifs",
+          "zh": "消化功能紊乱"
+        },
+        {
+          "fr": "troubles mentaux",
+          "zh": "精神障碍"
+        },
+        {
+          "fr": "trouble de la personnalité",
+          "zh": "人格障碍"
+        },
+        {
+          "fr": "pêcher en eau trouble",
+          "zh": "浑水摸鱼"
+        },
+        {
+          "fr": "pêcher en eaux troubles",
+          "zh": "浑水摸鱼"
+        },
+        {
+          "fr": "trouble bipolaire",
+          "zh": "双相情感障碍"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "titrer",
+    "entry": {
+      "zh": "拟标题；授予称号；测定浓度",
+      "forms": [],
+      "sources": [],
+      "senses": [
+        {
+          "pos": "v",
+          "zh": "拟标题；授予称号；（化学）测定浓度、滴定"
+        }
+      ],
+      "related": [
+        "titrage",
+        "titre"
+      ],
+      "collocations": [
+        {
+          "fr": "à juste titre",
+          "zh": "有充分理由地；理所当然地"
+        },
+        {
+          "fr": "en titre",
+          "zh": "正式任职的；在任的；卫冕的（依语境）"
+        },
+        {
+          "fr": "à titre indicatif",
+          "zh": "仅供参考；作为提示"
+        },
+        {
+          "fr": "au même titre que",
+          "zh": "与……同等地；与……具有相同资格"
+        },
+        {
+          "fr": "gros titre",
+          "zh": "大字标题；头条标题"
+        },
+        {
+          "fr": "à titre de",
+          "zh": "作为；以……名义"
+        },
+        {
+          "fr": "titre de transport",
+          "zh": "车票；乘车凭证"
+        },
+        {
+          "fr": "titre de presse",
+          "zh": "报刊；报刊名称"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "marin",
+    "entry": {
+      "zh": "海的；海洋的；航海的；水手；海员",
+      "forms": [
+        "marin",
+        "marins"
+      ],
+      "sources": [
+        "speaking-1-46",
+        "speaking-1-47",
+        "speaking-2-30"
+      ],
+      "senses": [
+        {
+          "pos": "adj",
+          "zh": "海的；海洋的；航海的"
+        },
+        {
+          "pos": "n",
+          "zh": "水手；海员；海军士兵"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "bateau sous-marin",
+          "zh": "潜艇"
+        },
+        {
+          "fr": "bleu marine",
+          "zh": "海军蓝；藏青色"
+        },
+        {
+          "fr": "crocodile marin",
+          "zh": "湾鳄；咸水鳄"
+        },
+        {
+          "fr": "mille marin",
+          "zh": "海里"
+        },
+        {
+          "fr": "marine militaire",
+          "zh": "海军"
+        },
+        {
+          "fr": "marine de guerre",
+          "zh": "海军"
+        },
+        {
+          "fr": "marine marchande",
+          "zh": "商船队；商船运输业"
+        },
+        {
+          "fr": "marin d'eau douce",
+          "zh": "不熟悉航海的人；冒牌水手（贬义）"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "cravate",
+    "entry": {
+      "zh": "领带；绶带",
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "领带；绶带"
+        }
+      ],
+      "related": [
+        "cravater"
+      ],
+      "collocations": [
+        {
+          "fr": "cravate de notaire",
+          "zh": "（粗俗）乳交"
+        },
+        {
+          "fr": "se jeter un verre derrière la cravate",
+          "zh": "喝下一杯酒"
+        },
+        {
+          "fr": "haut sur cravate",
+          "zh": "趾高气扬的；自命不凡的"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "coin",
+    "entry": {
+      "zh": "角；角落；街区；地方；楔子",
+      "forms": [
+        "coin",
+        "coins"
+      ],
+      "sources": [
+        "long-2021-3-cn",
+        "long-2023-10-fr",
+        "short-2023-3-cn-1",
+        "reading-2024-11-cn",
+        "writing-2024-3-fr",
+        "speaking-2-29",
+        "speaking-2-37"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "角；角落；街区；地方；楔子"
+        },
+        {
+          "pos": "intj",
+          "zh": "嘎嘎（模仿鸭叫声）"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "coin de table",
+          "zh": "桌角"
+        },
+        {
+          "fr": "petit coin",
+          "zh": "（委婉语）厕所"
+        },
+        {
+          "fr": "coin d'open",
+          "zh": "原文片段未完，需核对后文"
+        },
+        {
+          "fr": "coins du monde",
+          "zh": "世界各地；世界的各个角落"
+        },
+        {
+          "fr": "coup de pied de coin",
+          "zh": "角球（足球）"
+        },
+        {
+          "fr": "coin de rue",
+          "zh": "街角"
+        },
+        {
+          "fr": "du coin",
+          "zh": "当地的；附近的"
+        },
+        {
+          "fr": "en coin",
+          "zh": "斜着；从侧面；（笑等）带有含蓄或讥讽意味地"
+        }
+      ]
+    }
+  },
+  {
+    "section": "entries",
+    "key": "garde",
+    "entry": {
+      "zh": "看守；警卫；卫兵；保管；照料",
+      "forms": [
+        "garde"
+      ],
+      "sources": [
+        "short-2025-6-cn-2",
+        "reading-2021-12-fr",
+        "reading-2022-6-cn",
+        "reading-2024-6-fr",
+        "writing-2024-11-af",
+        "speaking-1-33",
+        "speaking-1-34",
+        "speaking-1-39",
+        "speaking-1-40",
+        "speaking-1-9",
+        "speaking-2-10",
+        "speaking-2-26",
+        "speaking-2-30"
+      ],
+      "senses": [
+        {
+          "pos": "n",
+          "zh": "看守；警卫；卫兵；卫队；保管；照料"
+        }
+      ],
+      "collocations": [
+        {
+          "fr": "garde majeur",
+          "zh": "原文搭配含义不明确，需结合上下文核对"
+        },
+        {
+          "fr": "garde d'enfants",
+          "zh": "照看儿童；托儿"
+        },
+        {
+          "fr": "chien de garde",
+          "zh": "看门狗；警犬"
+        },
+        {
+          "fr": "garde à vue",
+          "zh": "警察拘留；临时羁押"
+        },
+        {
+          "fr": "garde du corps",
+          "zh": "保镖；贴身警卫"
+        },
+        {
+          "fr": "en garde ! prêts ? allez !",
+          "zh": "准备！准备好了吗？开始！（击剑口令）"
+        },
+        {
+          "fr": "garde des reins",
+          "zh": "护腰；遮护腰部的用具"
+        },
+        {
+          "fr": "en garde",
+          "zh": "戒备；做好防御准备；（击剑）预备姿势"
+        }
+      ]
+    }
+  }
+]
