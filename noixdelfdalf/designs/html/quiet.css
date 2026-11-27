@@ -1,0 +1,20 @@
+/* 内页 · 简洁版：在 final.css 之上收敛颜色。
+   保留与首页的联系：蜜桃色导航、Journal 法文标题、霞鹜文楷中文标题、橙色数字、照片的橙色手绘框。
+   其余：近白底、细实线卡片、每个板块只留一种低饱和强调色。 */
+:root{
+  --cream:#fcfaf7; --paper:#ffffff;
+  --mint:#f2f4f0; --sky:#f1f3f6; --butter:#f7f3ea; --blush:#f7f1ef; --lav:#f4f1f4;
+  --green:#4f7a62; --blue:#4f6a88; --red:#a65a4c; --plum:#7d5b7b; --amber:#9a7440;
+  --rule:#ebe5dc; --soft:#8a8b98;
+}
+body{background:var(--cream)}
+.hb:not(.thick){filter:none;border-width:1px;border-color:#e8e1d7!important}
+.hb.thick{border-width:2px}
+.box{background:var(--paper)}
+.pill{background:#f4f1ec!important;color:var(--ink2)!important}
+.pill.on-accent{background:var(--mc)!important;color:#fff!important}
+.num{color:var(--orange)}
+.tabs a.on:after,.nav .links a.on:after{filter:url(#wob)}
+th{border-bottom:1px solid #d9d2c7}
+.label,.ph .k{color:var(--mc)}
+.m-learn{--mc:#4f7a62}.m-read{--mc:#4f6a88}.m-bank{--mc:#c0603c}.m-tutor{--mc:#a65a4c}
