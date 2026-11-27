@@ -253,3 +253,23 @@ p7 = p1o.replace('</body>', BANK6_CSS.replace('.lv6', '.unused') + BANK7_CSS + '
 p7, n = _re.subn(r'<div class="soon"><span>A2 · bientôt.*?</div></div>', SOON7 + '</div>', p7, count=1, flags=_re.S)
 assert n == 1
 PAGES['r7-P1-final'] = p7
+
+# ====================================================================== r8 · B2 / C1：橙框包住图片和文字，图片铺满，上覆同色系淡色蒙层
+BANK8_CSS = '''<style>
+.ph8{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.ph8>div{position:relative;border-radius:10px;min-height:220px}
+.ph8 .img{position:absolute;inset:6px;border-radius:6px;background:var(--img)}
+.ph8 .tint{position:absolute;inset:6px;border-radius:6px;background:var(--tint)}
+.ph8 .txt{position:absolute;left:6px;right:6px;bottom:6px;padding:14px 14px 14px;color:var(--navy)}
+.ph8 b{display:block;font-family:Journal,cursive;font-size:28px;line-height:1.05;white-space:nowrap}
+.ph8 small{display:block;font-family:var(--zh);font-size:12.5px;margin-top:6px;color:var(--navy)}
+.ph8 small em{font-style:normal;font-family:Journal,cursive;font-size:17px;color:#b8411a}
+</style>'''
+PH8 = '''<div class="ph8">
+<div style="--img:url(../assets/arc-haze.png) 32% 60%/cover;--tint:#fbe3bd80"><div class="img"></div><div class="tint"></div><div class="txt"><b>DELF B2</b><small><em>313</em> 组 · 已练 46</small></div><i class="hb thick" style="--bc:var(--orange)"></i></div>
+<div style="--img:url(../assets/paris-haze.png) 70% 40%/cover;--tint:#efe1f280"><div class="img"></div><div class="tint"></div><div class="txt"><b>DALF C1</b><small><em>252</em> 组 · 已练 88</small></div><i class="hb thick" style="--bc:var(--orange)"></i></div>
+</div>'''
+p8 = p7.replace('</body>', BANK8_CSS + '</body>')
+p8, n = _re.subn(r'<div class="ph">.*?<small><em>252</em>.*?</small></div>\s*</div>', PH8, p8, count=1, flags=_re.S)
+assert n == 1, n
+PAGES['r8-P1-final'] = p8
